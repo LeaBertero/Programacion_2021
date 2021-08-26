@@ -16,5 +16,22 @@ namespace Calculadora_prueba
         {
             InitializeComponent();
         }
+
+        private void Calculadora_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void agregarNumero(object sender, EventArgs e)
+        {
+            var boton = ((Button)sender);
+            if (TxtResultado.Text == "0")
+                TxtResultado.Text = "";
+
+            TxtResultado.Text += boton.Text;
+
+        }
+
+
     }
 }

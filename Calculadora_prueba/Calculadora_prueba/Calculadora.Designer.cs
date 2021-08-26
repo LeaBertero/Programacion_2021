@@ -63,6 +63,7 @@ namespace Calculadora_prueba
             this.TxtResultado.Size = new System.Drawing.Size(343, 39);
             this.TxtResultado.TabIndex = 0;
             this.TxtResultado.Text = "0";
+            this.TxtResultado.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // BtnSiete
             // 
@@ -76,6 +77,7 @@ namespace Calculadora_prueba
             this.BtnSiete.TabIndex = 1;
             this.BtnSiete.Text = "7";
             this.BtnSiete.UseVisualStyleBackColor = false;
+            this.BtnSiete.Click += new System.EventHandler(this.agregarNumero);
             // 
             // BtnOcho
             // 
@@ -89,6 +91,7 @@ namespace Calculadora_prueba
             this.BtnOcho.TabIndex = 2;
             this.BtnOcho.Text = "8";
             this.BtnOcho.UseVisualStyleBackColor = false;
+            this.BtnOcho.Click += new System.EventHandler(this.agregarNumero);
             // 
             // BtnNueve
             // 
@@ -102,6 +105,7 @@ namespace Calculadora_prueba
             this.BtnNueve.TabIndex = 3;
             this.BtnNueve.Text = "9";
             this.BtnNueve.UseVisualStyleBackColor = false;
+            this.BtnNueve.Click += new System.EventHandler(this.agregarNumero);
             // 
             // BtnSeis
             // 
@@ -115,6 +119,7 @@ namespace Calculadora_prueba
             this.BtnSeis.TabIndex = 6;
             this.BtnSeis.Text = "6";
             this.BtnSeis.UseVisualStyleBackColor = false;
+            this.BtnSeis.Click += new System.EventHandler(this.agregarNumero);
             // 
             // BtnCinco
             // 
@@ -128,6 +133,7 @@ namespace Calculadora_prueba
             this.BtnCinco.TabIndex = 5;
             this.BtnCinco.Text = "5";
             this.BtnCinco.UseVisualStyleBackColor = false;
+            this.BtnCinco.Click += new System.EventHandler(this.agregarNumero);
             // 
             // BtnCuatro
             // 
@@ -141,6 +147,7 @@ namespace Calculadora_prueba
             this.BtnCuatro.TabIndex = 4;
             this.BtnCuatro.Text = "4";
             this.BtnCuatro.UseVisualStyleBackColor = false;
+            this.BtnCuatro.Click += new System.EventHandler(this.agregarNumero);
             // 
             // BtnTres
             // 
@@ -154,6 +161,7 @@ namespace Calculadora_prueba
             this.BtnTres.TabIndex = 9;
             this.BtnTres.Text = "3";
             this.BtnTres.UseVisualStyleBackColor = false;
+            this.BtnTres.Click += new System.EventHandler(this.agregarNumero);
             // 
             // BtnDos
             // 
@@ -167,6 +175,7 @@ namespace Calculadora_prueba
             this.BtnDos.TabIndex = 8;
             this.BtnDos.Text = "2";
             this.BtnDos.UseVisualStyleBackColor = false;
+            this.BtnDos.Click += new System.EventHandler(this.agregarNumero);
             // 
             // BtnUno
             // 
@@ -180,6 +189,7 @@ namespace Calculadora_prueba
             this.BtnUno.TabIndex = 7;
             this.BtnUno.Text = "1";
             this.BtnUno.UseVisualStyleBackColor = false;
+            this.BtnUno.Click += new System.EventHandler(this.agregarNumero);
             // 
             // BtnQuitar
             // 
@@ -337,6 +347,7 @@ namespace Calculadora_prueba
             this.BtnCero.TabIndex = 22;
             this.BtnCero.Text = "0";
             this.BtnCero.UseVisualStyleBackColor = false;
+            this.BtnCero.Click += new System.EventHandler(this.agregarNumero);
             // 
             // BtnSigno
             // 
@@ -380,8 +391,10 @@ namespace Calculadora_prueba
             this.Controls.Add(this.BtnOcho);
             this.Controls.Add(this.BtnSiete);
             this.Controls.Add(this.TxtResultado);
+            this.Cursor = System.Windows.Forms.Cursors.Default;
             this.Name = "Calculadora";
             this.Text = "CALCULADORA";
+            this.Load += new System.EventHandler(this.Calculadora_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

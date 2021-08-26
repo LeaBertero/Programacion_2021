@@ -58,9 +58,11 @@ namespace Calculadora_prueba
             // 
             this.TxtResultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TxtResultado.Location = new System.Drawing.Point(26, 22);
+            this.TxtResultado.MaxLength = 21;
             this.TxtResultado.Multiline = true;
             this.TxtResultado.Name = "TxtResultado";
-            this.TxtResultado.Size = new System.Drawing.Size(343, 39);
+            this.TxtResultado.ReadOnly = true;
+            this.TxtResultado.Size = new System.Drawing.Size(343, 41);
             this.TxtResultado.TabIndex = 0;
             this.TxtResultado.Text = "0";
             this.TxtResultado.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;

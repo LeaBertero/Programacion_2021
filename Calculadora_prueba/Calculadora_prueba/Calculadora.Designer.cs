@@ -47,7 +47,7 @@ namespace Calculadora_prueba
             this.BtnResta = new System.Windows.Forms.Button();
             this.BtnMultiplicar = new System.Windows.Forms.Button();
             this.BtnRaizCuadrada = new System.Windows.Forms.Button();
-            this.BtnSuma = new System.Windows.Forms.Button();
+            this.BtnSumar = new System.Windows.Forms.Button();
             this.BtnDividir = new System.Windows.Forms.Button();
             this.BtnPunto = new System.Windows.Forms.Button();
             this.BtnCero = new System.Windows.Forms.Button();
@@ -242,8 +242,10 @@ namespace Calculadora_prueba
             this.BtnCuadrado.Name = "BtnCuadrado";
             this.BtnCuadrado.Size = new System.Drawing.Size(54, 38);
             this.BtnCuadrado.TabIndex = 16;
+            this.BtnCuadrado.Tag = "²";
             this.BtnCuadrado.Text = "x²";
             this.BtnCuadrado.UseVisualStyleBackColor = false;
+            this.BtnCuadrado.Click += new System.EventHandler(this.ClickOperador);
             // 
             // BtnIgual
             // 
@@ -257,6 +259,7 @@ namespace Calculadora_prueba
             this.BtnIgual.TabIndex = 15;
             this.BtnIgual.Text = "=";
             this.BtnIgual.UseVisualStyleBackColor = false;
+            this.BtnIgual.Click += new System.EventHandler(this.BtnIgual_Click);
             // 
             // BtnResta
             // 
@@ -268,8 +271,10 @@ namespace Calculadora_prueba
             this.BtnResta.Name = "BtnResta";
             this.BtnResta.Size = new System.Drawing.Size(54, 99);
             this.BtnResta.TabIndex = 14;
+            this.BtnResta.Tag = "-";
             this.BtnResta.Text = "-";
             this.BtnResta.UseVisualStyleBackColor = false;
+            this.BtnResta.Click += new System.EventHandler(this.ClickOperador);
             // 
             // BtnMultiplicar
             // 
@@ -281,8 +286,10 @@ namespace Calculadora_prueba
             this.BtnMultiplicar.Name = "BtnMultiplicar";
             this.BtnMultiplicar.Size = new System.Drawing.Size(54, 38);
             this.BtnMultiplicar.TabIndex = 13;
+            this.BtnMultiplicar.Tag = "X";
             this.BtnMultiplicar.Text = "X";
             this.BtnMultiplicar.UseVisualStyleBackColor = false;
+            this.BtnMultiplicar.Click += new System.EventHandler(this.ClickOperador);
             // 
             // BtnRaizCuadrada
             // 
@@ -294,21 +301,25 @@ namespace Calculadora_prueba
             this.BtnRaizCuadrada.Name = "BtnRaizCuadrada";
             this.BtnRaizCuadrada.Size = new System.Drawing.Size(57, 41);
             this.BtnRaizCuadrada.TabIndex = 20;
+            this.BtnRaizCuadrada.Tag = "√";
             this.BtnRaizCuadrada.Text = "√";
             this.BtnRaizCuadrada.UseVisualStyleBackColor = false;
+            this.BtnRaizCuadrada.Click += new System.EventHandler(this.ClickOperador);
             // 
-            // BtnSuma
+            // BtnSumar
             // 
-            this.BtnSuma.BackColor = System.Drawing.Color.Black;
-            this.BtnSuma.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.BtnSuma.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnSuma.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.BtnSuma.Location = new System.Drawing.Point(252, 201);
-            this.BtnSuma.Name = "BtnSuma";
-            this.BtnSuma.Size = new System.Drawing.Size(57, 99);
-            this.BtnSuma.TabIndex = 18;
-            this.BtnSuma.Text = "+";
-            this.BtnSuma.UseVisualStyleBackColor = false;
+            this.BtnSumar.BackColor = System.Drawing.Color.Black;
+            this.BtnSumar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BtnSumar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnSumar.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.BtnSumar.Location = new System.Drawing.Point(252, 201);
+            this.BtnSumar.Name = "BtnSumar";
+            this.BtnSumar.Size = new System.Drawing.Size(57, 99);
+            this.BtnSumar.TabIndex = 18;
+            this.BtnSumar.Tag = "+";
+            this.BtnSumar.Text = "+";
+            this.BtnSumar.UseVisualStyleBackColor = false;
+            this.BtnSumar.Click += new System.EventHandler(this.ClickOperador);
             // 
             // BtnDividir
             // 
@@ -320,8 +331,10 @@ namespace Calculadora_prueba
             this.BtnDividir.Name = "BtnDividir";
             this.BtnDividir.Size = new System.Drawing.Size(57, 38);
             this.BtnDividir.TabIndex = 17;
+            this.BtnDividir.Tag = "/";
             this.BtnDividir.Text = "/";
             this.BtnDividir.UseVisualStyleBackColor = false;
+            this.BtnDividir.Click += new System.EventHandler(this.ClickOperador);
             // 
             // BtnPunto
             // 
@@ -374,7 +387,7 @@ namespace Calculadora_prueba
             this.Controls.Add(this.BtnCero);
             this.Controls.Add(this.BtnSigno);
             this.Controls.Add(this.BtnRaizCuadrada);
-            this.Controls.Add(this.BtnSuma);
+            this.Controls.Add(this.BtnSumar);
             this.Controls.Add(this.BtnDividir);
             this.Controls.Add(this.BtnCuadrado);
             this.Controls.Add(this.BtnIgual);
@@ -422,7 +435,7 @@ namespace Calculadora_prueba
         private System.Windows.Forms.Button BtnResta;
         private System.Windows.Forms.Button BtnMultiplicar;
         private System.Windows.Forms.Button BtnRaizCuadrada;
-        private System.Windows.Forms.Button BtnSuma;
+        private System.Windows.Forms.Button BtnSumar;
         private System.Windows.Forms.Button BtnDividir;
         private System.Windows.Forms.Button BtnPunto;
         private System.Windows.Forms.Button BtnCero;

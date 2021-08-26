@@ -12,6 +12,9 @@ namespace Calculadora_prueba
 {
     public partial class Calculadora : Form
     {
+        double numero1 = 0, numero2 = 0;
+        char operador;
+
         public Calculadora()
         {
             InitializeComponent();
@@ -21,10 +24,10 @@ namespace Calculadora_prueba
         {
 
         }
-
         private void agregarNumero(object sender, EventArgs e)
         {
             var boton = ((Button)sender);
+
             if (TxtResultado.Text == "0")
                 TxtResultado.Text = "";
 
@@ -32,6 +35,28 @@ namespace Calculadora_prueba
 
         }
 
+        private void BtnIgual_Click(object sender, EventArgs e)
+        {
+            numero2 = Convert.ToDouble(TxtResultado.Text);
+
+            if (operador == '+')
+            {
+                TxtResultado.Text = (numero1 + numero2).ToString();
+                numero1 = Convert.ToDouble(TxtResultado.Text);
+            }
+        }
+
+        private void ClickOperador(object sender, EventArgs e)
+        {
+
+            var boton = ((Button)sender);
+
+            numero1 = Convert.ToDouble(TxtResultado.Text);
+            operador = Convert.ToChar (boton.Tag);
+
+            TxtResultado.Text = "0";
+
+        }
 
     }
 }

@@ -43,8 +43,16 @@ namespace Calculadora_prueba
             {
                 TxtResultado.Text = (numero1 + numero2).ToString();
                 numero1 = Convert.ToDouble(TxtResultado.Text);
+          
             }
-        }
+            else if (operador == '-')
+            {
+                TxtResultado.Text = (numero1 - numero2).ToString();
+                numero1 = Convert.ToDouble(TxtResultado.Text);
+            }     
+
+
+        }   
 
         private void ClickOperador(object sender, EventArgs e)
         {

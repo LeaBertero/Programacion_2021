@@ -22,7 +22,10 @@ namespace EjercicioDePruebaDeTextos
             string cadenaresultado;
 
             LblOrigen.Text = TxtDatoCadena.Text;
-            cadenaresultado = TxtDatoCadena.Text.Trim();
+            cadenaresultado = TxtDatoCadena.Text.Substring(0, 1).ToUpper()
+                + "\r\n"
+                +  TxtDatoCadena.Text.Substring(1).ToLower();
+            
             LblResultado.Text = cadenaresultado;
 
         }
@@ -31,5 +34,7 @@ namespace EjercicioDePruebaDeTextos
         {
             Close();
         }
+
+       
     }
 }

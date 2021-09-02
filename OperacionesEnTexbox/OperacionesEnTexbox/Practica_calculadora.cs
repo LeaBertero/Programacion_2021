@@ -19,13 +19,13 @@ namespace OperacionesEnTexbox
 
         private void BtnRes_suma_Click(object sender, EventArgs e)
         {
-            int numero1;
-            int numero2;
+            decimal numero1;
+            decimal numero2;
 
-            int resultado;
+            decimal resultado;
 
-            numero1 = System.Convert.ToInt32(TxtNumSuma1.Text);
-            numero2 = System.Convert.ToInt32(TxtNumSuma2.Text);
+            numero1 = System.Convert.ToDecimal(TxtNumSuma1.Text);
+            numero2 = System.Convert.ToDecimal(TxtNumSuma2.Text);
 
             resultado = numero1 + numero2;
 
@@ -34,13 +34,13 @@ namespace OperacionesEnTexbox
 
         private void BtnRes_resta_Click(object sender, EventArgs e)
         {
-            int numero1;
-            int numero2;
+            decimal numero1;
+            decimal numero2;
 
-            int resultado;
+            decimal resultado;
 
-            numero1 = System.Convert.ToInt32(TxtNumResta1.Text);
-            numero2 = System.Convert.ToInt32(TxtNumResta2.Text);
+            numero1 = System.Convert.ToDecimal(TxtNumResta1.Text);
+            numero2 = System.Convert.ToDecimal(TxtNumResta2.Text);
 
             resultado = numero1 - numero2;
 
@@ -49,13 +49,13 @@ namespace OperacionesEnTexbox
 
         private void BtnRes_mult_Click(object sender, EventArgs e)
         {
-            int numero1;
-            int numero2;
+            decimal numero1;
+            decimal numero2;
 
-            int resultado;
+            decimal resultado;
 
-            numero1 = System.Convert.ToInt32(TxtNumMult1.Text);
-            numero2 = System.Convert.ToInt32(TxtNumMult2.Text);
+            numero1 = System.Convert.ToDecimal(TxtNumMult1.Text);
+            numero2 = System.Convert.ToDecimal(TxtNumMult2.Text);
 
             resultado = numero1 * numero2;
 
@@ -64,17 +64,19 @@ namespace OperacionesEnTexbox
 
         private void BtnRe_div_Click(object sender, EventArgs e)
         {
-            int numero1;
-            int numero2;
+            decimal numero1;
+            decimal numero2;
 
-            int resultado;
+            decimal resultado;
 
-            numero1 = System.Convert.ToInt32(TxtNumDiv1.Text);
-            numero2 = System.Convert.ToInt32(TxtNumDiv2.Text);
+            numero1 = System.Convert.ToDecimal(TxtNumDiv1.Text);
+            numero2 = System.Convert.ToDecimal(TxtNumDiv2.Text);
 
             resultado = numero1 / numero2;
 
             LblRes_Div.Text = System.Convert.ToString(resultado);
         }
+
+        
     }
 }

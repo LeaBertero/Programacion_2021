@@ -77,6 +77,9 @@ namespace OperacionesEnTexbox
             LblRes_Div.Text = System.Convert.ToString(resultado);
         }
 
-        
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

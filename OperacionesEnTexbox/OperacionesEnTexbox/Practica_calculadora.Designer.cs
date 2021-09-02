@@ -54,6 +54,7 @@ namespace OperacionesEnTexbox
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // BtnRes_suma
@@ -213,9 +214,9 @@ namespace OperacionesEnTexbox
             // 
             this.label5.BackColor = System.Drawing.Color.SpringGreen;
             this.label5.Font = new System.Drawing.Font("Kristen ITC", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(220, 18);
+            this.label5.Location = new System.Drawing.Point(157, 9);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(276, 56);
+            this.label5.Size = new System.Drawing.Size(182, 36);
             this.label5.TabIndex = 18;
             this.label5.Text = "Calculadora";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -274,7 +275,6 @@ namespace OperacionesEnTexbox
             this.label1.TabIndex = 23;
             this.label1.Text = "SUMA";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-           
             // 
             // label2
             // 
@@ -309,12 +309,29 @@ namespace OperacionesEnTexbox
             this.label4.Text = "DIVISIÓN";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // label6
+            // 
+            this.label6.BackColor = System.Drawing.Color.DodgerBlue;
+            this.label6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label6.Cursor = System.Windows.Forms.Cursors.Default;
+            this.label6.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.label6.Font = new System.Drawing.Font("Kristen ITC", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label6.Location = new System.Drawing.Point(428, 9);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(200, 68);
+            this.label6.TabIndex = 27;
+            this.label6.Text = "Importante: Para calcular decimales, debe ingresar números con coma...";
+            this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label6.Click += new System.EventHandler(this.label6_Click);
+            // 
             // Practica_calculadora
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkCyan;
             this.ClientSize = new System.Drawing.Size(631, 544);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -376,6 +393,7 @@ namespace OperacionesEnTexbox
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label6;
     }
 }
 

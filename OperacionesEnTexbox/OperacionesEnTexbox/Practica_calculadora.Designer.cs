@@ -29,6 +29,7 @@ namespace OperacionesEnTexbox
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Practica_calculadora));
             this.BtnRes_suma = new System.Windows.Forms.Button();
             this.TxtNumSuma1 = new System.Windows.Forms.TextBox();
             this.TxtNumSuma2 = new System.Windows.Forms.TextBox();
@@ -373,6 +374,7 @@ namespace OperacionesEnTexbox
             this.Controls.Add(this.TxtNumSuma2);
             this.Controls.Add(this.TxtNumSuma1);
             this.Controls.Add(this.BtnRes_suma);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Practica_calculadora";
             this.Opacity = 0.8D;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

@@ -55,13 +55,14 @@ namespace OperacionesEnTexbox
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
+            this.BtnSalir = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // BtnRes_suma
             // 
             this.BtnRes_suma.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnRes_suma.Font = new System.Drawing.Font("Kristen ITC", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnRes_suma.Location = new System.Drawing.Point(372, 96);
+            this.BtnRes_suma.Location = new System.Drawing.Point(410, 103);
             this.BtnRes_suma.Name = "BtnRes_suma";
             this.BtnRes_suma.Size = new System.Drawing.Size(84, 33);
             this.BtnRes_suma.TabIndex = 0;
@@ -72,7 +73,7 @@ namespace OperacionesEnTexbox
             // TxtNumSuma1
             // 
             this.TxtNumSuma1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtNumSuma1.Location = new System.Drawing.Point(16, 96);
+            this.TxtNumSuma1.Location = new System.Drawing.Point(132, 104);
             this.TxtNumSuma1.Name = "TxtNumSuma1";
             this.TxtNumSuma1.Size = new System.Drawing.Size(100, 29);
             this.TxtNumSuma1.TabIndex = 1;
@@ -80,7 +81,7 @@ namespace OperacionesEnTexbox
             // TxtNumSuma2
             // 
             this.TxtNumSuma2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtNumSuma2.Location = new System.Drawing.Point(226, 96);
+            this.TxtNumSuma2.Location = new System.Drawing.Point(294, 104);
             this.TxtNumSuma2.Name = "TxtNumSuma2";
             this.TxtNumSuma2.Size = new System.Drawing.Size(100, 29);
             this.TxtNumSuma2.TabIndex = 2;
@@ -89,7 +90,7 @@ namespace OperacionesEnTexbox
             // 
             this.LblRes_suma.BackColor = System.Drawing.Color.SpringGreen;
             this.LblRes_suma.Font = new System.Drawing.Font("Kristen ITC", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblRes_suma.Location = new System.Drawing.Point(507, 96);
+            this.LblRes_suma.Location = new System.Drawing.Point(519, 108);
             this.LblRes_suma.Name = "LblRes_suma";
             this.LblRes_suma.Size = new System.Drawing.Size(100, 39);
             this.LblRes_suma.TabIndex = 3;
@@ -99,7 +100,7 @@ namespace OperacionesEnTexbox
             // 
             this.LblRes_Resta.BackColor = System.Drawing.Color.SpringGreen;
             this.LblRes_Resta.Font = new System.Drawing.Font("Kristen ITC", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblRes_Resta.Location = new System.Drawing.Point(507, 219);
+            this.LblRes_Resta.Location = new System.Drawing.Point(519, 163);
             this.LblRes_Resta.Name = "LblRes_Resta";
             this.LblRes_Resta.Size = new System.Drawing.Size(100, 39);
             this.LblRes_Resta.TabIndex = 7;
@@ -108,7 +109,7 @@ namespace OperacionesEnTexbox
             // TxtNumResta2
             // 
             this.TxtNumResta2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtNumResta2.Location = new System.Drawing.Point(226, 229);
+            this.TxtNumResta2.Location = new System.Drawing.Point(294, 167);
             this.TxtNumResta2.Name = "TxtNumResta2";
             this.TxtNumResta2.Size = new System.Drawing.Size(100, 29);
             this.TxtNumResta2.TabIndex = 6;
@@ -116,7 +117,7 @@ namespace OperacionesEnTexbox
             // TxtNumResta1
             // 
             this.TxtNumResta1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtNumResta1.Location = new System.Drawing.Point(23, 233);
+            this.TxtNumResta1.Location = new System.Drawing.Point(132, 170);
             this.TxtNumResta1.Name = "TxtNumResta1";
             this.TxtNumResta1.Size = new System.Drawing.Size(100, 29);
             this.TxtNumResta1.TabIndex = 5;
@@ -125,7 +126,7 @@ namespace OperacionesEnTexbox
             // 
             this.BtnRes_resta.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnRes_resta.Font = new System.Drawing.Font("Kristen ITC", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnRes_resta.Location = new System.Drawing.Point(372, 225);
+            this.BtnRes_resta.Location = new System.Drawing.Point(410, 163);
             this.BtnRes_resta.Name = "BtnRes_resta";
             this.BtnRes_resta.Size = new System.Drawing.Size(84, 33);
             this.BtnRes_resta.TabIndex = 4;
@@ -137,7 +138,7 @@ namespace OperacionesEnTexbox
             // 
             this.LblRes_Mult.BackColor = System.Drawing.Color.SpringGreen;
             this.LblRes_Mult.Font = new System.Drawing.Font("Kristen ITC", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblRes_Mult.Location = new System.Drawing.Point(507, 368);
+            this.LblRes_Mult.Location = new System.Drawing.Point(563, 218);
             this.LblRes_Mult.Name = "LblRes_Mult";
             this.LblRes_Mult.Size = new System.Drawing.Size(100, 39);
             this.LblRes_Mult.TabIndex = 11;
@@ -146,7 +147,7 @@ namespace OperacionesEnTexbox
             // TxtNumMult2
             // 
             this.TxtNumMult2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtNumMult2.Location = new System.Drawing.Point(226, 368);
+            this.TxtNumMult2.Location = new System.Drawing.Point(348, 225);
             this.TxtNumMult2.Name = "TxtNumMult2";
             this.TxtNumMult2.Size = new System.Drawing.Size(100, 29);
             this.TxtNumMult2.TabIndex = 10;
@@ -154,7 +155,7 @@ namespace OperacionesEnTexbox
             // TxtNumMult1
             // 
             this.TxtNumMult1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtNumMult1.Location = new System.Drawing.Point(23, 368);
+            this.TxtNumMult1.Location = new System.Drawing.Point(188, 226);
             this.TxtNumMult1.Name = "TxtNumMult1";
             this.TxtNumMult1.Size = new System.Drawing.Size(100, 29);
             this.TxtNumMult1.TabIndex = 9;
@@ -163,7 +164,7 @@ namespace OperacionesEnTexbox
             // 
             this.LblRes_Div.BackColor = System.Drawing.Color.SpringGreen;
             this.LblRes_Div.Font = new System.Drawing.Font("Kristen ITC", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblRes_Div.Location = new System.Drawing.Point(507, 500);
+            this.LblRes_Div.Location = new System.Drawing.Point(503, 276);
             this.LblRes_Div.Name = "LblRes_Div";
             this.LblRes_Div.Size = new System.Drawing.Size(100, 39);
             this.LblRes_Div.TabIndex = 15;
@@ -173,7 +174,7 @@ namespace OperacionesEnTexbox
             // TxtNumDiv2
             // 
             this.TxtNumDiv2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtNumDiv2.Location = new System.Drawing.Point(226, 500);
+            this.TxtNumDiv2.Location = new System.Drawing.Point(294, 280);
             this.TxtNumDiv2.Name = "TxtNumDiv2";
             this.TxtNumDiv2.Size = new System.Drawing.Size(100, 29);
             this.TxtNumDiv2.TabIndex = 14;
@@ -181,7 +182,7 @@ namespace OperacionesEnTexbox
             // TxtNumDiv1
             // 
             this.TxtNumDiv1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtNumDiv1.Location = new System.Drawing.Point(23, 500);
+            this.TxtNumDiv1.Location = new System.Drawing.Point(132, 280);
             this.TxtNumDiv1.Name = "TxtNumDiv1";
             this.TxtNumDiv1.Size = new System.Drawing.Size(100, 29);
             this.TxtNumDiv1.TabIndex = 13;
@@ -190,7 +191,7 @@ namespace OperacionesEnTexbox
             // 
             this.BtnRes_mult.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnRes_mult.Font = new System.Drawing.Font("Kristen ITC", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnRes_mult.Location = new System.Drawing.Point(372, 372);
+            this.BtnRes_mult.Location = new System.Drawing.Point(463, 222);
             this.BtnRes_mult.Name = "BtnRes_mult";
             this.BtnRes_mult.Size = new System.Drawing.Size(84, 33);
             this.BtnRes_mult.TabIndex = 16;
@@ -202,7 +203,7 @@ namespace OperacionesEnTexbox
             // 
             this.BtnRe_div.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnRe_div.Font = new System.Drawing.Font("Kristen ITC", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnRe_div.Location = new System.Drawing.Point(372, 500);
+            this.BtnRe_div.Location = new System.Drawing.Point(400, 279);
             this.BtnRe_div.Name = "BtnRe_div";
             this.BtnRe_div.Size = new System.Drawing.Size(84, 33);
             this.BtnRe_div.TabIndex = 17;
@@ -214,7 +215,7 @@ namespace OperacionesEnTexbox
             // 
             this.label5.BackColor = System.Drawing.Color.SpringGreen;
             this.label5.Font = new System.Drawing.Font("Kristen ITC", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(157, 9);
+            this.label5.Location = new System.Drawing.Point(18, 17);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(182, 36);
             this.label5.TabIndex = 18;
@@ -225,7 +226,7 @@ namespace OperacionesEnTexbox
             // 
             this.button1.BackColor = System.Drawing.Color.HotPink;
             this.button1.Font = new System.Drawing.Font("Kristen ITC", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(151, 496);
+            this.button1.Location = new System.Drawing.Point(240, 279);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(48, 33);
             this.button1.TabIndex = 22;
@@ -236,7 +237,7 @@ namespace OperacionesEnTexbox
             // 
             this.button2.BackColor = System.Drawing.Color.HotPink;
             this.button2.Font = new System.Drawing.Font("Kristen ITC", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(151, 367);
+            this.button2.Location = new System.Drawing.Point(294, 225);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(48, 33);
             this.button2.TabIndex = 21;
@@ -247,7 +248,7 @@ namespace OperacionesEnTexbox
             // 
             this.button3.BackColor = System.Drawing.Color.HotPink;
             this.button3.Font = new System.Drawing.Font("Kristen ITC", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(151, 229);
+            this.button3.Location = new System.Drawing.Point(240, 166);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(48, 33);
             this.button3.TabIndex = 20;
@@ -258,7 +259,7 @@ namespace OperacionesEnTexbox
             // 
             this.button4.BackColor = System.Drawing.Color.HotPink;
             this.button4.Font = new System.Drawing.Font("Kristen ITC", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(151, 92);
+            this.button4.Location = new System.Drawing.Point(240, 104);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(48, 33);
             this.button4.TabIndex = 19;
@@ -268,10 +269,10 @@ namespace OperacionesEnTexbox
             // label1
             // 
             this.label1.BackColor = System.Drawing.Color.SpringGreen;
-            this.label1.Font = new System.Drawing.Font("Kristen ITC", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(12, 32);
+            this.label1.Font = new System.Drawing.Font("Kristen ITC", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(20, 109);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(111, 33);
+            this.label1.Size = new System.Drawing.Size(94, 27);
             this.label1.TabIndex = 23;
             this.label1.Text = "SUMA";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -279,10 +280,10 @@ namespace OperacionesEnTexbox
             // label2
             // 
             this.label2.BackColor = System.Drawing.Color.SpringGreen;
-            this.label2.Font = new System.Drawing.Font("Kristen ITC", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(13, 160);
+            this.label2.Font = new System.Drawing.Font("Kristen ITC", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(21, 174);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(93, 34);
+            this.label2.Size = new System.Drawing.Size(93, 27);
             this.label2.TabIndex = 24;
             this.label2.Text = "RESTA";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -290,10 +291,10 @@ namespace OperacionesEnTexbox
             // label3
             // 
             this.label3.BackColor = System.Drawing.Color.SpringGreen;
-            this.label3.Font = new System.Drawing.Font("Kristen ITC", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(13, 295);
+            this.label3.Font = new System.Drawing.Font("Kristen ITC", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(21, 226);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(228, 42);
+            this.label3.Size = new System.Drawing.Size(161, 27);
             this.label3.TabIndex = 25;
             this.label3.Text = "MULTIPLICACIÓN";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -301,10 +302,10 @@ namespace OperacionesEnTexbox
             // label4
             // 
             this.label4.BackColor = System.Drawing.Color.SpringGreen;
-            this.label4.Font = new System.Drawing.Font("Kristen ITC", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(11, 432);
+            this.label4.Font = new System.Drawing.Font("Kristen ITC", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(21, 280);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(132, 35);
+            this.label4.Size = new System.Drawing.Size(97, 29);
             this.label4.TabIndex = 26;
             this.label4.Text = "DIVISIÓN";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -315,22 +316,37 @@ namespace OperacionesEnTexbox
             this.label6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label6.Cursor = System.Windows.Forms.Cursors.Default;
             this.label6.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.label6.Font = new System.Drawing.Font("Kristen ITC", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Font = new System.Drawing.Font("Kristen ITC", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label6.Location = new System.Drawing.Point(428, 9);
+            this.label6.Location = new System.Drawing.Point(440, 9);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(200, 68);
+            this.label6.Size = new System.Drawing.Size(188, 60);
             this.label6.TabIndex = 27;
             this.label6.Text = "Importante: Para calcular decimales, debe ingresar números con coma...";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label6.Click += new System.EventHandler(this.label6_Click);
+            // 
+            // BtnSalir
+            // 
+            this.BtnSalir.BackColor = System.Drawing.Color.HotPink;
+            this.BtnSalir.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BtnSalir.Font = new System.Drawing.Font("Kristen ITC", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnSalir.ForeColor = System.Drawing.SystemColors.Control;
+            this.BtnSalir.Location = new System.Drawing.Point(573, 352);
+            this.BtnSalir.Name = "BtnSalir";
+            this.BtnSalir.Size = new System.Drawing.Size(75, 36);
+            this.BtnSalir.TabIndex = 28;
+            this.BtnSalir.Text = "Salir";
+            this.BtnSalir.UseVisualStyleBackColor = false;
+            this.BtnSalir.Click += new System.EventHandler(this.BtnSalir_Click);
             // 
             // Practica_calculadora
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkCyan;
-            this.ClientSize = new System.Drawing.Size(631, 544);
+            this.ClientSize = new System.Drawing.Size(675, 400);
+            this.Controls.Add(this.BtnSalir);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -394,6 +410,7 @@ namespace OperacionesEnTexbox
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Button BtnSalir;
     }
 }
 

@@ -90,7 +90,7 @@ namespace OperacionesEnTexbox
             // 
             this.LblRes_suma.BackColor = System.Drawing.Color.SpringGreen;
             this.LblRes_suma.Font = new System.Drawing.Font("Kristen ITC", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblRes_suma.Location = new System.Drawing.Point(519, 108);
+            this.LblRes_suma.Location = new System.Drawing.Point(519, 101);
             this.LblRes_suma.Name = "LblRes_suma";
             this.LblRes_suma.Size = new System.Drawing.Size(100, 39);
             this.LblRes_suma.TabIndex = 3;
@@ -100,7 +100,7 @@ namespace OperacionesEnTexbox
             // 
             this.LblRes_Resta.BackColor = System.Drawing.Color.SpringGreen;
             this.LblRes_Resta.Font = new System.Drawing.Font("Kristen ITC", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblRes_Resta.Location = new System.Drawing.Point(519, 163);
+            this.LblRes_Resta.Location = new System.Drawing.Point(519, 159);
             this.LblRes_Resta.Name = "LblRes_Resta";
             this.LblRes_Resta.Size = new System.Drawing.Size(100, 39);
             this.LblRes_Resta.TabIndex = 7;
@@ -138,7 +138,7 @@ namespace OperacionesEnTexbox
             // 
             this.LblRes_Mult.BackColor = System.Drawing.Color.SpringGreen;
             this.LblRes_Mult.Font = new System.Drawing.Font("Kristen ITC", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblRes_Mult.Location = new System.Drawing.Point(563, 218);
+            this.LblRes_Mult.Location = new System.Drawing.Point(563, 221);
             this.LblRes_Mult.Name = "LblRes_Mult";
             this.LblRes_Mult.Size = new System.Drawing.Size(100, 39);
             this.LblRes_Mult.TabIndex = 11;

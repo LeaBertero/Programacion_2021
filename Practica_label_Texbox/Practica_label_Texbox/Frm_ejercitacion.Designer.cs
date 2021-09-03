@@ -137,6 +137,7 @@ namespace Practica_label_Texbox
             this.Controls.Add(this.LblFraseOriginal);
             this.Controls.Add(this.BtnAceptar);
             this.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form1";
             this.Opacity = 0.8D;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

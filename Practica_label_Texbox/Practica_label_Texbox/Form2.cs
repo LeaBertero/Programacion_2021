@@ -24,7 +24,12 @@ namespace Practica_label_Texbox
 
         private void BtnClick_Click(object sender, EventArgs e)
         {
+            string ResultadoFrase;
 
+            ResultadoFrase = TxtIngresoFrase.Text;
+
+            LblOriginal.Text = TxtIngresoFrase.Text.ToLower();
+            LblResultado.Text = ResultadoFrase;
         }
     }
 }

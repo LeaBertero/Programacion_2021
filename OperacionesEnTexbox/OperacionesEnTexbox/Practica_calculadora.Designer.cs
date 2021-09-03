@@ -260,7 +260,7 @@ namespace OperacionesEnTexbox
             // 
             this.button4.BackColor = System.Drawing.Color.HotPink;
             this.button4.Font = new System.Drawing.Font("Kristen ITC", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(240, 104);
+            this.button4.Location = new System.Drawing.Point(238, 103);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(48, 33);
             this.button4.TabIndex = 19;

@@ -29,6 +29,7 @@ namespace Practica_label_Texbox
             ResultadoFrase = TxtIngresoFrase.Text;
 
             LblOriginal.Text = TxtIngresoFrase.Text.ToLower();
+            
             LblResultado.Text = ResultadoFrase;
         }
     }

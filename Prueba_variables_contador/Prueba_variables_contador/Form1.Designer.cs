@@ -57,7 +57,7 @@ namespace Prueba_variables_contador
             // 
             this.BtnInicio.BackColor = System.Drawing.Color.Ivory;
             this.BtnInicio.Font = new System.Drawing.Font("Segoe Print", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnInicio.Location = new System.Drawing.Point(26, 88);
+            this.BtnInicio.Location = new System.Drawing.Point(815, 88);
             this.BtnInicio.Name = "BtnInicio";
             this.BtnInicio.Size = new System.Drawing.Size(202, 51);
             this.BtnInicio.TabIndex = 1;
@@ -67,9 +67,9 @@ namespace Prueba_variables_contador
             // 
             // LblContador
             // 
-            this.LblContador.BackColor = System.Drawing.Color.Yellow;
+            this.LblContador.BackColor = System.Drawing.Color.DodgerBlue;
             this.LblContador.Font = new System.Drawing.Font("MV Boli", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblContador.ForeColor = System.Drawing.SystemColors.Desktop;
+            this.LblContador.ForeColor = System.Drawing.SystemColors.Control;
             this.LblContador.Location = new System.Drawing.Point(247, 86);
             this.LblContador.Name = "LblContador";
             this.LblContador.Size = new System.Drawing.Size(228, 51);
@@ -90,12 +90,12 @@ namespace Prueba_variables_contador
             // 
             // LblContador2
             // 
-            this.LblContador2.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.LblContador2.BackColor = System.Drawing.Color.Yellow;
             this.LblContador2.Font = new System.Drawing.Font("MV Boli", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblContador2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.LblContador2.Location = new System.Drawing.Point(573, 88);
+            this.LblContador2.ForeColor = System.Drawing.SystemColors.Desktop;
+            this.LblContador2.Location = new System.Drawing.Point(573, 86);
             this.LblContador2.Name = "LblContador2";
-            this.LblContador2.Size = new System.Drawing.Size(228, 51);
+            this.LblContador2.Size = new System.Drawing.Size(228, 53);
             this.LblContador2.TabIndex = 4;
             this.LblContador2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
@@ -115,7 +115,7 @@ namespace Prueba_variables_contador
             // 
             this.button1.BackColor = System.Drawing.Color.Ivory;
             this.button1.Font = new System.Drawing.Font("Segoe Print", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(807, 86);
+            this.button1.Location = new System.Drawing.Point(26, 82);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(202, 55);
             this.button1.TabIndex = 6;
@@ -127,11 +127,11 @@ namespace Prueba_variables_contador
             // 
             this.button2.BackColor = System.Drawing.Color.Ivory;
             this.button2.Font = new System.Drawing.Font("Segoe Print", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(26, 164);
+            this.button2.Location = new System.Drawing.Point(807, 180);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(202, 57);
             this.button2.TabIndex = 7;
-            this.button2.Text = "Mover Amarillo";
+            this.button2.Text = "Bajar Amarillo";
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
@@ -139,11 +139,11 @@ namespace Prueba_variables_contador
             // 
             this.button3.BackColor = System.Drawing.Color.Ivory;
             this.button3.Font = new System.Drawing.Font("Segoe Print", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(806, 176);
+            this.button3.Location = new System.Drawing.Point(26, 180);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(202, 47);
+            this.button3.Size = new System.Drawing.Size(202, 57);
             this.button3.TabIndex = 8;
-            this.button3.Text = "Mover Azul";
+            this.button3.Text = "Bajar Azul";
             this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
@@ -153,7 +153,7 @@ namespace Prueba_variables_contador
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightGreen;
-            this.ClientSize = new System.Drawing.Size(1029, 246);
+            this.ClientSize = new System.Drawing.Size(1029, 272);
             this.ControlBox = false;
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);

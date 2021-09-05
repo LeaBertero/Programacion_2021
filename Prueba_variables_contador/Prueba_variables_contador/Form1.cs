@@ -13,8 +13,8 @@ namespace Prueba_variables_contador
     
     public partial class Form1 : Form
     {
-        int numero = 0;
-        int numero1 = -0;
+        int numero = 10;
+        int numero1 = -50;
         
         public Form1()
         {

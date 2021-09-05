@@ -57,7 +57,7 @@ namespace Prueba_variables_contador
             // 
             this.BtnInicio.BackColor = System.Drawing.Color.Ivory;
             this.BtnInicio.Font = new System.Drawing.Font("Segoe Print", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnInicio.Location = new System.Drawing.Point(815, 88);
+            this.BtnInicio.Location = new System.Drawing.Point(26, 82);
             this.BtnInicio.Name = "BtnInicio";
             this.BtnInicio.Size = new System.Drawing.Size(202, 51);
             this.BtnInicio.TabIndex = 1;
@@ -70,7 +70,7 @@ namespace Prueba_variables_contador
             this.LblContador.BackColor = System.Drawing.Color.DodgerBlue;
             this.LblContador.Font = new System.Drawing.Font("MV Boli", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblContador.ForeColor = System.Drawing.SystemColors.Control;
-            this.LblContador.Location = new System.Drawing.Point(247, 86);
+            this.LblContador.Location = new System.Drawing.Point(570, 88);
             this.LblContador.Name = "LblContador";
             this.LblContador.Size = new System.Drawing.Size(228, 51);
             this.LblContador.TabIndex = 2;
@@ -93,7 +93,7 @@ namespace Prueba_variables_contador
             this.LblContador2.BackColor = System.Drawing.Color.Yellow;
             this.LblContador2.Font = new System.Drawing.Font("MV Boli", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblContador2.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.LblContador2.Location = new System.Drawing.Point(573, 86);
+            this.LblContador2.Location = new System.Drawing.Point(247, 86);
             this.LblContador2.Name = "LblContador2";
             this.LblContador2.Size = new System.Drawing.Size(228, 53);
             this.LblContador2.TabIndex = 4;
@@ -115,7 +115,7 @@ namespace Prueba_variables_contador
             // 
             this.button1.BackColor = System.Drawing.Color.Ivory;
             this.button1.Font = new System.Drawing.Font("Segoe Print", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(26, 82);
+            this.button1.Location = new System.Drawing.Point(815, 86);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(202, 55);
             this.button1.TabIndex = 6;

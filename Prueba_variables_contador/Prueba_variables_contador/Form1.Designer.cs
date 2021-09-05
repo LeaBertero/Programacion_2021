@@ -34,7 +34,6 @@ namespace Prueba_variables_contador
             this.LblContador = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.LblContador2 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // BtnCerrar
@@ -52,13 +51,14 @@ namespace Prueba_variables_contador
             // 
             // BtnInicio
             // 
+            this.BtnInicio.BackColor = System.Drawing.Color.Ivory;
             this.BtnInicio.Font = new System.Drawing.Font("Segoe Print", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnInicio.Location = new System.Drawing.Point(40, 98);
+            this.BtnInicio.Location = new System.Drawing.Point(71, 119);
             this.BtnInicio.Name = "BtnInicio";
-            this.BtnInicio.Size = new System.Drawing.Size(107, 43);
+            this.BtnInicio.Size = new System.Drawing.Size(125, 50);
             this.BtnInicio.TabIndex = 1;
             this.BtnInicio.Text = "Iniciar";
-            this.BtnInicio.UseVisualStyleBackColor = true;
+            this.BtnInicio.UseVisualStyleBackColor = false;
             this.BtnInicio.Click += new System.EventHandler(this.BtnInicio_Click);
             // 
             // LblContador
@@ -66,7 +66,7 @@ namespace Prueba_variables_contador
             this.LblContador.BackColor = System.Drawing.Color.Yellow;
             this.LblContador.Font = new System.Drawing.Font("MV Boli", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblContador.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.LblContador.Location = new System.Drawing.Point(261, 71);
+            this.LblContador.Location = new System.Drawing.Point(275, 112);
             this.LblContador.Name = "LblContador";
             this.LblContador.Size = new System.Drawing.Size(228, 57);
             this.LblContador.TabIndex = 2;
@@ -90,22 +90,11 @@ namespace Prueba_variables_contador
             this.LblContador2.BackColor = System.Drawing.Color.Yellow;
             this.LblContador2.Font = new System.Drawing.Font("MV Boli", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblContador2.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.LblContador2.Location = new System.Drawing.Point(307, 163);
+            this.LblContador2.Location = new System.Drawing.Point(275, 195);
             this.LblContador2.Name = "LblContador2";
             this.LblContador2.Size = new System.Drawing.Size(228, 57);
             this.LblContador2.TabIndex = 4;
             this.LblContador2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label2
-            // 
-            this.label2.BackColor = System.Drawing.Color.Yellow;
-            this.label2.Font = new System.Drawing.Font("MV Boli", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.label2.Location = new System.Drawing.Point(261, 252);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(228, 57);
-            this.label2.TabIndex = 5;
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Form1
             // 
@@ -115,7 +104,6 @@ namespace Prueba_variables_contador
             this.BackColor = System.Drawing.Color.LightGreen;
             this.ClientSize = new System.Drawing.Size(625, 307);
             this.ControlBox = false;
-            this.Controls.Add(this.label2);
             this.Controls.Add(this.LblContador2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.LblContador);
@@ -140,7 +128,6 @@ namespace Prueba_variables_contador
         private System.Windows.Forms.Label variable;
         private System.Windows.Forms.Label var;
         private System.Windows.Forms.Label LblContador2;
-        private System.Windows.Forms.Label label2;
     }
 }
 

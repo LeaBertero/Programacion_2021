@@ -15,6 +15,7 @@ namespace Prueba_variables_contador
     {
         int numero = 0;
         int numero1 = -0;
+        
         public Form1()
         {
             InitializeComponent();
@@ -30,15 +31,20 @@ namespace Prueba_variables_contador
             
             ++numero;
             LblContador.Text = System.Convert.ToString(numero);
-            --numero1;
-            LblContador2.Text = System.Convert.ToString(numero1);
+            
 
 
         }
 
-        private void LblContador_Click(object sender, EventArgs e)
+        private void button1_Click_1(object sender, EventArgs e)
         {
-
+            --numero1;
+            LblContador2.Text = System.Convert.ToString(numero1);
+        }
+        int ancholabel = 0;
+        private void button2_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }

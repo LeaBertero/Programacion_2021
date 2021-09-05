@@ -45,7 +45,7 @@ namespace Prueba_variables_contador
             this.BtnCerrar.BackColor = System.Drawing.Color.Black;
             this.BtnCerrar.Font = new System.Drawing.Font("Tempus Sans ITC", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnCerrar.ForeColor = System.Drawing.SystemColors.Menu;
-            this.BtnCerrar.Location = new System.Drawing.Point(492, 86);
+            this.BtnCerrar.Location = new System.Drawing.Point(492, 82);
             this.BtnCerrar.Name = "BtnCerrar";
             this.BtnCerrar.Size = new System.Drawing.Size(63, 138);
             this.BtnCerrar.TabIndex = 0;

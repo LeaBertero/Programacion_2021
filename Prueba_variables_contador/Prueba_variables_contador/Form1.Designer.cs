@@ -90,7 +90,7 @@ namespace Prueba_variables_contador
             // 
             // LblContador2
             // 
-            this.LblContador2.BackColor = System.Drawing.Color.DarkCyan;
+            this.LblContador2.BackColor = System.Drawing.Color.CornflowerBlue;
             this.LblContador2.Font = new System.Drawing.Font("MV Boli", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblContador2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.LblContador2.Location = new System.Drawing.Point(545, 86);
@@ -143,8 +143,9 @@ namespace Prueba_variables_contador
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(202, 47);
             this.button3.TabIndex = 8;
-            this.button3.Text = "Mover Rosado";
+            this.button3.Text = "Mover Azul";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // Form1
             // 

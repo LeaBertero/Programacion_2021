@@ -28,12 +28,8 @@ namespace Prueba_variables_contador
         
         private void BtnInicio_Click(object sender, EventArgs e)
         {
-            
             ++numero;
             LblContador.Text = System.Convert.ToString(numero);
-            
-
-
         }
 
         private void button1_Click_1(object sender, EventArgs e)
@@ -41,10 +37,40 @@ namespace Prueba_variables_contador
             --numero1;
             LblContador2.Text = System.Convert.ToString(numero1);
         }
-        int ancholabel = 0;
+        
         private void button2_Click(object sender, EventArgs e)
         {
+            int anchformulario = 0;
+            anchformulario = this.Top;
+            int ancholabelAmarillo = LblContador.Top;
+            int ancholargo = 10;
+            int x = 30;
+            int paso = 5;
+
+            while (x < anchformulario-ancholargo)
+            {
+                this.LblContador.Top = x;
+                this.Refresh();
+                x = x + paso;
+            }
             
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            int anchformularioAzul = 0;
+            anchformularioAzul = this.Top;
+            int ancholabelAzul = LblContador2.Top;
+            int ancholargo = 10;
+            int x = 30;
+            int paso = 5;
+
+            while (x < anchformularioAzul - ancholargo)
+            {
+                this.LblContador2.Top = x;
+                this.Refresh();
+                x = x + paso;
+            }
         }
     }
 }

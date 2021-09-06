@@ -1,7 +1,7 @@
 ﻿
 namespace Prueba_variables_contador
 {
-    partial class Form1
+    partial class Contadores_pos_neg
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -30,47 +30,49 @@ namespace Prueba_variables_contador
         private void InitializeComponent()
         {
             this.BtnCerrar = new System.Windows.Forms.Button();
-            this.BtnInicio = new System.Windows.Forms.Button();
+            this.BtnEntMas = new System.Windows.Forms.Button();
             this.LblContador = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.LblContador2 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.BtnEnTMenos = new System.Windows.Forms.Button();
+            this.BtnAzul = new System.Windows.Forms.Button();
+            this.BtnAmarillo = new System.Windows.Forms.Button();
+            this.BtnSalir = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // BtnCerrar
             // 
-            this.BtnCerrar.BackColor = System.Drawing.Color.Black;
+            this.BtnCerrar.BackColor = System.Drawing.Color.Red;
             this.BtnCerrar.Font = new System.Drawing.Font("Tempus Sans ITC", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnCerrar.ForeColor = System.Drawing.SystemColors.Menu;
-            this.BtnCerrar.Location = new System.Drawing.Point(492, 82);
+            this.BtnCerrar.Location = new System.Drawing.Point(421, 260);
             this.BtnCerrar.Name = "BtnCerrar";
-            this.BtnCerrar.Size = new System.Drawing.Size(63, 138);
+            this.BtnCerrar.Size = new System.Drawing.Size(176, 143);
             this.BtnCerrar.TabIndex = 0;
             this.BtnCerrar.Text = "Cerrar";
             this.BtnCerrar.UseVisualStyleBackColor = false;
             this.BtnCerrar.Click += new System.EventHandler(this.button1_Click);
+            this.BtnCerrar.MouseMove += new System.Windows.Forms.MouseEventHandler(this.BtnCerrar_MouseMove);
             // 
-            // BtnInicio
+            // BtnEntMas
             // 
-            this.BtnInicio.BackColor = System.Drawing.Color.Ivory;
-            this.BtnInicio.Font = new System.Drawing.Font("Segoe Print", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnInicio.Location = new System.Drawing.Point(26, 82);
-            this.BtnInicio.Name = "BtnInicio";
-            this.BtnInicio.Size = new System.Drawing.Size(202, 51);
-            this.BtnInicio.TabIndex = 1;
-            this.BtnInicio.Text = "Iniciar enteros (+)";
-            this.BtnInicio.UseVisualStyleBackColor = false;
-            this.BtnInicio.Click += new System.EventHandler(this.BtnInicio_Click);
+            this.BtnEntMas.BackColor = System.Drawing.Color.Ivory;
+            this.BtnEntMas.Font = new System.Drawing.Font("Segoe Print", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnEntMas.Location = new System.Drawing.Point(57, 90);
+            this.BtnEntMas.Name = "BtnEntMas";
+            this.BtnEntMas.Size = new System.Drawing.Size(202, 51);
+            this.BtnEntMas.TabIndex = 1;
+            this.BtnEntMas.Text = "Iniciar enteros (+)";
+            this.BtnEntMas.UseVisualStyleBackColor = false;
+            this.BtnEntMas.Click += new System.EventHandler(this.BtnInicio_Click);
             // 
             // LblContador
             // 
             this.LblContador.BackColor = System.Drawing.Color.DodgerBlue;
             this.LblContador.Font = new System.Drawing.Font("MV Boli", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblContador.ForeColor = System.Drawing.SystemColors.Control;
-            this.LblContador.Location = new System.Drawing.Point(570, 88);
+            this.LblContador.Location = new System.Drawing.Point(553, 162);
             this.LblContador.Name = "LblContador";
             this.LblContador.Size = new System.Drawing.Size(228, 51);
             this.LblContador.TabIndex = 2;
@@ -93,7 +95,7 @@ namespace Prueba_variables_contador
             this.LblContador2.BackColor = System.Drawing.Color.Yellow;
             this.LblContador2.Font = new System.Drawing.Font("MV Boli", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblContador2.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.LblContador2.Location = new System.Drawing.Point(247, 86);
+            this.LblContador2.Location = new System.Drawing.Point(218, 160);
             this.LblContador2.Name = "LblContador2";
             this.LblContador2.Size = new System.Drawing.Size(228, 53);
             this.LblContador2.TabIndex = 4;
@@ -104,68 +106,81 @@ namespace Prueba_variables_contador
             this.label2.BackColor = System.Drawing.Color.GreenYellow;
             this.label2.Font = new System.Drawing.Font("MV Boli", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.label2.Location = new System.Drawing.Point(545, 9);
+            this.label2.Location = new System.Drawing.Point(661, 9);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(337, 58);
             this.label2.TabIndex = 5;
             this.label2.Text = "Contador de números enteros negativo";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // button1
+            // BtnEnTMenos
             // 
-            this.button1.BackColor = System.Drawing.Color.Ivory;
-            this.button1.Font = new System.Drawing.Font("Segoe Print", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(815, 86);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(202, 55);
-            this.button1.TabIndex = 6;
-            this.button1.Text = "Iniciar enteros (-)";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click_1);
+            this.BtnEnTMenos.BackColor = System.Drawing.Color.Ivory;
+            this.BtnEnTMenos.Font = new System.Drawing.Font("Segoe Print", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnEnTMenos.Location = new System.Drawing.Point(742, 90);
+            this.BtnEnTMenos.Name = "BtnEnTMenos";
+            this.BtnEnTMenos.Size = new System.Drawing.Size(202, 53);
+            this.BtnEnTMenos.TabIndex = 6;
+            this.BtnEnTMenos.Text = "Iniciar enteros (-)";
+            this.BtnEnTMenos.UseVisualStyleBackColor = false;
+            this.BtnEnTMenos.Click += new System.EventHandler(this.button1_Click_1);
             // 
-            // button2
+            // BtnAzul
             // 
-            this.button2.BackColor = System.Drawing.Color.Ivory;
-            this.button2.Font = new System.Drawing.Font("Segoe Print", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(807, 180);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(202, 57);
-            this.button2.TabIndex = 7;
-            this.button2.Text = "Bajar Amarillo";
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.BtnAzul.BackColor = System.Drawing.Color.Ivory;
+            this.BtnAzul.Font = new System.Drawing.Font("Segoe Print", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnAzul.Location = new System.Drawing.Point(815, 319);
+            this.BtnAzul.Name = "BtnAzul";
+            this.BtnAzul.Size = new System.Drawing.Size(202, 83);
+            this.BtnAzul.TabIndex = 7;
+            this.BtnAzul.Text = "Mover rectángulo azul";
+            this.BtnAzul.UseVisualStyleBackColor = false;
+            this.BtnAzul.Click += new System.EventHandler(this.button2_Click);
             // 
-            // button3
+            // BtnAmarillo
             // 
-            this.button3.BackColor = System.Drawing.Color.Ivory;
-            this.button3.Font = new System.Drawing.Font("Segoe Print", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(26, 180);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(202, 57);
-            this.button3.TabIndex = 8;
-            this.button3.Text = "Bajar Azul";
-            this.button3.UseVisualStyleBackColor = false;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.BtnAmarillo.BackColor = System.Drawing.Color.Ivory;
+            this.BtnAmarillo.Font = new System.Drawing.Font("Segoe Print", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnAmarillo.Location = new System.Drawing.Point(12, 320);
+            this.BtnAmarillo.Name = "BtnAmarillo";
+            this.BtnAmarillo.Size = new System.Drawing.Size(202, 83);
+            this.BtnAmarillo.TabIndex = 8;
+            this.BtnAmarillo.Text = "Mover rectángulo amarillo";
+            this.BtnAmarillo.UseVisualStyleBackColor = false;
+            this.BtnAmarillo.Click += new System.EventHandler(this.button3_Click);
             // 
-            // Form1
+            // BtnSalir
             // 
-            this.AcceptButton = this.BtnInicio;
+            this.BtnSalir.BackColor = System.Drawing.Color.Black;
+            this.BtnSalir.Font = new System.Drawing.Font("Tempus Sans ITC", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnSalir.ForeColor = System.Drawing.SystemColors.Menu;
+            this.BtnSalir.Location = new System.Drawing.Point(451, 12);
+            this.BtnSalir.Name = "BtnSalir";
+            this.BtnSalir.Size = new System.Drawing.Size(113, 49);
+            this.BtnSalir.TabIndex = 9;
+            this.BtnSalir.Text = "Salir";
+            this.BtnSalir.UseVisualStyleBackColor = false;
+            this.BtnSalir.Click += new System.EventHandler(this.BtnSalir_Click);
+            // 
+            // Contadores_pos_neg
+            // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightGreen;
-            this.ClientSize = new System.Drawing.Size(1029, 272);
+            this.ClientSize = new System.Drawing.Size(1029, 414);
             this.ControlBox = false;
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.BtnSalir);
+            this.Controls.Add(this.BtnAmarillo);
+            this.Controls.Add(this.BtnAzul);
+            this.Controls.Add(this.BtnEnTMenos);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.LblContador2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.LblContador);
-            this.Controls.Add(this.BtnInicio);
+            this.Controls.Add(this.BtnEntMas);
             this.Controls.Add(this.BtnCerrar);
+            this.Controls.Add(this.LblContador);
             this.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Name = "Form1";
+            this.Name = "Contadores_pos_neg";
             this.Opacity = 0.9D;
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -177,16 +192,17 @@ namespace Prueba_variables_contador
         #endregion
 
         private System.Windows.Forms.Button BtnCerrar;
-        private System.Windows.Forms.Button BtnInicio;
+        private System.Windows.Forms.Button BtnEntMas;
         private System.Windows.Forms.Label LblContador;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label variable;
         private System.Windows.Forms.Label var;
         private System.Windows.Forms.Label LblContador2;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button BtnEnTMenos;
+        private System.Windows.Forms.Button BtnAzul;
+        private System.Windows.Forms.Button BtnAmarillo;
+        private System.Windows.Forms.Button BtnSalir;
     }
 }
 

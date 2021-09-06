@@ -13,8 +13,8 @@ namespace Prueba_variables_contador
 
     public partial class Contadores_pos_neg : Form
     {
-        int numero = 1;
-        int numero1 = -1;
+        int numero = 0;
+        int numero1 = -0;
 
         public Contadores_pos_neg()
         {
@@ -35,7 +35,7 @@ namespace Prueba_variables_contador
         
         private void BtnInicio_Click(object sender, EventArgs e)
         {
-            ++numero;
+            numero++;
             LblContador.Text = System.Convert.ToString(numero);
         }
 

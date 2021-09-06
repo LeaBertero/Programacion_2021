@@ -181,7 +181,7 @@ namespace Prueba_variables_contador
             this.Controls.Add(this.LblContador);
             this.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Name = "Contadores_pos_neg";
-            this.Opacity = 0.9D;
+            this.Opacity = 0.8D;
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "contador";

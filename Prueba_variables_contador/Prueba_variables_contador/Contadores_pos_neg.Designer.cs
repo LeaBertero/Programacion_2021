@@ -154,11 +154,11 @@ namespace Prueba_variables_contador
             this.BtnSalir.BackColor = System.Drawing.Color.Black;
             this.BtnSalir.Font = new System.Drawing.Font("Tempus Sans ITC", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnSalir.ForeColor = System.Drawing.SystemColors.Menu;
-            this.BtnSalir.Location = new System.Drawing.Point(451, 12);
+            this.BtnSalir.Location = new System.Drawing.Point(421, 18);
             this.BtnSalir.Name = "BtnSalir";
-            this.BtnSalir.Size = new System.Drawing.Size(113, 49);
+            this.BtnSalir.Size = new System.Drawing.Size(170, 125);
             this.BtnSalir.TabIndex = 9;
-            this.BtnSalir.Text = "Salir";
+            this.BtnSalir.Text = "Utilice el botón ROJO para salir del programa";
             this.BtnSalir.UseVisualStyleBackColor = false;
             this.BtnSalir.Click += new System.EventHandler(this.BtnSalir_Click);
             // 

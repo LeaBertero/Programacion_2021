@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="LaCalcu2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LaCalcu2.Designer.cs">
+      <DependentUpon>LaCalcu2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Practica_calculadora.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -54,6 +60,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="LaCalcu2.resx">
+      <DependentUpon>LaCalcu2.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Practica_calculadora.resx">
       <DependentUpon>Practica_calculadora.cs</DependentUpon>
     </EmbeddedResource>

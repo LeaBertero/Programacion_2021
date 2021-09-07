@@ -16,7 +16,7 @@ namespace OperacionesEnTexbox
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Practica_calculadora());
+            Application.Run(new FrmCalcu1());
         }
     }
 }

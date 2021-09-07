@@ -10,13 +10,13 @@ using System.Windows.Forms;
 
 namespace OperacionesEnTexbox
 {
-    public partial class Practica_calculadora : Form
+    public partial class FrmCalcu1 : Form
     {
         decimal numero1;
         decimal numero2;
 
         decimal resultado;
-        public Practica_calculadora()
+        public FrmCalcu1()
         {
             InitializeComponent();
         }

@@ -266,6 +266,7 @@ namespace OperacionesEnTexbox
             this.button4.TabIndex = 19;
             this.button4.Text = "+";
             this.button4.UseVisualStyleBackColor = false;
+            
             // 
             // label1
             // 
@@ -325,7 +326,6 @@ namespace OperacionesEnTexbox
             this.label6.TabIndex = 27;
             this.label6.Text = "Importante: Para calcular decimales, debe ingresar números con coma...";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // BtnSalir
             // 

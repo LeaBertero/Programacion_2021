@@ -344,6 +344,7 @@ namespace OperacionesEnTexbox
             // button5
             // 
             this.button5.BackColor = System.Drawing.Color.Black;
+            this.button5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button5.ForeColor = System.Drawing.SystemColors.Highlight;
             this.button5.Location = new System.Drawing.Point(456, 13);
@@ -389,7 +390,7 @@ namespace OperacionesEnTexbox
             this.Controls.Add(this.TxtNumSuma2);
             this.Controls.Add(this.TxtNumSuma1);
             this.Controls.Add(this.BtnRes_suma);
-            this.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FrmCalcu1";
             this.Opacity = 0.8D;

@@ -12,9 +12,7 @@ namespace OperacionesEnTexbox
 {
     public partial class FrmCalcu2 : Form
     {
-        decimal primernumero;
-        decimal segundonumero;
-        decimal resultado;
+        
 
         public FrmCalcu2()
         {
@@ -33,7 +31,53 @@ namespace OperacionesEnTexbox
 
         private void BtnRes_Click(object sender, EventArgs e)
         {
-            
+            if (TxtOperacion.Text == "+") 
+            {
+                decimal numero1 = System.Convert.ToInt32(TxtNum1.Text);
+                decimal numero2 = System.Convert.ToInt32(TxtNum2.Text);
+
+                decimal Resultado = numero1 + numero2;
+
+                LblRes.Text = System.Convert.ToString(Resultado);
+            }
+
+            if (TxtOperacion.Text == "-")
+            {
+                decimal numero1 = System.Convert.ToInt32(TxtNum1.Text);
+                decimal numero2 = System.Convert.ToInt32(TxtNum2.Text);
+
+                decimal Resultado = numero1 - numero2;
+
+                LblRes.Text = System.Convert.ToString(Resultado);
+            }
+
+            if (TxtOperacion.Text == "*")
+            {
+                decimal numero1 = System.Convert.ToInt32(TxtNum1.Text);
+                decimal numero2 = System.Convert.ToInt32(TxtNum2.Text);
+
+                decimal Resultado = numero1 * numero2;
+
+                LblRes.Text = System.Convert.ToString(Resultado);
+            }
+
+            if (TxtOperacion.Text == "/")
+            {
+                decimal numero1 = System.Convert.ToInt32(TxtNum1.Text);
+                decimal numero2 = System.Convert.ToInt32(TxtNum2.Text);
+
+                decimal Resultado = numero1 / numero2;
+
+                LblRes.Text = System.Convert.ToString(Resultado);
+            }
+            else
+            {
+                LblMensajeError.Text = "Operacion no valida";
+            }
+
+
         }
+
+        
     }
 }

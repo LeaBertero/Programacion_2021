@@ -29,9 +29,9 @@ namespace OperacionesEnTexbox
         /// </summary>
         private void InitializeComponent()
         {
-            this.BtnRes = new System.Windows.Forms.Button();
+            this.BtnCalc = new System.Windows.Forms.Button();
             this.TxtNum1 = new System.Windows.Forms.TextBox();
-            this.TxtOper1 = new System.Windows.Forms.TextBox();
+            this.TxtOperacion = new System.Windows.Forms.TextBox();
             this.TxtNum2 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.LblRes = new System.Windows.Forms.Label();
@@ -40,19 +40,20 @@ namespace OperacionesEnTexbox
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.BtnSalir = new System.Windows.Forms.Button();
+            this.LblMensajeError = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // BtnRes
+            // BtnCalc
             // 
-            this.BtnRes.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.BtnRes.Font = new System.Drawing.Font("Lucida Bright", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnRes.Location = new System.Drawing.Point(603, 185);
-            this.BtnRes.Name = "BtnRes";
-            this.BtnRes.Size = new System.Drawing.Size(111, 57);
-            this.BtnRes.TabIndex = 0;
-            this.BtnRes.Text = "Calcular";
-            this.BtnRes.UseVisualStyleBackColor = false;
-            this.BtnRes.Click += new System.EventHandler(this.BtnRes_Click);
+            this.BtnCalc.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.BtnCalc.Font = new System.Drawing.Font("Lucida Bright", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnCalc.Location = new System.Drawing.Point(603, 185);
+            this.BtnCalc.Name = "BtnCalc";
+            this.BtnCalc.Size = new System.Drawing.Size(111, 57);
+            this.BtnCalc.TabIndex = 0;
+            this.BtnCalc.Text = "Calcular";
+            this.BtnCalc.UseVisualStyleBackColor = false;
+            this.BtnCalc.Click += new System.EventHandler(this.BtnRes_Click);
             // 
             // TxtNum1
             // 
@@ -62,13 +63,13 @@ namespace OperacionesEnTexbox
             this.TxtNum1.Size = new System.Drawing.Size(139, 26);
             this.TxtNum1.TabIndex = 1;
             // 
-            // TxtOper1
+            // TxtOperacion
             // 
-            this.TxtOper1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtOper1.Location = new System.Drawing.Point(261, 204);
-            this.TxtOper1.Name = "TxtOper1";
-            this.TxtOper1.Size = new System.Drawing.Size(139, 26);
-            this.TxtOper1.TabIndex = 2;
+            this.TxtOperacion.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxtOperacion.Location = new System.Drawing.Point(261, 204);
+            this.TxtOperacion.Name = "TxtOperacion";
+            this.TxtOperacion.Size = new System.Drawing.Size(139, 26);
+            this.TxtOperacion.TabIndex = 2;
             // 
             // TxtNum2
             // 
@@ -80,7 +81,7 @@ namespace OperacionesEnTexbox
             // 
             // label1
             // 
-            this.label1.BackColor = System.Drawing.Color.Red;
+            this.label1.BackColor = System.Drawing.Color.DarkTurquoise;
             this.label1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label1.FlatStyle = System.Windows.Forms.FlatStyle.System;
@@ -117,7 +118,7 @@ namespace OperacionesEnTexbox
             // 
             // label3
             // 
-            this.label3.BackColor = System.Drawing.Color.YellowGreen;
+            this.label3.BackColor = System.Drawing.Color.ForestGreen;
             this.label3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label3.FlatStyle = System.Windows.Forms.FlatStyle.System;
@@ -132,7 +133,7 @@ namespace OperacionesEnTexbox
             // 
             // label4
             // 
-            this.label4.BackColor = System.Drawing.Color.YellowGreen;
+            this.label4.BackColor = System.Drawing.Color.ForestGreen;
             this.label4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label4.FlatStyle = System.Windows.Forms.FlatStyle.System;
@@ -147,7 +148,7 @@ namespace OperacionesEnTexbox
             // 
             // label5
             // 
-            this.label5.BackColor = System.Drawing.Color.YellowGreen;
+            this.label5.BackColor = System.Drawing.Color.ForestGreen;
             this.label5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label5.FlatStyle = System.Windows.Forms.FlatStyle.System;
@@ -174,12 +175,23 @@ namespace OperacionesEnTexbox
             this.BtnSalir.UseVisualStyleBackColor = false;
             this.BtnSalir.Click += new System.EventHandler(this.BtnSalir_Click);
             // 
+            // LblMensajeError
+            // 
+            this.LblMensajeError.BackColor = System.Drawing.Color.Black;
+            this.LblMensajeError.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblMensajeError.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.LblMensajeError.Location = new System.Drawing.Point(831, 96);
+            this.LblMensajeError.Name = "LblMensajeError";
+            this.LblMensajeError.Size = new System.Drawing.Size(125, 57);
+            this.LblMensajeError.TabIndex = 30;
+            // 
             // FrmCalcu2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Highlight;
             this.ClientSize = new System.Drawing.Size(1020, 268);
+            this.Controls.Add(this.LblMensajeError);
             this.Controls.Add(this.BtnSalir);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
@@ -188,11 +200,12 @@ namespace OperacionesEnTexbox
             this.Controls.Add(this.LblRes);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.TxtNum2);
-            this.Controls.Add(this.TxtOper1);
+            this.Controls.Add(this.TxtOperacion);
             this.Controls.Add(this.TxtNum1);
-            this.Controls.Add(this.BtnRes);
+            this.Controls.Add(this.BtnCalc);
             this.Name = "FrmCalcu2";
             this.Opacity = 0.8D;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Calculadora 2";
             this.Load += new System.EventHandler(this.LaCalcu2_Load);
             this.ResumeLayout(false);
@@ -202,9 +215,9 @@ namespace OperacionesEnTexbox
 
         #endregion
 
-        private System.Windows.Forms.Button BtnRes;
+        private System.Windows.Forms.Button BtnCalc;
         private System.Windows.Forms.TextBox TxtNum1;
-        private System.Windows.Forms.TextBox TxtOper1;
+        private System.Windows.Forms.TextBox TxtOperacion;
         private System.Windows.Forms.TextBox TxtNum2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label LblRes;
@@ -213,5 +226,6 @@ namespace OperacionesEnTexbox
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button BtnSalir;
+        private System.Windows.Forms.Label LblMensajeError;
     }
 }

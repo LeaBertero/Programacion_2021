@@ -79,7 +79,7 @@ namespace OperacionesEnTexbox
         private void button5_Click(object sender, EventArgs e)
         {
             Form FrmCalcu2 = new FrmCalcu2();
-            FrmCalcu2.Show();
+            FrmCalcu2.ShowDialog();
         }
     }
 }

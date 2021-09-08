@@ -58,7 +58,7 @@ namespace condicional
             // 
             // TxtOper1
             // 
-            this.TxtOper1.Location = new System.Drawing.Point(88, 68);
+            this.TxtOper1.Location = new System.Drawing.Point(70, 68);
             this.TxtOper1.Name = "TxtOper1";
             this.TxtOper1.Size = new System.Drawing.Size(100, 20);
             this.TxtOper1.TabIndex = 2;

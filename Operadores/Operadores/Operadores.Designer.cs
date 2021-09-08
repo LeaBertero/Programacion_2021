@@ -64,6 +64,7 @@ namespace Operadores
             this.TxtOper2.Name = "TxtOper2";
             this.TxtOper2.Size = new System.Drawing.Size(100, 20);
             this.TxtOper2.TabIndex = 2;
+            this.TxtOper2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // TxtOperador
             // 
@@ -71,6 +72,7 @@ namespace Operadores
             this.TxtOperador.Name = "TxtOperador";
             this.TxtOperador.Size = new System.Drawing.Size(100, 20);
             this.TxtOperador.TabIndex = 3;
+            this.TxtOperador.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // TxtOper1
             // 
@@ -78,6 +80,7 @@ namespace Operadores
             this.TxtOper1.Name = "TxtOper1";
             this.TxtOper1.Size = new System.Drawing.Size(100, 20);
             this.TxtOper1.TabIndex = 4;
+            this.TxtOper1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // Form1
             // 

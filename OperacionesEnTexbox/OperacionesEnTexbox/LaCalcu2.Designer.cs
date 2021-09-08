@@ -39,6 +39,7 @@ namespace OperacionesEnTexbox
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
+            this.BtnSalir = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // BtnRes
@@ -51,6 +52,7 @@ namespace OperacionesEnTexbox
             this.BtnRes.TabIndex = 0;
             this.BtnRes.Text = "Calcular";
             this.BtnRes.UseVisualStyleBackColor = false;
+            this.BtnRes.Click += new System.EventHandler(this.BtnRes_Click);
             // 
             // TxtNum1
             // 
@@ -158,12 +160,27 @@ namespace OperacionesEnTexbox
             this.label5.Text = "Número 2";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // BtnSalir
+            // 
+            this.BtnSalir.BackColor = System.Drawing.Color.SkyBlue;
+            this.BtnSalir.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BtnSalir.Font = new System.Drawing.Font("Kristen ITC", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnSalir.ForeColor = System.Drawing.Color.OrangeRed;
+            this.BtnSalir.Location = new System.Drawing.Point(884, 12);
+            this.BtnSalir.Name = "BtnSalir";
+            this.BtnSalir.Size = new System.Drawing.Size(124, 49);
+            this.BtnSalir.TabIndex = 29;
+            this.BtnSalir.Text = "( Salir ) ->";
+            this.BtnSalir.UseVisualStyleBackColor = false;
+            this.BtnSalir.Click += new System.EventHandler(this.BtnSalir_Click);
+            // 
             // FrmCalcu2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Highlight;
             this.ClientSize = new System.Drawing.Size(1020, 268);
+            this.Controls.Add(this.BtnSalir);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -195,5 +212,6 @@ namespace OperacionesEnTexbox
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Button BtnSalir;
     }
 }

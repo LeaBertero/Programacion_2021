@@ -352,6 +352,7 @@ namespace OperacionesEnTexbox
             this.button5.TabIndex = 29;
             this.button5.Text = "Calculadora 2";
             this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // FrmCalcu1
             // 

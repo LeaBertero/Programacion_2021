@@ -12,6 +12,10 @@ namespace OperacionesEnTexbox
 {
     public partial class FrmCalcu2 : Form
     {
+        decimal primernumero;
+        decimal segundonumero;
+        decimal resultado;
+
         public FrmCalcu2()
         {
             InitializeComponent();
@@ -20,6 +24,16 @@ namespace OperacionesEnTexbox
         private void LaCalcu2_Load(object sender, EventArgs e)
         {
              
+        }
+
+        private void BtnSalir_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+
+        private void BtnRes_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }

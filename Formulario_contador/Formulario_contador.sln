@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Formulario_contador", "Formulario_contador\Formulario_contador.csproj", "{1FEDA8AB-3755-415C-897E-60CB1DC5C218}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1FEDA8AB-3755-415C-897E-60CB1DC5C218}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FEDA8AB-3755-415C-897E-60CB1DC5C218}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FEDA8AB-3755-415C-897E-60CB1DC5C218}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FEDA8AB-3755-415C-897E-60CB1DC5C218}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {51BEE8E6-0AAF-4C82-BCAC-1349679CF4AB}
+	EndGlobalSection
+EndGlobal

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Formulario_contador
+namespace FormOperadores
 {
     static class Program
     {
@@ -16,7 +16,7 @@ namespace Formulario_contador
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Formulario_clase_prueba_Sumadores());
+            Application.Run(new Form1());
         }
     }
 }

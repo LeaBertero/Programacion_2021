@@ -38,7 +38,8 @@ namespace Operadores
             // 
             // BtnRes
             // 
-            this.BtnRes.Location = new System.Drawing.Point(36, 180);
+            this.BtnRes.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnRes.Location = new System.Drawing.Point(63, 183);
             this.BtnRes.Name = "BtnRes";
             this.BtnRes.Size = new System.Drawing.Size(104, 52);
             this.BtnRes.TabIndex = 0;
@@ -48,9 +49,10 @@ namespace Operadores
             // 
             // LblRes
             // 
-            this.LblRes.BackColor = System.Drawing.Color.LightCoral;
+            this.LblRes.BackColor = System.Drawing.Color.RosyBrown;
             this.LblRes.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.LblRes.Location = new System.Drawing.Point(37, 256);
+            this.LblRes.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblRes.Location = new System.Drawing.Point(64, 259);
             this.LblRes.Name = "LblRes";
             this.LblRes.Size = new System.Drawing.Size(105, 52);
             this.LblRes.TabIndex = 1;
@@ -58,31 +60,32 @@ namespace Operadores
             // 
             // TxtOper2
             // 
-            this.TxtOper2.Location = new System.Drawing.Point(40, 126);
+            this.TxtOper2.Location = new System.Drawing.Point(67, 129);
             this.TxtOper2.Name = "TxtOper2";
             this.TxtOper2.Size = new System.Drawing.Size(100, 20);
             this.TxtOper2.TabIndex = 2;
             // 
             // TxtOperador
             // 
-            this.TxtOperador.Location = new System.Drawing.Point(40, 77);
+            this.TxtOperador.Location = new System.Drawing.Point(67, 79);
             this.TxtOperador.Name = "TxtOperador";
             this.TxtOperador.Size = new System.Drawing.Size(100, 20);
             this.TxtOperador.TabIndex = 3;
             // 
             // TxtOper1
             // 
-            this.TxtOper1.Location = new System.Drawing.Point(40, 24);
+            this.TxtOper1.Location = new System.Drawing.Point(67, 27);
             this.TxtOper1.Name = "TxtOper1";
             this.TxtOper1.Size = new System.Drawing.Size(100, 20);
             this.TxtOper1.TabIndex = 4;
             // 
             // Form1
             // 
+            this.AcceptButton = this.BtnRes;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Highlight;
-            this.ClientSize = new System.Drawing.Size(183, 327);
+            this.ClientSize = new System.Drawing.Size(239, 327);
             this.Controls.Add(this.TxtOper1);
             this.Controls.Add(this.TxtOperador);
             this.Controls.Add(this.TxtOper2);

@@ -12,6 +12,7 @@ namespace OperacionesEnTexbox
 {
     public partial class FrmCalcu1 : Form
     {
+
         decimal numero1;
         decimal numero2;
 
@@ -23,7 +24,7 @@ namespace OperacionesEnTexbox
 
         private void BtnRes_suma_Click(object sender, EventArgs e)
         {
-            
+         
 
             numero1 = System.Convert.ToDecimal(TxtNumSuma1.Text);
             numero2 = System.Convert.ToDecimal(TxtNumSuma2.Text);

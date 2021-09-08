@@ -103,6 +103,7 @@ namespace OperacionesEnTexbox
             this.LblRes.Name = "LblRes";
             this.LblRes.Size = new System.Drawing.Size(125, 57);
             this.LblRes.TabIndex = 5;
+            this.LblRes.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // button1
             // 
@@ -184,6 +185,7 @@ namespace OperacionesEnTexbox
             this.LblMensajeError.Name = "LblMensajeError";
             this.LblMensajeError.Size = new System.Drawing.Size(125, 57);
             this.LblMensajeError.TabIndex = 30;
+            this.LblMensajeError.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // FrmCalcu2
             // 

@@ -208,7 +208,7 @@ namespace OperacionesEnTexbox
             this.Name = "FrmCalcu2";
             this.Opacity = 0.8D;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Calculadora 2";
+            this.Text = "Calculadora _V2";
             this.Load += new System.EventHandler(this.LaCalcu2_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

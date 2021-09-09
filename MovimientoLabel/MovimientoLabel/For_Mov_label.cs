@@ -20,23 +20,46 @@ namespace MovimientoLabel
         private void BtnMover_Click(object sender, EventArgs e)
         {
 
-            for (int i = 0; i < 540; i++)
+            for (int i = 0; i < 340; i++)
             {
                 LblVerde.Left = i;
                 this.Refresh();
             }
 
-            
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
 
-            for (int i = 0; i < 230; i++)
+            for (int i = 0; i < 130; i++)
             {
                 LblRojo.Top = i;
                 this.Refresh();
+                LblRojo.Visible = true;
                 
+            }
+        }
+
+        private void For_Mov_label_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            int x = System.Convert.ToInt32(TxtX.Text);
+
+            LblBlanco.Visible = true;
+
+            for (int i = x; i < 300; i++)
+            {
+                LblBlanco.Left = i;
+                this.Refresh();
             }
         }
     }

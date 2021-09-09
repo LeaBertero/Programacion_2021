@@ -12,39 +12,34 @@ namespace OPERADOR_PARTE_2
 {
     public partial class Form1 : Form
     {
-         
-
         public Form1()
         {
             InitializeComponent();
         }
 
-        
-        
-
         private void BtnRes_Click(object sender, EventArgs e)
         {
-            int numero1;
-            int numero2;
-            int resultado;
+            decimal numero1;
+            decimal numero2;
+            decimal resultado;
 
             switch (TxtOperador.Text)
             {
                 case "+":
-                     numero1 = System.Convert.ToInt32(TxtOper1.Text);
-                     numero2 = System.Convert.ToInt32(TxtOper2.Text);
-                     
+                    numero1 = System.Convert.ToInt32(TxtOper1.Text);
+                    numero2 = System.Convert.ToInt32(TxtOper2.Text);
+
                     resultado = numero1 + numero2;
 
-                     LblRes.Text = resultado.ToString();
+                    LblRes.Text = resultado.ToString();
 
                     break;
 
-                    case "-":
+                case "-":
 
                     numero1 = System.Convert.ToInt32(TxtOper1.Text);
                     numero2 = System.Convert.ToInt32(TxtOper2.Text);
-                    
+
                     resultado = numero1 - numero2;
 
                     LblRes.Text = resultado.ToString();
@@ -76,6 +71,7 @@ namespace OPERADOR_PARTE_2
                     LblRes.Text = "Error";
                     break;
             }
+
         }
     }
 }

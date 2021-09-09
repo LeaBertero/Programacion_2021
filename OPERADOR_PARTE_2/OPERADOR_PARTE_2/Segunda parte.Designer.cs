@@ -43,6 +43,7 @@ namespace OPERADOR_PARTE_2
             // 
             this.BtnRes.BackColor = System.Drawing.SystemColors.ControlText;
             this.BtnRes.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnRes.ForeColor = System.Drawing.Color.DarkSeaGreen;
             this.BtnRes.Location = new System.Drawing.Point(416, 120);
             this.BtnRes.Name = "BtnRes";
             this.BtnRes.Size = new System.Drawing.Size(104, 40);
@@ -60,6 +61,7 @@ namespace OPERADOR_PARTE_2
             this.TxtOper2.Name = "TxtOper2";
             this.TxtOper2.Size = new System.Drawing.Size(100, 26);
             this.TxtOper2.TabIndex = 1;
+            this.TxtOper2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // TxtOperador
             // 
@@ -70,6 +72,7 @@ namespace OPERADOR_PARTE_2
             this.TxtOperador.Name = "TxtOperador";
             this.TxtOperador.Size = new System.Drawing.Size(100, 26);
             this.TxtOperador.TabIndex = 2;
+            this.TxtOperador.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // TxtOper1
             // 
@@ -80,6 +83,7 @@ namespace OPERADOR_PARTE_2
             this.TxtOper1.Name = "TxtOper1";
             this.TxtOper1.Size = new System.Drawing.Size(100, 26);
             this.TxtOper1.TabIndex = 3;
+            this.TxtOper1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // LblRes
             // 
@@ -123,6 +127,7 @@ namespace OPERADOR_PARTE_2
             // 
             // Form1
             // 
+            this.AcceptButton = this.BtnRes;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlText;

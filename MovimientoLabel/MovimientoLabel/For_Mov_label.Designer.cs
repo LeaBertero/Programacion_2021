@@ -100,7 +100,7 @@ namespace MovimientoLabel
             // LblBlanco
             // 
             this.LblBlanco.BackColor = System.Drawing.Color.Cornsilk;
-            this.LblBlanco.Location = new System.Drawing.Point(327, 196);
+            this.LblBlanco.Location = new System.Drawing.Point(24, 187);
             this.LblBlanco.Name = "LblBlanco";
             this.LblBlanco.Size = new System.Drawing.Size(63, 60);
             this.LblBlanco.TabIndex = 5;

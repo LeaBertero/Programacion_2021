@@ -52,11 +52,11 @@ namespace MovimientoLabel
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-            int x = System.Convert.ToInt32(TxtX.Text);
+            //int x = System.Convert.ToInt32(TxtX.Text);
 
             LblBlanco.Visible = true;
 
-            for (int i = x; i < 300; i++)
+            for (int i = 0; i < 300; i++)
             {
                 LblBlanco.Left = i;
                 this.Refresh();

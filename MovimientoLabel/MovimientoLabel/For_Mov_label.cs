@@ -10,12 +10,14 @@ using System.Windows.Forms;
 
 namespace MovimientoLabel
 {
+
     public partial class For_Mov_label : Form
     {
         public For_Mov_label()
         {
             InitializeComponent();
         }
+
 
         private void BtnMover_Click(object sender, EventArgs e)
         {
@@ -58,6 +60,7 @@ namespace MovimientoLabel
 
             for (int i = x; i < 900; i++)
             {
+                
                 LblBlanco.Left = x;
                 
             }

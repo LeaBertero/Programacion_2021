@@ -56,9 +56,9 @@ namespace MovimientoLabel
             // LblVerde
             // 
             this.LblVerde.BackColor = System.Drawing.Color.DarkTurquoise;
-            this.LblVerde.Location = new System.Drawing.Point(0, 83);
+            this.LblVerde.Location = new System.Drawing.Point(0, 91);
             this.LblVerde.Name = "LblVerde";
-            this.LblVerde.Size = new System.Drawing.Size(48, 46);
+            this.LblVerde.Size = new System.Drawing.Size(87, 46);
             this.LblVerde.TabIndex = 1;
             this.LblVerde.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -67,7 +67,7 @@ namespace MovimientoLabel
             this.LblRojo.BackColor = System.Drawing.Color.Red;
             this.LblRojo.Location = new System.Drawing.Point(278, 0);
             this.LblRojo.Name = "LblRojo";
-            this.LblRojo.Size = new System.Drawing.Size(61, 57);
+            this.LblRojo.Size = new System.Drawing.Size(61, 108);
             this.LblRojo.TabIndex = 3;
             this.LblRojo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.LblRojo.Visible = false;
@@ -78,7 +78,7 @@ namespace MovimientoLabel
             this.BtnMoverRojo.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnMoverRojo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnMoverRojo.ForeColor = System.Drawing.Color.FloralWhite;
-            this.BtnMoverRojo.Location = new System.Drawing.Point(756, -3);
+            this.BtnMoverRojo.Location = new System.Drawing.Point(119, 0);
             this.BtnMoverRojo.Name = "BtnMoverRojo";
             this.BtnMoverRojo.Size = new System.Drawing.Size(120, 60);
             this.BtnMoverRojo.TabIndex = 2;
@@ -91,7 +91,7 @@ namespace MovimientoLabel
             this.BtnMovBlanco.BackColor = System.Drawing.Color.GhostWhite;
             this.BtnMovBlanco.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnMovBlanco.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnMovBlanco.Location = new System.Drawing.Point(248, 341);
+            this.BtnMovBlanco.Location = new System.Drawing.Point(19, 446);
             this.BtnMovBlanco.Name = "BtnMovBlanco";
             this.BtnMovBlanco.Size = new System.Drawing.Size(134, 42);
             this.BtnMovBlanco.TabIndex = 4;
@@ -102,9 +102,9 @@ namespace MovimientoLabel
             // LblBlanco
             // 
             this.LblBlanco.BackColor = System.Drawing.Color.Cornsilk;
-            this.LblBlanco.Location = new System.Drawing.Point(24, 187);
+            this.LblBlanco.Location = new System.Drawing.Point(3, 187);
             this.LblBlanco.Name = "LblBlanco";
-            this.LblBlanco.Size = new System.Drawing.Size(63, 60);
+            this.LblBlanco.Size = new System.Drawing.Size(164, 60);
             this.LblBlanco.TabIndex = 5;
             this.LblBlanco.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.LblBlanco.Visible = false;
@@ -112,7 +112,7 @@ namespace MovimientoLabel
             // TxtX
             // 
             this.TxtX.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtX.Location = new System.Drawing.Point(468, 352);
+            this.TxtX.Location = new System.Drawing.Point(239, 457);
             this.TxtX.Name = "TxtX";
             this.TxtX.Size = new System.Drawing.Size(100, 22);
             this.TxtX.TabIndex = 6;
@@ -121,19 +121,19 @@ namespace MovimientoLabel
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Sitka Small", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(215, 294);
+            this.label1.Location = new System.Drawing.Point(12, 395);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(454, 24);
+            this.label1.Size = new System.Drawing.Size(638, 24);
             this.label1.TabIndex = 7;
-            this.label1.Text = "Indique con numeros, la distancia que se va a mover";
+            this.label1.Text = "Trate de formar una \"T\" entre el rectangulo blanco y el rojo.. Good look !!!";
             // 
             // For_Mov_label
             // 
             this.AcceptButton = this.BtnMovBlanco;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Gold;
-            this.ClientSize = new System.Drawing.Size(876, 418);
+            this.BackColor = System.Drawing.Color.PowderBlue;
+            this.ClientSize = new System.Drawing.Size(894, 513);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.TxtX);
             this.Controls.Add(this.LblBlanco);

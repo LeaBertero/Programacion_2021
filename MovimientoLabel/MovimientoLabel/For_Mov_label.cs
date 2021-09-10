@@ -22,7 +22,7 @@ namespace MovimientoLabel
         private void BtnMover_Click(object sender, EventArgs e)
         {
 
-            for (int i = 0; i < 340; i++)
+            for (int i = 0; i < 600; i++)
             {
                 LblVerde.Left = i;
                 this.Refresh();
@@ -33,7 +33,7 @@ namespace MovimientoLabel
         private void button1_Click(object sender, EventArgs e)
         {
 
-            for (int i = 0; i < 130; i++)
+            for (int i = 0; i < 230; i++)
             {
                 LblRojo.Top = i;
                 this.Refresh();
@@ -58,7 +58,7 @@ namespace MovimientoLabel
 
             LblBlanco.Visible = true;
 
-            for (int i = x; i < 900; i++)
+            for (int i = x; i < 1330; i++)
             {
                 
                 LblBlanco.Left = x;

@@ -33,7 +33,7 @@ namespace MovimientoLabel
         private void button1_Click(object sender, EventArgs e)
         {
 
-            for (int i = 0; i < 230; i++)
+            for (int i = 0; i < 248; i++)
             {
                 LblRojo.Top = i;
                 this.Refresh();

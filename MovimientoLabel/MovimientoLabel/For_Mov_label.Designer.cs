@@ -29,29 +29,31 @@ namespace MovimientoLabel
         /// </summary>
         private void InitializeComponent()
         {
-            this.BtnMoverVerde = new System.Windows.Forms.Button();
+            this.BtnTurquesa = new System.Windows.Forms.Button();
             this.LblVerde = new System.Windows.Forms.Label();
             this.LblRojo = new System.Windows.Forms.Label();
-            this.BtnMoverRojo = new System.Windows.Forms.Button();
+            this.BtnRojo = new System.Windows.Forms.Button();
             this.BtnMovBlanco = new System.Windows.Forms.Button();
             this.LblBlanco = new System.Windows.Forms.Label();
             this.TxtX = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // BtnMoverVerde
+            // BtnTurquesa
             // 
-            this.BtnMoverVerde.BackColor = System.Drawing.Color.DarkTurquoise;
-            this.BtnMoverVerde.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.BtnMoverVerde.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnMoverVerde.ForeColor = System.Drawing.Color.Cornsilk;
-            this.BtnMoverVerde.Location = new System.Drawing.Point(-1, -1);
-            this.BtnMoverVerde.Name = "BtnMoverVerde";
-            this.BtnMoverVerde.Size = new System.Drawing.Size(120, 61);
-            this.BtnMoverVerde.TabIndex = 0;
-            this.BtnMoverVerde.Text = "Mover turquesa";
-            this.BtnMoverVerde.UseVisualStyleBackColor = false;
-            this.BtnMoverVerde.Click += new System.EventHandler(this.BtnMover_Click);
+            this.BtnTurquesa.BackColor = System.Drawing.Color.DarkTurquoise;
+            this.BtnTurquesa.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BtnTurquesa.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnTurquesa.ForeColor = System.Drawing.Color.Cornsilk;
+            this.BtnTurquesa.Location = new System.Drawing.Point(603, 211);
+            this.BtnTurquesa.Name = "BtnTurquesa";
+            this.BtnTurquesa.Size = new System.Drawing.Size(127, 68);
+            this.BtnTurquesa.TabIndex = 0;
+            this.BtnTurquesa.Text = "Mover turquesa";
+            this.BtnTurquesa.UseVisualStyleBackColor = false;
+            this.BtnTurquesa.Click += new System.EventHandler(this.BtnMover_Click);
             // 
             // LblVerde
             // 
@@ -72,19 +74,19 @@ namespace MovimientoLabel
             this.LblRojo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.LblRojo.Visible = false;
             // 
-            // BtnMoverRojo
+            // BtnRojo
             // 
-            this.BtnMoverRojo.BackColor = System.Drawing.Color.Crimson;
-            this.BtnMoverRojo.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.BtnMoverRojo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnMoverRojo.ForeColor = System.Drawing.Color.FloralWhite;
-            this.BtnMoverRojo.Location = new System.Drawing.Point(119, 0);
-            this.BtnMoverRojo.Name = "BtnMoverRojo";
-            this.BtnMoverRojo.Size = new System.Drawing.Size(120, 60);
-            this.BtnMoverRojo.TabIndex = 2;
-            this.BtnMoverRojo.Text = "Mover Rojo";
-            this.BtnMoverRojo.UseVisualStyleBackColor = false;
-            this.BtnMoverRojo.Click += new System.EventHandler(this.button1_Click);
+            this.BtnRojo.BackColor = System.Drawing.Color.Crimson;
+            this.BtnRojo.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BtnRojo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnRojo.ForeColor = System.Drawing.Color.FloralWhite;
+            this.BtnRojo.Location = new System.Drawing.Point(119, 0);
+            this.BtnRojo.Name = "BtnRojo";
+            this.BtnRojo.Size = new System.Drawing.Size(120, 60);
+            this.BtnRojo.TabIndex = 2;
+            this.BtnRojo.Text = "Mover Rojo";
+            this.BtnRojo.UseVisualStyleBackColor = false;
+            this.BtnRojo.Click += new System.EventHandler(this.button1_Click);
             // 
             // BtnMovBlanco
             // 
@@ -127,6 +129,25 @@ namespace MovimientoLabel
             this.label1.TabIndex = 7;
             this.label1.Text = "Trate de formar una \"T\" entre el rectangulo blanco y el rojo.. Good look !!!";
             // 
+            // label2
+            // 
+            this.label2.BackColor = System.Drawing.SystemColors.Desktop;
+            this.label2.Location = new System.Drawing.Point(578, 43);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(177, 142);
+            this.label2.TabIndex = 8;
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Sitka Small", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(393, 9);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(447, 24);
+            this.label3.TabIndex = 9;
+            this.label3.Text = "Mueva el rectángulo turquesa hacia el cuadro negro";
+            // 
             // For_Mov_label
             // 
             this.AcceptButton = this.BtnMovBlanco;
@@ -134,14 +155,16 @@ namespace MovimientoLabel
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.PowderBlue;
             this.ClientSize = new System.Drawing.Size(894, 513);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.LblBlanco);
+            this.Controls.Add(this.LblRojo);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.TxtX);
-            this.Controls.Add(this.LblBlanco);
             this.Controls.Add(this.BtnMovBlanco);
-            this.Controls.Add(this.LblRojo);
-            this.Controls.Add(this.BtnMoverRojo);
+            this.Controls.Add(this.BtnRojo);
+            this.Controls.Add(this.BtnTurquesa);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.LblVerde);
-            this.Controls.Add(this.BtnMoverVerde);
             this.Name = "For_Mov_label";
             this.Text = "Prueba movimiento label";
             this.Load += new System.EventHandler(this.For_Mov_label_Load);
@@ -152,14 +175,16 @@ namespace MovimientoLabel
 
         #endregion
 
-        private System.Windows.Forms.Button BtnMoverVerde;
+        private System.Windows.Forms.Button BtnTurquesa;
         private System.Windows.Forms.Label LblVerde;
         private System.Windows.Forms.Label LblRojo;
-        private System.Windows.Forms.Button BtnMoverRojo;
+        private System.Windows.Forms.Button BtnRojo;
         private System.Windows.Forms.Button BtnMovBlanco;
         private System.Windows.Forms.Label LblBlanco;
         private System.Windows.Forms.TextBox TxtX;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
     }
 }
 

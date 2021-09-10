@@ -36,24 +36,26 @@ namespace MovimientoLabel
             this.BtnMovBlanco = new System.Windows.Forms.Button();
             this.LblBlanco = new System.Windows.Forms.Label();
             this.TxtX = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // BtnMoverVerde
             // 
-            this.BtnMoverVerde.BackColor = System.Drawing.Color.Goldenrod;
+            this.BtnMoverVerde.BackColor = System.Drawing.Color.DarkTurquoise;
             this.BtnMoverVerde.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnMoverVerde.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnMoverVerde.Location = new System.Drawing.Point(802, 56);
+            this.BtnMoverVerde.ForeColor = System.Drawing.Color.Cornsilk;
+            this.BtnMoverVerde.Location = new System.Drawing.Point(-1, -1);
             this.BtnMoverVerde.Name = "BtnMoverVerde";
-            this.BtnMoverVerde.Size = new System.Drawing.Size(74, 61);
+            this.BtnMoverVerde.Size = new System.Drawing.Size(120, 61);
             this.BtnMoverVerde.TabIndex = 0;
-            this.BtnMoverVerde.Text = "Mover azul";
+            this.BtnMoverVerde.Text = "Mover turquesa";
             this.BtnMoverVerde.UseVisualStyleBackColor = false;
             this.BtnMoverVerde.Click += new System.EventHandler(this.BtnMover_Click);
             // 
             // LblVerde
             // 
-            this.LblVerde.BackColor = System.Drawing.Color.DarkCyan;
+            this.LblVerde.BackColor = System.Drawing.Color.DarkTurquoise;
             this.LblVerde.Location = new System.Drawing.Point(0, 83);
             this.LblVerde.Name = "LblVerde";
             this.LblVerde.Size = new System.Drawing.Size(48, 46);
@@ -72,13 +74,13 @@ namespace MovimientoLabel
             // 
             // BtnMoverRojo
             // 
-            this.BtnMoverRojo.BackColor = System.Drawing.Color.Green;
+            this.BtnMoverRojo.BackColor = System.Drawing.Color.Crimson;
             this.BtnMoverRojo.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnMoverRojo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnMoverRojo.ForeColor = System.Drawing.Color.FloralWhite;
-            this.BtnMoverRojo.Location = new System.Drawing.Point(802, -1);
+            this.BtnMoverRojo.Location = new System.Drawing.Point(756, -3);
             this.BtnMoverRojo.Name = "BtnMoverRojo";
-            this.BtnMoverRojo.Size = new System.Drawing.Size(74, 60);
+            this.BtnMoverRojo.Size = new System.Drawing.Size(120, 60);
             this.BtnMoverRojo.TabIndex = 2;
             this.BtnMoverRojo.Text = "Mover Rojo";
             this.BtnMoverRojo.UseVisualStyleBackColor = false;
@@ -89,9 +91,9 @@ namespace MovimientoLabel
             this.BtnMovBlanco.BackColor = System.Drawing.Color.GhostWhite;
             this.BtnMovBlanco.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnMovBlanco.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnMovBlanco.Location = new System.Drawing.Point(802, 116);
+            this.BtnMovBlanco.Location = new System.Drawing.Point(248, 341);
             this.BtnMovBlanco.Name = "BtnMovBlanco";
-            this.BtnMovBlanco.Size = new System.Drawing.Size(74, 61);
+            this.BtnMovBlanco.Size = new System.Drawing.Size(134, 42);
             this.BtnMovBlanco.TabIndex = 4;
             this.BtnMovBlanco.Text = "Mover blanco";
             this.BtnMovBlanco.UseVisualStyleBackColor = false;
@@ -110,10 +112,20 @@ namespace MovimientoLabel
             // TxtX
             // 
             this.TxtX.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtX.Location = new System.Drawing.Point(685, 138);
+            this.TxtX.Location = new System.Drawing.Point(468, 352);
             this.TxtX.Name = "TxtX";
             this.TxtX.Size = new System.Drawing.Size(100, 22);
             this.TxtX.TabIndex = 6;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Sitka Small", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(215, 294);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(454, 24);
+            this.label1.TabIndex = 7;
+            this.label1.Text = "Indique con numeros, la distancia que se va a mover";
             // 
             // For_Mov_label
             // 
@@ -121,7 +133,8 @@ namespace MovimientoLabel
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Gold;
-            this.ClientSize = new System.Drawing.Size(876, 355);
+            this.ClientSize = new System.Drawing.Size(876, 418);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.TxtX);
             this.Controls.Add(this.LblBlanco);
             this.Controls.Add(this.BtnMovBlanco);
@@ -146,6 +159,7 @@ namespace MovimientoLabel
         private System.Windows.Forms.Button BtnMovBlanco;
         private System.Windows.Forms.Label LblBlanco;
         private System.Windows.Forms.TextBox TxtX;
+        private System.Windows.Forms.Label label1;
     }
 }
 

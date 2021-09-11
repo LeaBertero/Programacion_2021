@@ -52,6 +52,7 @@ namespace Proyecto_pruebaMovimiento_clase
             this.LblMov.Name = "LblMov";
             this.LblMov.Size = new System.Drawing.Size(40, 40);
             this.LblMov.TabIndex = 1;
+            this.LblMov.Visible = false;
             // 
             // TxtBoxUser
             // 
@@ -62,6 +63,7 @@ namespace Proyecto_pruebaMovimiento_clase
             // 
             // Form1
             // 
+            this.AcceptButton = this.BtnMover;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkTurquoise;

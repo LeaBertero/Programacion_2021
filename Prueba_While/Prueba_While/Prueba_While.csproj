@@ -60,6 +60,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Ejemplo_Dowhile.resx">
+      <DependentUpon>Ejemplo_Dowhile.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Ejercicio_while.resx">
       <DependentUpon>Ejercicio_while.cs</DependentUpon>
     </EmbeddedResource>

@@ -28,7 +28,7 @@ namespace Prueba_While
 
                 this.Refresh();
 
-                if (LblRojo.Left + LblAzul.Width == LblAzul.Left)
+                if (LblRojo.Left + LblRojo.Width == LblAzul.Left)
                 {
                     break;
                 }
@@ -50,6 +50,11 @@ namespace Prueba_While
         {
             Form formularioSiguente = new Ejemplo_Dowhile();
             formularioSiguente.ShowDialog();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Close();
         }
     }        
 }

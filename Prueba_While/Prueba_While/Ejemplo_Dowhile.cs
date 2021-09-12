@@ -16,5 +16,26 @@ namespace Prueba_While
         {
             InitializeComponent();
         }
+
+        private void BtnComenzar_Click(object sender, EventArgs e)
+        {
+            
+
+            do
+            {
+                
+                LblBlack.Left = LblBlack.Left + 1;
+                LblWhite.Left = LblWhite.Left - 1;
+
+                this.Refresh();
+
+
+            } while (LblBlack.Left + LblBlack.Width != LblWhite.Left);
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }

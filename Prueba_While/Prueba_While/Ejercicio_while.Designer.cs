@@ -34,12 +34,13 @@ namespace Prueba_While
             this.BtnArranque = new System.Windows.Forms.Button();
             this.BtnAcomodar = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // LblRojo
             // 
             this.LblRojo.BackColor = System.Drawing.Color.Red;
-            this.LblRojo.Location = new System.Drawing.Point(98, 231);
+            this.LblRojo.Location = new System.Drawing.Point(365, 279);
             this.LblRojo.Name = "LblRojo";
             this.LblRojo.Size = new System.Drawing.Size(100, 54);
             this.LblRojo.TabIndex = 0;
@@ -48,7 +49,7 @@ namespace Prueba_While
             // LblAzul
             // 
             this.LblAzul.BackColor = System.Drawing.Color.DarkBlue;
-            this.LblAzul.Location = new System.Drawing.Point(611, 77);
+            this.LblAzul.Location = new System.Drawing.Point(623, 61);
             this.LblAzul.Name = "LblAzul";
             this.LblAzul.Size = new System.Drawing.Size(100, 54);
             this.LblAzul.TabIndex = 1;
@@ -89,12 +90,25 @@ namespace Prueba_While
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Location = new System.Drawing.Point(229, 0);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(148, 50);
+            this.button2.TabIndex = 5;
+            this.button2.Text = " Salir";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
             // Frm_While
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlText;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.BtnAcomodar);
             this.Controls.Add(this.BtnArranque);
@@ -113,6 +127,7 @@ namespace Prueba_While
         private System.Windows.Forms.Button BtnArranque;
         private System.Windows.Forms.Button BtnAcomodar;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
     }
 }
 

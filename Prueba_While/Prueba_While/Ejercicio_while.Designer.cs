@@ -1,7 +1,7 @@
 ﻿
 namespace Prueba_While
 {
-    partial class Ejercicio_while
+    partial class Frm_While
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -33,6 +33,7 @@ namespace Prueba_While
             this.LblAzul = new System.Windows.Forms.Label();
             this.BtnArranque = new System.Windows.Forms.Button();
             this.BtnAcomodar = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // LblRojo
@@ -76,17 +77,30 @@ namespace Prueba_While
             this.BtnAcomodar.UseVisualStyleBackColor = false;
             this.BtnAcomodar.Click += new System.EventHandler(this.BtnAcomodar_Click);
             // 
-            // Ejercicio_while
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(338, 364);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(188, 50);
+            this.button1.TabIndex = 4;
+            this.button1.Text = "Ir ej: Do While";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // Frm_While
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlText;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.BtnAcomodar);
             this.Controls.Add(this.BtnArranque);
             this.Controls.Add(this.LblAzul);
             this.Controls.Add(this.LblRojo);
-            this.Name = "Ejercicio_while";
+            this.Name = "Frm_While";
             this.Text = "Prueba_while";
             this.ResumeLayout(false);
 
@@ -98,6 +112,7 @@ namespace Prueba_While
         private System.Windows.Forms.Label LblAzul;
         private System.Windows.Forms.Button BtnArranque;
         private System.Windows.Forms.Button BtnAcomodar;
+        private System.Windows.Forms.Button button1;
     }
 }
 

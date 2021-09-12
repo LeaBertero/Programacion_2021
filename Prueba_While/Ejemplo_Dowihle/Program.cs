@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Prueba_While
+namespace Ejemplo_Dowihle
 {
     static class Program
     {
@@ -16,7 +16,7 @@ namespace Prueba_While
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Frm_While());
+            Application.Run(new Form1());
         }
     }
 }

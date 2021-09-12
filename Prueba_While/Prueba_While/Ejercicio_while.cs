@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Prueba_While
 {
-    public partial class Ejercicio_while : Form
+    public partial class Frm_While : Form
     {
-        public Ejercicio_while()
+        public Frm_While()
         {
             InitializeComponent();
         }
@@ -44,6 +44,12 @@ namespace Prueba_While
             LblAzul.Top = 150;
             LblRojo.Visible = true;
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form formularioSiguente = new Ejemplo_Dowhile();
+            formularioSiguente.ShowDialog();
         }
     }        
 }

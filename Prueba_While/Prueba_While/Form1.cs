@@ -28,13 +28,12 @@ namespace Prueba_While
 
                 if (LblRojo.Left + LblAzul.Width == LblAzul.Left)
                 {
-                    break;
+                   
                 }
 
-               
             }
 
-
+            
         }
 
         private void BtnAcomodar_Click(object sender, EventArgs e)

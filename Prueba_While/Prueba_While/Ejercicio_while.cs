@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Prueba_While
 {
-    public partial class Form1 : Form
+    public partial class Ejercicio_while : Form
     {
-        public Form1()
+        public Ejercicio_while()
         {
             InitializeComponent();
         }

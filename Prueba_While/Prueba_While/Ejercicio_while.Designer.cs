@@ -1,7 +1,7 @@
 ﻿
 namespace Prueba_While
 {
-    partial class Form1
+    partial class Ejercicio_while
     {
         /// <summary>
         /// Variable del diseñador necesaria.

@@ -16,18 +16,25 @@ namespace Prueba_While
         {
             InitializeComponent();
         }
-        
+
         private void BtnArranque_Click(object sender, EventArgs e)
         {
+            while (true)
+            {
+                LblAzul.Left = LblAzul.Left + 80;
+                LblRojo.Left = LblRojo.Left + 80;
+                this.Refresh();
+                break;
+                               
+            }
 
-              
+
         }
 
         private void BtnAcomodar_Click(object sender, EventArgs e)
         {
             LblRojo.Top = 50;
             LblAzul.Top = 50;
-            LblRojo.Visible = true;
         }
-    }
+    }        
 }

@@ -49,7 +49,7 @@ namespace Prueba_While
         private void button1_Click(object sender, EventArgs e)
         {
             Form formularioSiguente = new Ejemplo_Dowhile();
-            formularioSiguente.ShowDialog();
+            formularioSiguente.Show();
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -58,3 +58,5 @@ namespace Prueba_While
         }
     }        
 }
+
+

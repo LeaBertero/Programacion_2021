@@ -21,14 +21,16 @@ namespace Prueba_While
         {
             while (true)
             {
-                LblAzul.Left = LblAzul.Left - 1;
+                LblAzul.Left = LblRojo.Left - 1;
                 LblRojo.Left = LblRojo.Left + 1;
+
+                
 
                 this.Refresh();
 
                 if (LblRojo.Left + LblAzul.Width == LblAzul.Left)
                 {
-                   
+                    break;
                 }
 
             }

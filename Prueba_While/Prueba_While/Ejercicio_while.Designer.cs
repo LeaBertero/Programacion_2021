@@ -70,13 +70,13 @@ namespace Prueba_While
             this.BtnAcomodar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnAcomodar.Location = new System.Drawing.Point(50, 364);
             this.BtnAcomodar.Name = "BtnAcomodar";
-            this.BtnAcomodar.Size = new System.Drawing.Size(148, 50);
+            this.BtnAcomodar.Size = new System.Drawing.Size(188, 50);
             this.BtnAcomodar.TabIndex = 3;
-            this.BtnAcomodar.Text = "Mover arriba";
+            this.BtnAcomodar.Text = "Ubicar rectángulos";
             this.BtnAcomodar.UseVisualStyleBackColor = false;
             this.BtnAcomodar.Click += new System.EventHandler(this.BtnAcomodar_Click);
             // 
-            // Form1
+            // Ejercicio_while
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -86,7 +86,7 @@ namespace Prueba_While
             this.Controls.Add(this.BtnArranque);
             this.Controls.Add(this.LblAzul);
             this.Controls.Add(this.LblRojo);
-            this.Name = "Form1";
+            this.Name = "Ejercicio_while";
             this.Text = "Prueba_while";
             this.ResumeLayout(false);
 

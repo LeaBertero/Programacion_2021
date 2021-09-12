@@ -38,15 +38,16 @@ namespace Prueba_While
             // LblRojo
             // 
             this.LblRojo.BackColor = System.Drawing.Color.Red;
-            this.LblRojo.Location = new System.Drawing.Point(60, 231);
+            this.LblRojo.Location = new System.Drawing.Point(98, 231);
             this.LblRojo.Name = "LblRojo";
             this.LblRojo.Size = new System.Drawing.Size(100, 54);
             this.LblRojo.TabIndex = 0;
+            this.LblRojo.Visible = false;
             // 
             // LblAzul
             // 
             this.LblAzul.BackColor = System.Drawing.Color.DarkBlue;
-            this.LblAzul.Location = new System.Drawing.Point(637, 231);
+            this.LblAzul.Location = new System.Drawing.Point(611, 77);
             this.LblAzul.Name = "LblAzul";
             this.LblAzul.Size = new System.Drawing.Size(100, 54);
             this.LblAzul.TabIndex = 1;
@@ -55,11 +56,11 @@ namespace Prueba_While
             // 
             this.BtnArranque.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.BtnArranque.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnArranque.Location = new System.Drawing.Point(630, 361);
+            this.BtnArranque.Location = new System.Drawing.Point(614, 364);
             this.BtnArranque.Name = "BtnArranque";
             this.BtnArranque.Size = new System.Drawing.Size(148, 50);
             this.BtnArranque.TabIndex = 2;
-            this.BtnArranque.Text = "Posicion Left";
+            this.BtnArranque.Text = "Iniciar";
             this.BtnArranque.UseVisualStyleBackColor = false;
             this.BtnArranque.Click += new System.EventHandler(this.BtnArranque_Click);
             // 
@@ -67,11 +68,11 @@ namespace Prueba_While
             // 
             this.BtnAcomodar.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.BtnAcomodar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnAcomodar.Location = new System.Drawing.Point(12, 361);
+            this.BtnAcomodar.Location = new System.Drawing.Point(50, 364);
             this.BtnAcomodar.Name = "BtnAcomodar";
             this.BtnAcomodar.Size = new System.Drawing.Size(148, 50);
             this.BtnAcomodar.TabIndex = 3;
-            this.BtnAcomodar.Text = "Posicion Up";
+            this.BtnAcomodar.Text = "Mover arriba";
             this.BtnAcomodar.UseVisualStyleBackColor = false;
             this.BtnAcomodar.Click += new System.EventHandler(this.BtnAcomodar_Click);
             // 

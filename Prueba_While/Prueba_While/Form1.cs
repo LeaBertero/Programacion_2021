@@ -21,11 +21,17 @@ namespace Prueba_While
         {
             while (true)
             {
-                LblAzul.Left = LblAzul.Left + 80;
-                LblRojo.Left = LblRojo.Left + 80;
+                LblAzul.Left = LblAzul.Left - 1;
+                LblRojo.Left = LblRojo.Left + 1;
+
                 this.Refresh();
-                break;
-                               
+
+                if (LblRojo.Left + LblAzul.Width == LblAzul.Left)
+                {
+                    break;
+                }
+
+               
             }
 
 
@@ -33,8 +39,10 @@ namespace Prueba_While
 
         private void BtnAcomodar_Click(object sender, EventArgs e)
         {
-            LblRojo.Top = 50;
-            LblAzul.Top = 50;
+            LblRojo.Top = 70;
+            LblAzul.Top = 150;
+            LblRojo.Visible = true;
+
         }
     }        
 }

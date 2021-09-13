@@ -151,12 +151,12 @@ namespace MovimientoLabel
             // 
             // BtnSalir
             // 
-            this.BtnSalir.BackColor = System.Drawing.Color.GhostWhite;
+            this.BtnSalir.BackColor = System.Drawing.Color.MediumTurquoise;
             this.BtnSalir.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnSalir.Location = new System.Drawing.Point(777, 457);
+            this.BtnSalir.Location = new System.Drawing.Point(750, 457);
             this.BtnSalir.Name = "BtnSalir";
-            this.BtnSalir.Size = new System.Drawing.Size(93, 42);
+            this.BtnSalir.Size = new System.Drawing.Size(120, 42);
             this.BtnSalir.TabIndex = 10;
             this.BtnSalir.Text = "Cerrar";
             this.BtnSalir.UseVisualStyleBackColor = false;

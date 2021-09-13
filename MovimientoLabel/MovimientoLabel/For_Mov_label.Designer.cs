@@ -39,6 +39,7 @@ namespace MovimientoLabel
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.BtnSalir = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // BtnTurquesa
@@ -148,6 +149,19 @@ namespace MovimientoLabel
             this.label3.TabIndex = 9;
             this.label3.Text = "Mueva el rectángulo turquesa hacia el cuadro negro";
             // 
+            // BtnSalir
+            // 
+            this.BtnSalir.BackColor = System.Drawing.Color.GhostWhite;
+            this.BtnSalir.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BtnSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnSalir.Location = new System.Drawing.Point(777, 457);
+            this.BtnSalir.Name = "BtnSalir";
+            this.BtnSalir.Size = new System.Drawing.Size(93, 42);
+            this.BtnSalir.TabIndex = 10;
+            this.BtnSalir.Text = "Cerrar";
+            this.BtnSalir.UseVisualStyleBackColor = false;
+            this.BtnSalir.Click += new System.EventHandler(this.BtnSalir_Click);
+            // 
             // For_Mov_label
             // 
             this.AcceptButton = this.BtnMovBlanco;
@@ -155,6 +169,7 @@ namespace MovimientoLabel
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.PowderBlue;
             this.ClientSize = new System.Drawing.Size(894, 513);
+            this.Controls.Add(this.BtnSalir);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.LblBlanco);
             this.Controls.Add(this.LblRojo);
@@ -185,6 +200,7 @@ namespace MovimientoLabel
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button BtnSalir;
     }
 }
 

@@ -22,10 +22,11 @@ namespace MovimientoLabel
         private void BtnMover_Click(object sender, EventArgs e)
         {
 
-            for (int i = 0; i < 600; i++)
+            for (int i = 377; i < 680; i++)
             {
-                LblVerde.Left = i;
+                LblMovRojo.Left = i;
                 this.Refresh();
+                LblMovRojo.Visible = true;
             }
 
         }
@@ -42,33 +43,31 @@ namespace MovimientoLabel
             }
         }
 
-        private void For_Mov_label_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void button1_Click_1(object sender, EventArgs e)
         {
             int x = System.Convert.ToInt32(TxtX.Text);
 
-            LblBlanco.Visible = true;
-
             for (int i = x; i < 1330; i++)
             {
-                
                 LblBlanco.Left = x;
-                
+
+                LblBlanco.Visible = true;
             }
         }
 
         private void BtnSalir_Click(object sender, EventArgs e)
         {
             Close();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            for (int i = 320; i < 725; i++)
+            {
+                LblAmarillo.Left = i;
+                this.Refresh();
+                LblAmarillo.Visible = true;
+            }
         }
     }
 }

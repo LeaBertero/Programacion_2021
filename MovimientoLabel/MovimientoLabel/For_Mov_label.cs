@@ -62,7 +62,7 @@ namespace MovimientoLabel
 
         private void button2_Click(object sender, EventArgs e)
         {
-            for (int i = 320; i < 725; i++)
+            for (int i = 350; i < 725; i++)
             {
                 LblAmarillo.Left = i;
                 this.Refresh();

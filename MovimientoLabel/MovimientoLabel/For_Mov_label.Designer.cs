@@ -51,7 +51,7 @@ namespace MovimientoLabel
             this.BtnMovRojo.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnMovRojo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnMovRojo.ForeColor = System.Drawing.Color.Black;
-            this.BtnMovRojo.Location = new System.Drawing.Point(455, 250);
+            this.BtnMovRojo.Location = new System.Drawing.Point(582, 247);
             this.BtnMovRojo.Name = "BtnMovRojo";
             this.BtnMovRojo.Size = new System.Drawing.Size(120, 45);
             this.BtnMovRojo.TabIndex = 0;
@@ -153,9 +153,9 @@ namespace MovimientoLabel
             this.label3.Font = new System.Drawing.Font("Sitka Small", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(353, 9);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(517, 24);
+            this.label3.Size = new System.Drawing.Size(569, 24);
             this.label3.TabIndex = 9;
-            this.label3.Text = "Arranque los cuadros de colores para formar una bandera.. ";
+            this.label3.Text = "Arranque los botones, rojo y amarillo para formar una bandera ...";
             // 
             // BtnSalir
             // 
@@ -186,7 +186,7 @@ namespace MovimientoLabel
             this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.Black;
-            this.button2.Location = new System.Drawing.Point(303, 250);
+            this.button2.Location = new System.Drawing.Point(430, 247);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(120, 45);
             this.button2.TabIndex = 13;

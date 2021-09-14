@@ -42,6 +42,7 @@ namespace MovimientoLabel
             this.BtnSalir = new System.Windows.Forms.Button();
             this.LblAmarillo = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
+            this.label4 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // BtnMovRojo
@@ -150,7 +151,7 @@ namespace MovimientoLabel
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Sitka Small", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(202, 256);
+            this.label3.Location = new System.Drawing.Point(353, 9);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(517, 24);
             this.label3.TabIndex = 9;
@@ -161,9 +162,9 @@ namespace MovimientoLabel
             this.BtnSalir.BackColor = System.Drawing.Color.MediumTurquoise;
             this.BtnSalir.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnSalir.Location = new System.Drawing.Point(750, 457);
+            this.BtnSalir.Location = new System.Drawing.Point(1117, 9);
             this.BtnSalir.Name = "BtnSalir";
-            this.BtnSalir.Size = new System.Drawing.Size(120, 42);
+            this.BtnSalir.Size = new System.Drawing.Size(96, 42);
             this.BtnSalir.TabIndex = 10;
             this.BtnSalir.Text = "Cerrar";
             this.BtnSalir.UseVisualStyleBackColor = false;
@@ -193,13 +194,25 @@ namespace MovimientoLabel
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Sitka Small", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(5, 502);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(1145, 24);
+            this.label4.TabIndex = 14;
+            this.label4.Text = "Para comenzar, el juego de \"La T \", inicie primer con el botón azul y luego, asng" +
+    "ne un número para acomodar el rectángulo horizontal";
+            // 
             // For_Mov_label
             // 
             this.AcceptButton = this.BtnMovBlanco;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.PowderBlue;
-            this.ClientSize = new System.Drawing.Size(894, 513);
+            this.ClientSize = new System.Drawing.Size(1225, 554);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.BtnSalir);
             this.Controls.Add(this.label3);
@@ -215,7 +228,6 @@ namespace MovimientoLabel
             this.Controls.Add(this.LblAmarillo);
             this.Name = "For_Mov_label";
             this.Text = "Prueba movimiento label";
-            
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -236,6 +248,7 @@ namespace MovimientoLabel
         private System.Windows.Forms.Button BtnSalir;
         private System.Windows.Forms.Label LblAmarillo;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Label label4;
     }
 }
 

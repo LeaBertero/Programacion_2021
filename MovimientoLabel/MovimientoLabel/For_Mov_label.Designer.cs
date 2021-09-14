@@ -51,7 +51,7 @@ namespace MovimientoLabel
             this.BtnMovRojo.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnMovRojo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnMovRojo.ForeColor = System.Drawing.Color.Black;
-            this.BtnMovRojo.Location = new System.Drawing.Point(696, 309);
+            this.BtnMovRojo.Location = new System.Drawing.Point(455, 250);
             this.BtnMovRojo.Name = "BtnMovRojo";
             this.BtnMovRojo.Size = new System.Drawing.Size(120, 45);
             this.BtnMovRojo.TabIndex = 0;
@@ -186,7 +186,7 @@ namespace MovimientoLabel
             this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.Black;
-            this.button2.Location = new System.Drawing.Point(47, 309);
+            this.button2.Location = new System.Drawing.Point(303, 250);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(120, 45);
             this.button2.TabIndex = 13;

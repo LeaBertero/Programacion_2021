@@ -200,9 +200,9 @@ namespace MovimientoLabel
             this.label4.Font = new System.Drawing.Font("Sitka Small", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(5, 502);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(1145, 24);
+            this.label4.Size = new System.Drawing.Size(1140, 24);
             this.label4.TabIndex = 14;
-            this.label4.Text = "Para comenzar, el juego de \"La T \", inicie primer con el botón azul y luego, asng" +
+            this.label4.Text = "Para comenzar, el juego de \"La T \", inicie primer con el botón azul y luego, asig" +
     "ne un número para acomodar el rectángulo horizontal";
             // 
             // For_Mov_label
@@ -212,6 +212,7 @@ namespace MovimientoLabel
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.PowderBlue;
             this.ClientSize = new System.Drawing.Size(1225, 554);
+            this.Controls.Add(this.LblMovRojo);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.BtnSalir);
@@ -224,7 +225,6 @@ namespace MovimientoLabel
             this.Controls.Add(this.BtnRojoMov);
             this.Controls.Add(this.BtnMovRojo);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.LblMovRojo);
             this.Controls.Add(this.LblAmarillo);
             this.Name = "For_Mov_label";
             this.Text = "Prueba movimiento label";

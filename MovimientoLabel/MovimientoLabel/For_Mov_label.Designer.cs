@@ -86,9 +86,9 @@ namespace MovimientoLabel
             this.BtnRojoMov.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnRojoMov.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnRojoMov.ForeColor = System.Drawing.Color.FloralWhite;
-            this.BtnRojoMov.Location = new System.Drawing.Point(6, 12);
+            this.BtnRojoMov.Location = new System.Drawing.Point(389, 446);
             this.BtnRojoMov.Name = "BtnRojoMov";
-            this.BtnRojoMov.Size = new System.Drawing.Size(124, 55);
+            this.BtnRojoMov.Size = new System.Drawing.Size(147, 42);
             this.BtnRojoMov.TabIndex = 2;
             this.BtnRojoMov.Text = "Mover Azul";
             this.BtnRojoMov.UseVisualStyleBackColor = false;
@@ -134,9 +134,9 @@ namespace MovimientoLabel
             this.label1.Font = new System.Drawing.Font("Sitka Small", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(12, 395);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(638, 24);
+            this.label1.Size = new System.Drawing.Size(620, 24);
             this.label1.TabIndex = 7;
-            this.label1.Text = "Trate de formar una \"T\" entre el rectangulo blanco y el rojo.. Good look !!!";
+            this.label1.Text = "Trate de formar una \"T\" entre el rectangulo blanco y azul.. Good look !!!";
             // 
             // label2
             // 

@@ -200,10 +200,10 @@ namespace MovimientoLabel
             this.label4.Font = new System.Drawing.Font("Sitka Small", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(5, 502);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(1140, 24);
+            this.label4.Size = new System.Drawing.Size(1124, 24);
             this.label4.TabIndex = 14;
             this.label4.Text = "Para comenzar, el juego de \"La T \", inicie primer con el botón azul y luego, asig" +
-    "ne un número para acomodar el rectángulo horizontal";
+    "ne un número para acomodar el rectángulo blanco !!";
             // 
             // For_Mov_label
             // 

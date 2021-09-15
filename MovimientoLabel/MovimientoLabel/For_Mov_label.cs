@@ -52,6 +52,7 @@ namespace MovimientoLabel
                 LblBlanco.Left = x;
 
                 LblBlanco.Visible = true;
+
             }
         }
 

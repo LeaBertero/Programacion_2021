@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Juego_atrape_el_ratón
 {
-    public partial class Form1 : Form
+    public partial class Juego_Ratón : Form
     {
-        public Form1()
+        public Juego_Ratón()
         {
             InitializeComponent();
         }

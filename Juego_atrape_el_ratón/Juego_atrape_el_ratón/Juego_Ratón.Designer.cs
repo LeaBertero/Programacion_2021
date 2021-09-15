@@ -1,7 +1,7 @@
 ﻿
 namespace Juego_atrape_el_ratón
 {
-    partial class Form1
+    partial class Juego_Ratón
     {
         /// <summary>
         /// Variable del diseñador necesaria.

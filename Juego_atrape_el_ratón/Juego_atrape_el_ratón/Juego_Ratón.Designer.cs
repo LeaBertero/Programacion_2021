@@ -39,6 +39,7 @@ namespace Juego_atrape_el_ratón
             this.label3 = new System.Windows.Forms.Label();
             this.Lblmsj = new System.Windows.Forms.Label();
             this.BtnNo = new System.Windows.Forms.Button();
+            this.BtnCalculadora = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.PicRaton)).BeginInit();
             this.SuspendLayout();
             // 
@@ -161,12 +162,27 @@ namespace Juego_atrape_el_ratón
             this.BtnNo.Text = "NO";
             this.BtnNo.UseVisualStyleBackColor = false;
             // 
+            // BtnCalculadora
+            // 
+            this.BtnCalculadora.BackColor = System.Drawing.Color.Black;
+            this.BtnCalculadora.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BtnCalculadora.Font = new System.Drawing.Font("Snap ITC", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnCalculadora.ForeColor = System.Drawing.Color.Red;
+            this.BtnCalculadora.Location = new System.Drawing.Point(12, 12);
+            this.BtnCalculadora.Name = "BtnCalculadora";
+            this.BtnCalculadora.Size = new System.Drawing.Size(223, 46);
+            this.BtnCalculadora.TabIndex = 12;
+            this.BtnCalculadora.Text = "Calculadora";
+            this.BtnCalculadora.UseVisualStyleBackColor = false;
+            this.BtnCalculadora.Click += new System.EventHandler(this.BtnCalculadora_Click);
+            // 
             // BtnClickAqui
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Brown;
             this.ClientSize = new System.Drawing.Size(1171, 547);
+            this.Controls.Add(this.BtnCalculadora);
             this.Controls.Add(this.Lblmsj);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label1);
@@ -199,6 +215,7 @@ namespace Juego_atrape_el_ratón
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label Lblmsj;
         private System.Windows.Forms.Button BtnNo;
+        private System.Windows.Forms.Button BtnCalculadora;
     }
 }
 

@@ -16,7 +16,7 @@ namespace Prueba_variables_contador
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Contadores_pos_neg());
+            Application.Run(new Form1());
         }
     }
 }

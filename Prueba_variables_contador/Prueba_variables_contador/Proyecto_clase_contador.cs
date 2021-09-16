@@ -11,12 +11,12 @@ using System.Windows.Forms;
 namespace Prueba_variables_contador
 {
 
-    public partial class Contadores_pos_neg : Form
+    public partial class Form1 : Form
     {
         int numero = 0;
         int numero1 = -0;
 
-        public Contadores_pos_neg()
+        public Form1()
         {
             InitializeComponent();
         }
@@ -36,45 +36,45 @@ namespace Prueba_variables_contador
         private void BtnInicio_Click(object sender, EventArgs e)
         {
             numero++;
-            LblContador.Text = System.Convert.ToString(numero);
+            LblContadorblue.Text = System.Convert.ToString(numero);
         }
 
         private void button1_Click_1(object sender, EventArgs e)
         {
             --numero1;
-            LblContador2.Text = System.Convert.ToString(numero1);
+            LblContadorYellow.Text = System.Convert.ToString(numero1);
         }
         
         private void button2_Click(object sender, EventArgs e)
         {
-            int anchformulario = 0;
-            anchformulario = this.Height;
-            int ancholabelAmarillo = LblContador.Height;
-            int ancholargo = 10;
-            int x = 100;
+            int Altoform = 10;
+            Altoform = this.Left;
+            int ancholabelAzul = LblContadorblue.Left;
+            int Altolabel = -30;
+            int x = 50;
             int paso = 2;
 
-            while (x < anchformulario-ancholargo)
+            while (x < Altoform - Altolabel)
             {
-                this.LblContador.Height = x;
+                this.LblContadorblue.Height = Altolabel;
                 this.Refresh();
                 x = x + paso;
             }
             
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void button3_Click (object sender, EventArgs e)
         {
-            int anchformularioAzul = 0;
-            anchformularioAzul = this.Left;
-            int ancholabelAzul = LblContador2.Left;
-            int ancholargo = -100;
+            int anchoFormVerde = 0;
+            anchoFormVerde = this.Top;
+            int ancholabelAzul = LblContadorYellow.Top;
+            int Formlargo = -218;
             int x = 0;
             int paso = 2;
 
-            while (x < anchformularioAzul - ancholargo)
+            while (x < Formlargo - anchoFormVerde)
             {
-                this.LblContador2.Left = x;
+                this.LblContadorYellow.Top = x;
                 this.Refresh();
                 x = x + paso;
             }
@@ -84,7 +84,7 @@ namespace Prueba_variables_contador
         {
             MoverBoton();
 
-            if (BtnCerrar.Location == BtnSalir.Location || BtnCerrar.Location == LblContador.Location)
+            if (BtnCerrar.Location == BtnSalir.Location || BtnCerrar.Location == LblContadorblue.Location)
             {
                 MoverBoton();
             }
@@ -93,6 +93,11 @@ namespace Prueba_variables_contador
         private void BtnSalir_Click(object sender, EventArgs e)
         {
             Close();
+        }
+
+        private void BtnAparecer_Click(object sender, EventArgs e)
+        {
+            LblClose.Visible = true;
         }
     }
 }

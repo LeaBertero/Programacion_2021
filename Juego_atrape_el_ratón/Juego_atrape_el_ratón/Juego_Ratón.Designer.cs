@@ -29,6 +29,7 @@ namespace Juego_atrape_el_ratón
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(BtnClickAqui));
             this.PicRaton = new System.Windows.Forms.PictureBox();
             this.BtnMensajeFalse = new System.Windows.Forms.Button();
             this.BtnSalir = new System.Windows.Forms.Button();
@@ -60,11 +61,11 @@ namespace Juego_atrape_el_ratón
             this.BtnMensajeFalse.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnMensajeFalse.Font = new System.Drawing.Font("Snap ITC", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnMensajeFalse.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.BtnMensajeFalse.Location = new System.Drawing.Point(244, 311);
+            this.BtnMensajeFalse.Location = new System.Drawing.Point(220, 335);
             this.BtnMensajeFalse.Name = "BtnMensajeFalse";
-            this.BtnMensajeFalse.Size = new System.Drawing.Size(171, 58);
+            this.BtnMensajeFalse.Size = new System.Drawing.Size(223, 46);
             this.BtnMensajeFalse.TabIndex = 1;
-            this.BtnMensajeFalse.Text = "Click aquí";
+            this.BtnMensajeFalse.Text = "Atrapar al ratón";
             this.BtnMensajeFalse.UseVisualStyleBackColor = false;
             this.BtnMensajeFalse.Click += new System.EventHandler(this.BtnMensaje_Click);
             // 
@@ -126,11 +127,11 @@ namespace Juego_atrape_el_ratón
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Snap ITC", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.SystemColors.Control;
-            this.label3.Location = new System.Drawing.Point(154, 240);
+            this.label3.Location = new System.Drawing.Point(83, 275);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(346, 35);
+            this.label3.Size = new System.Drawing.Size(522, 35);
             this.label3.TabIndex = 10;
-            this.label3.Text = "Click para lograrlo !!";
+            this.label3.Text = "Para que no escape, click aqui !!";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Lblmsj
@@ -139,7 +140,7 @@ namespace Juego_atrape_el_ratón
             this.Lblmsj.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.Lblmsj.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.Lblmsj.Font = new System.Drawing.Font("Snap ITC", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lblmsj.Location = new System.Drawing.Point(89, 152);
+            this.Lblmsj.Location = new System.Drawing.Point(39, 163);
             this.Lblmsj.Name = "Lblmsj";
             this.Lblmsj.Size = new System.Drawing.Size(488, 41);
             this.Lblmsj.TabIndex = 11;
@@ -159,7 +160,6 @@ namespace Juego_atrape_el_ratón
             this.BtnNo.TabIndex = 7;
             this.BtnNo.Text = "NO";
             this.BtnNo.UseVisualStyleBackColor = false;
-            
             // 
             // BtnClickAqui
             // 
@@ -177,9 +177,11 @@ namespace Juego_atrape_el_ratón
             this.Controls.Add(this.BtnMensajeFalse);
             this.Controls.Add(this.PicRaton);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "BtnClickAqui";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
+            this.Text = "Podrás atraparme ?";
+            this.Load += new System.EventHandler(this.BtnClickAqui_Load);
             ((System.ComponentModel.ISupportInitialize)(this.PicRaton)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

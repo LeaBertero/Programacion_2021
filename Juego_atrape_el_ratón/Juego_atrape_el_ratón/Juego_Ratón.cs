@@ -62,6 +62,9 @@ namespace Juego_atrape_el_ratón
 
         }
 
-        
+        private void BtnClickAqui_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

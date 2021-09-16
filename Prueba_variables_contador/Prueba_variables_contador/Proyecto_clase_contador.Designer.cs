@@ -172,7 +172,7 @@ namespace Prueba_variables_contador
             this.LblClose.BackColor = System.Drawing.Color.DarkOrange;
             this.LblClose.Font = new System.Drawing.Font("MV Boli", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblClose.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.LblClose.Location = new System.Drawing.Point(204, 160);
+            this.LblClose.Location = new System.Drawing.Point(204, 186);
             this.LblClose.Name = "LblClose";
             this.LblClose.Size = new System.Drawing.Size(563, 53);
             this.LblClose.TabIndex = 10;
@@ -214,7 +214,6 @@ namespace Prueba_variables_contador
             this.Controls.Add(this.LblContadorblue);
             this.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Name = "Form1";
-            this.Opacity = 0.8D;
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "contador";

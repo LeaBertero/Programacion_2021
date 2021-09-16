@@ -45,10 +45,11 @@ namespace Prueba_variables_contador
             LblContadorYellow.Text = System.Convert.ToString(numero1);
         }
         
+        
         private void button2_Click(object sender, EventArgs e)
         {
-            int Altoform = 10;
-            Altoform = this.Left;
+            int Altoform = -50;
+            Altoform = this.Height;
             int ancholabelAzul = LblContadorblue.Left;
             int Altolabel = -30;
             int x = 50;
@@ -65,16 +66,15 @@ namespace Prueba_variables_contador
 
         private void button3_Click (object sender, EventArgs e)
         {
-            int anchoFormVerde = 0;
-            anchoFormVerde = this.Top;
-            int ancholabelAzul = LblContadorYellow.Top;
-            int Formlargo = -218;
-            int x = 0;
+            int AnchoFormVerde = 200;
+            AnchoFormVerde = this.Width;
+            int largolabelamarillo = LblContadorYellow.Top;
+            int x = 10;
             int paso = 2;
 
-            while (x < Formlargo - anchoFormVerde)
+            while (x < AnchoFormVerde - largolabelamarillo)
             {
-                this.LblContadorYellow.Top = x;
+                LblContadorYellow = x;
                 this.Refresh();
                 x = x + paso;
             }

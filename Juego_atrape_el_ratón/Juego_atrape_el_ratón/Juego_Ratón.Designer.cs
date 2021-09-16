@@ -33,11 +33,11 @@ namespace Juego_atrape_el_ratón
             this.BtnMensajeFalse = new System.Windows.Forms.Button();
             this.BtnSalir = new System.Windows.Forms.Button();
             this.LblCondicion = new System.Windows.Forms.Label();
-            this.BtnNo = new System.Windows.Forms.Button();
             this.BtnSi = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.Lblmsj = new System.Windows.Forms.Label();
+            this.BtnNo = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.PicRaton)).BeginInit();
             this.SuspendLayout();
             // 
@@ -94,19 +94,6 @@ namespace Juego_atrape_el_ratón
             this.LblCondicion.Text = "Podrás atrapar a un raton?";
             this.LblCondicion.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // BtnNo
-            // 
-            this.BtnNo.BackColor = System.Drawing.Color.Peru;
-            this.BtnNo.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.BtnNo.Font = new System.Drawing.Font("Snap ITC", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnNo.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.BtnNo.Location = new System.Drawing.Point(631, 352);
-            this.BtnNo.Name = "BtnNo";
-            this.BtnNo.Size = new System.Drawing.Size(180, 67);
-            this.BtnNo.TabIndex = 7;
-            this.BtnNo.Text = "NO";
-            this.BtnNo.UseVisualStyleBackColor = false;
-            // 
             // BtnSi
             // 
             this.BtnSi.BackColor = System.Drawing.Color.Peru;
@@ -160,6 +147,20 @@ namespace Juego_atrape_el_ratón
             this.Lblmsj.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.Lblmsj.Visible = false;
             // 
+            // BtnNo
+            // 
+            this.BtnNo.BackColor = System.Drawing.Color.Peru;
+            this.BtnNo.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BtnNo.Font = new System.Drawing.Font("Snap ITC", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnNo.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.BtnNo.Location = new System.Drawing.Point(631, 352);
+            this.BtnNo.Name = "BtnNo";
+            this.BtnNo.Size = new System.Drawing.Size(180, 67);
+            this.BtnNo.TabIndex = 7;
+            this.BtnNo.Text = "NO";
+            this.BtnNo.UseVisualStyleBackColor = false;
+            
+            // 
             // BtnClickAqui
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -179,7 +180,6 @@ namespace Juego_atrape_el_ratón
             this.Name = "BtnClickAqui";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
-            this.Load += new System.EventHandler(this.BtnClickAqui_Load);
             ((System.ComponentModel.ISupportInitialize)(this.PicRaton)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -192,11 +192,11 @@ namespace Juego_atrape_el_ratón
         private System.Windows.Forms.Button BtnMensajeFalse;
         private System.Windows.Forms.Button BtnSalir;
         private System.Windows.Forms.Label LblCondicion;
-        private System.Windows.Forms.Button BtnNo;
         private System.Windows.Forms.Button BtnSi;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label Lblmsj;
+        private System.Windows.Forms.Button BtnNo;
     }
 }
 

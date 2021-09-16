@@ -17,14 +17,6 @@ namespace Juego_atrape_el_ratón
             InitializeComponent();
         }
 
-        
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            
-        }
-
-       
 
         private void button1_Click_1(object sender, EventArgs e)
         {
@@ -33,28 +25,27 @@ namespace Juego_atrape_el_ratón
 
         private void PicRaton_Click(object sender, EventArgs e)
         {
-
+            LblCondicion.Parent = PicRaton;
         }
 
-        private void BtnClickAqui_Load(object sender, EventArgs e)
+        private void Mover_raton() 
         {
-            
+            Random r = new Random();
+            int x = r.Next(0, this.Width - PicRaton.Width);
+            int y = r.Next(0, this.Height - PicRaton.Height);
+            BtnSi.Location = new Point(x, y);
         }
 
        
+
+
 
         private void BtnSi_Click(object sender, EventArgs e)
         {
             LblCondicion.Parent = PicRaton;
         }
-        private void MoverBoton() 
-        {
-            Random r = new Random();
-            int x = r.Next(0, this.Width - BtnSi.Width);
-            int y = r.Next(0, this.Height - BtnSi.Height);
-            BtnNo.Location = new Point(x, y);
         
-        }
+
         private void BtnMensaje_Click(object sender, EventArgs e)
         {
             Lblmsj.Visible = true;
@@ -62,13 +53,15 @@ namespace Juego_atrape_el_ratón
 
         private void BtnSi_MouseMove(object sender, MouseEventArgs e)
         {
-            MoverBoton();
+            Mover_raton();
 
             if (BtnSi.Location == BtnSi.Location || BtnSi.Location == LblCondicion.Location)
             {
-                MoverBoton();
+                Mover_raton();
             }
 
         }
+
+        
     }
 }

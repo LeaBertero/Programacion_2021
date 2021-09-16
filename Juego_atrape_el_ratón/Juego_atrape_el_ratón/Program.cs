@@ -16,7 +16,7 @@ namespace Juego_atrape_el_ratón
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Juego_Ratón());
+            Application.Run(new BtnClickAqui());
         }
     }
 }

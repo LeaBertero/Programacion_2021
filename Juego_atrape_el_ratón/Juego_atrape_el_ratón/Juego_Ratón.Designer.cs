@@ -32,7 +32,7 @@ namespace Juego_atrape_el_ratón
             this.PicRaton = new System.Windows.Forms.PictureBox();
             this.BtnMensajeFalse = new System.Windows.Forms.Button();
             this.BtnSalir = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
+            this.LblCondicion = new System.Windows.Forms.Label();
             this.BtnNo = new System.Windows.Forms.Button();
             this.BtnSi = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
@@ -82,17 +82,17 @@ namespace Juego_atrape_el_ratón
             this.BtnSalir.UseVisualStyleBackColor = false;
             this.BtnSalir.Click += new System.EventHandler(this.button1_Click_1);
             // 
-            // label2
+            // LblCondicion
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Snap ITC", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.SystemColors.Control;
-            this.label2.Location = new System.Drawing.Point(571, 18);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(443, 35);
-            this.label2.TabIndex = 6;
-            this.label2.Text = "Podrás atrapar a un raton?";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.LblCondicion.AutoSize = true;
+            this.LblCondicion.Font = new System.Drawing.Font("Snap ITC", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblCondicion.ForeColor = System.Drawing.SystemColors.Control;
+            this.LblCondicion.Location = new System.Drawing.Point(595, 55);
+            this.LblCondicion.Name = "LblCondicion";
+            this.LblCondicion.Size = new System.Drawing.Size(443, 35);
+            this.LblCondicion.TabIndex = 6;
+            this.LblCondicion.Text = "Podrás atrapar a un raton?";
+            this.LblCondicion.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // BtnNo
             // 
@@ -106,7 +106,6 @@ namespace Juego_atrape_el_ratón
             this.BtnNo.TabIndex = 7;
             this.BtnNo.Text = "NO";
             this.BtnNo.UseVisualStyleBackColor = false;
-            this.BtnNo.Click += new System.EventHandler(this.BtnAtrapar_Click_1);
             // 
             // BtnSi
             // 
@@ -121,6 +120,7 @@ namespace Juego_atrape_el_ratón
             this.BtnSi.Text = "SI";
             this.BtnSi.UseVisualStyleBackColor = false;
             this.BtnSi.Click += new System.EventHandler(this.BtnSi_Click);
+            this.BtnSi.MouseMove += new System.Windows.Forms.MouseEventHandler(this.BtnSi_MouseMove);
             // 
             // label1
             // 
@@ -159,7 +159,6 @@ namespace Juego_atrape_el_ratón
             this.Lblmsj.Text = "Veo que no puedes atraparlo.. jaja";
             this.Lblmsj.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.Lblmsj.Visible = false;
-            this.Lblmsj.Click += new System.EventHandler(this.Lblmsj_Click);
             // 
             // BtnClickAqui
             // 
@@ -172,7 +171,7 @@ namespace Juego_atrape_el_ratón
             this.Controls.Add(this.label1);
             this.Controls.Add(this.BtnSi);
             this.Controls.Add(this.BtnNo);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.LblCondicion);
             this.Controls.Add(this.BtnSalir);
             this.Controls.Add(this.BtnMensajeFalse);
             this.Controls.Add(this.PicRaton);
@@ -192,7 +191,7 @@ namespace Juego_atrape_el_ratón
         private System.Windows.Forms.PictureBox PicRaton;
         private System.Windows.Forms.Button BtnMensajeFalse;
         private System.Windows.Forms.Button BtnSalir;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label LblCondicion;
         private System.Windows.Forms.Button BtnNo;
         private System.Windows.Forms.Button BtnSi;
         private System.Windows.Forms.Label label1;

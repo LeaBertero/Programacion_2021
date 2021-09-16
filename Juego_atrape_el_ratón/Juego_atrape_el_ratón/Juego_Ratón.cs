@@ -41,24 +41,34 @@ namespace Juego_atrape_el_ratón
             
         }
 
-        private void BtnAtrapar_Click_1(object sender, EventArgs e)
-        {
-
-        }
+       
 
         private void BtnSi_Click(object sender, EventArgs e)
         {
-
+            LblCondicion.Parent = PicRaton;
         }
-
+        private void MoverBoton() 
+        {
+            Random r = new Random();
+            int x = r.Next(0, this.Width - BtnSi.Width);
+            int y = r.Next(0, this.Height - BtnSi.Height);
+            BtnNo.Location = new Point(x, y);
+        
+        }
         private void BtnMensaje_Click(object sender, EventArgs e)
         {
             Lblmsj.Visible = true;
         }
 
-        private void Lblmsj_Click(object sender, EventArgs e)
+        private void BtnSi_MouseMove(object sender, MouseEventArgs e)
         {
-            
+            MoverBoton();
+
+            if (BtnSi.Location == BtnSi.Location || BtnSi.Location == LblCondicion.Location)
+            {
+                MoverBoton();
+            }
+
         }
     }
 }

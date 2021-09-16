@@ -17,24 +17,48 @@ namespace Juego_atrape_el_ratón
             InitializeComponent();
         }
 
-        private void BtnSalir_Click(object sender, EventArgs e)
-        {
-            
-        }
+        
 
         private void button1_Click(object sender, EventArgs e)
         {
             
         }
 
-        private void BtnAtrapar_Click(object sender, EventArgs e)
-        {
-            LblFalse.Visible = true;
-        }
+       
 
         private void button1_Click_1(object sender, EventArgs e)
         {
             Close();
+        }
+
+        private void PicRaton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BtnClickAqui_Load(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void BtnAtrapar_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BtnSi_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BtnMensaje_Click(object sender, EventArgs e)
+        {
+            Lblmsj.Visible = true;
+        }
+
+        private void Lblmsj_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }

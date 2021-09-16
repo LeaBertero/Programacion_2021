@@ -197,7 +197,7 @@ namespace Juego_atrape_el_ratón
             this.Name = "BtnClickAqui";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Podrás atraparme ?";
-            this.Load += new System.EventHandler(this.BtnClickAqui_Load);
+            
             ((System.ComponentModel.ISupportInitialize)(this.PicRaton)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

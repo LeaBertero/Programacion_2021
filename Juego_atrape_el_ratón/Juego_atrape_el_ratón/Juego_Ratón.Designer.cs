@@ -40,6 +40,7 @@ namespace Juego_atrape_el_ratón
             this.Lblmsj = new System.Windows.Forms.Label();
             this.BtnNo = new System.Windows.Forms.Button();
             this.BtnCalculadora = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.PicRaton)).BeginInit();
             this.SuspendLayout();
             // 
@@ -141,11 +142,11 @@ namespace Juego_atrape_el_ratón
             this.Lblmsj.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.Lblmsj.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.Lblmsj.Font = new System.Drawing.Font("Snap ITC", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lblmsj.Location = new System.Drawing.Point(568, 357);
+            this.Lblmsj.Location = new System.Drawing.Point(41, 115);
             this.Lblmsj.Name = "Lblmsj";
             this.Lblmsj.Size = new System.Drawing.Size(488, 41);
             this.Lblmsj.TabIndex = 11;
-            this.Lblmsj.Text = "Veo que no puedes atraparme.. jaja";
+            this.Lblmsj.Text = "Veo que no puedes con tu genio !";
             this.Lblmsj.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.Lblmsj.Visible = false;
             // 
@@ -176,12 +177,25 @@ namespace Juego_atrape_el_ratón
             this.BtnCalculadora.UseVisualStyleBackColor = false;
             this.BtnCalculadora.Click += new System.EventHandler(this.BtnCalculadora_Click);
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Snap ITC", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.Yellow;
+            this.label2.Location = new System.Drawing.Point(490, 369);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(624, 35);
+            this.label2.TabIndex = 13;
+            this.label2.Text = "Trata de agarrar al boton y atrapalo !!";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // BtnClickAqui
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Brown;
             this.ClientSize = new System.Drawing.Size(1171, 547);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.BtnCalculadora);
             this.Controls.Add(this.Lblmsj);
             this.Controls.Add(this.label3);
@@ -215,6 +229,7 @@ namespace Juego_atrape_el_ratón
         private System.Windows.Forms.Label Lblmsj;
         private System.Windows.Forms.Button BtnNo;
         private System.Windows.Forms.Button BtnCalculadora;
+        private System.Windows.Forms.Label label2;
     }
 }
 

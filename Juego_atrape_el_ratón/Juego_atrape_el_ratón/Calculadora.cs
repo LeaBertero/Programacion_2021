@@ -23,6 +23,8 @@ namespace Juego_atrape_el_ratón
             decimal numero2;
             decimal resultado;
 
+            LblRes.Visible = true;
+
             switch (TxtSigno.Text)
             {
                 case "+":

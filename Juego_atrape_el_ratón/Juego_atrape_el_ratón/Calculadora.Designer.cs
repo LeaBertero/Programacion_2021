@@ -59,6 +59,7 @@ namespace Juego_atrape_el_ratón
             this.LblRes.Size = new System.Drawing.Size(130, 39);
             this.LblRes.TabIndex = 1;
             this.LblRes.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.LblRes.Visible = false;
             // 
             // TxtSigno
             // 
@@ -104,6 +105,7 @@ namespace Juego_atrape_el_ratón
             this.Controls.Add(this.BtnIgual);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FrmCalculadora";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Calculadora";
             this.ResumeLayout(false);
             this.PerformLayout();

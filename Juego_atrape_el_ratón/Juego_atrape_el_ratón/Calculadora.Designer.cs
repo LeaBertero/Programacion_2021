@@ -59,7 +59,7 @@ namespace Juego_atrape_el_ratón
             this.LblRes.BackColor = System.Drawing.Color.Orange;
             this.LblRes.Font = new System.Drawing.Font("Ink Free", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblRes.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.LblRes.Location = new System.Drawing.Point(119, 323);
+            this.LblRes.Location = new System.Drawing.Point(118, 319);
             this.LblRes.Name = "LblRes";
             this.LblRes.Size = new System.Drawing.Size(163, 54);
             this.LblRes.TabIndex = 1;

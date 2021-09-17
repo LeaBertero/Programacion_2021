@@ -70,7 +70,7 @@ namespace Juego_atrape_el_ratón
 
                 default:
 
-                    LblRes.Text = "Debe ingresar numeros";
+                    LblRes.Text = "Debe ingresar una operación";
                     break;
 
                     
@@ -81,5 +81,7 @@ namespace Juego_atrape_el_ratón
         {
             Close();
         }
+
+       
     }
 }

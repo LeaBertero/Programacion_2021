@@ -102,9 +102,9 @@ namespace Juego_atrape_el_ratón
             this.BtnCerrar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnCerrar.Font = new System.Drawing.Font("Ink Free", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnCerrar.ForeColor = System.Drawing.Color.Red;
-            this.BtnCerrar.Location = new System.Drawing.Point(423, 369);
+            this.BtnCerrar.Location = new System.Drawing.Point(141, 413);
             this.BtnCerrar.Name = "BtnCerrar";
-            this.BtnCerrar.Size = new System.Drawing.Size(111, 46);
+            this.BtnCerrar.Size = new System.Drawing.Size(121, 46);
             this.BtnCerrar.TabIndex = 5;
             this.BtnCerrar.Text = "Cerrar";
             this.BtnCerrar.UseVisualStyleBackColor = false;
@@ -164,7 +164,7 @@ namespace Juego_atrape_el_ratón
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.IndianRed;
-            this.ClientSize = new System.Drawing.Size(543, 427);
+            this.ClientSize = new System.Drawing.Size(405, 505);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);

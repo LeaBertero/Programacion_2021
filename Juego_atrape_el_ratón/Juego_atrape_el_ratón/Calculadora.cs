@@ -77,6 +77,9 @@ namespace Juego_atrape_el_ratón
             }
         }
 
-        
+        private void BtnCerrar_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }

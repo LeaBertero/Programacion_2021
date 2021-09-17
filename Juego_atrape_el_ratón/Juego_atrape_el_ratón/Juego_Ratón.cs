@@ -69,5 +69,10 @@ namespace Juego_atrape_el_ratón
             Form Caculadora = new FrmCalculadora();
             Caculadora.ShowDialog();
         }
+
+        private void BtnNo_Click(object sender, EventArgs e)
+        {
+            LblTexto.Visible = true;
+        }
     }
 }

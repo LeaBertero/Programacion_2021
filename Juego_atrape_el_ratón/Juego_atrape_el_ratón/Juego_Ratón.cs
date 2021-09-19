@@ -25,7 +25,7 @@ namespace Juego_atrape_el_ratón
             LblCondicion.Parent = PicRaton;
         }
 
-        private void Mover_raton() 
+        private void Mover_boton() 
         {
             Random r = new Random();
             int x = r.Next(0, this.Width - PicRaton.Width);
@@ -46,11 +46,11 @@ namespace Juego_atrape_el_ratón
 
         private void BtnSi_MouseMove(object sender, MouseEventArgs e)
         {
-            Mover_raton();
+            Mover_boton();
 
             if (BtnSi.Location == BtnSi.Location || BtnSi.Location == LblCondicion.Location)
             {
-                Mover_raton();
+                Mover_boton();
             }
 
         }

@@ -18,10 +18,7 @@ namespace Juego_atrape_el_ratón
         }
 
 
-        private void button1_Click_1(object sender, EventArgs e)
-        {
-            Close();
-        }
+       
 
         private void PicRaton_Click(object sender, EventArgs e)
         {
@@ -36,15 +33,11 @@ namespace Juego_atrape_el_ratón
             BtnSi.Location = new Point(x, y);
         }
 
-       
-
-
-
         private void BtnSi_Click(object sender, EventArgs e)
         {
             LblCondicion.Parent = PicRaton;
         }
-        
+
 
         private void BtnMensaje_Click(object sender, EventArgs e)
         {
@@ -61,9 +54,6 @@ namespace Juego_atrape_el_ratón
             }
 
         }
-
-        
-
         private void BtnCalculadora_Click(object sender, EventArgs e)
         {
             Form Caculadora = new FrmCalculadora();
@@ -73,6 +63,13 @@ namespace Juego_atrape_el_ratón
         private void BtnNo_Click(object sender, EventArgs e)
         {
             LblTexto.Visible = true;
+        }
+
+
+
+        private void BtnCerrar_Click(object sender, EventArgs e)
+        {
+            Close();
         }
     }
 }

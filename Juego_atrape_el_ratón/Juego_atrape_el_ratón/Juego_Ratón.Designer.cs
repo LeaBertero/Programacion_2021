@@ -90,7 +90,7 @@ namespace Juego_atrape_el_ratón
             this.BtnSi.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnSi.Font = new System.Drawing.Font("Snap ITC", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnSi.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.BtnSi.Location = new System.Drawing.Point(341, 317);
+            this.BtnSi.Location = new System.Drawing.Point(335, 317);
             this.BtnSi.Name = "BtnSi";
             this.BtnSi.Size = new System.Drawing.Size(80, 55);
             this.BtnSi.TabIndex = 8;
@@ -145,7 +145,7 @@ namespace Juego_atrape_el_ratón
             this.BtnNo.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnNo.Font = new System.Drawing.Font("Snap ITC", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnNo.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.BtnNo.Location = new System.Drawing.Point(72, 317);
+            this.BtnNo.Location = new System.Drawing.Point(79, 317);
             this.BtnNo.Name = "BtnNo";
             this.BtnNo.Size = new System.Drawing.Size(80, 55);
             this.BtnNo.TabIndex = 7;

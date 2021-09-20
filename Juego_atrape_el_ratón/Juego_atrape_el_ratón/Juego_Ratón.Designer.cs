@@ -104,7 +104,7 @@ namespace Juego_atrape_el_ratón
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Snap ITC", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.Control;
-            this.label1.Location = new System.Drawing.Point(92, 169);
+            this.label1.Location = new System.Drawing.Point(102, 208);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(287, 35);
             this.label1.TabIndex = 9;

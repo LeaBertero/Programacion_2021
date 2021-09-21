@@ -31,35 +31,59 @@ namespace Ejercicio_de_movimiento_label
         {
             this.Btn_click = new System.Windows.Forms.Button();
             this.LblRojo = new System.Windows.Forms.Label();
+            this.Btn_azul = new System.Windows.Forms.Button();
+            this.LblBlanco = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // Btn_click
             // 
             this.Btn_click.BackColor = System.Drawing.Color.Chartreuse;
             this.Btn_click.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Btn_click.Location = new System.Drawing.Point(55, 45);
+            this.Btn_click.Location = new System.Drawing.Point(39, 294);
             this.Btn_click.Name = "Btn_click";
             this.Btn_click.Size = new System.Drawing.Size(133, 50);
             this.Btn_click.TabIndex = 0;
-            this.Btn_click.Text = "Click";
+            this.Btn_click.Text = "Click 1";
             this.Btn_click.UseVisualStyleBackColor = false;
             this.Btn_click.Click += new System.EventHandler(this.Btn_click_Click);
             // 
             // LblRojo
             // 
             this.LblRojo.BackColor = System.Drawing.Color.Red;
-            this.LblRojo.Location = new System.Drawing.Point(311, 395);
+            this.LblRojo.Location = new System.Drawing.Point(291, 303);
             this.LblRojo.Name = "LblRojo";
             this.LblRojo.Size = new System.Drawing.Size(100, 23);
             this.LblRojo.TabIndex = 1;
             this.LblRojo.Visible = false;
             // 
+            // Btn_azul
+            // 
+            this.Btn_azul.BackColor = System.Drawing.Color.Chartreuse;
+            this.Btn_azul.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Btn_azul.Location = new System.Drawing.Point(39, 372);
+            this.Btn_azul.Name = "Btn_azul";
+            this.Btn_azul.Size = new System.Drawing.Size(133, 50);
+            this.Btn_azul.TabIndex = 2;
+            this.Btn_azul.Text = "Click 2";
+            this.Btn_azul.UseVisualStyleBackColor = false;
+            this.Btn_azul.Click += new System.EventHandler(this.Btn_azul_Click);
+            // 
+            // LblBlanco
+            // 
+            this.LblBlanco.BackColor = System.Drawing.Color.White;
+            this.LblBlanco.Location = new System.Drawing.Point(388, 391);
+            this.LblBlanco.Name = "LblBlanco";
+            this.LblBlanco.Size = new System.Drawing.Size(100, 23);
+            this.LblBlanco.TabIndex = 3;
+            // 
             // Form_accion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.BackColor = System.Drawing.Color.Orange;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.LblBlanco);
+            this.Controls.Add(this.Btn_azul);
             this.Controls.Add(this.LblRojo);
             this.Controls.Add(this.Btn_click);
             this.Name = "Form_accion";
@@ -72,6 +96,8 @@ namespace Ejercicio_de_movimiento_label
 
         private System.Windows.Forms.Button Btn_click;
         private System.Windows.Forms.Label LblRojo;
+        private System.Windows.Forms.Button Btn_azul;
+        private System.Windows.Forms.Label LblBlanco;
     }
 }
 

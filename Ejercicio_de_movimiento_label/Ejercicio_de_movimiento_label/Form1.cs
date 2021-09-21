@@ -19,11 +19,23 @@ namespace Ejercicio_de_movimiento_label
 
         private void Btn_click_Click(object sender, EventArgs e)
         {
-            LblRojo.Visible = true;
-            this.Refresh();
             LblRojo.Top = 50;
+            LblBlanco.Top = 80;
 
+            LblRojo.Visible = true;
             
+        }
+
+        private void Btn_azul_Click(object sender, EventArgs e)
+        {
+
+            while ((LblRojo.Left = LblRojo.Width) != LblBlanco.Left)
+            {
+                LblRojo.Left = LblRojo.Left + 1;
+                LblBlanco.Left = LblBlanco.Left - 1;
+
+            }
+
         }
     }
 }

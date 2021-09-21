@@ -51,12 +51,12 @@ namespace Ejercicio_de_movimiento_label
 
         private void button1_Click(object sender, EventArgs e)
         {
-            BtnArriba.Top = BtnArriba.Top +20;
+            BtnArriba.Top = BtnArriba.Top +50;
         }
 
         private void BtnAbajo_Click(object sender, EventArgs e)
         {
-            BtnAbajo.Top = BtnAbajo.Top - 20;
+            BtnAbajo.Top = BtnAbajo.Top - 50;
         }
     }
 }

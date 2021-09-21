@@ -19,11 +19,10 @@ namespace Ejercicio_de_movimiento_label
 
         private void Btn_click_Click(object sender, EventArgs e)
         {
-            LblRojo.Top = 50;
-            LblBlanco.Top = 80;
-
-            LblRojo.Visible = true;
             
+            LblRojo.Top = 50;
+            LblBlanco.Top = 100;
+
         }
 
         private void Btn_azul_Click(object sender, EventArgs e)
@@ -31,11 +30,23 @@ namespace Ejercicio_de_movimiento_label
 
             while ((LblRojo.Left = LblRojo.Width) != LblBlanco.Left)
             {
-                LblRojo.Left = LblRojo.Left + 1;
+                LblRojo.Left = LblRojo.Left + 5;
                 LblBlanco.Left = LblBlanco.Left - 1;
 
+                this.Refresh();
             }
 
+        }
+
+        private void BtnMoverderecha_Click(object sender, EventArgs e)
+        {
+
+            BtnMoverderecha.Left = BtnMoverderecha.Right + 1;
+        }
+
+        private void BtnMoverIzquierda_Click(object sender, EventArgs e)
+        {
+            BtnMoverIzquierda.Left = BtnMoverIzquierda.Left - 80;
         }
     }
 }

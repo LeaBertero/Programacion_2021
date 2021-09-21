@@ -49,8 +49,13 @@ namespace Ejercicio_de_movimiento_label
 
         private void Btn_click_Click(object sender, EventArgs e)
         {
-            LblBlanco.Left = LblBlanco.Left - 10;
+            LblBlanco.Left = LblBlanco.Left - 70;
             this.Refresh();
+        }
+
+        private void Form_accion_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

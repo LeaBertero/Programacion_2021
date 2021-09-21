@@ -44,20 +44,20 @@ namespace Ejercicio_de_movimiento_label
             this.Btn_click.BackColor = System.Drawing.Color.Chartreuse;
             this.Btn_click.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Btn_click.Font = new System.Drawing.Font("MV Boli", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Btn_click.Location = new System.Drawing.Point(623, 239);
+            this.Btn_click.Location = new System.Drawing.Point(326, 238);
             this.Btn_click.Name = "Btn_click";
-            this.Btn_click.Size = new System.Drawing.Size(133, 50);
+            this.Btn_click.Size = new System.Drawing.Size(133, 79);
             this.Btn_click.TabIndex = 0;
-            this.Btn_click.Text = "Click 2";
+            this.Btn_click.Text = "Mover cuadrado blanco";
             this.Btn_click.UseVisualStyleBackColor = false;
             this.Btn_click.Click += new System.EventHandler(this.Btn_click_Click);
             // 
             // LblBlanco
             // 
             this.LblBlanco.BackColor = System.Drawing.Color.White;
-            this.LblBlanco.Location = new System.Drawing.Point(630, 326);
+            this.LblBlanco.Location = new System.Drawing.Point(625, 339);
             this.LblBlanco.Name = "LblBlanco";
-            this.LblBlanco.Size = new System.Drawing.Size(100, 23);
+            this.LblBlanco.Size = new System.Drawing.Size(100, 86);
             this.LblBlanco.TabIndex = 3;
             // 
             // BtnMoverderecha
@@ -119,9 +119,9 @@ namespace Ejercicio_de_movimiento_label
             // Lblprueba
             // 
             this.Lblprueba.BackColor = System.Drawing.Color.Red;
-            this.Lblprueba.Location = new System.Drawing.Point(85, 53);
+            this.Lblprueba.Location = new System.Drawing.Point(60, 44);
             this.Lblprueba.Name = "Lblprueba";
-            this.Lblprueba.Size = new System.Drawing.Size(100, 23);
+            this.Lblprueba.Size = new System.Drawing.Size(100, 86);
             this.Lblprueba.TabIndex = 9;
             // 
             // BtnPrueba
@@ -129,11 +129,11 @@ namespace Ejercicio_de_movimiento_label
             this.BtnPrueba.BackColor = System.Drawing.Color.Chartreuse;
             this.BtnPrueba.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnPrueba.Font = new System.Drawing.Font("MV Boli", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnPrueba.Location = new System.Drawing.Point(66, 96);
+            this.BtnPrueba.Location = new System.Drawing.Point(326, 133);
             this.BtnPrueba.Name = "BtnPrueba";
-            this.BtnPrueba.Size = new System.Drawing.Size(133, 50);
+            this.BtnPrueba.Size = new System.Drawing.Size(133, 79);
             this.BtnPrueba.TabIndex = 8;
-            this.BtnPrueba.Text = "Click 1";
+            this.BtnPrueba.Text = "Mover cuadrado rojo";
             this.BtnPrueba.UseVisualStyleBackColor = false;
             this.BtnPrueba.Click += new System.EventHandler(this.BtnPrueba_Click);
             // 
@@ -141,19 +141,20 @@ namespace Ejercicio_de_movimiento_label
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Orange;
+            this.BackColor = System.Drawing.Color.DarkSlateGray;
             this.ClientSize = new System.Drawing.Size(800, 485);
-            this.Controls.Add(this.Lblprueba);
-            this.Controls.Add(this.BtnPrueba);
-            this.Controls.Add(this.BtnAbajo);
-            this.Controls.Add(this.BtnMoverIzquierda);
-            this.Controls.Add(this.BtnMoverderecha);
-            this.Controls.Add(this.Btn_abajo);
-            this.Controls.Add(this.LblBlanco);
             this.Controls.Add(this.Btn_click);
+            this.Controls.Add(this.BtnPrueba);
+            this.Controls.Add(this.BtnMoverderecha);
+            this.Controls.Add(this.BtnAbajo);
+            this.Controls.Add(this.Btn_abajo);
+            this.Controls.Add(this.BtnMoverIzquierda);
+            this.Controls.Add(this.Lblprueba);
+            this.Controls.Add(this.LblBlanco);
             this.Name = "Form_accion";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "PRORMULARIO DE PRRUEBA DE MOVIMIENTO DE LABEL";
+            this.Load += new System.EventHandler(this.Form_accion_Load);
             this.ResumeLayout(false);
 
         }

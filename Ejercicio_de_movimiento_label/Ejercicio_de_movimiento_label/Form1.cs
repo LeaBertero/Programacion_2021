@@ -48,5 +48,15 @@ namespace Ejercicio_de_movimiento_label
         {
             BtnMoverIzquierda.Left = BtnMoverIzquierda.Left - 80;
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            BtnArriba.Top = BtnArriba.Top +20;
+        }
+
+        private void BtnAbajo_Click(object sender, EventArgs e)
+        {
+            BtnAbajo.Top = BtnAbajo.Top - 20;
+        }
     }
 }

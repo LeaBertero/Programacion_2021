@@ -35,13 +35,15 @@ namespace Ejercicio_de_movimiento_label
             this.LblBlanco = new System.Windows.Forms.Label();
             this.BtnMoverderecha = new System.Windows.Forms.Button();
             this.BtnMoverIzquierda = new System.Windows.Forms.Button();
+            this.BtnArriba = new System.Windows.Forms.Button();
+            this.BtnAbajo = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Btn_click
             // 
             this.Btn_click.BackColor = System.Drawing.Color.Chartreuse;
             this.Btn_click.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Btn_click.Location = new System.Drawing.Point(39, 298);
+            this.Btn_click.Location = new System.Drawing.Point(215, 372);
             this.Btn_click.Name = "Btn_click";
             this.Btn_click.Size = new System.Drawing.Size(133, 50);
             this.Btn_click.TabIndex = 0;
@@ -61,7 +63,7 @@ namespace Ejercicio_de_movimiento_label
             // 
             this.Btn_azul.BackColor = System.Drawing.Color.Chartreuse;
             this.Btn_azul.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Btn_azul.Location = new System.Drawing.Point(39, 372);
+            this.Btn_azul.Location = new System.Drawing.Point(449, 381);
             this.Btn_azul.Name = "Btn_azul";
             this.Btn_azul.Size = new System.Drawing.Size(133, 50);
             this.Btn_azul.TabIndex = 2;
@@ -103,12 +105,40 @@ namespace Ejercicio_de_movimiento_label
             this.BtnMoverIzquierda.Click += new System.EventHandler(this.BtnMoverIzquierda_Click);
             this.BtnMoverIzquierda.MouseHover += new System.EventHandler(this.BtnMoverIzquierda_Click);
             // 
+            // BtnArriba
+            // 
+            this.BtnArriba.BackColor = System.Drawing.Color.Chartreuse;
+            this.BtnArriba.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BtnArriba.Location = new System.Drawing.Point(-1, 96);
+            this.BtnArriba.Name = "BtnArriba";
+            this.BtnArriba.Size = new System.Drawing.Size(159, 50);
+            this.BtnArriba.TabIndex = 6;
+            this.BtnArriba.Text = "Deslizar hacia abajo ";
+            this.BtnArriba.UseVisualStyleBackColor = false;
+            this.BtnArriba.Click += new System.EventHandler(this.button1_Click);
+            this.BtnArriba.MouseHover += new System.EventHandler(this.button1_Click);
+            // 
+            // BtnAbajo
+            // 
+            this.BtnAbajo.BackColor = System.Drawing.Color.Chartreuse;
+            this.BtnAbajo.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BtnAbajo.Location = new System.Drawing.Point(642, 436);
+            this.BtnAbajo.Name = "BtnAbajo";
+            this.BtnAbajo.Size = new System.Drawing.Size(159, 50);
+            this.BtnAbajo.TabIndex = 7;
+            this.BtnAbajo.Text = "Deslizar hacia arriba ";
+            this.BtnAbajo.UseVisualStyleBackColor = false;
+            this.BtnAbajo.Click += new System.EventHandler(this.BtnAbajo_Click);
+            this.BtnAbajo.MouseHover += new System.EventHandler(this.BtnAbajo_Click);
+            // 
             // Form_accion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Orange;
             this.ClientSize = new System.Drawing.Size(800, 485);
+            this.Controls.Add(this.BtnAbajo);
+            this.Controls.Add(this.BtnArriba);
             this.Controls.Add(this.BtnMoverIzquierda);
             this.Controls.Add(this.BtnMoverderecha);
             this.Controls.Add(this.LblBlanco);
@@ -130,6 +160,8 @@ namespace Ejercicio_de_movimiento_label
         private System.Windows.Forms.Label LblBlanco;
         private System.Windows.Forms.Button BtnMoverderecha;
         private System.Windows.Forms.Button BtnMoverIzquierda;
+        private System.Windows.Forms.Button BtnArriba;
+        private System.Windows.Forms.Button BtnAbajo;
     }
 }
 

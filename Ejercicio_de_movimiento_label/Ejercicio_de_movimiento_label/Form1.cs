@@ -17,31 +17,12 @@ namespace Ejercicio_de_movimiento_label
             InitializeComponent();
         }
 
-        private void Btn_click_Click(object sender, EventArgs e)
-        {
-            
-            LblRojo.Top = 50;
-            LblBlanco.Top = 100;
-
-        }
-
-        private void Btn_azul_Click(object sender, EventArgs e)
-        {
-
-            while ((LblRojo.Left = LblRojo.Width) != LblBlanco.Left)
-            {
-                LblRojo.Left = LblRojo.Left + 5;
-                LblBlanco.Left = LblBlanco.Left - 1;
-
-                this.Refresh();
-            }
-
-        }
+       
 
         private void BtnMoverderecha_Click(object sender, EventArgs e)
         {
 
-            BtnMoverderecha.Left = BtnMoverderecha.Right + 1;
+            BtnMoverderecha.Left = BtnMoverderecha.Right + 5;
         }
 
         private void BtnMoverIzquierda_Click(object sender, EventArgs e)
@@ -51,12 +32,25 @@ namespace Ejercicio_de_movimiento_label
 
         private void button1_Click(object sender, EventArgs e)
         {
-            BtnArriba.Top = BtnArriba.Top +50;
+            
+            Btn_abajo.Top = Btn_abajo.Top +50;
         }
 
         private void BtnAbajo_Click(object sender, EventArgs e)
         {
             BtnAbajo.Top = BtnAbajo.Top - 50;
+        }
+
+        private void BtnPrueba_Click(object sender, EventArgs e)
+        {
+            Lblprueba.Left = Lblprueba.Right - 10;
+            this.Refresh();
+        }
+
+        private void Btn_click_Click(object sender, EventArgs e)
+        {
+            LblBlanco.Left = LblBlanco.Left - 10;
+            this.Refresh();
         }
     }
 }

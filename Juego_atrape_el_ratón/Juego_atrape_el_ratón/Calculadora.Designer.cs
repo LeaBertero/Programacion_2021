@@ -163,7 +163,7 @@ namespace Juego_atrape_el_ratón
             this.AcceptButton = this.BtnIgual;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.IndianRed;
+            this.BackColor = System.Drawing.Color.Khaki;
             this.ClientSize = new System.Drawing.Size(405, 505);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);

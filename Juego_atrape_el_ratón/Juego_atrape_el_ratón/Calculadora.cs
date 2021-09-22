@@ -70,7 +70,7 @@ namespace Juego_atrape_el_ratón
 
                 default:
 
-                    LblRes.Text = "Debe ingresar una operación";
+                    LblRes.Text = "Debe ingresar un operador";
                     break;
 
                     

@@ -23,6 +23,7 @@ namespace Juego_atrape_el_ratón
         private void PicRaton_Click(object sender, EventArgs e)
         {
             LblCondicion.Parent = PicRaton;
+            PicRaton.Left = PicRaton.Right + 30;
         }
 
         private void Mover_boton() 
@@ -80,6 +81,11 @@ namespace Juego_atrape_el_ratón
         private void label3_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void Btn_Aparecer_Click(object sender, EventArgs e)
+        {
+            PicRaton.Visible = true;
         }
     }
 }

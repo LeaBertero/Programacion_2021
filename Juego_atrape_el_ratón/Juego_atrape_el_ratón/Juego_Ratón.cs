@@ -87,5 +87,10 @@ namespace Juego_atrape_el_ratón
         {
             PicRaton.Visible = true;
         }
+
+        private void BtnParaSalir_Click(object sender, EventArgs e)
+        {
+            BtnCerrar.Visible = true;
+        }
     }
 }

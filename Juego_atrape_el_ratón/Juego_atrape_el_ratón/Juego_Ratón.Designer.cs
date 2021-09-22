@@ -45,6 +45,7 @@ namespace Juego_atrape_el_ratón
             this.Btn_Aparecer = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
+            this.BtnParaSalir = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.PicRaton)).BeginInit();
             this.SuspendLayout();
             // 
@@ -202,13 +203,14 @@ namespace Juego_atrape_el_ratón
             this.BtnCerrar.BackColor = System.Drawing.Color.Gray;
             this.BtnCerrar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnCerrar.Font = new System.Drawing.Font("Snap ITC", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnCerrar.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.BtnCerrar.Location = new System.Drawing.Point(1068, 502);
+            this.BtnCerrar.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.BtnCerrar.Location = new System.Drawing.Point(1068, 493);
             this.BtnCerrar.Name = "BtnCerrar";
-            this.BtnCerrar.Size = new System.Drawing.Size(91, 33);
+            this.BtnCerrar.Size = new System.Drawing.Size(91, 42);
             this.BtnCerrar.TabIndex = 15;
             this.BtnCerrar.Text = "Salir";
             this.BtnCerrar.UseVisualStyleBackColor = false;
+            this.BtnCerrar.Visible = false;
             this.BtnCerrar.Click += new System.EventHandler(this.BtnCerrar_Click);
             // 
             // Btn_Aparecer
@@ -249,12 +251,28 @@ namespace Juego_atrape_el_ratón
             this.label5.Text = "Si no puedes, click en \"No\"...";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // BtnParaSalir
+            // 
+            this.BtnParaSalir.BackColor = System.Drawing.Color.Gray;
+            this.BtnParaSalir.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BtnParaSalir.Font = new System.Drawing.Font("Snap ITC", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnParaSalir.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.BtnParaSalir.Location = new System.Drawing.Point(757, 502);
+            this.BtnParaSalir.Name = "BtnParaSalir";
+            this.BtnParaSalir.Size = new System.Drawing.Size(264, 33);
+            this.BtnParaSalir.TabIndex = 19;
+            this.BtnParaSalir.Text = "Click para salir -->";
+            this.BtnParaSalir.UseVisualStyleBackColor = false;
+            this.BtnParaSalir.Visible = false;
+            this.BtnParaSalir.Click += new System.EventHandler(this.BtnParaSalir_Click);
+            // 
             // BtnClickAqui
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkSeaGreen;
             this.ClientSize = new System.Drawing.Size(1171, 547);
+            this.Controls.Add(this.BtnParaSalir);
             this.Controls.Add(this.BtnNo);
             this.Controls.Add(this.BtnSi);
             this.Controls.Add(this.label5);
@@ -298,6 +316,7 @@ namespace Juego_atrape_el_ratón
         private System.Windows.Forms.Button Btn_Aparecer;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Button BtnParaSalir;
     }
 }
 

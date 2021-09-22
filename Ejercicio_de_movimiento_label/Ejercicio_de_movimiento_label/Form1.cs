@@ -63,5 +63,10 @@ namespace Ejercicio_de_movimiento_label
             Close();
             
         }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            BtnSalir.Visible = true;
+        }
     }
 }

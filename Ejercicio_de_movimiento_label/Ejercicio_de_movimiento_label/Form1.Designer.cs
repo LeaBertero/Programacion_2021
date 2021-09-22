@@ -38,6 +38,7 @@ namespace Ejercicio_de_movimiento_label
             this.Lblprueba = new System.Windows.Forms.Label();
             this.BtnPrueba = new System.Windows.Forms.Button();
             this.BtnSalir = new System.Windows.Forms.Button();
+            this.Btn_Aparecer = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Btn_click
@@ -153,7 +154,25 @@ namespace Ejercicio_de_movimiento_label
             this.BtnSalir.TabIndex = 10;
             this.BtnSalir.Text = "Salir";
             this.BtnSalir.UseVisualStyleBackColor = false;
+            this.BtnSalir.Visible = false;
             this.BtnSalir.Click += new System.EventHandler(this.BtnSalir_Click);
+            // 
+            // Btn_Aparecer
+            // 
+            this.Btn_Aparecer.BackColor = System.Drawing.Color.Chartreuse;
+            this.Btn_Aparecer.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Btn_Aparecer.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.Btn_Aparecer.FlatAppearance.BorderSize = 10;
+            this.Btn_Aparecer.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Cyan;
+            this.Btn_Aparecer.Font = new System.Drawing.Font("MV Boli", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btn_Aparecer.ForeColor = System.Drawing.Color.MediumBlue;
+            this.Btn_Aparecer.Location = new System.Drawing.Point(4, 439);
+            this.Btn_Aparecer.Name = "Btn_Aparecer";
+            this.Btn_Aparecer.Size = new System.Drawing.Size(193, 44);
+            this.Btn_Aparecer.TabIndex = 11;
+            this.Btn_Aparecer.Text = "Click para cerrar";
+            this.Btn_Aparecer.UseVisualStyleBackColor = false;
+            this.Btn_Aparecer.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // Form_accion
             // 
@@ -170,6 +189,7 @@ namespace Ejercicio_de_movimiento_label
             this.Controls.Add(this.BtnMoverIzquierda);
             this.Controls.Add(this.Lblprueba);
             this.Controls.Add(this.LblBlanco);
+            this.Controls.Add(this.Btn_Aparecer);
             this.Name = "Form_accion";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "PRORMULARIO DE PRRUEBA DE MOVIMIENTO DE LABEL";
@@ -189,6 +209,7 @@ namespace Ejercicio_de_movimiento_label
         private System.Windows.Forms.Label Lblprueba;
         private System.Windows.Forms.Button BtnPrueba;
         private System.Windows.Forms.Button BtnSalir;
+        private System.Windows.Forms.Button Btn_Aparecer;
     }
 }
 

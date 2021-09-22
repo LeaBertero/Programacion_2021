@@ -44,6 +44,7 @@ namespace Juego_atrape_el_ratón
             this.BtnCerrar = new System.Windows.Forms.Button();
             this.Btn_Aparecer = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.PicRaton)).BeginInit();
             this.SuspendLayout();
             // 
@@ -52,7 +53,7 @@ namespace Juego_atrape_el_ratón
             this.PicRaton.BackColor = System.Drawing.Color.Transparent;
             this.PicRaton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.PicRaton.Image = global::Juego_atrape_el_ratón.Properties.Resources.descargar__1_;
-            this.PicRaton.Location = new System.Drawing.Point(134, 220);
+            this.PicRaton.Location = new System.Drawing.Point(102, 286);
             this.PicRaton.Name = "PicRaton";
             this.PicRaton.Size = new System.Drawing.Size(93, 94);
             this.PicRaton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -94,7 +95,7 @@ namespace Juego_atrape_el_ratón
             this.BtnSi.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnSi.Font = new System.Drawing.Font("Snap ITC", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnSi.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.BtnSi.Location = new System.Drawing.Point(193, 329);
+            this.BtnSi.Location = new System.Drawing.Point(161, 395);
             this.BtnSi.Name = "BtnSi";
             this.BtnSi.Size = new System.Drawing.Size(80, 55);
             this.BtnSi.TabIndex = 8;
@@ -108,7 +109,7 @@ namespace Juego_atrape_el_ratón
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Snap ITC", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.Control;
-            this.label1.Location = new System.Drawing.Point(52, 178);
+            this.label1.Location = new System.Drawing.Point(21, 237);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(287, 35);
             this.label1.TabIndex = 9;
@@ -149,7 +150,7 @@ namespace Juego_atrape_el_ratón
             this.BtnNo.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnNo.Font = new System.Drawing.Font("Snap ITC", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnNo.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.BtnNo.Location = new System.Drawing.Point(89, 329);
+            this.BtnNo.Location = new System.Drawing.Point(57, 395);
             this.BtnNo.Name = "BtnNo";
             this.BtnNo.Size = new System.Drawing.Size(80, 55);
             this.BtnNo.TabIndex = 7;
@@ -188,7 +189,7 @@ namespace Juego_atrape_el_ratón
             this.LblTexto.BackColor = System.Drawing.Color.DarkOrange;
             this.LblTexto.Font = new System.Drawing.Font("Chiller", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblTexto.ForeColor = System.Drawing.SystemColors.Control;
-            this.LblTexto.Location = new System.Drawing.Point(32, 440);
+            this.LblTexto.Location = new System.Drawing.Point(14, 467);
             this.LblTexto.Name = "LblTexto";
             this.LblTexto.Size = new System.Drawing.Size(466, 68);
             this.LblTexto.TabIndex = 14;
@@ -236,12 +237,25 @@ namespace Juego_atrape_el_ratón
             this.label4.Text = "Click para iniciar";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Snap ITC", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.Yellow;
+            this.label5.Location = new System.Drawing.Point(72, 170);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(462, 35);
+            this.label5.TabIndex = 18;
+            this.label5.Text = "Si no puedes, click en \"No\"...";
+            this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // BtnClickAqui
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Brown;
             this.ClientSize = new System.Drawing.Size(1171, 547);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.PicRaton);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.Btn_Aparecer);
@@ -283,6 +297,7 @@ namespace Juego_atrape_el_ratón
         private System.Windows.Forms.Button BtnCerrar;
         private System.Windows.Forms.Button Btn_Aparecer;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
     }
 }
 

@@ -121,7 +121,7 @@ namespace Ejercicio_de_movimiento_label
             // Lblprueba
             // 
             this.Lblprueba.BackColor = System.Drawing.Color.Red;
-            this.Lblprueba.Location = new System.Drawing.Point(1, 179);
+            this.Lblprueba.Location = new System.Drawing.Point(1, 178);
             this.Lblprueba.Name = "Lblprueba";
             this.Lblprueba.Size = new System.Drawing.Size(100, 86);
             this.Lblprueba.TabIndex = 9;

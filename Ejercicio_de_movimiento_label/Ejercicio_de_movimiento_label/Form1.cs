@@ -22,7 +22,7 @@ namespace Ejercicio_de_movimiento_label
         private void BtnMoverderecha_Click(object sender, EventArgs e)
         {
 
-            BtnMoverderecha.Left = BtnMoverderecha.Right + 5;
+            BtnMoverderecha.Left = BtnMoverderecha.Right + 1;
         }
 
         private void BtnMoverIzquierda_Click(object sender, EventArgs e)
@@ -49,7 +49,7 @@ namespace Ejercicio_de_movimiento_label
 
         private void Btn_click_Click(object sender, EventArgs e)
         {
-            LblBlanco.Left = LblBlanco.Left - 70;
+            LblBlanco.Left = LblBlanco.Left - 90;
             this.Refresh();
         }
 
@@ -61,6 +61,7 @@ namespace Ejercicio_de_movimiento_label
         private void BtnSalir_Click(object sender, EventArgs e)
         {
             Close();
+            
         }
     }
 }

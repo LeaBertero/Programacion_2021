@@ -45,7 +45,7 @@ namespace Ejercicio_de_movimiento_label
             this.Btn_click.BackColor = System.Drawing.Color.Chartreuse;
             this.Btn_click.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Btn_click.Font = new System.Drawing.Font("MV Boli", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Btn_click.Location = new System.Drawing.Point(326, 284);
+            this.Btn_click.Location = new System.Drawing.Point(354, 283);
             this.Btn_click.Name = "Btn_click";
             this.Btn_click.Size = new System.Drawing.Size(133, 71);
             this.Btn_click.TabIndex = 0;
@@ -56,7 +56,7 @@ namespace Ejercicio_de_movimiento_label
             // LblBlanco
             // 
             this.LblBlanco.BackColor = System.Drawing.Color.White;
-            this.LblBlanco.Location = new System.Drawing.Point(625, 339);
+            this.LblBlanco.Location = new System.Drawing.Point(746, 179);
             this.LblBlanco.Name = "LblBlanco";
             this.LblBlanco.Size = new System.Drawing.Size(100, 86);
             this.LblBlanco.TabIndex = 3;
@@ -80,7 +80,7 @@ namespace Ejercicio_de_movimiento_label
             this.BtnMoverIzquierda.BackColor = System.Drawing.Color.Chartreuse;
             this.BtnMoverIzquierda.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnMoverIzquierda.Font = new System.Drawing.Font("MV Boli", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnMoverIzquierda.Location = new System.Drawing.Point(546, -1);
+            this.BtnMoverIzquierda.Location = new System.Drawing.Point(593, -1);
             this.BtnMoverIzquierda.Name = "BtnMoverIzquierda";
             this.BtnMoverIzquierda.Size = new System.Drawing.Size(255, 50);
             this.BtnMoverIzquierda.TabIndex = 5;
@@ -94,7 +94,7 @@ namespace Ejercicio_de_movimiento_label
             this.Btn_abajo.BackColor = System.Drawing.Color.Chartreuse;
             this.Btn_abajo.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Btn_abajo.Font = new System.Drawing.Font("MV Boli", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Btn_abajo.Location = new System.Drawing.Point(546, 60);
+            this.Btn_abajo.Location = new System.Drawing.Point(593, 60);
             this.Btn_abajo.Name = "Btn_abajo";
             this.Btn_abajo.Size = new System.Drawing.Size(255, 50);
             this.Btn_abajo.TabIndex = 6;
@@ -120,7 +120,7 @@ namespace Ejercicio_de_movimiento_label
             // Lblprueba
             // 
             this.Lblprueba.BackColor = System.Drawing.Color.Red;
-            this.Lblprueba.Location = new System.Drawing.Point(60, 44);
+            this.Lblprueba.Location = new System.Drawing.Point(1, 179);
             this.Lblprueba.Name = "Lblprueba";
             this.Lblprueba.Size = new System.Drawing.Size(100, 86);
             this.Lblprueba.TabIndex = 9;
@@ -130,7 +130,7 @@ namespace Ejercicio_de_movimiento_label
             this.BtnPrueba.BackColor = System.Drawing.Color.Chartreuse;
             this.BtnPrueba.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnPrueba.Font = new System.Drawing.Font("MV Boli", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnPrueba.Location = new System.Drawing.Point(326, 139);
+            this.BtnPrueba.Location = new System.Drawing.Point(354, 138);
             this.BtnPrueba.Name = "BtnPrueba";
             this.BtnPrueba.Size = new System.Drawing.Size(133, 71);
             this.BtnPrueba.TabIndex = 8;
@@ -147,7 +147,7 @@ namespace Ejercicio_de_movimiento_label
             this.BtnSalir.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Cyan;
             this.BtnSalir.Font = new System.Drawing.Font("MV Boli", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnSalir.ForeColor = System.Drawing.Color.MediumBlue;
-            this.BtnSalir.Location = new System.Drawing.Point(326, 226);
+            this.BtnSalir.Location = new System.Drawing.Point(354, 225);
             this.BtnSalir.Name = "BtnSalir";
             this.BtnSalir.Size = new System.Drawing.Size(133, 39);
             this.BtnSalir.TabIndex = 10;
@@ -160,7 +160,7 @@ namespace Ejercicio_de_movimiento_label
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkSlateGray;
-            this.ClientSize = new System.Drawing.Size(800, 485);
+            this.ClientSize = new System.Drawing.Size(847, 485);
             this.Controls.Add(this.BtnSalir);
             this.Controls.Add(this.Btn_click);
             this.Controls.Add(this.BtnPrueba);

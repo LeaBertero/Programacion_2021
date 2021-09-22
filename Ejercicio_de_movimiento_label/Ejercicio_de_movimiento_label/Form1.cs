@@ -45,6 +45,7 @@ namespace Ejercicio_de_movimiento_label
         {
             Lblprueba.Left = Lblprueba.Right - 10;
             this.Refresh();
+            
         }
 
         private void Btn_click_Click(object sender, EventArgs e)

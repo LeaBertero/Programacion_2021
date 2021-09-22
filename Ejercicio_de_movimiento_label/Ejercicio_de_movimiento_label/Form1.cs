@@ -57,5 +57,10 @@ namespace Ejercicio_de_movimiento_label
         {
 
         }
+
+        private void BtnSalir_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }

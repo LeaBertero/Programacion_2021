@@ -57,7 +57,7 @@ namespace Ejercicio_de_movimiento_label
             // LblBlanco
             // 
             this.LblBlanco.BackColor = System.Drawing.Color.White;
-            this.LblBlanco.Location = new System.Drawing.Point(747, 179);
+            this.LblBlanco.Location = new System.Drawing.Point(748, 179);
             this.LblBlanco.Name = "LblBlanco";
             this.LblBlanco.Size = new System.Drawing.Size(100, 86);
             this.LblBlanco.TabIndex = 3;
@@ -121,7 +121,7 @@ namespace Ejercicio_de_movimiento_label
             // Lblprueba
             // 
             this.Lblprueba.BackColor = System.Drawing.Color.Red;
-            this.Lblprueba.Location = new System.Drawing.Point(0, 179);
+            this.Lblprueba.Location = new System.Drawing.Point(1, 179);
             this.Lblprueba.Name = "Lblprueba";
             this.Lblprueba.Size = new System.Drawing.Size(100, 86);
             this.Lblprueba.TabIndex = 9;
@@ -179,9 +179,7 @@ namespace Ejercicio_de_movimiento_label
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkSlateGray;
-            this.ClientSize = new System.Drawing.Size(847, 485);
-            this.Controls.Add(this.LblBlanco);
-            this.Controls.Add(this.Lblprueba);
+            this.ClientSize = new System.Drawing.Size(848, 485);
             this.Controls.Add(this.BtnSalir);
             this.Controls.Add(this.Btn_click);
             this.Controls.Add(this.BtnPrueba);
@@ -190,6 +188,8 @@ namespace Ejercicio_de_movimiento_label
             this.Controls.Add(this.Btn_abajo);
             this.Controls.Add(this.BtnMoverIzquierda);
             this.Controls.Add(this.Btn_Aparecer);
+            this.Controls.Add(this.Lblprueba);
+            this.Controls.Add(this.LblBlanco);
             this.Name = "Form_accion";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "PRORMULARIO DE PRRUEBA DE MOVIMIENTO DE LABEL";

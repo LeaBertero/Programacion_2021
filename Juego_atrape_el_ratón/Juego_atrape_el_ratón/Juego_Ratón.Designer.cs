@@ -263,7 +263,6 @@ namespace Juego_atrape_el_ratón
             this.BtnParaSalir.TabIndex = 19;
             this.BtnParaSalir.Text = "Click para salir -->";
             this.BtnParaSalir.UseVisualStyleBackColor = false;
-            this.BtnParaSalir.Visible = false;
             this.BtnParaSalir.Click += new System.EventHandler(this.BtnParaSalir_Click);
             // 
             // BtnClickAqui

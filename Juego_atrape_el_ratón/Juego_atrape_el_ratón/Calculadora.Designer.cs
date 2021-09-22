@@ -59,9 +59,9 @@ namespace Juego_atrape_el_ratón
             this.LblRes.BackColor = System.Drawing.Color.Orange;
             this.LblRes.Font = new System.Drawing.Font("Ink Free", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblRes.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.LblRes.Location = new System.Drawing.Point(118, 319);
+            this.LblRes.Location = new System.Drawing.Point(99, 314);
             this.LblRes.Name = "LblRes";
-            this.LblRes.Size = new System.Drawing.Size(163, 54);
+            this.LblRes.Size = new System.Drawing.Size(212, 99);
             this.LblRes.TabIndex = 1;
             this.LblRes.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.LblRes.Visible = false;
@@ -102,7 +102,7 @@ namespace Juego_atrape_el_ratón
             this.BtnCerrar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnCerrar.Font = new System.Drawing.Font("Ink Free", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnCerrar.ForeColor = System.Drawing.Color.Red;
-            this.BtnCerrar.Location = new System.Drawing.Point(141, 413);
+            this.BtnCerrar.Location = new System.Drawing.Point(140, 434);
             this.BtnCerrar.Name = "BtnCerrar";
             this.BtnCerrar.Size = new System.Drawing.Size(121, 46);
             this.BtnCerrar.TabIndex = 5;

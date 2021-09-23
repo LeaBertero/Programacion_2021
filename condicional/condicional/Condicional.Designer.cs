@@ -112,7 +112,7 @@ namespace condicional
             this.Controls.Add(this.Lbl2);
             this.Controls.Add(this.Lbl1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Condicional";
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -36,60 +36,65 @@ namespace condicional
             this.TxtOper2 = new System.Windows.Forms.TextBox();
             this.LblRes = new System.Windows.Forms.Label();
             this.BtnCalcular = new System.Windows.Forms.Button();
+            this.BtnAparecerRes = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Lbl1
             // 
-            this.Lbl1.AutoSize = true;
-            this.Lbl1.Location = new System.Drawing.Point(85, 27);
+            this.Lbl1.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.Lbl1.Location = new System.Drawing.Point(49, 33);
             this.Lbl1.Name = "Lbl1";
-            this.Lbl1.Size = new System.Drawing.Size(61, 13);
+            this.Lbl1.Size = new System.Drawing.Size(111, 40);
             this.Lbl1.TabIndex = 0;
-            this.Lbl1.Text = "operando 1";
+            this.Lbl1.Text = "Número 1";
+            this.Lbl1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Lbl2
             // 
-            this.Lbl2.AutoSize = true;
-            this.Lbl2.Location = new System.Drawing.Point(365, 27);
+            this.Lbl2.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.Lbl2.Location = new System.Drawing.Point(368, 33);
             this.Lbl2.Name = "Lbl2";
-            this.Lbl2.Size = new System.Drawing.Size(58, 13);
+            this.Lbl2.Size = new System.Drawing.Size(108, 40);
             this.Lbl2.TabIndex = 1;
-            this.Lbl2.Text = "operador 2";
+            this.Lbl2.Text = "Número 2";
+            this.Lbl2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // TxtOper1
             // 
-            this.TxtOper1.Location = new System.Drawing.Point(70, 68);
+            this.TxtOper1.Location = new System.Drawing.Point(52, 101);
             this.TxtOper1.Name = "TxtOper1";
             this.TxtOper1.Size = new System.Drawing.Size(100, 20);
             this.TxtOper1.TabIndex = 2;
             // 
             // TxtOperacion
             // 
-            this.TxtOperacion.Location = new System.Drawing.Point(228, 68);
+            this.TxtOperacion.Location = new System.Drawing.Point(229, 101);
             this.TxtOperacion.Name = "TxtOperacion";
             this.TxtOperacion.Size = new System.Drawing.Size(100, 20);
             this.TxtOperacion.TabIndex = 3;
             // 
             // TxtOper2
             // 
-            this.TxtOper2.Location = new System.Drawing.Point(368, 68);
+            this.TxtOper2.Location = new System.Drawing.Point(371, 101);
             this.TxtOper2.Name = "TxtOper2";
             this.TxtOper2.Size = new System.Drawing.Size(100, 20);
             this.TxtOper2.TabIndex = 4;
             // 
             // LblRes
             // 
-            this.LblRes.AutoSize = true;
-            this.LblRes.Location = new System.Drawing.Point(620, 75);
+            this.LblRes.BackColor = System.Drawing.Color.Ivory;
+            this.LblRes.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblRes.Location = new System.Drawing.Point(759, 80);
             this.LblRes.Name = "LblRes";
-            this.LblRes.Size = new System.Drawing.Size(35, 13);
+            this.LblRes.Size = new System.Drawing.Size(113, 58);
             this.LblRes.TabIndex = 5;
-            this.LblRes.Text = "label3";
+            this.LblRes.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.LblRes.Visible = false;
             // 
             // BtnCalcular
             // 
             this.BtnCalcular.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.BtnCalcular.Location = new System.Drawing.Point(504, 60);
+            this.BtnCalcular.Location = new System.Drawing.Point(524, 93);
             this.BtnCalcular.Name = "BtnCalcular";
             this.BtnCalcular.Size = new System.Drawing.Size(84, 35);
             this.BtnCalcular.TabIndex = 6;
@@ -97,13 +102,26 @@ namespace condicional
             this.BtnCalcular.UseVisualStyleBackColor = true;
             this.BtnCalcular.Click += new System.EventHandler(this.BtnRes_Click);
             // 
+            // BtnAparecerRes
+            // 
+            this.BtnAparecerRes.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BtnAparecerRes.Font = new System.Drawing.Font("Segoe Print", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnAparecerRes.Location = new System.Drawing.Point(641, 80);
+            this.BtnAparecerRes.Name = "BtnAparecerRes";
+            this.BtnAparecerRes.Size = new System.Drawing.Size(97, 61);
+            this.BtnAparecerRes.TabIndex = 7;
+            this.BtnAparecerRes.Text = "Mostrar resultado";
+            this.BtnAparecerRes.UseVisualStyleBackColor = true;
+            this.BtnAparecerRes.Click += new System.EventHandler(this.BtnAparecerRes_Click);
+            // 
             // Form1
             // 
             this.AcceptButton = this.BtnCalcular;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LimeGreen;
-            this.ClientSize = new System.Drawing.Size(751, 159);
+            this.ClientSize = new System.Drawing.Size(913, 197);
+            this.Controls.Add(this.BtnAparecerRes);
             this.Controls.Add(this.BtnCalcular);
             this.Controls.Add(this.LblRes);
             this.Controls.Add(this.TxtOper2);
@@ -127,6 +145,7 @@ namespace condicional
         private System.Windows.Forms.TextBox TxtOper2;
         private System.Windows.Forms.Label LblRes;
         private System.Windows.Forms.Button BtnCalcular;
+        private System.Windows.Forms.Button BtnAparecerRes;
     }
 }
 

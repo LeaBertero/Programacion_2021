@@ -52,5 +52,10 @@ namespace condicional
                 LblRes.Text = res.ToString();
             }
         }
+
+        private void BtnAparecerRes_Click(object sender, EventArgs e)
+        {
+            LblRes.Visible = true;
+        }
     }
 }

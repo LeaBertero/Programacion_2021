@@ -43,7 +43,7 @@ namespace Ejercicio_de_movimiento_label
 
         private void BtnPrueba_Click(object sender, EventArgs e)
         {
-            if (LblRojo.Left <= 726)
+            if (LblRojo.Left <= 748)
             {
                 LblRojo.Left = LblRojo.Left + 5;
                 this.Refresh();

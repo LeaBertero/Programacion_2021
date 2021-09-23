@@ -192,7 +192,8 @@ namespace Ejercicio_de_movimiento_label
             this.Controls.Add(this.LblBlanco);
             this.Name = "Form_accion";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "PRORMULARIO DE PRRUEBA DE MOVIMIENTO DE LABEL";
+            this.Text = "FORMULARIO DE PRUEBA DE MOVIMIENTO DE LABEL Y BOTONES PUESTOS AL COSTADO DEL  MIS" +
+    "MO ";
             this.ResumeLayout(false);
 
         }

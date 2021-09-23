@@ -35,7 +35,7 @@ namespace Ejercicio_de_movimiento_label
             this.BtnMoverIzquierda = new System.Windows.Forms.Button();
             this.Btn_abajo = new System.Windows.Forms.Button();
             this.BtnAbajo = new System.Windows.Forms.Button();
-            this.Lblprueba = new System.Windows.Forms.Label();
+            this.LblRojo = new System.Windows.Forms.Label();
             this.BtnPrueba = new System.Windows.Forms.Button();
             this.BtnSalir = new System.Windows.Forms.Button();
             this.Btn_Aparecer = new System.Windows.Forms.Button();
@@ -118,13 +118,13 @@ namespace Ejercicio_de_movimiento_label
             this.BtnAbajo.Click += new System.EventHandler(this.BtnAbajo_Click);
             this.BtnAbajo.MouseHover += new System.EventHandler(this.BtnAbajo_Click);
             // 
-            // Lblprueba
+            // LblRojo
             // 
-            this.Lblprueba.BackColor = System.Drawing.Color.Red;
-            this.Lblprueba.Location = new System.Drawing.Point(1, 179);
-            this.Lblprueba.Name = "Lblprueba";
-            this.Lblprueba.Size = new System.Drawing.Size(100, 86);
-            this.Lblprueba.TabIndex = 9;
+            this.LblRojo.BackColor = System.Drawing.Color.Red;
+            this.LblRojo.Location = new System.Drawing.Point(1, 148);
+            this.LblRojo.Name = "LblRojo";
+            this.LblRojo.Size = new System.Drawing.Size(100, 86);
+            this.LblRojo.TabIndex = 9;
             // 
             // BtnPrueba
             // 
@@ -188,12 +188,11 @@ namespace Ejercicio_de_movimiento_label
             this.Controls.Add(this.Btn_abajo);
             this.Controls.Add(this.BtnMoverIzquierda);
             this.Controls.Add(this.Btn_Aparecer);
-            this.Controls.Add(this.Lblprueba);
+            this.Controls.Add(this.LblRojo);
             this.Controls.Add(this.LblBlanco);
             this.Name = "Form_accion";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "PRORMULARIO DE PRRUEBA DE MOVIMIENTO DE LABEL";
-            this.Load += new System.EventHandler(this.Form_accion_Load);
             this.ResumeLayout(false);
 
         }
@@ -206,7 +205,7 @@ namespace Ejercicio_de_movimiento_label
         private System.Windows.Forms.Button BtnMoverIzquierda;
         private System.Windows.Forms.Button Btn_abajo;
         private System.Windows.Forms.Button BtnAbajo;
-        private System.Windows.Forms.Label Lblprueba;
+        private System.Windows.Forms.Label LblRojo;
         private System.Windows.Forms.Button BtnPrueba;
         private System.Windows.Forms.Button BtnSalir;
         private System.Windows.Forms.Button Btn_Aparecer;

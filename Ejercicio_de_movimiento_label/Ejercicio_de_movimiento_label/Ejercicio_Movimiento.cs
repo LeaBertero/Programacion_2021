@@ -43,9 +43,9 @@ namespace Ejercicio_de_movimiento_label
 
         private void BtnPrueba_Click(object sender, EventArgs e)
         {
-            if (Lblprueba.Left <= 726)
+            if (LblRojo.Left <= 726)
             {
-                Lblprueba.Left = Lblprueba.Left + 25;
+                LblRojo.Left = LblRojo.Left + 25;
                 this.Refresh();
             }
            
@@ -54,14 +54,17 @@ namespace Ejercicio_de_movimiento_label
 
         private void Btn_click_Click(object sender, EventArgs e)
         {
-            LblBlanco.Left = LblBlanco.Left - 90;
+            LblBlanco.Left = LblBlanco.Left - 5;
             this.Refresh();
+
+            if (LblBlanco.Left <= 0)
+            {
+                LblBlanco.Left = LblBlanco.Left + 5;
+                this.Refresh();
+            }
         }
 
-        private void Form_accion_Load(object sender, EventArgs e)
-        {
-
-        }
+        
 
         private void BtnSalir_Click(object sender, EventArgs e)
         {

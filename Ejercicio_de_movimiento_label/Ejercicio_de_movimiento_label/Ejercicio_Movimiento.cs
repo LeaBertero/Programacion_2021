@@ -45,7 +45,7 @@ namespace Ejercicio_de_movimiento_label
         {
             if (LblRojo.Left <= 726)
             {
-                LblRojo.Left = LblRojo.Left + 25;
+                LblRojo.Left = LblRojo.Left + 5;
                 this.Refresh();
             }
            

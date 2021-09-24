@@ -267,6 +267,7 @@ namespace OperacionesEnTexbox
             this.button4.TabIndex = 19;
             this.button4.Text = "+";
             this.button4.UseVisualStyleBackColor = false;
+          
             // 
             // label1
             // 

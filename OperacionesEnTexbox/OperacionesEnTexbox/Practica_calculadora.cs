@@ -82,5 +82,7 @@ namespace OperacionesEnTexbox
             Form FrmCalcu2 = new FrmCalcu2();
             FrmCalcu2.ShowDialog();
         }
+
+        
     }
 }

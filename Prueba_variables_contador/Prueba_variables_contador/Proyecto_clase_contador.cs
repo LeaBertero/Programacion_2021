@@ -48,16 +48,16 @@ namespace Prueba_variables_contador
         
         private void button2_Click(object sender, EventArgs e)
         {
-            int Altoform = -50;
+            int Altoform = 500;
             Altoform = this.Height;
-            int ancholabelAzul = LblContadorblue.Left;
-            int Altolabel = -30;
-            int x = 50;
-            int paso = 2;
+            int ancholabelAzul = LblContadorblue.Top;
+            int Altolabel = 30;
+            int x = 10;
+            int paso = 5;
 
-            while (x < Altoform - Altolabel)
+            while (x < Altoform + Altolabel)
             {
-                this.LblContadorblue.Height = Altolabel;
+                this.LblContadorblue.Top =  Altolabel;
                 this.Refresh();
                 x = x + paso;
             }
@@ -66,11 +66,11 @@ namespace Prueba_variables_contador
 
         private void button3_Click (object sender, EventArgs e)
         {
-            int AnchoFormVerde = 200;
+            int AnchoFormVerde = 300;
             AnchoFormVerde = this.Width;
             int largolabelamarillo = LblContadorYellow.Top;
-            int x = 10;
-            int paso = 2;
+            int x = 0;
+            int paso = 10;
 
             while (x < AnchoFormVerde - largolabelamarillo)
             {

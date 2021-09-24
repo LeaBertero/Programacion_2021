@@ -73,7 +73,7 @@ namespace Practica_label_Texbox
             this.LblFraseResultado.TabIndex = 2;
             this.LblFraseResultado.Text = " ";
             this.LblFraseResultado.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.LblFraseResultado.Click += new System.EventHandler(this.LblFraseResultado_Click);
+            
             // 
             // TxTIngreso
             // 
@@ -93,7 +93,7 @@ namespace Practica_label_Texbox
             this.label1.TabIndex = 4;
             this.label1.Text = " Ingrese una fase";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+           
             // 
             // button1
             // 

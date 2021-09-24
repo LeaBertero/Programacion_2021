@@ -35,6 +35,8 @@ namespace Juego_atrape_el_ratón
             this.TxtIngresar = new System.Windows.Forms.TextBox();
             this.BtnMover = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.Btn_Aparecer_boton = new System.Windows.Forms.Button();
+            this.Btn_salir = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Btn_Ejecutar
@@ -43,7 +45,7 @@ namespace Juego_atrape_el_ratón
             this.Btn_Ejecutar.FlatAppearance.BorderColor = System.Drawing.Color.Red;
             this.Btn_Ejecutar.Font = new System.Drawing.Font("MV Boli", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Btn_Ejecutar.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.Btn_Ejecutar.Location = new System.Drawing.Point(469, 303);
+            this.Btn_Ejecutar.Location = new System.Drawing.Point(748, 303);
             this.Btn_Ejecutar.Name = "Btn_Ejecutar";
             this.Btn_Ejecutar.Size = new System.Drawing.Size(194, 47);
             this.Btn_Ejecutar.TabIndex = 0;
@@ -98,13 +100,44 @@ namespace Juego_atrape_el_ratón
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label1.Visible = false;
             // 
+            // Btn_Aparecer_boton
+            // 
+            this.Btn_Aparecer_boton.BackColor = System.Drawing.Color.Red;
+            this.Btn_Aparecer_boton.FlatAppearance.BorderColor = System.Drawing.Color.Red;
+            this.Btn_Aparecer_boton.Font = new System.Drawing.Font("MV Boli", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btn_Aparecer_boton.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.Btn_Aparecer_boton.Location = new System.Drawing.Point(690, -1);
+            this.Btn_Aparecer_boton.Name = "Btn_Aparecer_boton";
+            this.Btn_Aparecer_boton.Size = new System.Drawing.Size(252, 47);
+            this.Btn_Aparecer_boton.TabIndex = 5;
+            this.Btn_Aparecer_boton.Text = "Salir del programa";
+            this.Btn_Aparecer_boton.UseVisualStyleBackColor = false;
+            this.Btn_Aparecer_boton.Click += new System.EventHandler(this.Btn_Aparecer_boton_Click);
+            // 
+            // Btn_salir
+            // 
+            this.Btn_salir.BackColor = System.Drawing.Color.Red;
+            this.Btn_salir.FlatAppearance.BorderColor = System.Drawing.Color.Red;
+            this.Btn_salir.Font = new System.Drawing.Font("MV Boli", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btn_salir.ForeColor = System.Drawing.SystemColors.Control;
+            this.Btn_salir.Location = new System.Drawing.Point(48, 303);
+            this.Btn_salir.Name = "Btn_salir";
+            this.Btn_salir.Size = new System.Drawing.Size(115, 47);
+            this.Btn_salir.TabIndex = 6;
+            this.Btn_salir.Text = "Salir";
+            this.Btn_salir.UseVisualStyleBackColor = false;
+            this.Btn_salir.Visible = false;
+            this.Btn_salir.Click += new System.EventHandler(this.Btn_salir_Click);
+            // 
             // For_Mov
             // 
             this.AcceptButton = this.BtnMover;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkOrange;
-            this.ClientSize = new System.Drawing.Size(675, 362);
+            this.ClientSize = new System.Drawing.Size(954, 362);
+            this.Controls.Add(this.Btn_salir);
+            this.Controls.Add(this.Btn_Aparecer_boton);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.BtnMover);
             this.Controls.Add(this.TxtIngresar);
@@ -127,5 +160,7 @@ namespace Juego_atrape_el_ratón
         private System.Windows.Forms.TextBox TxtIngresar;
         private System.Windows.Forms.Button BtnMover;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button Btn_Aparecer_boton;
+        private System.Windows.Forms.Button Btn_salir;
     }
 }

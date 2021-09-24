@@ -44,5 +44,15 @@ namespace Juego_atrape_el_ratón
                 }
             }
         }
+
+        private void Btn_Aparecer_boton_Click(object sender, EventArgs e)
+        {
+            Btn_salir.Visible = true;
+        }
+
+        private void Btn_salir_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }

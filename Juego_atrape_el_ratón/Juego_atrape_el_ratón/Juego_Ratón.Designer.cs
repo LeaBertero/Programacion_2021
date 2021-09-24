@@ -286,10 +286,10 @@ namespace Juego_atrape_el_ratón
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkSeaGreen;
             this.ClientSize = new System.Drawing.Size(1171, 547);
+            this.Controls.Add(this.BtnSi);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.BtnParaSalir);
             this.Controls.Add(this.BtnNo);
-            this.Controls.Add(this.BtnSi);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.PicRaton);
             this.Controls.Add(this.label4);
@@ -307,7 +307,7 @@ namespace Juego_atrape_el_ratón
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "BtnClickAqui";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Podrás atraparme ?";
+            this.Text = "Podrás contra un inocente ratonsito?";
             ((System.ComponentModel.ISupportInitialize)(this.PicRaton)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

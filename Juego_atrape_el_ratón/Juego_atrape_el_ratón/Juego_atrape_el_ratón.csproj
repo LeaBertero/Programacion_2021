@@ -52,6 +52,12 @@
     <Compile Include="Calculadora.Designer.cs">
       <DependentUpon>Calculadora.cs</DependentUpon>
     </Compile>
+    <Compile Include="For_Mov.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="For_Mov.Designer.cs">
+      <DependentUpon>For_Mov.cs</DependentUpon>
+    </Compile>
     <Compile Include="Juego_Ratón.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -62,6 +68,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Calculadora.resx">
       <DependentUpon>Calculadora.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="For_Mov.resx">
+      <DependentUpon>For_Mov.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Juego_Ratón.resx">
       <DependentUpon>Juego_Ratón.cs</DependentUpon>

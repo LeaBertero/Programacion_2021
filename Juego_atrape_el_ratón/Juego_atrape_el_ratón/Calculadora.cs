@@ -82,6 +82,10 @@ namespace Juego_atrape_el_ratón
             Close();
         }
 
-       
+        private void BtnNewForm_Click(object sender, EventArgs e)
+        {
+            Form for_mov = new For_Mov();
+            for_mov.ShowDialog();
+        }
     }
 }

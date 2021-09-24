@@ -135,7 +135,7 @@ namespace Juego_atrape_el_ratón
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkOrange;
-            this.ClientSize = new System.Drawing.Size(954, 362);
+            this.ClientSize = new System.Drawing.Size(991, 362);
             this.Controls.Add(this.Btn_salir);
             this.Controls.Add(this.Btn_Aparecer_boton);
             this.Controls.Add(this.label1);
@@ -145,7 +145,6 @@ namespace Juego_atrape_el_ratón
             this.Controls.Add(this.Btn_Ejecutar);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "For_Mov";
-            this.Opacity = 0.8D;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Objetos escondidos";
             this.ResumeLayout(false);

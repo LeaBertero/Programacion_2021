@@ -29,19 +29,21 @@ namespace Juego_atrape_el_ratón
             int x = System.Convert.ToInt32(TxtIngresar.Text);
             
 
-            for (; ; )
+            for ( ; ; )
             {
 
-                x = x + 2;
+                x = x + 10;
                 LblMovimiento.Left = x;
                 this.Refresh();
 
-                if (x >= 500)
+                if (x >= 100)
                 {
                     this.Refresh();
                     break;
 
                 }
+
+                
             }
         }
 

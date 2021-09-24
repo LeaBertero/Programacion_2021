@@ -74,7 +74,7 @@ namespace Prueba_variables_contador
 
             while (x < AnchoFormVerde - largolabelamarillo)
             {
-                LblContadorYellow = x;
+                LblContadorYellow.Left = x;
                 this.Refresh();
                 x = x + paso;
             }

@@ -44,5 +44,10 @@ namespace Prueba_Try_catch
         {
             LblError.Visible = false;
         }
+
+        private void BtnCerrar_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }

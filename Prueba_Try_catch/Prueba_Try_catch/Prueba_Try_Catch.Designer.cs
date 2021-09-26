@@ -37,6 +37,7 @@ namespace Prueba_Try_catch
             this.LblError = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.BtnBorrarMensaje = new System.Windows.Forms.Button();
+            this.BtnCerrar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // TxtNum2
@@ -126,6 +127,20 @@ namespace Prueba_Try_catch
             this.BtnBorrarMensaje.UseVisualStyleBackColor = false;
             this.BtnBorrarMensaje.Click += new System.EventHandler(this.button1_Click);
             // 
+            // BtnCerrar
+            // 
+            this.BtnCerrar.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.BtnCerrar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BtnCerrar.Font = new System.Drawing.Font("Book Antiqua", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnCerrar.ForeColor = System.Drawing.Color.Gold;
+            this.BtnCerrar.Location = new System.Drawing.Point(666, 389);
+            this.BtnCerrar.Name = "BtnCerrar";
+            this.BtnCerrar.Size = new System.Drawing.Size(128, 55);
+            this.BtnCerrar.TabIndex = 8;
+            this.BtnCerrar.Text = "Salir";
+            this.BtnCerrar.UseVisualStyleBackColor = false;
+            this.BtnCerrar.Click += new System.EventHandler(this.BtnCerrar_Click);
+            // 
             // Prueba_Try_Catch
             // 
             this.AcceptButton = this.BtnEjecutar;
@@ -133,6 +148,7 @@ namespace Prueba_Try_catch
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.BtnCerrar);
             this.Controls.Add(this.BtnBorrarMensaje);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label3);
@@ -158,6 +174,7 @@ namespace Prueba_Try_catch
         private System.Windows.Forms.Label LblError;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button BtnBorrarMensaje;
+        private System.Windows.Forms.Button BtnCerrar;
     }
 }
 

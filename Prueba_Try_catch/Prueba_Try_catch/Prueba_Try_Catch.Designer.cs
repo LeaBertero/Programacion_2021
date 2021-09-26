@@ -41,16 +41,18 @@ namespace Prueba_Try_catch
             // 
             // TxtNum2
             // 
+            this.TxtNum2.Font = new System.Drawing.Font("MV Boli", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TxtNum2.Location = new System.Drawing.Point(298, 176);
             this.TxtNum2.Name = "TxtNum2";
-            this.TxtNum2.Size = new System.Drawing.Size(100, 20);
+            this.TxtNum2.Size = new System.Drawing.Size(100, 32);
             this.TxtNum2.TabIndex = 0;
             // 
             // TxtNum1
             // 
+            this.TxtNum1.Font = new System.Drawing.Font("MV Boli", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TxtNum1.Location = new System.Drawing.Point(104, 176);
             this.TxtNum1.Name = "TxtNum1";
-            this.TxtNum1.Size = new System.Drawing.Size(100, 20);
+            this.TxtNum1.Size = new System.Drawing.Size(100, 32);
             this.TxtNum1.TabIndex = 1;
             this.TxtNum1.TextChanged += new System.EventHandler(this.TxtNum1_TextChanged);
             // 

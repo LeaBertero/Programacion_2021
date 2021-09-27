@@ -1,7 +1,7 @@
 ﻿
 namespace Repeticion_Aleatoria
 {
-    partial class Form1
+    partial class Movimiento_aleatorio
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -36,7 +36,7 @@ namespace Repeticion_Aleatoria
             // Lbl_aleatorio
             // 
             this.Lbl_aleatorio.BackColor = System.Drawing.Color.Red;
-            this.Lbl_aleatorio.Location = new System.Drawing.Point(12, 9);
+            this.Lbl_aleatorio.Location = new System.Drawing.Point(74, 300);
             this.Lbl_aleatorio.Name = "Lbl_aleatorio";
             this.Lbl_aleatorio.Size = new System.Drawing.Size(117, 73);
             this.Lbl_aleatorio.TabIndex = 0;

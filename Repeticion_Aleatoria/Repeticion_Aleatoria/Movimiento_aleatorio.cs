@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Repeticion_Aleatoria
 {
-    public partial class Form1 : Form
+    public partial class Movimiento_aleatorio : Form
     {
-        public Form1()
+        public Movimiento_aleatorio()
         {
             InitializeComponent();
         }
@@ -24,8 +24,17 @@ namespace Repeticion_Aleatoria
             int PasoV = 1;
             int pasoH = 1;
 
+            Random RandomSentido = new Random(450);
+            Random RandomPaso = new Random(14578);
+
             for (int i = 0; i < 100; i++)
             {
+                sentidoH = RandomSentido.Next(i);
+                sentidoV = RandomSentido.Next(-1,1);
+
+                pasoH = RandomPaso.Next(0,5);
+                PasoV = RandomPaso.Next(0, 7);
+
                 Lbl_aleatorio.Left = Lbl_aleatorio.Left + (pasoH * sentidoH);
                 Lbl_aleatorio.Top = Lbl_aleatorio.Top + (PasoV * sentidoV);
                 this.Refresh();

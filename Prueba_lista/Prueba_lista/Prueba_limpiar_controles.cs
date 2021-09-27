@@ -33,6 +33,7 @@ namespace Prueba_lista
             textBox1.Visible = true;
             textBox1.Enabled = true;
             //textBox1.Enabled = false;
+            textBox1.Focus();
         }
 
         private void button1_Click(object sender, EventArgs e)

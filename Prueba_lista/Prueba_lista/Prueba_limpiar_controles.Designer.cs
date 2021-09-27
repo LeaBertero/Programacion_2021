@@ -41,7 +41,7 @@ namespace Prueba_lista
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(105, 53);
+            this.button3.Location = new System.Drawing.Point(49, 33);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(137, 32);
             this.button3.TabIndex = 9;
@@ -53,16 +53,16 @@ namespace Prueba_lista
             // 
             this.label5.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label5.ForeColor = System.Drawing.SystemColors.Control;
-            this.label5.Location = new System.Drawing.Point(102, 103);
+            this.label5.Location = new System.Drawing.Point(46, 84);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(203, 34);
+            this.label5.Size = new System.Drawing.Size(203, 42);
             this.label5.TabIndex = 10;
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label5.Visible = false;
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(105, 159);
+            this.button4.Location = new System.Drawing.Point(49, 157);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(96, 37);
             this.button4.TabIndex = 11;
@@ -72,7 +72,7 @@ namespace Prueba_lista
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(253, 335);
+            this.button1.Location = new System.Drawing.Point(558, 89);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(119, 37);
             this.button1.TabIndex = 13;
@@ -82,7 +82,7 @@ namespace Prueba_lista
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(105, 223);
+            this.button2.Location = new System.Drawing.Point(369, 27);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(137, 32);
             this.button2.TabIndex = 12;
@@ -92,15 +92,16 @@ namespace Prueba_lista
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(105, 287);
+            this.textBox1.Font = new System.Drawing.Font("Segoe Print", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(545, 25);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(188, 20);
+            this.textBox1.Size = new System.Drawing.Size(188, 36);
             this.textBox1.TabIndex = 14;
             this.textBox1.Visible = false;
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(105, 335);
+            this.button5.Location = new System.Drawing.Point(378, 89);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(119, 37);
             this.button5.TabIndex = 16;
@@ -110,7 +111,7 @@ namespace Prueba_lista
             // 
             // button6
             // 
-            this.button6.Location = new System.Drawing.Point(174, 401);
+            this.button6.Location = new System.Drawing.Point(460, 172);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(119, 37);
             this.button6.TabIndex = 17;

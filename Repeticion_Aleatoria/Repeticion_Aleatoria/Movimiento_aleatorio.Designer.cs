@@ -36,14 +36,14 @@ namespace Repeticion_Aleatoria
             // Lbl_aleatorio
             // 
             this.Lbl_aleatorio.BackColor = System.Drawing.Color.Red;
-            this.Lbl_aleatorio.Location = new System.Drawing.Point(74, 300);
+            this.Lbl_aleatorio.Location = new System.Drawing.Point(12, 9);
             this.Lbl_aleatorio.Name = "Lbl_aleatorio";
-            this.Lbl_aleatorio.Size = new System.Drawing.Size(117, 73);
+            this.Lbl_aleatorio.Size = new System.Drawing.Size(58, 57);
             this.Lbl_aleatorio.TabIndex = 0;
             // 
             // Btn_comenzar
             // 
-            this.Btn_comenzar.Location = new System.Drawing.Point(528, 97);
+            this.Btn_comenzar.Location = new System.Drawing.Point(526, 58);
             this.Btn_comenzar.Name = "Btn_comenzar";
             this.Btn_comenzar.Size = new System.Drawing.Size(95, 54);
             this.Btn_comenzar.TabIndex = 1;
@@ -51,15 +51,16 @@ namespace Repeticion_Aleatoria
             this.Btn_comenzar.UseVisualStyleBackColor = true;
             this.Btn_comenzar.Click += new System.EventHandler(this.Btn_comenzar_Click);
             // 
-            // Form1
+            // Movimiento_aleatorio
             // 
+            this.AcceptButton = this.Btn_comenzar;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkOrange;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.Btn_comenzar);
             this.Controls.Add(this.Lbl_aleatorio);
-            this.Name = "Form1";
+            this.Name = "Movimiento_aleatorio";
             this.Text = "Repeticion aleatoria";
             this.ResumeLayout(false);
 

@@ -25,18 +25,18 @@ namespace Repeticion_Aleatoria
             int pasoH = 1;
 
             Random RandomSentido = new Random(450);
-            Random RandomPaso = new Random(14578);
+            Random RandomPaso = new Random(78);
 
-            for (int i = 0; i < 100; i++)
+            for (int i = 0; i <= 80; i++)
             {
                 sentidoH = RandomSentido.Next(i);
-                sentidoV = RandomSentido.Next(-1,1);
+                sentidoV = RandomSentido.Next(i);
 
-                pasoH = RandomPaso.Next(0,5);
-                PasoV = RandomPaso.Next(0, 7);
+                pasoH = RandomPaso.Next(0,15);
+                PasoV = RandomPaso.Next(0,30);
 
-                Lbl_aleatorio.Left = Lbl_aleatorio.Left + (pasoH * sentidoH);
-                Lbl_aleatorio.Top = Lbl_aleatorio.Top + (PasoV * sentidoV);
+                Lbl_aleatorio.Left = Lbl_aleatorio.Left + (pasoH + sentidoH);
+                Lbl_aleatorio.Top = Lbl_aleatorio.Top + (PasoV + sentidoV);
                 this.Refresh();
             }
         }

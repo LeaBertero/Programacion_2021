@@ -93,7 +93,7 @@ namespace Ejemplo_carga_de_personas
             this.LblMostrar.TabIndex = 8;
             this.LblMostrar.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // Inscripión_materias
+            // PrimerClase
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -106,8 +106,8 @@ namespace Ejemplo_carga_de_personas
             this.Controls.Add(this.TxtApellido);
             this.Controls.Add(this.BtnMostrar);
             this.ForeColor = System.Drawing.Color.Black;
-            this.Name = "Inscripión_materias";
-            this.Text = "Ejemplo de carga de personas";
+            this.Name = "PrimerClase";
+            this.Text = "Primer_clase";
             this.ResumeLayout(false);
             this.PerformLayout();
 

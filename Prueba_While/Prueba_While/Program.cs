@@ -16,7 +16,7 @@ namespace Prueba_While
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Frm_While());
+            Application.Run(new Ejemplo_Dowhile());
         }
     }
 }

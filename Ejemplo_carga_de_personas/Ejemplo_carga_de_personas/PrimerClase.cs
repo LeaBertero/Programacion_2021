@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Ejemplo_carga_de_personas
 {
-    public partial class Inscripión_materias : Form
+    public partial class PrimerClase : Form
     {
-        public Inscripión_materias()
+        public PrimerClase()
         {
             InitializeComponent();
         }

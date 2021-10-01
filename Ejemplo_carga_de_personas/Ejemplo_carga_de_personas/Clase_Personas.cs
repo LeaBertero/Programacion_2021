@@ -17,8 +17,9 @@ namespace Ejemplo_carga_de_personas
             InitializeComponent();
         }
 
-        
+        private void BtnMostrar_Click(object sender, EventArgs e)
+        {
 
-        
+        }
     }
 }

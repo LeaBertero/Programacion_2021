@@ -47,6 +47,7 @@ namespace Ejemplo_carga_de_personas
             this.BtnMostrar.TabIndex = 0;
             this.BtnMostrar.Text = "Mostrar";
             this.BtnMostrar.UseVisualStyleBackColor = false;
+            this.BtnMostrar.Click += new System.EventHandler(this.BtnMostrar_Click);
             // 
             // TxtApellido
             // 
@@ -93,7 +94,7 @@ namespace Ejemplo_carga_de_personas
             this.LblMostrar.TabIndex = 8;
             this.LblMostrar.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // PrimerClase
+            // Clase_Personas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -106,7 +107,7 @@ namespace Ejemplo_carga_de_personas
             this.Controls.Add(this.TxtApellido);
             this.Controls.Add(this.BtnMostrar);
             this.ForeColor = System.Drawing.Color.Black;
-            this.Name = "PrimerClase";
+            this.Name = "Clase_Personas";
             this.Text = "Primer_clase";
             this.ResumeLayout(false);
             this.PerformLayout();

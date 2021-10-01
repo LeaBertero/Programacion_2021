@@ -1,7 +1,7 @@
 ﻿
 namespace Ejemplo_carga_de_personas
 {
-    partial class PrimerClase
+    partial class Clase_Personas
     {
         /// <summary>
         /// Variable del diseñador necesaria.

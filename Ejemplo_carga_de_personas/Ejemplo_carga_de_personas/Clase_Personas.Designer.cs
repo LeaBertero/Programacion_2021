@@ -1,7 +1,7 @@
 ﻿
 namespace Ejemplo_carga_de_personas
 {
-    partial class Clase_Personas
+    partial class Clase_Persona
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -94,7 +94,7 @@ namespace Ejemplo_carga_de_personas
             this.LblMostrar.TabIndex = 8;
             this.LblMostrar.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // Clase_Personas
+            // Clase_Persona
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -108,7 +108,7 @@ namespace Ejemplo_carga_de_personas
             this.Controls.Add(this.BtnMostrar);
             this.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ForeColor = System.Drawing.Color.Black;
-            this.Name = "Clase_Personas";
+            this.Name = "Clase_Persona";
             this.Text = "Primer_clase";
             this.ResumeLayout(false);
             this.PerformLayout();

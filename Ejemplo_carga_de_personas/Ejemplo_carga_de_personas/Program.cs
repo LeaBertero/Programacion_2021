@@ -16,7 +16,7 @@ namespace Ejemplo_carga_de_personas
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Clase_Personas());
+            Application.Run(new Clase_Persona());
         }
     }
 }

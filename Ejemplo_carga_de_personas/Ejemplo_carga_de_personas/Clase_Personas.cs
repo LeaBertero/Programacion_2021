@@ -10,17 +10,19 @@ using System.Windows.Forms;
 
 namespace Ejemplo_carga_de_personas
 {
-    public partial class Clase_Personas : Form
+    public partial class Clase_Persona : Form
     {
-        public Clase_Personas()
+        public Clase_Persona()
         {
             InitializeComponent();
         }
 
-        private void BtnMostrar_Click(object sender, EventArgs e)
+        public void BtnMostrar_Click(object sender, EventArgs e)
         {
             Persona PersonaAmostrar;
             PersonaAmostrar = new Persona();
         }
+
+        
     }
 }

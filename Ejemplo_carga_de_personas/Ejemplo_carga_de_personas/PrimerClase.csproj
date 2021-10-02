@@ -52,6 +52,7 @@
     <Compile Include="Form_Clase_Persona.Designer.cs">
       <DependentUpon>Form_Clase_Persona.cs</DependentUpon>
     </Compile>
+    <Compile Include="Materia.cs" />
     <Compile Include="Persona.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

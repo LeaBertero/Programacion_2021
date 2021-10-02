@@ -11,6 +11,13 @@ namespace Ejemplo_carga_de_personas
         public string Nombre { get; set; }
 
         public string Apellido { get; set; }
+
+        public Materia MateriaCursando { get; set; }
+
+        public string NombreCompleto() 
+        {
+            return Nombre + " " + Apellido;
+        }
     }
 
    

@@ -28,9 +28,14 @@ namespace Ejemplo_carga_de_personas
             PersonaAmostrar.Nombre = TxtNombre.Text;
             PersonaAmostrar.Apellido = TxtApellido.Text;
 
-            LblMostrar.Text = System.Convert.ToString(TxtNombre.Text) + " " + System.Convert.ToString(TxtApellido.Text);
+            //LblMostrar.Text = System.Convert.ToString(TxtNombre.Text) + " " + System.Convert.ToString(TxtApellido.Text);
 
             //LblMostrar.Text = PersonaAmostrar.Nombre + " " + PersonaAmostrar.Apellido;
+
+            LblMostrar.Text = PersonaAmostrar.NombreCompleto();
+            PersonaAmostrar = null;
+
+            PersonaAmostrar = new Persona();
         }
 
         private void button1_Click(object sender, EventArgs e)

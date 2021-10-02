@@ -42,7 +42,7 @@ namespace Ejemplo_carga_de_personas
             // 
             this.BtnMostrar.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.BtnMostrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnMostrar.Location = new System.Drawing.Point(353, 95);
+            this.BtnMostrar.Location = new System.Drawing.Point(316, 95);
             this.BtnMostrar.Name = "BtnMostrar";
             this.BtnMostrar.Size = new System.Drawing.Size(104, 36);
             this.BtnMostrar.TabIndex = 0;

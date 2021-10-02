@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ejemplo_carga_de_personas
+namespace Primer_CLase
 {
     public class Persona
     {
@@ -12,13 +12,22 @@ namespace Ejemplo_carga_de_personas
 
         public string Apellido { get; set; }
 
-        public Materia MateriaCursando { get; set; }
+        public Materia MateriaCursando { get; set; } = new Materia();
 
-        public string NombreCompleto() 
+        public string NombreCompleto()
         {
             return Nombre + " " + Apellido;
         }
+
+        public void Inscribir(Materia materia)
+        {
+            MateriaCursando = materia;
+        }
     }
 
-   
+    
+        
 }
+
+   
+

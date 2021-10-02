@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ejemplo_carga_de_personas
+namespace Primer_CLase
 {
     public class Materia
     {

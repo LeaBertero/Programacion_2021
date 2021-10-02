@@ -6,8 +6,10 @@ using System.Threading.Tasks;
 
 namespace Ejemplo_carga_de_personas
 {
-    class Persona
+    public class Persona
     {
+        public string Nombre { get; set; }
 
+        public string Apellido { get; set; }
     }
 }

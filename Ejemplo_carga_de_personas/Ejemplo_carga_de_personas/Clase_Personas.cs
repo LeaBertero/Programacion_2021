@@ -19,7 +19,8 @@ namespace Ejemplo_carga_de_personas
 
         private void BtnMostrar_Click(object sender, EventArgs e)
         {
-
+            Persona PersonaAmostrar;
+            PersonaAmostrar = new Persona();
         }
     }
 }

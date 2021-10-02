@@ -90,7 +90,7 @@ namespace Ejemplo_carga_de_personas
             this.LblMostrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblMostrar.Location = new System.Drawing.Point(54, 177);
             this.LblMostrar.Name = "LblMostrar";
-            this.LblMostrar.Size = new System.Drawing.Size(240, 91);
+            this.LblMostrar.Size = new System.Drawing.Size(197, 34);
             this.LblMostrar.TabIndex = 8;
             this.LblMostrar.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -106,6 +106,7 @@ namespace Ejemplo_carga_de_personas
             this.Controls.Add(this.TxtNombre);
             this.Controls.Add(this.TxtApellido);
             this.Controls.Add(this.BtnMostrar);
+            this.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ForeColor = System.Drawing.Color.Black;
             this.Name = "Clase_Personas";
             this.Text = "Primer_clase";

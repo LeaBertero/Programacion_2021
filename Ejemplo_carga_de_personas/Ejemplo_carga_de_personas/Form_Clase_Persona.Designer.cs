@@ -35,6 +35,7 @@ namespace Ejemplo_carga_de_personas
             this.LblNombre = new System.Windows.Forms.Label();
             this.LblApellido = new System.Windows.Forms.Label();
             this.LblMostrar = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // BtnMostrar
@@ -94,6 +95,18 @@ namespace Ejemplo_carga_de_personas
             this.LblMostrar.TabIndex = 8;
             this.LblMostrar.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(450, 308);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(69, 36);
+            this.button1.TabIndex = 9;
+            this.button1.Text = "Salir";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Clase_Persona
             // 
             this.AcceptButton = this.BtnMostrar;
@@ -101,6 +114,7 @@ namespace Ejemplo_carga_de_personas
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.ClientSize = new System.Drawing.Size(531, 356);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.LblMostrar);
             this.Controls.Add(this.LblApellido);
             this.Controls.Add(this.LblNombre);
@@ -124,6 +138,7 @@ namespace Ejemplo_carga_de_personas
         private System.Windows.Forms.Label LblNombre;
         private System.Windows.Forms.Label LblApellido;
         private System.Windows.Forms.Label LblMostrar;
+        private System.Windows.Forms.Button button1;
     }
 }
 

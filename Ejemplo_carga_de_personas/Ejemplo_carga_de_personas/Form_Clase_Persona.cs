@@ -33,6 +33,9 @@ namespace Ejemplo_carga_de_personas
             //LblMostrar.Text = PersonaAmostrar.Nombre + " " + PersonaAmostrar.Apellido;
         }
 
-        
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }

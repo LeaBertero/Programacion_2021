@@ -12,4 +12,6 @@ namespace Ejemplo_carga_de_personas
 
         public string Apellido { get; set; }
     }
+
+   
 }

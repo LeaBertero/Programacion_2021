@@ -42,7 +42,7 @@ namespace Ejemplo_carga_de_personas
             // 
             this.BtnMostrar.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.BtnMostrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnMostrar.Location = new System.Drawing.Point(316, 95);
+            this.BtnMostrar.Location = new System.Drawing.Point(277, 71);
             this.BtnMostrar.Name = "BtnMostrar";
             this.BtnMostrar.Size = new System.Drawing.Size(104, 36);
             this.BtnMostrar.TabIndex = 0;
@@ -53,7 +53,7 @@ namespace Ejemplo_carga_de_personas
             // TxtApellido
             // 
             this.TxtApellido.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtApellido.Location = new System.Drawing.Point(183, 100);
+            this.TxtApellido.Location = new System.Drawing.Point(144, 76);
             this.TxtApellido.Name = "TxtApellido";
             this.TxtApellido.Size = new System.Drawing.Size(111, 26);
             this.TxtApellido.TabIndex = 2;
@@ -61,7 +61,7 @@ namespace Ejemplo_carga_de_personas
             // TxtNombre
             // 
             this.TxtNombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtNombre.Location = new System.Drawing.Point(58, 100);
+            this.TxtNombre.Location = new System.Drawing.Point(19, 76);
             this.TxtNombre.Name = "TxtNombre";
             this.TxtNombre.Size = new System.Drawing.Size(111, 26);
             this.TxtNombre.TabIndex = 3;
@@ -69,7 +69,7 @@ namespace Ejemplo_carga_de_personas
             // LblNombre
             // 
             this.LblNombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblNombre.Location = new System.Drawing.Point(54, 39);
+            this.LblNombre.Location = new System.Drawing.Point(21, 42);
             this.LblNombre.Name = "LblNombre";
             this.LblNombre.Size = new System.Drawing.Size(79, 24);
             this.LblNombre.TabIndex = 5;
@@ -79,7 +79,7 @@ namespace Ejemplo_carga_de_personas
             // LblApellido
             // 
             this.LblApellido.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblApellido.Location = new System.Drawing.Point(179, 39);
+            this.LblApellido.Location = new System.Drawing.Point(140, 42);
             this.LblApellido.Name = "LblApellido";
             this.LblApellido.Size = new System.Drawing.Size(90, 24);
             this.LblApellido.TabIndex = 7;
@@ -89,7 +89,7 @@ namespace Ejemplo_carga_de_personas
             // LblMostrar
             // 
             this.LblMostrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblMostrar.Location = new System.Drawing.Point(54, 177);
+            this.LblMostrar.Location = new System.Drawing.Point(40, 120);
             this.LblMostrar.Name = "LblMostrar";
             this.LblMostrar.Size = new System.Drawing.Size(197, 34);
             this.LblMostrar.TabIndex = 8;
@@ -99,7 +99,7 @@ namespace Ejemplo_carga_de_personas
             // 
             this.button1.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(450, 308);
+            this.button1.Location = new System.Drawing.Point(450, 12);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(69, 36);
             this.button1.TabIndex = 9;
@@ -113,7 +113,7 @@ namespace Ejemplo_carga_de_personas
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.ClientSize = new System.Drawing.Size(531, 356);
+            this.ClientSize = new System.Drawing.Size(531, 271);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.LblMostrar);
             this.Controls.Add(this.LblApellido);

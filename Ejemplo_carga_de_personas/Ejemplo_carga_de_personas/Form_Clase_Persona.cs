@@ -12,6 +12,9 @@ namespace Ejemplo_carga_de_personas
 {
     public partial class Clase_Persona : Form
     {
+
+        Persona PersonaAmostrar = new Persona();
+
         public Clase_Persona()
         {
             InitializeComponent();
@@ -23,7 +26,7 @@ namespace Ejemplo_carga_de_personas
             //Persona PersonaAmostrar;
             //PersonaAmostrar = new Persona();
 
-            Persona PersonaAmostrar = new Persona();
+            
 
             PersonaAmostrar.Nombre = TxtNombre.Text;
             PersonaAmostrar.Apellido = TxtApellido.Text;
@@ -42,5 +45,19 @@ namespace Ejemplo_carga_de_personas
         {
             Close();
         }
+
+        private void BtnInscribir_Click(object sender, EventArgs e)
+        {
+            Materia inscrpionMateria = new Materia();
+            inscrpionMateria.Nombre = TxtNombMateria.Text;
+
+            inscrpionMateria.Año = System.Convert.ToInt32(TxtAño.Text);
+
+            PersonaAmostrar.MateriaCursando = inscrpionMateria;
+
+
+            LblInscripcion.Text = PersonaAmostrar.MateriaCursando + "Año" 
+                + PersonaAmostrar.MateriaCursando.Año.ToString();
+         }
     }
 }

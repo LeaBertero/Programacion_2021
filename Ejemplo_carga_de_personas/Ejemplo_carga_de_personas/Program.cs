@@ -8,10 +8,7 @@ namespace Ejemplo_carga_de_personas
 {
     static class Program
     {
-        /// <summary>
-        /// Punto de entrada principal para la aplicación.
-        /// </summary>
-        [STAThread]
+       
         static void Main()
         {
             Application.EnableVisualStyles();

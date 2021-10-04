@@ -35,9 +35,8 @@ namespace Ejemplo_carga_de_personas
 
             //LblMostrar.Text = PersonaAmostrar.Nombre + " " + PersonaAmostrar.Apellido;
 
-            LblMostrar.Text = PersonaAmostrar.NombreCompleto();
+            LblPersona.Text = PersonaAmostrar.NombreCompleto();
             PersonaAmostrar = null;
-
             PersonaAmostrar = new Persona();
         }
 
@@ -46,18 +45,20 @@ namespace Ejemplo_carga_de_personas
             Close();
         }
 
-        private void BtnInscribir_Click(object sender, EventArgs e)
+        public void BtnInscribir_Click(object sender, EventArgs e)
         {
-            Materia inscrpionMateria = new Materia();
-            inscrpionMateria.Nombre = TxtNombMateria.Text;
+            Materia inscripcionMateria = new Materia();
 
-            inscrpionMateria.Año = System.Convert.ToInt32(TxtAño.Text);
+            inscripcionMateria.NombreMateria = TxtNombMateria.Text;
 
-            PersonaAmostrar.MateriaCursando = inscrpionMateria;
+            inscripcionMateria.Año = System.Convert.ToInt32(TxtAño.Text);
+
+            PersonaAmostrar.MateriaCursando = inscripcionMateria;
 
 
-            LblInscripcion.Text = PersonaAmostrar.MateriaCursando + "Año" 
-                + PersonaAmostrar.MateriaCursando.Año.ToString();
-         }
+            LblInscripcion.Text = PersonaAmostrar.MateriaCursando.NombreMateria + ", Año " 
+                 + PersonaAmostrar.MateriaCursando.Año.ToString();
+
+        }
     }
 }

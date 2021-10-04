@@ -34,7 +34,7 @@ namespace Ejemplo_carga_de_personas
             this.TxtNombre = new System.Windows.Forms.TextBox();
             this.LblNombre = new System.Windows.Forms.Label();
             this.LblApellido = new System.Windows.Forms.Label();
-            this.LblMostrar = new System.Windows.Forms.Label();
+            this.LblPersona = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.LblInscripcion = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -92,14 +92,14 @@ namespace Ejemplo_carga_de_personas
             this.LblApellido.Text = "Apellido";
             this.LblApellido.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // LblMostrar
+            // LblPersona
             // 
-            this.LblMostrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblMostrar.Location = new System.Drawing.Point(40, 120);
-            this.LblMostrar.Name = "LblMostrar";
-            this.LblMostrar.Size = new System.Drawing.Size(197, 34);
-            this.LblMostrar.TabIndex = 8;
-            this.LblMostrar.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.LblPersona.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblPersona.Location = new System.Drawing.Point(40, 120);
+            this.LblPersona.Name = "LblPersona";
+            this.LblPersona.Size = new System.Drawing.Size(197, 34);
+            this.LblPersona.TabIndex = 8;
+            this.LblPersona.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // button1
             // 
@@ -125,7 +125,7 @@ namespace Ejemplo_carga_de_personas
             // label2
             // 
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(140, 169);
+            this.label2.Location = new System.Drawing.Point(10, 174);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(90, 24);
             this.label2.TabIndex = 14;
@@ -135,7 +135,7 @@ namespace Ejemplo_carga_de_personas
             // label3
             // 
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(21, 169);
+            this.label3.Location = new System.Drawing.Point(151, 174);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(79, 24);
             this.label3.TabIndex = 13;
@@ -145,7 +145,7 @@ namespace Ejemplo_carga_de_personas
             // TxtNombMateria
             // 
             this.TxtNombMateria.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtNombMateria.Location = new System.Drawing.Point(19, 205);
+            this.TxtNombMateria.Location = new System.Drawing.Point(144, 210);
             this.TxtNombMateria.Name = "TxtNombMateria";
             this.TxtNombMateria.Size = new System.Drawing.Size(111, 26);
             this.TxtNombMateria.TabIndex = 12;
@@ -153,7 +153,7 @@ namespace Ejemplo_carga_de_personas
             // TxtAño
             // 
             this.TxtAño.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtAño.Location = new System.Drawing.Point(144, 205);
+            this.TxtAño.Location = new System.Drawing.Point(19, 210);
             this.TxtAño.Name = "TxtAño";
             this.TxtAño.Size = new System.Drawing.Size(111, 26);
             this.TxtAño.TabIndex = 11;
@@ -184,7 +184,7 @@ namespace Ejemplo_carga_de_personas
             this.Controls.Add(this.TxtAño);
             this.Controls.Add(this.BtnInscribir);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.LblMostrar);
+            this.Controls.Add(this.LblPersona);
             this.Controls.Add(this.LblApellido);
             this.Controls.Add(this.LblNombre);
             this.Controls.Add(this.TxtNombre);
@@ -206,7 +206,7 @@ namespace Ejemplo_carga_de_personas
         private System.Windows.Forms.TextBox TxtNombre;
         private System.Windows.Forms.Label LblNombre;
         private System.Windows.Forms.Label LblApellido;
-        private System.Windows.Forms.Label LblMostrar;
+        private System.Windows.Forms.Label LblPersona;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label LblInscripcion;
         private System.Windows.Forms.Label label2;

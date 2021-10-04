@@ -125,7 +125,7 @@ namespace Ejemplo_carga_de_personas
             // label2
             // 
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(10, 174);
+            this.label2.Location = new System.Drawing.Point(135, 174);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(90, 24);
             this.label2.TabIndex = 14;
@@ -135,7 +135,7 @@ namespace Ejemplo_carga_de_personas
             // label3
             // 
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(151, 174);
+            this.label3.Location = new System.Drawing.Point(26, 174);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(79, 24);
             this.label3.TabIndex = 13;
@@ -145,7 +145,7 @@ namespace Ejemplo_carga_de_personas
             // TxtNombMateria
             // 
             this.TxtNombMateria.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtNombMateria.Location = new System.Drawing.Point(144, 210);
+            this.TxtNombMateria.Location = new System.Drawing.Point(19, 210);
             this.TxtNombMateria.Name = "TxtNombMateria";
             this.TxtNombMateria.Size = new System.Drawing.Size(111, 26);
             this.TxtNombMateria.TabIndex = 12;
@@ -153,7 +153,7 @@ namespace Ejemplo_carga_de_personas
             // TxtAño
             // 
             this.TxtAño.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtAño.Location = new System.Drawing.Point(19, 210);
+            this.TxtAño.Location = new System.Drawing.Point(144, 210);
             this.TxtAño.Name = "TxtAño";
             this.TxtAño.Size = new System.Drawing.Size(111, 26);
             this.TxtAño.TabIndex = 11;

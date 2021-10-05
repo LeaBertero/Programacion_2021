@@ -44,6 +44,13 @@ namespace PrimerArreglo
             this.LblDia6 = new System.Windows.Forms.Label();
             this.button7 = new System.Windows.Forms.Button();
             this.BtnSalida = new System.Windows.Forms.Button();
+            this.button8 = new System.Windows.Forms.Button();
+            this.button9 = new System.Windows.Forms.Button();
+            this.button10 = new System.Windows.Forms.Button();
+            this.button11 = new System.Windows.Forms.Button();
+            this.button12 = new System.Windows.Forms.Button();
+            this.button13 = new System.Windows.Forms.Button();
+            this.button14 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -61,9 +68,9 @@ namespace PrimerArreglo
             // 
             this.LblDia0.Cursor = System.Windows.Forms.Cursors.Default;
             this.LblDia0.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblDia0.Location = new System.Drawing.Point(65, 164);
+            this.LblDia0.Location = new System.Drawing.Point(65, 163);
             this.LblDia0.Name = "LblDia0";
-            this.LblDia0.Size = new System.Drawing.Size(100, 23);
+            this.LblDia0.Size = new System.Drawing.Size(85, 23);
             this.LblDia0.TabIndex = 1;
             this.LblDia0.Visible = false;
             // 
@@ -71,9 +78,9 @@ namespace PrimerArreglo
             // 
             this.LblDia1.Cursor = System.Windows.Forms.Cursors.Default;
             this.LblDia1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblDia1.Location = new System.Drawing.Point(204, 164);
+            this.LblDia1.Location = new System.Drawing.Point(204, 163);
             this.LblDia1.Name = "LblDia1";
-            this.LblDia1.Size = new System.Drawing.Size(100, 23);
+            this.LblDia1.Size = new System.Drawing.Size(85, 23);
             this.LblDia1.TabIndex = 3;
             this.LblDia1.Visible = false;
             // 
@@ -92,9 +99,9 @@ namespace PrimerArreglo
             // 
             this.LblDia2.Cursor = System.Windows.Forms.Cursors.Default;
             this.LblDia2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblDia2.Location = new System.Drawing.Point(335, 164);
+            this.LblDia2.Location = new System.Drawing.Point(335, 163);
             this.LblDia2.Name = "LblDia2";
-            this.LblDia2.Size = new System.Drawing.Size(100, 23);
+            this.LblDia2.Size = new System.Drawing.Size(85, 23);
             this.LblDia2.TabIndex = 5;
             this.LblDia2.Visible = false;
             // 
@@ -113,9 +120,9 @@ namespace PrimerArreglo
             // 
             this.LblDia3.Cursor = System.Windows.Forms.Cursors.Default;
             this.LblDia3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblDia3.Location = new System.Drawing.Point(466, 164);
+            this.LblDia3.Location = new System.Drawing.Point(466, 163);
             this.LblDia3.Name = "LblDia3";
-            this.LblDia3.Size = new System.Drawing.Size(100, 23);
+            this.LblDia3.Size = new System.Drawing.Size(85, 23);
             this.LblDia3.TabIndex = 7;
             this.LblDia3.Visible = false;
             // 
@@ -134,9 +141,9 @@ namespace PrimerArreglo
             // 
             this.LblDia4.Cursor = System.Windows.Forms.Cursors.Default;
             this.LblDia4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblDia4.Location = new System.Drawing.Point(596, 164);
+            this.LblDia4.Location = new System.Drawing.Point(596, 163);
             this.LblDia4.Name = "LblDia4";
-            this.LblDia4.Size = new System.Drawing.Size(100, 23);
+            this.LblDia4.Size = new System.Drawing.Size(85, 23);
             this.LblDia4.TabIndex = 9;
             this.LblDia4.Visible = false;
             // 
@@ -155,9 +162,9 @@ namespace PrimerArreglo
             // 
             this.LblDia5.Cursor = System.Windows.Forms.Cursors.Default;
             this.LblDia5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblDia5.Location = new System.Drawing.Point(726, 164);
+            this.LblDia5.Location = new System.Drawing.Point(726, 163);
             this.LblDia5.Name = "LblDia5";
-            this.LblDia5.Size = new System.Drawing.Size(100, 23);
+            this.LblDia5.Size = new System.Drawing.Size(85, 23);
             this.LblDia5.TabIndex = 11;
             this.LblDia5.Visible = false;
             // 
@@ -176,9 +183,9 @@ namespace PrimerArreglo
             // 
             this.LblDia6.Cursor = System.Windows.Forms.Cursors.Default;
             this.LblDia6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblDia6.Location = new System.Drawing.Point(859, 164);
+            this.LblDia6.Location = new System.Drawing.Point(859, 163);
             this.LblDia6.Name = "LblDia6";
-            this.LblDia6.Size = new System.Drawing.Size(100, 23);
+            this.LblDia6.Size = new System.Drawing.Size(85, 23);
             this.LblDia6.TabIndex = 13;
             this.LblDia6.Visible = false;
             // 
@@ -204,11 +211,95 @@ namespace PrimerArreglo
             this.BtnSalida.UseVisualStyleBackColor = true;
             this.BtnSalida.Click += new System.EventHandler(this.BtnSalida_Click);
             // 
+            // button8
+            // 
+            this.button8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button8.Location = new System.Drawing.Point(68, 54);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(75, 23);
+            this.button8.TabIndex = 15;
+            this.button8.Text = "Ocultar";
+            this.button8.UseVisualStyleBackColor = true;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
+            // 
+            // button9
+            // 
+            this.button9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button9.Location = new System.Drawing.Point(207, 54);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(75, 23);
+            this.button9.TabIndex = 16;
+            this.button9.Text = "Ocultar";
+            this.button9.UseVisualStyleBackColor = true;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
+            // 
+            // button10
+            // 
+            this.button10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button10.Location = new System.Drawing.Point(338, 54);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(75, 23);
+            this.button10.TabIndex = 17;
+            this.button10.Text = "Ocultar";
+            this.button10.UseVisualStyleBackColor = true;
+            this.button10.Click += new System.EventHandler(this.button10_Click);
+            // 
+            // button11
+            // 
+            this.button11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button11.Location = new System.Drawing.Point(469, 54);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(75, 23);
+            this.button11.TabIndex = 18;
+            this.button11.Text = "Ocultar";
+            this.button11.UseVisualStyleBackColor = true;
+            this.button11.Click += new System.EventHandler(this.button11_Click);
+            // 
+            // button12
+            // 
+            this.button12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button12.Location = new System.Drawing.Point(599, 54);
+            this.button12.Name = "button12";
+            this.button12.Size = new System.Drawing.Size(75, 23);
+            this.button12.TabIndex = 19;
+            this.button12.Text = "Ocultar";
+            this.button12.UseVisualStyleBackColor = true;
+            this.button12.Click += new System.EventHandler(this.button12_Click);
+            // 
+            // button13
+            // 
+            this.button13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button13.Location = new System.Drawing.Point(729, 54);
+            this.button13.Name = "button13";
+            this.button13.Size = new System.Drawing.Size(75, 23);
+            this.button13.TabIndex = 20;
+            this.button13.Text = "Ocultar";
+            this.button13.UseVisualStyleBackColor = true;
+            this.button13.Click += new System.EventHandler(this.button13_Click);
+            // 
+            // button14
+            // 
+            this.button14.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button14.Location = new System.Drawing.Point(862, 54);
+            this.button14.Name = "button14";
+            this.button14.Size = new System.Drawing.Size(75, 23);
+            this.button14.TabIndex = 21;
+            this.button14.Text = "Ocultar";
+            this.button14.UseVisualStyleBackColor = true;
+            this.button14.Click += new System.EventHandler(this.button14_Click);
+            // 
             // Primer_Arreglo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1025, 488);
+            this.Controls.Add(this.button14);
+            this.Controls.Add(this.button13);
+            this.Controls.Add(this.button12);
+            this.Controls.Add(this.button11);
+            this.Controls.Add(this.button10);
+            this.Controls.Add(this.button9);
+            this.Controls.Add(this.button8);
             this.Controls.Add(this.BtnSalida);
             this.Controls.Add(this.LblDia6);
             this.Controls.Add(this.button7);
@@ -247,6 +338,13 @@ namespace PrimerArreglo
         private System.Windows.Forms.Label LblDia6;
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Button BtnSalida;
+        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.Button button9;
+        private System.Windows.Forms.Button button10;
+        private System.Windows.Forms.Button button11;
+        private System.Windows.Forms.Button button12;
+        private System.Windows.Forms.Button button13;
+        private System.Windows.Forms.Button button14;
     }
 }
 

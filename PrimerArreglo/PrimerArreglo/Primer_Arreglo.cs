@@ -133,5 +133,40 @@ namespace PrimerArreglo
         {
             Close();
         }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            LblDia0.Visible = false;
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            LblDia1.Visible = false;
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            LblDia2.Visible = false;
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            LblDia3.Visible = false;
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            LblDia4.Visible = false;
+        }
+
+        private void button13_Click(object sender, EventArgs e)
+        {
+            LblDia5.Visible = false;
+        }
+
+        private void button14_Click(object sender, EventArgs e)
+        {
+            LblDia6.Visible = false;
+        }
     }
 }

@@ -203,7 +203,7 @@ namespace PrimerArreglo
             // BtnSalida
             // 
             this.BtnSalida.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnSalida.Location = new System.Drawing.Point(926, 453);
+            this.BtnSalida.Location = new System.Drawing.Point(919, 229);
             this.BtnSalida.Name = "BtnSalida";
             this.BtnSalida.Size = new System.Drawing.Size(78, 23);
             this.BtnSalida.TabIndex = 14;
@@ -292,7 +292,8 @@ namespace PrimerArreglo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1025, 488);
+            this.BackColor = System.Drawing.Color.DarkCyan;
+            this.ClientSize = new System.Drawing.Size(1025, 268);
             this.Controls.Add(this.button14);
             this.Controls.Add(this.button13);
             this.Controls.Add(this.button12);

@@ -48,9 +48,9 @@ namespace Proyecto_pruebaMovimiento_clase
             // 
             this.LblMov.BackColor = System.Drawing.Color.Red;
             this.LblMov.ForeColor = System.Drawing.Color.Plum;
-            this.LblMov.Location = new System.Drawing.Point(1, 101);
+            this.LblMov.Location = new System.Drawing.Point(0, 87);
             this.LblMov.Name = "LblMov";
-            this.LblMov.Size = new System.Drawing.Size(40, 40);
+            this.LblMov.Size = new System.Drawing.Size(63, 82);
             this.LblMov.TabIndex = 1;
             this.LblMov.Visible = false;
             // 
@@ -67,12 +67,12 @@ namespace Proyecto_pruebaMovimiento_clase
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkTurquoise;
-            this.ClientSize = new System.Drawing.Size(800, 164);
+            this.ClientSize = new System.Drawing.Size(800, 221);
             this.Controls.Add(this.TxtBoxUser);
             this.Controls.Add(this.LblMov);
             this.Controls.Add(this.BtnMover);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Movimiento de rectángulo hasta - 500";
             this.ResumeLayout(false);
             this.PerformLayout();
 

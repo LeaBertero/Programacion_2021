@@ -17,19 +17,20 @@ namespace Proyecto_pruebaMovimiento_clase
             InitializeComponent();
         }
 
-        private void BtnMover_Click(object sender, EventArgs e)
+       
+        public void BtnMover_Click(object sender, EventArgs e)
         {
             int x = System.Convert.ToInt32(TxtBoxUser.Text);
             LblMov.Visible = true;
 
             for ( ;  ; )
             {
-
+                
                 x = x + 2;
                 LblMov.Left = x;
                 this.Refresh();
 
-                if (x >= 500)
+                if (x < 500)
                 {
                     this.Refresh();
                     break;

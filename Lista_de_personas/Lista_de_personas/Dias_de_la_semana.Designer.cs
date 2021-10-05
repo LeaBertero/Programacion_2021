@@ -52,7 +52,7 @@ namespace Lista_de_personas
             this.LblSemana.ForeColor = System.Drawing.SystemColors.ControlText;
             this.LblSemana.Location = new System.Drawing.Point(122, 181);
             this.LblSemana.Name = "LblSemana";
-            this.LblSemana.Size = new System.Drawing.Size(176, 54);
+            this.LblSemana.Size = new System.Drawing.Size(176, 199);
             this.LblSemana.TabIndex = 1;
             this.LblSemana.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.LblSemana.Visible = false;
@@ -74,7 +74,7 @@ namespace Lista_de_personas
             this.AcceptButton = this.BtnSemana;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(436, 261);
+            this.ClientSize = new System.Drawing.Size(436, 449);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.LblSemana);
             this.Controls.Add(this.BtnSemana);

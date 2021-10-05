@@ -34,8 +34,15 @@ namespace Lista_de_personas
 
             string[] Dias = {"Lunes", "Martes", "Miercoles", "Jueves", "Viernes", "Sábado", "Domingo" };
 
-            LblSemana.Text = Dias[0];
+            //LblSemana.Text = Dias[0];
             LblSemana.Visible = true;
+
+            for (int i = 0; i < 7; i++)
+            {
+                LblSemana.Text = LblSemana.Text + Dias[i] + "\r\n";
+
+                LblSemana.Visible = true;
+            }
 
         }
     }

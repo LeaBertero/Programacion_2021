@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D4A845E4-3A1D-4F80-BF93-B59AF3DE5C90}</ProjectGuid>
+    <ProjectGuid>{43C18DFD-D4C8-454C-B74C-C857FB402C1B}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>WindowsFormsApp1</RootNamespace>
-    <AssemblyName>WindowsFormsApp1</AssemblyName>
+    <RootNamespace>Lista_de_personas</RootNamespace>
+    <AssemblyName>Lista_de_personas</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,16 +46,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Ejemplo_lista.cs">
+    <Compile Include="Dias_de_la_semana.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Ejemplo_lista.Designer.cs">
-      <DependentUpon>Ejemplo_lista.cs</DependentUpon>
+    <Compile Include="Dias_de_la_semana.Designer.cs">
+      <DependentUpon>Dias_de_la_semana.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Ejemplo_lista.resx">
-      <DependentUpon>Ejemplo_lista.cs</DependentUpon>
+    <EmbeddedResource Include="Dias_de_la_semana.resx">
+      <DependentUpon>Dias_de_la_semana.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

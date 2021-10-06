@@ -29,66 +29,66 @@ namespace Prueba_lista
         /// </summary>
         private void InitializeComponent()
         {
-            this.button3 = new System.Windows.Forms.Button();
-            this.label5 = new System.Windows.Forms.Label();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.BtnAparecer = new System.Windows.Forms.Button();
+            this.LblMensaje = new System.Windows.Forms.Label();
+            this.ClickLimpiar = new System.Windows.Forms.Button();
+            this.BtnDeshabilitar = new System.Windows.Forms.Button();
+            this.BtnIniciar = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
+            this.BtnHabilitar = new System.Windows.Forms.Button();
+            this.BtnLimpiar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // button3
+            // BtnAparecer
             // 
-            this.button3.Location = new System.Drawing.Point(49, 33);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(137, 32);
-            this.button3.TabIndex = 9;
-            this.button3.Text = "Click aparecer";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.BtnAparecer.Location = new System.Drawing.Point(49, 33);
+            this.BtnAparecer.Name = "BtnAparecer";
+            this.BtnAparecer.Size = new System.Drawing.Size(137, 32);
+            this.BtnAparecer.TabIndex = 9;
+            this.BtnAparecer.Text = "Click aparecer";
+            this.BtnAparecer.UseVisualStyleBackColor = true;
+            this.BtnAparecer.Click += new System.EventHandler(this.button3_Click);
             // 
-            // label5
+            // LblMensaje
             // 
-            this.label5.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label5.ForeColor = System.Drawing.SystemColors.Control;
-            this.label5.Location = new System.Drawing.Point(46, 84);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(203, 42);
-            this.label5.TabIndex = 10;
-            this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label5.Visible = false;
+            this.LblMensaje.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.LblMensaje.ForeColor = System.Drawing.SystemColors.Control;
+            this.LblMensaje.Location = new System.Drawing.Point(46, 84);
+            this.LblMensaje.Name = "LblMensaje";
+            this.LblMensaje.Size = new System.Drawing.Size(203, 42);
+            this.LblMensaje.TabIndex = 10;
+            this.LblMensaje.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.LblMensaje.Visible = false;
             // 
-            // button4
+            // ClickLimpiar
             // 
-            this.button4.Location = new System.Drawing.Point(49, 157);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(96, 37);
-            this.button4.TabIndex = 11;
-            this.button4.Text = "Click limpiar";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
+            this.ClickLimpiar.Location = new System.Drawing.Point(49, 157);
+            this.ClickLimpiar.Name = "ClickLimpiar";
+            this.ClickLimpiar.Size = new System.Drawing.Size(96, 37);
+            this.ClickLimpiar.TabIndex = 11;
+            this.ClickLimpiar.Text = "Click limpiar";
+            this.ClickLimpiar.UseVisualStyleBackColor = true;
+            this.ClickLimpiar.Click += new System.EventHandler(this.button4_Click);
             // 
-            // button1
+            // BtnDeshabilitar
             // 
-            this.button1.Location = new System.Drawing.Point(558, 89);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(119, 37);
-            this.button1.TabIndex = 13;
-            this.button1.Text = "Click deshabilitar";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.BtnDeshabilitar.Location = new System.Drawing.Point(558, 89);
+            this.BtnDeshabilitar.Name = "BtnDeshabilitar";
+            this.BtnDeshabilitar.Size = new System.Drawing.Size(119, 37);
+            this.BtnDeshabilitar.TabIndex = 13;
+            this.BtnDeshabilitar.Text = "Click deshabilitar";
+            this.BtnDeshabilitar.UseVisualStyleBackColor = true;
+            this.BtnDeshabilitar.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button2
+            // BtnIniciar
             // 
-            this.button2.Location = new System.Drawing.Point(369, 27);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(137, 32);
-            this.button2.TabIndex = 12;
-            this.button2.Text = "Click iniciar";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.BtnIniciar.Location = new System.Drawing.Point(369, 27);
+            this.BtnIniciar.Name = "BtnIniciar";
+            this.BtnIniciar.Size = new System.Drawing.Size(137, 32);
+            this.BtnIniciar.TabIndex = 12;
+            this.BtnIniciar.Text = "Click iniciar";
+            this.BtnIniciar.UseVisualStyleBackColor = true;
+            this.BtnIniciar.Click += new System.EventHandler(this.button2_Click);
             // 
             // textBox1
             // 
@@ -99,25 +99,25 @@ namespace Prueba_lista
             this.textBox1.TabIndex = 14;
             this.textBox1.Visible = false;
             // 
-            // button5
+            // BtnHabilitar
             // 
-            this.button5.Location = new System.Drawing.Point(378, 89);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(119, 37);
-            this.button5.TabIndex = 16;
-            this.button5.Text = "Click habilitar";
-            this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
+            this.BtnHabilitar.Location = new System.Drawing.Point(378, 89);
+            this.BtnHabilitar.Name = "BtnHabilitar";
+            this.BtnHabilitar.Size = new System.Drawing.Size(119, 37);
+            this.BtnHabilitar.TabIndex = 16;
+            this.BtnHabilitar.Text = "Click habilitar";
+            this.BtnHabilitar.UseVisualStyleBackColor = true;
+            this.BtnHabilitar.Click += new System.EventHandler(this.button5_Click);
             // 
-            // button6
+            // BtnLimpiar
             // 
-            this.button6.Location = new System.Drawing.Point(460, 172);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(119, 37);
-            this.button6.TabIndex = 17;
-            this.button6.Text = "Click limpiar control";
-            this.button6.UseVisualStyleBackColor = true;
-            this.button6.Click += new System.EventHandler(this.button6_Click);
+            this.BtnLimpiar.Location = new System.Drawing.Point(460, 172);
+            this.BtnLimpiar.Name = "BtnLimpiar";
+            this.BtnLimpiar.Size = new System.Drawing.Size(119, 37);
+            this.BtnLimpiar.TabIndex = 17;
+            this.BtnLimpiar.Text = "Click limpiar control";
+            this.BtnLimpiar.UseVisualStyleBackColor = true;
+            this.BtnLimpiar.Click += new System.EventHandler(this.button6_Click);
             // 
             // Prueba_limpiar_controles
             // 
@@ -125,14 +125,14 @@ namespace Prueba_lista
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.HotTrack;
             this.ClientSize = new System.Drawing.Size(800, 244);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button5);
+            this.Controls.Add(this.BtnLimpiar);
+            this.Controls.Add(this.BtnHabilitar);
             this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.button3);
+            this.Controls.Add(this.BtnDeshabilitar);
+            this.Controls.Add(this.BtnIniciar);
+            this.Controls.Add(this.ClickLimpiar);
+            this.Controls.Add(this.LblMensaje);
+            this.Controls.Add(this.BtnAparecer);
             this.Name = "Prueba_limpiar_controles";
             this.Text = "Lista de personas";
             this.ResumeLayout(false);
@@ -141,14 +141,14 @@ namespace Prueba_lista
         }
 
         #endregion
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button BtnAparecer;
+        private System.Windows.Forms.Label LblMensaje;
+        private System.Windows.Forms.Button ClickLimpiar;
+        private System.Windows.Forms.Button BtnDeshabilitar;
+        private System.Windows.Forms.Button BtnIniciar;
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button BtnHabilitar;
+        private System.Windows.Forms.Button BtnLimpiar;
     }
 }
 

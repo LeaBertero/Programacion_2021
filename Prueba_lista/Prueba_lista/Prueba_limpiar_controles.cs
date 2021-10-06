@@ -19,20 +19,20 @@ namespace Prueba_lista
 
         private void button3_Click(object sender, EventArgs e)
         {
-            label5.Visible = true;
-            label5.Text = "el mensaje se autodestrira en 5..4..3..";
+            LblMensaje.Visible = true;
+            LblMensaje.Text = "el mensaje se autodestrira en 5..4..3..";
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            label5.Visible = false;
+            LblMensaje.Visible = false;
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             textBox1.Visible = true;
-            textBox1.Enabled = true;
-            //textBox1.Enabled = false;
+            //textBox1.Enabled = true;
+            textBox1.Enabled = false;
             textBox1.Focus();
         }
 

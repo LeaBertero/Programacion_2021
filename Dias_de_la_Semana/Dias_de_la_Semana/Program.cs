@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Lista_de_personas
+namespace Dias_de_la_Semana
 {
     static class Program
     {
@@ -16,7 +16,7 @@ namespace Lista_de_personas
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new BtnNuevo());
+            Application.Run(new FormSemana());
         }
     }
 }

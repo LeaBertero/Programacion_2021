@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{43C18DFD-D4C8-454C-B74C-C857FB402C1B}</ProjectGuid>
+    <ProjectGuid>{490A496D-8B0D-43B2-AFCF-E1E5709C108C}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Lista_de_personas</RootNamespace>
-    <AssemblyName>Lista_de_personas</AssemblyName>
+    <RootNamespace>Dias_de_la_Semana</RootNamespace>
+    <AssemblyName>Dias_de_la_Semana</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,25 +46,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DiasDeLaSemana_Prueba.cs">
+    <Compile Include="Semana.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DiasDeLaSemana_Prueba.Designer.cs">
-      <DependentUpon>DiasDeLaSemana_Prueba.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Dias_de_la_semana.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Dias_de_la_semana.Designer.cs">
-      <DependentUpon>Dias_de_la_semana.cs</DependentUpon>
+    <Compile Include="Semana.Designer.cs">
+      <DependentUpon>Semana.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="DiasDeLaSemana_Prueba.resx">
-      <DependentUpon>DiasDeLaSemana_Prueba.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Dias_de_la_semana.resx">
-      <DependentUpon>Dias_de_la_semana.cs</DependentUpon>
+    <EmbeddedResource Include="Semana.resx">
+      <DependentUpon>Semana.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

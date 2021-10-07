@@ -16,7 +16,7 @@ namespace Lista_de_personas
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Dias_de_la_semana());
+            Application.Run(new BtnNuevo());
         }
     }
 }

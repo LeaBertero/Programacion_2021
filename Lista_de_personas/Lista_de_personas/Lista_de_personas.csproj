@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DiasDeLaSemana_Prueba.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DiasDeLaSemana_Prueba.Designer.cs">
+      <DependentUpon>DiasDeLaSemana_Prueba.cs</DependentUpon>
+    </Compile>
     <Compile Include="Dias_de_la_semana.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -54,6 +60,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="DiasDeLaSemana_Prueba.resx">
+      <DependentUpon>DiasDeLaSemana_Prueba.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Dias_de_la_semana.resx">
       <DependentUpon>Dias_de_la_semana.cs</DependentUpon>
     </EmbeddedResource>

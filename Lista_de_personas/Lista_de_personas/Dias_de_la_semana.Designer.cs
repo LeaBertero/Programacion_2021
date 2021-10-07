@@ -1,7 +1,7 @@
 ﻿
 namespace Lista_de_personas
 {
-    partial class Dias_de_la_semana
+    partial class BtnNuevo
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -37,6 +37,8 @@ namespace Lista_de_personas
             this.TxtNombre = new System.Windows.Forms.TextBox();
             this.LblMostrar = new System.Windows.Forms.Label();
             this.BtnCargar = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // BtnSemana
@@ -128,13 +130,37 @@ namespace Lista_de_personas
             this.BtnCargar.UseVisualStyleBackColor = true;
             this.BtnCargar.Click += new System.EventHandler(this.BtnCargar_Click);
             // 
-            // Dias_de_la_semana
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(496, 395);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(145, 42);
+            this.button1.TabIndex = 8;
+            this.button1.Text = "Nuevo formulario";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // button2
+            // 
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Location = new System.Drawing.Point(1093, 395);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(91, 42);
+            this.button2.TabIndex = 9;
+            this.button2.Text = "Salir";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // BtnNuevo
             // 
             this.AcceptButton = this.BtnSemana;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DeepPink;
             this.ClientSize = new System.Drawing.Size(1209, 449);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.BtnCargar);
             this.Controls.Add(this.LblMostrar);
             this.Controls.Add(this.TxtNombre);
@@ -143,8 +169,9 @@ namespace Lista_de_personas
             this.Controls.Add(this.label1);
             this.Controls.Add(this.LblSemana);
             this.Controls.Add(this.BtnSemana);
-            this.Name = "Dias_de_la_semana";
-            this.Text = "Dias de la semana";
+            this.Name = "BtnNuevo";
+            this.Text = "FormSemana";
+            
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -160,6 +187,8 @@ namespace Lista_de_personas
         private System.Windows.Forms.TextBox TxtNombre;
         private System.Windows.Forms.Label LblMostrar;
         private System.Windows.Forms.Button BtnCargar;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
     }
 }
 

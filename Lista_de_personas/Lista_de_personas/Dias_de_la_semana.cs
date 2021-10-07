@@ -12,12 +12,12 @@ namespace Lista_de_personas
 {
     
 
-    public partial class Dias_de_la_semana : Form
+    public partial class BtnNuevo : Form
     {
         string[] nombres = new string[1000];
         int posicion = 0;
 
-        public Dias_de_la_semana()
+        public BtnNuevo()
         {
             InitializeComponent();
         }
@@ -82,7 +82,18 @@ namespace Lista_de_personas
             }
         }
 
-       
+        public void button1_Click(object sender, EventArgs e)
+        {
+            Form nuevoformdias = new nuevoformdias();
+            nuevoformdias.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+
+        
     }
  
 }

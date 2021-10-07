@@ -50,9 +50,9 @@ namespace Lista_de_personas
             this.LblSemana.BackColor = System.Drawing.Color.LightCoral;
             this.LblSemana.Font = new System.Drawing.Font("Monotype Corsiva", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblSemana.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.LblSemana.Location = new System.Drawing.Point(122, 181);
+            this.LblSemana.Location = new System.Drawing.Point(117, 181);
             this.LblSemana.Name = "LblSemana";
-            this.LblSemana.Size = new System.Drawing.Size(176, 186);
+            this.LblSemana.Size = new System.Drawing.Size(176, 202);
             this.LblSemana.TabIndex = 1;
             this.LblSemana.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.LblSemana.Visible = false;

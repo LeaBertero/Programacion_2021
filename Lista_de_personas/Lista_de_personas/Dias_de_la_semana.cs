@@ -12,7 +12,7 @@ namespace Lista_de_personas
 {
     public partial class Dias_de_la_semana : Form
     {
-        
+
 
         public Dias_de_la_semana()
         {
@@ -22,23 +22,30 @@ namespace Lista_de_personas
         public void BtnSemana_Click(object sender, EventArgs e)
         {
 
-            //FORMA 1 - DE MOSTRAR LOS DIAS DE LA SEMANA INDIVIDUALMENTE
+            //FORMA 1/////////////////////////////////////////////////
 
-            //string[] Dias = new string[7];
+            //string[] Dias = new string[9];
 
-            //Dias[0] = "lunes";
-            //Dias[1] = "martes";
-            //Dias[2] = "miercoles";
-            //Dias[3] = "jueves";
-            //Dias[4] = "viernes";
-            //Dias[5] = "sabado";
-            //Dias[6] = "domingo";
+            //Dias[0] = "Lunes";
+            //Dias[1] = "Martes";
+            //Dias[2] = "Miercoles";
+            //Dias[3] = "Jueves";
+            //Dias[4] = "Viernes";
+            //Dias[5] = "Sábado";
+            //Dias[6] = "Domingo";
+            //Dias[7] = "";
+            //Dias[8] = "Fin de la semana - A desacansar !!";
 
-            //LblSemana.Text = Dias[5];
+            //LblSemana.Text = Dias[8];
             //LblSemana.Visible = true;
 
-            //----------------------------------------
-            //FORMA 2 -  DE MOSTRAR LOS DIAS DE LA SEMANA COMPLETA
+
+            //FORMA 2 - ///////////////////////////////////////
+            //Se puede poner Dias.Length que sea menor a i (contador)
+            //O diarectamente el numero de datos que tengo en el arreglo
+            //En este caso, los dias de la semana
+
+
 
             string[] Dias = { "Lunes", "Martes", "Miercoles", "Jueves", "Viernes", "Sábado", "Domingo" };
 
@@ -46,13 +53,11 @@ namespace Lista_de_personas
 
             //for (int i = 0; i < Dias.Length; i++)
             //{
-            //    //Se puede poner Dias.Length que sea menor a i (contador)
-            //    //O diarectamente el numero de datos que tengo en el arreglo
-            //    //En este caso, los dias de la semana
+
             //    LblSemana.Text = LblSemana.Text + Dias[i] + "\r\n";
 
             //    LblSemana.Visible = true;
-            //
+
 
             foreach (string item in Dias)
             {
@@ -61,4 +66,6 @@ namespace Lista_de_personas
             }
         }
     }
+ 
 }
+

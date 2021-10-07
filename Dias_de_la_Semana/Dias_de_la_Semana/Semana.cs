@@ -42,10 +42,15 @@ namespace Dias_de_la_Semana
             //LblVerSemana.Text = Dias[4];
 
 
-            for (int semanacompleta = 0; semanacompleta < 7; semanacompleta++)
+            //for (int semanacompleta = 0; semanacompleta < 7; semanacompleta++)
+            //{
+            //    LblVerSemana.Text = LblVerSemana.Text + Dias[semanacompleta] + "\r\n";
+            //    LblVerSemana.Visible = true;
+            //}
+
+            foreach (var item in Dias)
             {
-                LblVerSemana.Text = LblVerSemana.Text + Dias[semanacompleta] + "\r\n";
-                LblVerSemana.Visible = true;
+
             }
 
         }

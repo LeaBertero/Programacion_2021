@@ -33,11 +33,13 @@ namespace Carga_lista_personas
 
         private void BtnMostrar_Click(object sender, EventArgs e)
         {
+            LblLista.Text = "";
             foreach (var item in nombres)
             {
                 LblLista.Text = LblLista.Text + item + "\r\n";
             }
         }
+
                 
 
         private void BtnSalir_Click(object sender, EventArgs e)

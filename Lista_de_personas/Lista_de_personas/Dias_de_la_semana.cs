@@ -38,19 +38,25 @@ namespace Lista_de_personas
             //LblSemana.Visible = true;
 
             //----------------------------------------
-            //FORMA 2 -  DE MMOSTRAR LOS DIAS DE LA SEMANA COMPLETA
+            //FORMA 2 -  DE MOSTRAR LOS DIAS DE LA SEMANA COMPLETA
 
             string[] Dias = { "Lunes", "Martes", "Miercoles", "Jueves", "Viernes", "Sábado", "Domingo" };
 
-            LblSemana.Visible = true;
+            //LblSemana.Visible = true;
 
-            for (int i = 0; i < Dias.Length; i++)
+            //for (int i = 0; i < Dias.Length; i++)
+            //{
+            //    //Se puede poner Dias.Length que sea menor a i (contador)
+            //    //O diarectamente el numero de datos que tengo en el arreglo
+            //    //En este caso, los dias de la semana
+            //    LblSemana.Text = LblSemana.Text + Dias[i] + "\r\n";
+
+            //    LblSemana.Visible = true;
+            //
+
+            foreach (string item in Dias)
             {
-                //Se puede poner Dias.Length que sea menor a i (contador)
-                //O diarectamente el numero de datos que tengo en el arreglo
-                //En este caso, los dias de la semana
-                LblSemana.Text = LblSemana.Text + Dias[i] + "\r\n";
-
+                LblSemana.Text = LblSemana.Text + item + "\r\n";
                 LblSemana.Visible = true;
             }
         }

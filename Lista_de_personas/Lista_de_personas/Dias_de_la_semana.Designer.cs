@@ -32,10 +32,11 @@ namespace Lista_de_personas
             this.BtnSemana = new System.Windows.Forms.Button();
             this.LblSemana = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.BtnMostrar = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
+            this.TxtNombre = new System.Windows.Forms.TextBox();
+            this.LblMostrar = new System.Windows.Forms.Label();
+            this.BtnCargar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // BtnSemana
@@ -73,15 +74,16 @@ namespace Lista_de_personas
             this.label1.Text = "- Días de la semana -";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // button1
+            // BtnMostrar
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(913, 104);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(108, 31);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "Cargar";
-            this.button1.UseVisualStyleBackColor = true;
+            this.BtnMostrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnMostrar.Location = new System.Drawing.Point(1039, 109);
+            this.BtnMostrar.Name = "BtnMostrar";
+            this.BtnMostrar.Size = new System.Drawing.Size(108, 31);
+            this.BtnMostrar.TabIndex = 3;
+            this.BtnMostrar.Text = "Mostrar";
+            this.BtnMostrar.UseVisualStyleBackColor = true;
+            this.BtnMostrar.Click += new System.EventHandler(this.BtnMostrar_Click);
             // 
             // label2
             // 
@@ -95,25 +97,36 @@ namespace Lista_de_personas
             this.label2.Text = "* Carga de personas *";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // textBox1
+            // TxtNombre
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(778, 113);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 22);
-            this.textBox1.TabIndex = 5;
+            this.TxtNombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxtNombre.Location = new System.Drawing.Point(778, 113);
+            this.TxtNombre.Name = "TxtNombre";
+            this.TxtNombre.Size = new System.Drawing.Size(100, 22);
+            this.TxtNombre.TabIndex = 5;
             // 
-            // label3
+            // LblMostrar
             // 
-            this.label3.BackColor = System.Drawing.Color.LightCoral;
-            this.label3.Font = new System.Drawing.Font("Monotype Corsiva", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label3.Location = new System.Drawing.Point(807, 181);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(176, 202);
-            this.label3.TabIndex = 6;
-            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label3.Visible = false;
+            this.LblMostrar.BackColor = System.Drawing.Color.LightCoral;
+            this.LblMostrar.Font = new System.Drawing.Font("Monotype Corsiva", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblMostrar.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.LblMostrar.Location = new System.Drawing.Point(813, 181);
+            this.LblMostrar.Name = "LblMostrar";
+            this.LblMostrar.Size = new System.Drawing.Size(176, 202);
+            this.LblMostrar.TabIndex = 6;
+            this.LblMostrar.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.LblMostrar.Visible = false;
+            // 
+            // BtnCargar
+            // 
+            this.BtnCargar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnCargar.Location = new System.Drawing.Point(913, 109);
+            this.BtnCargar.Name = "BtnCargar";
+            this.BtnCargar.Size = new System.Drawing.Size(108, 31);
+            this.BtnCargar.TabIndex = 7;
+            this.BtnCargar.Text = "Cargar";
+            this.BtnCargar.UseVisualStyleBackColor = true;
+            this.BtnCargar.Click += new System.EventHandler(this.BtnCargar_Click);
             // 
             // Dias_de_la_semana
             // 
@@ -122,10 +135,11 @@ namespace Lista_de_personas
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DeepPink;
             this.ClientSize = new System.Drawing.Size(1209, 449);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.BtnCargar);
+            this.Controls.Add(this.LblMostrar);
+            this.Controls.Add(this.TxtNombre);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.BtnMostrar);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.LblSemana);
             this.Controls.Add(this.BtnSemana);
@@ -141,10 +155,11 @@ namespace Lista_de_personas
         private System.Windows.Forms.Button BtnSemana;
         private System.Windows.Forms.Label LblSemana;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button BtnMostrar;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox TxtNombre;
+        private System.Windows.Forms.Label LblMostrar;
+        private System.Windows.Forms.Button BtnCargar;
     }
 }
 

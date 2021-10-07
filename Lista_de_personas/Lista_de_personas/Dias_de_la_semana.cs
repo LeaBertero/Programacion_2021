@@ -10,13 +10,29 @@ using System.Windows.Forms;
 
 namespace Lista_de_personas
 {
+    
+
     public partial class Dias_de_la_semana : Form
     {
-
+        string[] nombres = new string[1000];
+        int posicion = 0;
 
         public Dias_de_la_semana()
         {
             InitializeComponent();
+        }
+
+        public void BtnCargar_Click(object sender, EventArgs e)
+        {
+            nombres[posicion] = TxtNombre.Text;
+            posicion = posicion + 1;
+            TxtNombre.Focus();
+            TxtNombre.SelectAll();
+        }
+
+        public void BtnMostrar_Click(object sender, EventArgs e)
+        {
+
         }
 
         public void BtnSemana_Click(object sender, EventArgs e)
@@ -65,6 +81,8 @@ namespace Lista_de_personas
                 LblSemana.Visible = true;
             }
         }
+
+       
     }
  
 }

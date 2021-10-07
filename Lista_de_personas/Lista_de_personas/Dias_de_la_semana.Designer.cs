@@ -43,7 +43,7 @@ namespace Lista_de_personas
             this.BtnSemana.TabIndex = 0;
             this.BtnSemana.Text = "Inciar dia de la semana";
             this.BtnSemana.UseVisualStyleBackColor = true;
-            this.BtnSemana.Click += new System.EventHandler(this.button1_Click);
+            this.BtnSemana.Click += new System.EventHandler(this.BtnSemana_Click);
             // 
             // LblSemana
             // 

@@ -50,7 +50,7 @@ namespace Dias_de_la_Semana
             this.LblVerSemana.BackColor = System.Drawing.Color.Salmon;
             this.LblVerSemana.Font = new System.Drawing.Font("Segoe Print", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblVerSemana.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.LblVerSemana.Location = new System.Drawing.Point(95, 110);
+            this.LblVerSemana.Location = new System.Drawing.Point(94, 112);
             this.LblVerSemana.Name = "LblVerSemana";
             this.LblVerSemana.Size = new System.Drawing.Size(196, 245);
             this.LblVerSemana.TabIndex = 1;

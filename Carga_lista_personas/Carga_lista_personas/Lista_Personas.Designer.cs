@@ -56,10 +56,10 @@ namespace Carga_lista_personas
             // 
             // TxtIngresoPers
             // 
-            this.TxtIngresoPers.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxtIngresoPers.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TxtIngresoPers.Location = new System.Drawing.Point(314, 263);
             this.TxtIngresoPers.Name = "TxtIngresoPers";
-            this.TxtIngresoPers.Size = new System.Drawing.Size(100, 22);
+            this.TxtIngresoPers.Size = new System.Drawing.Size(100, 26);
             this.TxtIngresoPers.TabIndex = 1;
             // 
             // BtnMostrar

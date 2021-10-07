@@ -29,11 +29,16 @@ namespace Carga_lista_personas
             TxtIngresoPers.Focus();
             TxtIngresoPers.SelectAll();
         }
+            
 
         private void BtnMostrar_Click(object sender, EventArgs e)
         {
-
+            foreach (var item in nombres)
+            {
+                LblLista.Text = LblLista.Text + item + "\r\n";
+            }
         }
+                
 
         private void BtnSalir_Click(object sender, EventArgs e)
         {
@@ -42,9 +47,21 @@ namespace Carga_lista_personas
 
         private void BtnDimensionar_Click(object sender, EventArgs e)
         {
-            int cantidad = System.Convert.ToInt32(TxtCarga);
+            int cantidad = System.Convert.ToInt32(TxtCarga.Text);
             nombres = new string[cantidad];
+            LblCargaFinalizada.Text = "Dimension aceptada";
         }
 
+            
+
+        private void BtnMostrarTitulo1_Click(object sender, EventArgs e)
+        {
+            LblTituloDim.Visible = true;
+        }
+
+        private void BtnMostrarTitulo2_Click(object sender, EventArgs e)
+        {
+            LblCargaNombres.Visible = true;
+        }
     }
 }

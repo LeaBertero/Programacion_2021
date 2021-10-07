@@ -31,13 +31,15 @@ namespace Dias_de_la_Semana
         {
             this.BtnMostrar = new System.Windows.Forms.Button();
             this.LblVerSemana = new System.Windows.Forms.Label();
+            this.BtnSalir = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // BtnMostrar
             // 
-            this.BtnMostrar.Location = new System.Drawing.Point(55, 25);
+            this.BtnMostrar.Font = new System.Drawing.Font("Sitka Text", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnMostrar.Location = new System.Drawing.Point(125, 35);
             this.BtnMostrar.Name = "BtnMostrar";
-            this.BtnMostrar.Size = new System.Drawing.Size(135, 40);
+            this.BtnMostrar.Size = new System.Drawing.Size(140, 40);
             this.BtnMostrar.TabIndex = 0;
             this.BtnMostrar.Text = "Mostrar semana";
             this.BtnMostrar.UseVisualStyleBackColor = true;
@@ -46,24 +48,37 @@ namespace Dias_de_la_Semana
             // LblVerSemana
             // 
             this.LblVerSemana.BackColor = System.Drawing.Color.Salmon;
-            this.LblVerSemana.Font = new System.Drawing.Font("Ink Free", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblVerSemana.Font = new System.Drawing.Font("Segoe Print", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblVerSemana.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.LblVerSemana.Location = new System.Drawing.Point(28, 104);
+            this.LblVerSemana.Location = new System.Drawing.Point(95, 110);
             this.LblVerSemana.Name = "LblVerSemana";
             this.LblVerSemana.Size = new System.Drawing.Size(196, 245);
             this.LblVerSemana.TabIndex = 1;
             this.LblVerSemana.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.LblVerSemana.Visible = false;
             // 
+            // BtnSalir
+            // 
+            this.BtnSalir.Font = new System.Drawing.Font("Sitka Text", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnSalir.Location = new System.Drawing.Point(321, 404);
+            this.BtnSalir.Name = "BtnSalir";
+            this.BtnSalir.Size = new System.Drawing.Size(69, 32);
+            this.BtnSalir.TabIndex = 2;
+            this.BtnSalir.Text = "Salir";
+            this.BtnSalir.UseVisualStyleBackColor = true;
+            this.BtnSalir.Click += new System.EventHandler(this.BtnSalir_Click);
+            // 
             // FormSemana
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(258, 376);
+            this.BackColor = System.Drawing.Color.DeepPink;
+            this.ClientSize = new System.Drawing.Size(402, 448);
+            this.Controls.Add(this.BtnSalir);
             this.Controls.Add(this.LblVerSemana);
             this.Controls.Add(this.BtnMostrar);
             this.Name = "FormSemana";
-            this.Text = "Form1";
+            this.Text = "Dias de la semana y semana completa";
             this.ResumeLayout(false);
 
         }
@@ -72,6 +87,7 @@ namespace Dias_de_la_Semana
 
         private System.Windows.Forms.Button BtnMostrar;
         private System.Windows.Forms.Label LblVerSemana;
+        private System.Windows.Forms.Button BtnSalir;
     }
 }
 

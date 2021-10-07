@@ -44,8 +44,11 @@ namespace Lista_de_personas
 
             LblSemana.Visible = true;
 
-            for (int i = 0; i < 7; i++)
+            for (int i = 0; i < Dias.Length; i++)
             {
+                //Se puede poner Dias.Length que sea menor a i (contador)
+                //O diarectamente el numero de datos que tengo en el arreglo
+                //En este caso, los dias de la semana
                 LblSemana.Text = LblSemana.Text + Dias[i] + "\r\n";
 
                 LblSemana.Visible = true;

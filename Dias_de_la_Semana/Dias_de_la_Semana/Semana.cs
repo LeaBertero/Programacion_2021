@@ -50,7 +50,8 @@ namespace Dias_de_la_Semana
 
             foreach (var item in Dias)
             {
-
+                LblVerSemana.Text = LblVerSemana.Text + item + "\r\n";
+                LblVerSemana.Visible = true;
             }
 
         }

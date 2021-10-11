@@ -29,20 +29,20 @@ namespace PrimerArreglo
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
+            this.BtnLunes = new System.Windows.Forms.Button();
             this.LblDia0 = new System.Windows.Forms.Label();
             this.LblDia1 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
+            this.BtnMartes = new System.Windows.Forms.Button();
             this.LblDia2 = new System.Windows.Forms.Label();
-            this.button3 = new System.Windows.Forms.Button();
+            this.BtnMiercoles = new System.Windows.Forms.Button();
             this.LblDia3 = new System.Windows.Forms.Label();
-            this.button4 = new System.Windows.Forms.Button();
+            this.BtnJueves = new System.Windows.Forms.Button();
             this.LblDia4 = new System.Windows.Forms.Label();
-            this.button5 = new System.Windows.Forms.Button();
+            this.BtnViernes = new System.Windows.Forms.Button();
             this.LblDia5 = new System.Windows.Forms.Label();
-            this.button6 = new System.Windows.Forms.Button();
+            this.BtnSabado = new System.Windows.Forms.Button();
             this.LblDia6 = new System.Windows.Forms.Label();
-            this.button7 = new System.Windows.Forms.Button();
+            this.BtnDomingo = new System.Windows.Forms.Button();
             this.BtnSalida = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
             this.button9 = new System.Windows.Forms.Button();
@@ -53,16 +53,16 @@ namespace PrimerArreglo
             this.button14 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // button1
+            // BtnLunes
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(58, 108);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(107, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Mostrar día 1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.BtnLunes.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnLunes.Location = new System.Drawing.Point(58, 108);
+            this.BtnLunes.Name = "BtnLunes";
+            this.BtnLunes.Size = new System.Drawing.Size(107, 23);
+            this.BtnLunes.TabIndex = 0;
+            this.BtnLunes.Text = "Mostrar día 1";
+            this.BtnLunes.UseVisualStyleBackColor = true;
+            this.BtnLunes.Click += new System.EventHandler(this.button1_Click);
             // 
             // LblDia0
             // 
@@ -84,16 +84,16 @@ namespace PrimerArreglo
             this.LblDia1.TabIndex = 3;
             this.LblDia1.Visible = false;
             // 
-            // button2
+            // BtnMartes
             // 
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(197, 108);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(107, 23);
-            this.button2.TabIndex = 2;
-            this.button2.Text = "Mostrar día 2";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.BtnMartes.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnMartes.Location = new System.Drawing.Point(197, 108);
+            this.BtnMartes.Name = "BtnMartes";
+            this.BtnMartes.Size = new System.Drawing.Size(107, 23);
+            this.BtnMartes.TabIndex = 2;
+            this.BtnMartes.Text = "Mostrar día 2";
+            this.BtnMartes.UseVisualStyleBackColor = true;
+            this.BtnMartes.Click += new System.EventHandler(this.button2_Click);
             // 
             // LblDia2
             // 
@@ -105,16 +105,16 @@ namespace PrimerArreglo
             this.LblDia2.TabIndex = 5;
             this.LblDia2.Visible = false;
             // 
-            // button3
+            // BtnMiercoles
             // 
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(328, 108);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(107, 23);
-            this.button3.TabIndex = 4;
-            this.button3.Text = "Mostrar día 3";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.BtnMiercoles.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnMiercoles.Location = new System.Drawing.Point(328, 108);
+            this.BtnMiercoles.Name = "BtnMiercoles";
+            this.BtnMiercoles.Size = new System.Drawing.Size(107, 23);
+            this.BtnMiercoles.TabIndex = 4;
+            this.BtnMiercoles.Text = "Mostrar día 3";
+            this.BtnMiercoles.UseVisualStyleBackColor = true;
+            this.BtnMiercoles.Click += new System.EventHandler(this.button3_Click);
             // 
             // LblDia3
             // 
@@ -126,16 +126,16 @@ namespace PrimerArreglo
             this.LblDia3.TabIndex = 7;
             this.LblDia3.Visible = false;
             // 
-            // button4
+            // BtnJueves
             // 
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(459, 108);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(107, 23);
-            this.button4.TabIndex = 6;
-            this.button4.Text = "Mostrar día 4";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
+            this.BtnJueves.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnJueves.Location = new System.Drawing.Point(459, 108);
+            this.BtnJueves.Name = "BtnJueves";
+            this.BtnJueves.Size = new System.Drawing.Size(107, 23);
+            this.BtnJueves.TabIndex = 6;
+            this.BtnJueves.Text = "Mostrar día 4";
+            this.BtnJueves.UseVisualStyleBackColor = true;
+            this.BtnJueves.Click += new System.EventHandler(this.button4_Click);
             // 
             // LblDia4
             // 
@@ -147,16 +147,16 @@ namespace PrimerArreglo
             this.LblDia4.TabIndex = 9;
             this.LblDia4.Visible = false;
             // 
-            // button5
+            // BtnViernes
             // 
-            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Location = new System.Drawing.Point(589, 108);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(107, 23);
-            this.button5.TabIndex = 8;
-            this.button5.Text = "Mostrar día 5";
-            this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
+            this.BtnViernes.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnViernes.Location = new System.Drawing.Point(589, 108);
+            this.BtnViernes.Name = "BtnViernes";
+            this.BtnViernes.Size = new System.Drawing.Size(107, 23);
+            this.BtnViernes.TabIndex = 8;
+            this.BtnViernes.Text = "Mostrar día 5";
+            this.BtnViernes.UseVisualStyleBackColor = true;
+            this.BtnViernes.Click += new System.EventHandler(this.button5_Click);
             // 
             // LblDia5
             // 
@@ -168,16 +168,16 @@ namespace PrimerArreglo
             this.LblDia5.TabIndex = 11;
             this.LblDia5.Visible = false;
             // 
-            // button6
+            // BtnSabado
             // 
-            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.Location = new System.Drawing.Point(719, 108);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(107, 23);
-            this.button6.TabIndex = 10;
-            this.button6.Text = "Mostrar día 6";
-            this.button6.UseVisualStyleBackColor = true;
-            this.button6.Click += new System.EventHandler(this.button6_Click);
+            this.BtnSabado.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnSabado.Location = new System.Drawing.Point(719, 108);
+            this.BtnSabado.Name = "BtnSabado";
+            this.BtnSabado.Size = new System.Drawing.Size(107, 23);
+            this.BtnSabado.TabIndex = 10;
+            this.BtnSabado.Text = "Mostrar día 6";
+            this.BtnSabado.UseVisualStyleBackColor = true;
+            this.BtnSabado.Click += new System.EventHandler(this.button6_Click);
             // 
             // LblDia6
             // 
@@ -189,16 +189,16 @@ namespace PrimerArreglo
             this.LblDia6.TabIndex = 13;
             this.LblDia6.Visible = false;
             // 
-            // button7
+            // BtnDomingo
             // 
-            this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button7.Location = new System.Drawing.Point(852, 108);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(107, 23);
-            this.button7.TabIndex = 12;
-            this.button7.Text = "Mostrar día 7";
-            this.button7.UseVisualStyleBackColor = true;
-            this.button7.Click += new System.EventHandler(this.button7_Click);
+            this.BtnDomingo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnDomingo.Location = new System.Drawing.Point(852, 108);
+            this.BtnDomingo.Name = "BtnDomingo";
+            this.BtnDomingo.Size = new System.Drawing.Size(107, 23);
+            this.BtnDomingo.TabIndex = 12;
+            this.BtnDomingo.Text = "Mostrar día 7";
+            this.BtnDomingo.UseVisualStyleBackColor = true;
+            this.BtnDomingo.Click += new System.EventHandler(this.button7_Click);
             // 
             // BtnSalida
             // 
@@ -303,19 +303,19 @@ namespace PrimerArreglo
             this.Controls.Add(this.button8);
             this.Controls.Add(this.BtnSalida);
             this.Controls.Add(this.LblDia6);
-            this.Controls.Add(this.button7);
+            this.Controls.Add(this.BtnDomingo);
             this.Controls.Add(this.LblDia5);
-            this.Controls.Add(this.button6);
+            this.Controls.Add(this.BtnSabado);
             this.Controls.Add(this.LblDia4);
-            this.Controls.Add(this.button5);
+            this.Controls.Add(this.BtnViernes);
             this.Controls.Add(this.LblDia3);
-            this.Controls.Add(this.button4);
+            this.Controls.Add(this.BtnJueves);
             this.Controls.Add(this.LblDia2);
-            this.Controls.Add(this.button3);
+            this.Controls.Add(this.BtnMiercoles);
             this.Controls.Add(this.LblDia1);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.BtnMartes);
             this.Controls.Add(this.LblDia0);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.BtnLunes);
             this.Name = "Primer_Arreglo";
             this.Text = "Primer Arreglo";
             this.ResumeLayout(false);
@@ -324,20 +324,20 @@ namespace PrimerArreglo
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button BtnLunes;
         private System.Windows.Forms.Label LblDia0;
         private System.Windows.Forms.Label LblDia1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button BtnMartes;
         private System.Windows.Forms.Label LblDia2;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button BtnMiercoles;
         private System.Windows.Forms.Label LblDia3;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button BtnJueves;
         private System.Windows.Forms.Label LblDia4;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button BtnViernes;
         private System.Windows.Forms.Label LblDia5;
-        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button BtnSabado;
         private System.Windows.Forms.Label LblDia6;
-        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button BtnDomingo;
         private System.Windows.Forms.Button BtnSalida;
         private System.Windows.Forms.Button button8;
         private System.Windows.Forms.Button button9;

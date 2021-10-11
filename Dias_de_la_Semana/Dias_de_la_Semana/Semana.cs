@@ -60,5 +60,10 @@ namespace Dias_de_la_Semana
         {
             Close();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            LblVerSemana.Visible = false;
+        }
     }
 }

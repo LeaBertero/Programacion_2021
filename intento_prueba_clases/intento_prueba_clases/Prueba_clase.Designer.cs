@@ -40,6 +40,8 @@ namespace intento_prueba_clases
             this.LblRojo = new System.Windows.Forms.Label();
             this.BtnRojo = new System.Windows.Forms.Button();
             this.BtnAparecercontroles = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.BtnTimer = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // BtnClick
@@ -57,6 +59,7 @@ namespace intento_prueba_clases
             // 
             this.TimerOne.Enabled = true;
             this.TimerOne.Interval = 500;
+            this.TimerOne.Tick += new System.EventHandler(this.TimerOne_Tick);
             // 
             // LblMundo
             // 
@@ -146,12 +149,32 @@ namespace intento_prueba_clases
             this.BtnAparecercontroles.UseVisualStyleBackColor = true;
             this.BtnAparecercontroles.Click += new System.EventHandler(this.BtnAparecercontroles_Click);
             // 
+            // label1
+            // 
+            this.label1.Location = new System.Drawing.Point(624, 72);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(100, 23);
+            this.label1.TabIndex = 9;
+            this.label1.Text = "label1";
+            // 
+            // BtnTimer
+            // 
+            this.BtnTimer.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.BtnTimer.Location = new System.Drawing.Point(460, 51);
+            this.BtnTimer.Name = "BtnTimer";
+            this.BtnTimer.Size = new System.Drawing.Size(85, 55);
+            this.BtnTimer.TabIndex = 10;
+            this.BtnTimer.Text = "TimerClick";
+            this.BtnTimer.UseVisualStyleBackColor = true;
+            // 
             // Prueba_clase
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightSeaGreen;
             this.ClientSize = new System.Drawing.Size(965, 389);
+            this.Controls.Add(this.BtnTimer);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.BtnAparecercontroles);
             this.Controls.Add(this.BtnRojo);
             this.Controls.Add(this.LblRojo);
@@ -180,6 +203,8 @@ namespace intento_prueba_clases
         private System.Windows.Forms.Label LblRojo;
         private System.Windows.Forms.Button BtnRojo;
         private System.Windows.Forms.Button BtnAparecercontroles;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button BtnTimer;
     }
 }
 

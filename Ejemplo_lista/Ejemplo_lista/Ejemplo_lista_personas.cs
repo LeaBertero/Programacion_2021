@@ -9,7 +9,7 @@ namespace Ejemplo_lista
         //Esta lista, es un arreglo de personas
         //public Persona[] Personas { get; set; } = new Persona [3];
         public Persona[] Personas { get; set; }
-       // public int Pos = -1;
+        // public int Pos = -1;
 
         public Ejemplo_lista_personas()
         {
@@ -22,10 +22,10 @@ namespace Ejemplo_lista
             persona.Nombre = TxtCarga.Text;
             //Pos = Pos + 1;
             Redimensionar();
-            Personas[Personas.Length -1] = persona;
+            Personas[Personas.Length - 1] = persona;
         }
-            
-            
+
+
 
         private void BtnMostrar_Click(object sender, EventArgs e)
         {
@@ -34,20 +34,27 @@ namespace Ejemplo_lista
             {
                 LblLista.Text = LblLista.Text + item.Nombre + "\r\n";
             }
-                
+
         }
 
         private void Redimensionar()
         {
             if (Personas == null)
             {
-                Personas = new Persona[0];
+                Personas = new Persona[1];
             }
-            else 
+            else
             {
                 Persona[] Arraux = new Persona[Personas.Length + 1];
+
+                for (int i = 0; i < Personas.Length; i++)
+                {
+                    Arraux[i] = Personas[i];
+                }
+                Personas = Arraux;
             }
         }
+
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -56,7 +63,7 @@ namespace Ejemplo_lista
     }
 }
 
-        
+
 
 
 

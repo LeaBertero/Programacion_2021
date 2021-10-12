@@ -45,7 +45,7 @@ namespace Ejemplo_lista
             }
             else 
             {
-                
+                Persona[] Arraux = new Persona[Personas.Length + 1];
             }
         }
 

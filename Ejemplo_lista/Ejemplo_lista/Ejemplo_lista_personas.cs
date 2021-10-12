@@ -7,9 +7,10 @@ namespace Ejemplo_lista
     public partial class Ejemplo_lista_personas : Form
     {
         //Esta lista, es un arreglo de personas
-        public Persona[] Personas { get; set; } = new Persona [3];
+        //public Persona[] Personas { get; set; } = new Persona [3];
+        public Persona[] Personas { get; set; }
+       // public int Pos = -1;
 
-        public int Posicion = -1;
         public Ejemplo_lista_personas()
         {
             InitializeComponent();
@@ -19,9 +20,12 @@ namespace Ejemplo_lista
         {
             Persona persona = new Persona();
             persona.Nombre = TxtCarga.Text;
-            Posicion = Posicion + 1;
-            Personas[Posicion] = persona;
+            //Pos = Pos + 1;
+            Redimensionar();
+            Personas[Personas.Length -1] = persona;
         }
+            
+            
 
         private void BtnMostrar_Click(object sender, EventArgs e)
         {
@@ -31,6 +35,18 @@ namespace Ejemplo_lista
                 LblLista.Text = LblLista.Text + item.Nombre + "\r\n";
             }
                 
+        }
+
+        private void Redimensionar()
+        {
+            if (Personas == null)
+            {
+                Personas = new Persona[0];
+            }
+            else 
+            {
+                
+            }
         }
 
         private void button1_Click(object sender, EventArgs e)

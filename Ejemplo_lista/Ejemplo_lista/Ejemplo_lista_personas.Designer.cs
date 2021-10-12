@@ -34,14 +34,17 @@ namespace Ejemplo_lista
             this.LblLista = new System.Windows.Forms.Label();
             this.BtnMostrar = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.TxtAño = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // BtnCargar
             // 
             this.BtnCargar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnCargar.Location = new System.Drawing.Point(184, 22);
+            this.BtnCargar.Location = new System.Drawing.Point(64, 133);
             this.BtnCargar.Name = "BtnCargar";
-            this.BtnCargar.Size = new System.Drawing.Size(115, 35);
+            this.BtnCargar.Size = new System.Drawing.Size(92, 35);
             this.BtnCargar.TabIndex = 0;
             this.BtnCargar.Text = "Cargar";
             this.BtnCargar.UseVisualStyleBackColor = true;
@@ -50,7 +53,7 @@ namespace Ejemplo_lista
             // TxtCarga
             // 
             this.TxtCarga.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtCarga.Location = new System.Drawing.Point(26, 26);
+            this.TxtCarga.Location = new System.Drawing.Point(62, 79);
             this.TxtCarga.Name = "TxtCarga";
             this.TxtCarga.Size = new System.Drawing.Size(126, 26);
             this.TxtCarga.TabIndex = 1;
@@ -59,7 +62,7 @@ namespace Ejemplo_lista
             // 
             this.LblLista.AutoSize = true;
             this.LblLista.Font = new System.Drawing.Font("Segoe Print", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblLista.Location = new System.Drawing.Point(22, 85);
+            this.LblLista.Location = new System.Drawing.Point(427, 20);
             this.LblLista.Name = "LblLista";
             this.LblLista.Size = new System.Drawing.Size(188, 33);
             this.LblLista.TabIndex = 3;
@@ -68,9 +71,9 @@ namespace Ejemplo_lista
             // BtnMostrar
             // 
             this.BtnMostrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnMostrar.Location = new System.Drawing.Point(337, 22);
+            this.BtnMostrar.Location = new System.Drawing.Point(213, 133);
             this.BtnMostrar.Name = "BtnMostrar";
-            this.BtnMostrar.Size = new System.Drawing.Size(115, 35);
+            this.BtnMostrar.Size = new System.Drawing.Size(92, 35);
             this.BtnMostrar.TabIndex = 4;
             this.BtnMostrar.Text = "Mostrar";
             this.BtnMostrar.UseVisualStyleBackColor = true;
@@ -79,20 +82,53 @@ namespace Ejemplo_lista
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(362, 255);
+            this.button1.Location = new System.Drawing.Point(12, 204);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(93, 35);
+            this.button1.Size = new System.Drawing.Size(80, 30);
             this.button1.TabIndex = 5;
             this.button1.Text = "Cerrar";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Segoe Print", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(58, 20);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(91, 33);
+            this.label1.TabIndex = 6;
+            this.label1.Text = "Nombre";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Segoe Print", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(247, 20);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(123, 33);
+            this.label2.TabIndex = 8;
+            this.label2.Text = "Nacimiento";
+            // 
+            // TxtAño
+            // 
+            this.TxtAño.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxtAño.Location = new System.Drawing.Point(251, 79);
+            this.TxtAño.Name = "TxtAño";
+            this.TxtAño.Size = new System.Drawing.Size(63, 26);
+            this.TxtAño.TabIndex = 7;
+            this.TxtAño.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // Ejemplo_lista_personas
             // 
             this.AcceptButton = this.BtnCargar;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(467, 302);
+            this.BackColor = System.Drawing.Color.Goldenrod;
+            this.ClientSize = new System.Drawing.Size(644, 253);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.TxtAño);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.BtnMostrar);
             this.Controls.Add(this.LblLista);
@@ -114,6 +150,9 @@ namespace Ejemplo_lista
         private System.Windows.Forms.Label LblLista;
         private System.Windows.Forms.Button BtnMostrar;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox TxtAño;
     }
 }
 

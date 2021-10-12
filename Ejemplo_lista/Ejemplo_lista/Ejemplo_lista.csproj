@@ -53,6 +53,7 @@
     <Compile Include="Ejemplo_lista_personas.Designer.cs">
       <DependentUpon>Ejemplo_lista_personas.cs</DependentUpon>
     </Compile>
+    <Compile Include="Clases_Para_Formulario\ListaPersonas.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Ejemplo_lista_personas.resx">

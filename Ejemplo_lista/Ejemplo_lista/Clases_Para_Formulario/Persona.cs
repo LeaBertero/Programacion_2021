@@ -9,5 +9,6 @@ namespace Ejemplo_lista.Clases_Para_Formulario
     public class Persona
     {
         public string Nombre { get; set; }
+        public int AñoNacimiento { get; set; }
     }
 }

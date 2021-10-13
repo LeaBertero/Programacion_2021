@@ -10,26 +10,31 @@ namespace Ejemplo_lista
 
         //public Persona[] Personas { get; set; } = new Persona [3];
         // public int Pos = -1;
-        public Persona[] Personas { get; set; }
+        //public Persona[] Personas { get; set; }
 
         public Ejemplo_lista_personas()
         {
             InitializeComponent();
         }
-        private void BtnCargar_Click(object sender, EventArgs e)
+        
+        public ListaPersonas Lista { get; set; } = new ListaPersonas();
+        
+        
+        public void BtnCargar_Click(object sender, EventArgs e)
         {
             Persona persona = new Persona();
-            persona.Nombre = TxtCarga.Text;
+            persona.Nombre = TxtNombre.Text;
             persona.AñoNacimiento = System.Convert.ToInt32(TxtAño.Text);
             //Pos = Pos + 1;
-            Redimensionar();
-            Personas[Personas.Length - 1] = persona;
+            Lista.Redimensionar();
+            //Personas[Personas.Length - 1] = persona;
+            Lista.Personas[Lista.Personas.Length - 1] = persona;
         }
 
         private void BtnMostrar_Click(object sender, EventArgs e)
         {
             LblLista.Text = "Lista de personas: \r\n";
-            foreach (Persona item in Personas)
+            foreach (Persona item in Lista.Personas)
             {
                 LblLista.Text = LblLista.Text 
                 + item.AñoNacimiento.ToString() 
@@ -38,35 +43,41 @@ namespace Ejemplo_lista
             }
         }
 
+        //private void Redimensionar()
+        //{
+        //    if (Lista.Personas == null)
+        //    {
+        //        Lista.Personas = new Persona[1];
+        //    }
+        //    else
+        //    {
+        //        Persona[] Arraux = new Persona[Lista.Personas.Length + 1];
 
-        private void Redimensionar()
-        {
-            if (Personas == null)
-            {
-                Personas = new Persona[1];
-            }
-            else
-            {
-                Persona[] Arraux = new Persona[Personas.Length + 1];
-
-                for (int i = 0; i < Personas.Length; i++)
-                {
-                    Arraux[i] = Personas[i];
-                }
-                Personas = Arraux;
-            }
-        }
- 
+        //        for (int i = 0; i < Lista.Personas.Length; i++)
+        //        {
+        //            Arraux[i] = Lista.Personas[i];
+        //        }
+        //        Lista.Personas = Arraux;
+        //    }
+        //}
+       
         private void button1_Click(object sender, EventArgs e)
         {
             Close();
         }
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
     }
 }
+
+
+
+
+
+        
+
+
+
+ 
+        
 
 
 

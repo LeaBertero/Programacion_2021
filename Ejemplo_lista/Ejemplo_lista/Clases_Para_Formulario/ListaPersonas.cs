@@ -1,4 +1,5 @@
 ﻿using Ejemplo_lista.Clases_Para_Formulario;
+using System;
 
 namespace Ejemplo_lista
 {
@@ -51,9 +52,24 @@ namespace Ejemplo_lista
             return Resp;
         }
 
-        
+        public int AñoNacimiento { get; set; }
+
+        public bool Validar()
+        {
+            bool resp = false;
+            if (AñoNacimiento > 1900 && AñoNacimiento <= DateTime.Now.Year) 
+            {
+                resp = true;
+            } 
+
+            return resp;
+        }
     }
 }
+
+
+
+
 
 
 

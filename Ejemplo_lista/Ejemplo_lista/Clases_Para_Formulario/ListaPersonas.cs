@@ -23,9 +23,42 @@ namespace Ejemplo_lista
                 Personas = Arraux;
             }
         }
+
+        public void AddPersona(string Nombre, string Año)
+        {
+            Persona persona = new Persona();
+            persona.Nombre = Nombre;
+            persona.AñoNacimiento = System.Convert.ToInt32(Año);
+            Redimensionar();
+            Personas[Personas.Length - 1] = persona;
+        }
+
+        public override string ToString()
+        {
+
+            string Resp = "";
+
+            Resp = "Lista de personas: \r\n";
+
+            foreach (Persona item in Personas)
+            {
+                Resp = Resp
+                + item.AñoNacimiento.ToString()
+                + " - " + item.Nombre
+                + "\r\n";
+            }
+
+            return Resp;
+        }
+
+        
     }
 }
 
 
-       
+
+
+
+
+
 

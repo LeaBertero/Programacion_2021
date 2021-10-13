@@ -22,27 +22,33 @@ namespace Ejemplo_lista
         
         public void BtnCargar_Click(object sender, EventArgs e)
         {
-            Persona persona = new Persona();
-            persona.Nombre = TxtNombre.Text;
-            persona.AñoNacimiento = System.Convert.ToInt32(TxtAño.Text);
-            //Pos = Pos + 1;
-            Lista.Redimensionar();
-            //Personas[Personas.Length - 1] = persona;
-            Lista.Personas[Lista.Personas.Length - 1] = persona;
+            //Persona persona = new Persona();
+            //persona.Nombre = TxtNombre.Text;
+            //persona.AñoNacimiento = System.Convert.ToInt32(TxtAño.Text);
+            ////Pos = Pos + 1;
+            //Lista.Redimensionar();
+            ////Personas[Personas.Length - 1] = persona;
+            //Lista.Personas[Lista.Personas.Length - 1] = persona;
+
+            Lista.AddPersona(TxtNombre.Text, TxtAño.Text);
         }
 
-        private void BtnMostrar_Click(object sender, EventArgs e)
+        public void BtnMostrar_Click(object sender, EventArgs e)
         {
-            LblLista.Text = "Lista de personas: \r\n";
-            foreach (Persona item in Lista.Personas)
-            {
-                LblLista.Text = LblLista.Text 
-                + item.AñoNacimiento.ToString() 
-                + " - " + item.Nombre 
-                + "\r\n";
-            }
+            //LblLista.Text = "Lista de personas: \r\n";
+            //foreach (Persona item in Lista.Personas)
+            //{
+            //    LblLista.Text = LblLista.Text 
+            //    + item.AñoNacimiento.ToString() 
+            //    + " - " + item.Nombre 
+            //    + "\r\n";
+            //}
+
+           LblLista.Text = Lista.ToString();
         }
 
+
+        
         //private void Redimensionar()
         //{
         //    if (Lista.Personas == null)

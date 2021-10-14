@@ -57,7 +57,7 @@ namespace Ejemplo_lista
         public bool Validar()
         {
             bool resp = false;
-            if (AñoNacimiento > 1900 && AñoNacimiento <= DateTime.Now.Year) 
+            if (AñoNacimiento > 1900 && AñoNacimiento <= DateTime.Now.Year)  
             {
                 resp = true;
             } 

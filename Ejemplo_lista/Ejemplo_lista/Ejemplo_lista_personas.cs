@@ -22,7 +22,7 @@ namespace Ejemplo_lista
         
         public void BtnCargar_Click(object sender, EventArgs e)
         {
-            Persona persona = new Persona();
+            //Persona persona = new Persona();
             
             //persona.Nombre = TxtNombre.Text;
             //persona.AñoNacimiento = System.Convert.ToInt32(TxtAño.Text);
@@ -71,6 +71,11 @@ namespace Ejemplo_lista
         private void button1_Click(object sender, EventArgs e)
         {
             Close();
+        }
+
+        private void Ejemplo_lista_personas_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

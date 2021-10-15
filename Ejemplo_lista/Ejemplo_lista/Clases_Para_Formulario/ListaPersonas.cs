@@ -25,14 +25,30 @@ namespace Ejemplo_lista
             }
         }
 
-        public void AddPersona(string Nombre, string Año)
+        public bool AddPersona(string Nombre, string Año)
         {
             Persona persona = new Persona();
             persona.Nombre = Nombre;
             persona.AñoNacimiento = System.Convert.ToInt32(Año);
-            Redimensionar();
-            Personas[Personas.Length - 1] = persona;
+            
+            bool resp = persona.Validar();
+
+
+            if (resp)
+            {
+
+                Redimensionar();
+
+                Personas[Personas.Length - 1] = persona;
+
+            }
+
+            return resp;
+
+                
         }
+
+
 
         //Override es para que no de error el ToString (Conversion)
         //que viene por defecto en visual
@@ -60,10 +76,10 @@ namespace Ejemplo_lista
         public bool Validar()
         {
             bool resp = false;
-            if (AñoNacimiento > 1900 && AñoNacimiento <= DateTime.Now.Year)  
+            if (AñoNacimiento > 1900 && AñoNacimiento <= DateTime.Now.Year)
             {
                 resp = true;
-            } 
+            }
 
             return resp;
         }

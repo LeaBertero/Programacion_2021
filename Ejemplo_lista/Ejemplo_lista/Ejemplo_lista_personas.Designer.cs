@@ -137,6 +137,7 @@ namespace Ejemplo_lista
             this.Name = "Ejemplo_lista_personas";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "Programa - Ejemplo carga de una lista de personas";
+            this.Load += new System.EventHandler(this.Ejemplo_lista_personas_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

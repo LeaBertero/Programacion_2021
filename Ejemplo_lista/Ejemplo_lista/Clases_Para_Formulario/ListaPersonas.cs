@@ -34,6 +34,9 @@ namespace Ejemplo_lista
             Personas[Personas.Length - 1] = persona;
         }
 
+        //Override es para que no de error el ToString (Conversion)
+        //que viene por defecto en visual
+        //Overrode = Sobrescribr los métodos
         public override string ToString()
         {
 

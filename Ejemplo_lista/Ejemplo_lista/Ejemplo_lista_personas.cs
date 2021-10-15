@@ -22,7 +22,8 @@ namespace Ejemplo_lista
         
         public void BtnCargar_Click(object sender, EventArgs e)
         {
-            //Persona persona = new Persona();
+            Persona persona = new Persona();
+            
             //persona.Nombre = TxtNombre.Text;
             //persona.AñoNacimiento = System.Convert.ToInt32(TxtAño.Text);
             ////Pos = Pos + 1;
@@ -44,7 +45,7 @@ namespace Ejemplo_lista
             //    + "\r\n";
             //}
 
-           LblLista.Text = Lista.ToString();
+            LblLista.Text = Lista.ToString();
         }
 
 

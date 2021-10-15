@@ -42,7 +42,7 @@ namespace Ejemplo_lista
             // BtnCargar
             // 
             this.BtnCargar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnCargar.Location = new System.Drawing.Point(276, 55);
+            this.BtnCargar.Location = new System.Drawing.Point(330, 128);
             this.BtnCargar.Name = "BtnCargar";
             this.BtnCargar.Size = new System.Drawing.Size(92, 35);
             this.BtnCargar.TabIndex = 0;
@@ -53,7 +53,7 @@ namespace Ejemplo_lista
             // TxtNombre
             // 
             this.TxtNombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtNombre.Location = new System.Drawing.Point(18, 59);
+            this.TxtNombre.Location = new System.Drawing.Point(9, 128);
             this.TxtNombre.Name = "TxtNombre";
             this.TxtNombre.Size = new System.Drawing.Size(126, 26);
             this.TxtNombre.TabIndex = 1;
@@ -62,7 +62,7 @@ namespace Ejemplo_lista
             // 
             this.LblLista.AutoSize = true;
             this.LblLista.Font = new System.Drawing.Font("Segoe Print", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblLista.Location = new System.Drawing.Point(36, 112);
+            this.LblLista.Location = new System.Drawing.Point(57, 184);
             this.LblLista.Name = "LblLista";
             this.LblLista.Size = new System.Drawing.Size(188, 33);
             this.LblLista.TabIndex = 3;
@@ -71,7 +71,7 @@ namespace Ejemplo_lista
             // BtnMostrar
             // 
             this.BtnMostrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnMostrar.Location = new System.Drawing.Point(276, 110);
+            this.BtnMostrar.Location = new System.Drawing.Point(446, 128);
             this.BtnMostrar.Name = "BtnMostrar";
             this.BtnMostrar.Size = new System.Drawing.Size(92, 35);
             this.BtnMostrar.TabIndex = 4;
@@ -82,7 +82,7 @@ namespace Ejemplo_lista
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Segoe Script", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(469, -1);
+            this.button1.Location = new System.Drawing.Point(-1, -1);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(176, 39);
             this.button1.TabIndex = 5;
@@ -94,7 +94,7 @@ namespace Ejemplo_lista
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe Print", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(12, 9);
+            this.label1.Location = new System.Drawing.Point(27, 78);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(91, 33);
             this.label1.TabIndex = 6;
@@ -104,7 +104,7 @@ namespace Ejemplo_lista
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe Print", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(180, 9);
+            this.label2.Location = new System.Drawing.Point(153, 78);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(168, 33);
             this.label2.TabIndex = 8;
@@ -113,9 +113,9 @@ namespace Ejemplo_lista
             // TxtAño
             // 
             this.TxtAño.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtAño.Location = new System.Drawing.Point(186, 59);
+            this.TxtAño.Location = new System.Drawing.Point(177, 128);
             this.TxtAño.Name = "TxtAño";
-            this.TxtAño.Size = new System.Drawing.Size(63, 26);
+            this.TxtAño.Size = new System.Drawing.Size(126, 26);
             this.TxtAño.TabIndex = 7;
             // 
             // Ejemplo_lista_personas
@@ -124,7 +124,7 @@ namespace Ejemplo_lista
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Goldenrod;
-            this.ClientSize = new System.Drawing.Size(644, 395);
+            this.ClientSize = new System.Drawing.Size(564, 531);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.TxtAño);
             this.Controls.Add(this.label1);

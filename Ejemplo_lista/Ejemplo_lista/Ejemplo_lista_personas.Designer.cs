@@ -62,7 +62,7 @@ namespace Ejemplo_lista
             // 
             this.LblLista.AutoSize = true;
             this.LblLista.Font = new System.Drawing.Font("Segoe Print", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblLista.Location = new System.Drawing.Point(57, 184);
+            this.LblLista.Location = new System.Drawing.Point(11, 195);
             this.LblLista.Name = "LblLista";
             this.LblLista.Size = new System.Drawing.Size(188, 33);
             this.LblLista.TabIndex = 3;
@@ -123,7 +123,7 @@ namespace Ejemplo_lista
             this.AcceptButton = this.BtnCargar;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Goldenrod;
+            this.BackColor = System.Drawing.Color.LightSeaGreen;
             this.ClientSize = new System.Drawing.Size(564, 531);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.TxtAño);

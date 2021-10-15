@@ -33,7 +33,6 @@ namespace Ejemplo_lista
             
             bool resp = persona.Validar();
 
-
             if (resp)
             {
 
@@ -42,13 +41,9 @@ namespace Ejemplo_lista
                 Personas[Personas.Length - 1] = persona;
 
             }
-
             return resp;
 
-                
         }
-
-
 
         //Override es para que no de error el ToString (Conversion)
         //que viene por defecto en visual
@@ -70,7 +65,6 @@ namespace Ejemplo_lista
 
             return Resp;
         }
-
         public int AñoNacimiento { get; set; }
 
         public bool Validar()
@@ -85,6 +79,12 @@ namespace Ejemplo_lista
         }
     }
 }
+
+                
+
+
+
+
 
 
 

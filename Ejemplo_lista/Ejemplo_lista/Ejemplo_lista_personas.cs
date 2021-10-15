@@ -23,12 +23,12 @@ namespace Ejemplo_lista
         public void BtnCargar_Click(object sender, EventArgs e)
         {
             //Persona persona = new Persona();
-            
+
             //persona.Nombre = TxtNombre.Text;
             //persona.AñoNacimiento = System.Convert.ToInt32(TxtAño.Text);
             ////Pos = Pos + 1;
-            //Lista.Redimensionar();
-            ////Personas[Personas.Length - 1] = persona;
+            //Redimensionar();
+            //Personas[Personas.Length - 1] = persona;
             //Lista.Personas[Lista.Personas.Length - 1] = persona;
 
             Lista.AddPersona(TxtNombre.Text, TxtAño.Text);
@@ -73,10 +73,7 @@ namespace Ejemplo_lista
             Close();
         }
 
-        private void Ejemplo_lista_personas_Load(object sender, EventArgs e)
-        {
-
-        }
+       
     }
 }
 

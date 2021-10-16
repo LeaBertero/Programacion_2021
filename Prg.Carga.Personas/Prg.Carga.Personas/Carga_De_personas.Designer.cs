@@ -187,7 +187,7 @@ namespace Prg.Carga.Personas
             this.Controls.Add(this.TxtNombre);
             this.Controls.Add(this.BtnMostrar);
             this.Name = "Carga_De_personas";
-            this.Text = "Form1";
+            this.Text = "Inscripcion de personas en materias";
             this.ResumeLayout(false);
             this.PerformLayout();
 

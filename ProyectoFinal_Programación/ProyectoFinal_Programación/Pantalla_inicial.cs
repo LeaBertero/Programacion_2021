@@ -17,7 +17,8 @@ namespace ProyectoFinal_Programación
         string[] NuevojugadorEq2 = new string[5];
 
         //Posición inicial de la carga de nombres de los jugadores
-        int posicion = 0;
+        int posicionEq1 = 0;
+        int posicionEq2 = 0;
 
         public Pantalla_inicial()
         {
@@ -28,8 +29,8 @@ namespace ProyectoFinal_Programación
         //Boton para cargar nuevos jugadores del equipo 1
         public void BtnCargaJugadorEq1_Click(object sender, EventArgs e)
         {
-            NuevojugadorEq1[posicion]= TxtCargaJugadorEq1.Text;
-            posicion = posicion + 1;
+            NuevojugadorEq1[posicionEq1]= TxtCargaJugadorEq1.Text;
+            posicionEq1 = posicionEq1 + 1;
             TxtCargaJugadorEq1.Focus();
             TxtCargaJugadorEq1.SelectAll();
         }
@@ -37,8 +38,8 @@ namespace ProyectoFinal_Programación
         //Boton para cargar nuevos jugadores del equipo 1
         public void BtnCargaJugadorEq2_Click(object sender, EventArgs e)
         {
-            NuevojugadorEq2[posicion] = TxtCargaJugadorEq2.Text;
-            posicion = posicion + 1;
+            NuevojugadorEq2[posicionEq2] = TxtCargaJugadorEq2.Text;
+            posicionEq2 = posicionEq2 + 1;
             TxtCargaJugadorEq2.Focus();
             TxtCargaJugadorEq2.SelectAll();
         }
@@ -61,7 +62,7 @@ namespace ProyectoFinal_Programación
             //Lismpia la lista, en el caso de que el usuario se arrepienta
             //de la cantidad de jugadores a cargar
 
-            LblListaEquipo1.Text = "";
+            LblListaEquipo2.Text = "";
 
             foreach (var item in NuevojugadorEq2)
             {

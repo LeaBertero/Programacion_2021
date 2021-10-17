@@ -16,6 +16,7 @@ namespace ProyectoFinal_Programación
         string[] NuevojugadorEq1;
         string[] NuevojugadorEq2 = new string[5];
 
+        //Posición inicial de la carga de nombres de los jugadores
         int posicion = 0;
 
         public Pantalla_inicial()
@@ -44,13 +45,31 @@ namespace ProyectoFinal_Programación
         //Mostrar en pantalla nuevo jugador en la lista de jugadores del equipo 1
         public void BtnMostrarNuevojugadorEq1_Click(object sender, EventArgs e)
         {
+            //Lismpia la lista, en el caso de que el usuario se arrepienta
+            //de la cantidad de jugadores a cargar
 
+            LblListaEquipo1.Text = "";
+
+            foreach (var item in NuevojugadorEq1)
+            {
+                LblListaEquipo1.Text = LblListaEquipo1.Text + item + "\r\n";
+            }
         }
         //Mostrar en pantalla nuevo jugador en la lista de jugadores del equipo 2
         public void BtnMostrarNuevojugadorEq2_Click(object sender, EventArgs e)
         {
+            //Lismpia la lista, en el caso de que el usuario se arrepienta
+            //de la cantidad de jugadores a cargar
 
+            LblListaEquipo1.Text = "";
+
+            foreach (var item in NuevojugadorEq2)
+            {
+                LblListaEquipo2.Text = LblListaEquipo2.Text + item + "\r\n";
+            }
         }
+
+
 
         //Dimensionar jugadores de equipo numero 1
         public void BtnDimEq1_Click(object sender, EventArgs e)
@@ -73,10 +92,10 @@ namespace ProyectoFinal_Programación
 
             for (int i = 0; i < Equiponumero1.Length; i++)
             {
-                LblEquipo1.Text = LblEquipo1.Text + Equiponumero1[i] + "\r\n";
+                LblListaEquipo1.Text = LblListaEquipo1.Text + Equiponumero1[i] + "\r\n";
             }
 
-            LblEquipo1.Visible = true;
+            LblListaEquipo1.Visible = true;
 
             //Equiponumero1[0] = "jugador 1";
             //Equiponumero1[1] = "jugador 2";
@@ -96,10 +115,10 @@ namespace ProyectoFinal_Programación
 
             for (int i = 0; i < Equiponumero2.Length; i++)
             {
-                LblEquipo2.Text = LblEquipo2.Text + Equiponumero2[i] + "\r\n";
+                LblListaEquipo2.Text = LblListaEquipo2.Text + Equiponumero2[i] + "\r\n";
             }
 
-            LblEquipo2.Visible = true;
+            LblListaEquipo2.Visible = true;
 
         }
 

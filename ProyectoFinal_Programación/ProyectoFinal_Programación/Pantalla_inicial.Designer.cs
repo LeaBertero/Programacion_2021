@@ -34,8 +34,8 @@ namespace ProyectoFinal_Programación
             this.TxtCargaJugadorEq2 = new System.Windows.Forms.TextBox();
             this.BtnEquipo2 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.LblEquipo2 = new System.Windows.Forms.Label();
-            this.LblEquipo1 = new System.Windows.Forms.Label();
+            this.LblListaEquipo2 = new System.Windows.Forms.Label();
+            this.LblListaEquipo1 = new System.Windows.Forms.Label();
             this.BtnCargaJugadorEq1 = new System.Windows.Forms.Button();
             this.BtnCargaJugadorEq2 = new System.Windows.Forms.Button();
             this.BtnMostrarNuevojugadorEq1 = new System.Windows.Forms.Button();
@@ -99,27 +99,27 @@ namespace ProyectoFinal_Programación
             this.label1.TabIndex = 4;
             this.label1.Text = "Agregue sus jugadores favoritos, para el torneo";
             // 
-            // LblEquipo2
+            // LblListaEquipo2
             // 
-            this.LblEquipo2.BackColor = System.Drawing.Color.LimeGreen;
-            this.LblEquipo2.Font = new System.Drawing.Font("Microsoft PhagsPa", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblEquipo2.ForeColor = System.Drawing.Color.White;
-            this.LblEquipo2.Location = new System.Drawing.Point(648, 124);
-            this.LblEquipo2.Name = "LblEquipo2";
-            this.LblEquipo2.Size = new System.Drawing.Size(178, 258);
-            this.LblEquipo2.TabIndex = 5;
-            this.LblEquipo2.Visible = false;
+            this.LblListaEquipo2.BackColor = System.Drawing.Color.LimeGreen;
+            this.LblListaEquipo2.Font = new System.Drawing.Font("Microsoft PhagsPa", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblListaEquipo2.ForeColor = System.Drawing.Color.White;
+            this.LblListaEquipo2.Location = new System.Drawing.Point(648, 124);
+            this.LblListaEquipo2.Name = "LblListaEquipo2";
+            this.LblListaEquipo2.Size = new System.Drawing.Size(178, 258);
+            this.LblListaEquipo2.TabIndex = 5;
+            this.LblListaEquipo2.Visible = false;
             // 
-            // LblEquipo1
+            // LblListaEquipo1
             // 
-            this.LblEquipo1.BackColor = System.Drawing.Color.LimeGreen;
-            this.LblEquipo1.Font = new System.Drawing.Font("Microsoft PhagsPa", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblEquipo1.ForeColor = System.Drawing.Color.White;
-            this.LblEquipo1.Location = new System.Drawing.Point(371, 124);
-            this.LblEquipo1.Name = "LblEquipo1";
-            this.LblEquipo1.Size = new System.Drawing.Size(178, 258);
-            this.LblEquipo1.TabIndex = 6;
-            this.LblEquipo1.Visible = false;
+            this.LblListaEquipo1.BackColor = System.Drawing.Color.LimeGreen;
+            this.LblListaEquipo1.Font = new System.Drawing.Font("Microsoft PhagsPa", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblListaEquipo1.ForeColor = System.Drawing.Color.White;
+            this.LblListaEquipo1.Location = new System.Drawing.Point(371, 124);
+            this.LblListaEquipo1.Name = "LblListaEquipo1";
+            this.LblListaEquipo1.Size = new System.Drawing.Size(178, 258);
+            this.LblListaEquipo1.TabIndex = 6;
+            this.LblListaEquipo1.Visible = false;
             // 
             // BtnCargaJugadorEq1
             // 
@@ -256,8 +256,8 @@ namespace ProyectoFinal_Programación
             this.Controls.Add(this.BtnMostrarNuevojugadorEq1);
             this.Controls.Add(this.BtnCargaJugadorEq2);
             this.Controls.Add(this.BtnCargaJugadorEq1);
-            this.Controls.Add(this.LblEquipo1);
-            this.Controls.Add(this.LblEquipo2);
+            this.Controls.Add(this.LblListaEquipo1);
+            this.Controls.Add(this.LblListaEquipo2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.TxtCargaJugadorEq2);
             this.Controls.Add(this.BtnEquipo2);
@@ -278,8 +278,8 @@ namespace ProyectoFinal_Programación
         private System.Windows.Forms.TextBox TxtCargaJugadorEq2;
         private System.Windows.Forms.Button BtnEquipo2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label LblEquipo2;
-        private System.Windows.Forms.Label LblEquipo1;
+        private System.Windows.Forms.Label LblListaEquipo2;
+        private System.Windows.Forms.Label LblListaEquipo1;
         private System.Windows.Forms.Button BtnCargaJugadorEq1;
         private System.Windows.Forms.Button BtnCargaJugadorEq2;
         private System.Windows.Forms.Button BtnMostrarNuevojugadorEq1;

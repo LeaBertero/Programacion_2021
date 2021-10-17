@@ -120,6 +120,14 @@ namespace ProyectoFinal_Programación
 
             LblListaEquipo2.Visible = true;
 
+            //Equiponumero1[0] = "jugador 1";
+            //Equiponumero1[1] = "jugador 2";
+            //Equiponumero1[2] = "jugador 3";
+            //Equiponumero1[3] = "jugador 4";
+            //Equiponumero1[4] = "jugador 5";
+
+            //LblEquipo1.Text = Equiponumero1[3];
+
         }
 
         //ÉSTE BOTÓN CIERRA EL PROGRAMA

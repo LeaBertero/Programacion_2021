@@ -41,6 +41,12 @@ namespace ProyectoFinal_Programación
             this.BtnMostrarNuevojugadorEq1 = new System.Windows.Forms.Button();
             this.BtnMostrarNuevojugadorEq2 = new System.Windows.Forms.Button();
             this.BtnExit = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
+            this.BtnDimEq1 = new System.Windows.Forms.Button();
+            this.TxtDimJugadorEq1 = new System.Windows.Forms.TextBox();
+            this.TxtDimJugadorEq2 = new System.Windows.Forms.TextBox();
+            this.BtnDimEq2 = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // BtnEquipo1
@@ -48,16 +54,16 @@ namespace ProyectoFinal_Programación
             this.BtnEquipo1.Font = new System.Drawing.Font("Microsoft PhagsPa", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnEquipo1.Location = new System.Drawing.Point(34, 12);
             this.BtnEquipo1.Name = "BtnEquipo1";
-            this.BtnEquipo1.Size = new System.Drawing.Size(128, 51);
+            this.BtnEquipo1.Size = new System.Drawing.Size(141, 51);
             this.BtnEquipo1.TabIndex = 0;
-            this.BtnEquipo1.Text = "Equipo 1";
+            this.BtnEquipo1.Text = "Lista - equipo 1";
             this.BtnEquipo1.UseVisualStyleBackColor = true;
             this.BtnEquipo1.Click += new System.EventHandler(this.BtnEquipo1_Click);
             // 
             // TxtCargaJugadorEq1
             // 
             this.TxtCargaJugadorEq1.Font = new System.Drawing.Font("Microsoft PhagsPa", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtCargaJugadorEq1.Location = new System.Drawing.Point(238, 76);
+            this.TxtCargaJugadorEq1.Location = new System.Drawing.Point(376, 79);
             this.TxtCargaJugadorEq1.Name = "TxtCargaJugadorEq1";
             this.TxtCargaJugadorEq1.Size = new System.Drawing.Size(128, 28);
             this.TxtCargaJugadorEq1.TabIndex = 1;
@@ -65,7 +71,7 @@ namespace ProyectoFinal_Programación
             // TxtCargaJugadorEq2
             // 
             this.TxtCargaJugadorEq2.Font = new System.Drawing.Font("Microsoft PhagsPa", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtCargaJugadorEq2.Location = new System.Drawing.Point(514, 76);
+            this.TxtCargaJugadorEq2.Location = new System.Drawing.Point(698, 79);
             this.TxtCargaJugadorEq2.Name = "TxtCargaJugadorEq2";
             this.TxtCargaJugadorEq2.Size = new System.Drawing.Size(128, 28);
             this.TxtCargaJugadorEq2.TabIndex = 3;
@@ -73,11 +79,11 @@ namespace ProyectoFinal_Programación
             // BtnEquipo2
             // 
             this.BtnEquipo2.Font = new System.Drawing.Font("Microsoft PhagsPa", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnEquipo2.Location = new System.Drawing.Point(740, 12);
+            this.BtnEquipo2.Location = new System.Drawing.Point(1071, 12);
             this.BtnEquipo2.Name = "BtnEquipo2";
-            this.BtnEquipo2.Size = new System.Drawing.Size(128, 51);
+            this.BtnEquipo2.Size = new System.Drawing.Size(141, 51);
             this.BtnEquipo2.TabIndex = 2;
-            this.BtnEquipo2.Text = "Equipo 2";
+            this.BtnEquipo2.Text = "Lista - equipo 2";
             this.BtnEquipo2.UseVisualStyleBackColor = true;
             this.BtnEquipo2.Click += new System.EventHandler(this.BtnEquipo2_Click);
             // 
@@ -87,7 +93,7 @@ namespace ProyectoFinal_Programación
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("NSimSun", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(173, 476);
+            this.label1.Location = new System.Drawing.Point(308, 494);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(574, 21);
             this.label1.TabIndex = 4;
@@ -98,7 +104,7 @@ namespace ProyectoFinal_Programación
             this.LblEquipo2.BackColor = System.Drawing.Color.LimeGreen;
             this.LblEquipo2.Font = new System.Drawing.Font("Microsoft PhagsPa", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblEquipo2.ForeColor = System.Drawing.Color.White;
-            this.LblEquipo2.Location = new System.Drawing.Point(492, 121);
+            this.LblEquipo2.Location = new System.Drawing.Point(648, 124);
             this.LblEquipo2.Name = "LblEquipo2";
             this.LblEquipo2.Size = new System.Drawing.Size(178, 258);
             this.LblEquipo2.TabIndex = 5;
@@ -109,7 +115,7 @@ namespace ProyectoFinal_Programación
             this.LblEquipo1.BackColor = System.Drawing.Color.LimeGreen;
             this.LblEquipo1.Font = new System.Drawing.Font("Microsoft PhagsPa", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblEquipo1.ForeColor = System.Drawing.Color.White;
-            this.LblEquipo1.Location = new System.Drawing.Point(215, 121);
+            this.LblEquipo1.Location = new System.Drawing.Point(371, 124);
             this.LblEquipo1.Name = "LblEquipo1";
             this.LblEquipo1.Size = new System.Drawing.Size(178, 258);
             this.LblEquipo1.TabIndex = 6;
@@ -118,7 +124,7 @@ namespace ProyectoFinal_Programación
             // BtnCargaJugadorEq1
             // 
             this.BtnCargaJugadorEq1.Font = new System.Drawing.Font("Microsoft PhagsPa", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnCargaJugadorEq1.Location = new System.Drawing.Point(220, 12);
+            this.BtnCargaJugadorEq1.Location = new System.Drawing.Point(376, 15);
             this.BtnCargaJugadorEq1.Name = "BtnCargaJugadorEq1";
             this.BtnCargaJugadorEq1.Size = new System.Drawing.Size(154, 51);
             this.BtnCargaJugadorEq1.TabIndex = 7;
@@ -129,7 +135,7 @@ namespace ProyectoFinal_Programación
             // BtnCargaJugadorEq2
             // 
             this.BtnCargaJugadorEq2.Font = new System.Drawing.Font("Microsoft PhagsPa", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnCargaJugadorEq2.Location = new System.Drawing.Point(497, 12);
+            this.BtnCargaJugadorEq2.Location = new System.Drawing.Point(672, 15);
             this.BtnCargaJugadorEq2.Name = "BtnCargaJugadorEq2";
             this.BtnCargaJugadorEq2.Size = new System.Drawing.Size(154, 51);
             this.BtnCargaJugadorEq2.TabIndex = 8;
@@ -140,7 +146,7 @@ namespace ProyectoFinal_Programación
             // BtnMostrarNuevojugadorEq1
             // 
             this.BtnMostrarNuevojugadorEq1.Font = new System.Drawing.Font("Microsoft PhagsPa", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnMostrarNuevojugadorEq1.Location = new System.Drawing.Point(220, 402);
+            this.BtnMostrarNuevojugadorEq1.Location = new System.Drawing.Point(376, 405);
             this.BtnMostrarNuevojugadorEq1.Name = "BtnMostrarNuevojugadorEq1";
             this.BtnMostrarNuevojugadorEq1.Size = new System.Drawing.Size(154, 51);
             this.BtnMostrarNuevojugadorEq1.TabIndex = 9;
@@ -151,7 +157,7 @@ namespace ProyectoFinal_Programación
             // BtnMostrarNuevojugadorEq2
             // 
             this.BtnMostrarNuevojugadorEq2.Font = new System.Drawing.Font("Microsoft PhagsPa", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnMostrarNuevojugadorEq2.Location = new System.Drawing.Point(497, 402);
+            this.BtnMostrarNuevojugadorEq2.Location = new System.Drawing.Point(672, 405);
             this.BtnMostrarNuevojugadorEq2.Name = "BtnMostrarNuevojugadorEq2";
             this.BtnMostrarNuevojugadorEq2.Size = new System.Drawing.Size(154, 51);
             this.BtnMostrarNuevojugadorEq2.TabIndex = 10;
@@ -162,7 +168,7 @@ namespace ProyectoFinal_Programación
             // BtnExit
             // 
             this.BtnExit.Font = new System.Drawing.Font("Microsoft PhagsPa", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnExit.Location = new System.Drawing.Point(801, 494);
+            this.BtnExit.Location = new System.Drawing.Point(1131, 494);
             this.BtnExit.Name = "BtnExit";
             this.BtnExit.Size = new System.Drawing.Size(81, 33);
             this.BtnExit.TabIndex = 11;
@@ -170,13 +176,81 @@ namespace ProyectoFinal_Programación
             this.BtnExit.UseVisualStyleBackColor = true;
             this.BtnExit.Click += new System.EventHandler(this.BtnExit_Click);
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Font = new System.Drawing.Font("NSimSun", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(12, 84);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(322, 21);
+            this.label2.TabIndex = 12;
+            this.label2.Text = "Cantidad de jugadores Eq 1";
+            // 
+            // BtnDimEq1
+            // 
+            this.BtnDimEq1.Font = new System.Drawing.Font("Microsoft PhagsPa", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnDimEq1.Location = new System.Drawing.Point(92, 170);
+            this.BtnDimEq1.Name = "BtnDimEq1";
+            this.BtnDimEq1.Size = new System.Drawing.Size(128, 51);
+            this.BtnDimEq1.TabIndex = 13;
+            this.BtnDimEq1.Text = "Dimensionar Eq - N° 1";
+            this.BtnDimEq1.UseVisualStyleBackColor = true;
+            this.BtnDimEq1.Click += new System.EventHandler(this.BtnDimEq1_Click);
+            // 
+            // TxtDimJugadorEq1
+            // 
+            this.TxtDimJugadorEq1.Font = new System.Drawing.Font("Microsoft PhagsPa", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxtDimJugadorEq1.Location = new System.Drawing.Point(96, 126);
+            this.TxtDimJugadorEq1.Name = "TxtDimJugadorEq1";
+            this.TxtDimJugadorEq1.Size = new System.Drawing.Size(128, 28);
+            this.TxtDimJugadorEq1.TabIndex = 14;
+            // 
+            // TxtDimJugadorEq2
+            // 
+            this.TxtDimJugadorEq2.Font = new System.Drawing.Font("Microsoft PhagsPa", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxtDimJugadorEq2.Location = new System.Drawing.Point(993, 126);
+            this.TxtDimJugadorEq2.Name = "TxtDimJugadorEq2";
+            this.TxtDimJugadorEq2.Size = new System.Drawing.Size(128, 28);
+            this.TxtDimJugadorEq2.TabIndex = 17;
+            // 
+            // BtnDimEq2
+            // 
+            this.BtnDimEq2.Font = new System.Drawing.Font("Microsoft PhagsPa", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnDimEq2.Location = new System.Drawing.Point(989, 170);
+            this.BtnDimEq2.Name = "BtnDimEq2";
+            this.BtnDimEq2.Size = new System.Drawing.Size(128, 51);
+            this.BtnDimEq2.TabIndex = 16;
+            this.BtnDimEq2.Text = "Dimensionar Eq - N° 2";
+            this.BtnDimEq2.UseVisualStyleBackColor = true;
+            this.BtnDimEq2.Click += new System.EventHandler(this.BtnDimEq2_Click);
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.Font = new System.Drawing.Font("NSimSun", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.Location = new System.Drawing.Point(890, 86);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(322, 21);
+            this.label3.TabIndex = 15;
+            this.label3.Text = "Cantidad de jugadores Eq 2";
+            // 
             // Pantalla_inicial
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::ProyectoFinal_Programación.Properties.Resources.depositphotos_56044831_stock_photo_soccer_field_and_the_bright;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(894, 539);
+            this.ClientSize = new System.Drawing.Size(1224, 539);
+            this.Controls.Add(this.TxtDimJugadorEq2);
+            this.Controls.Add(this.BtnDimEq2);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.TxtDimJugadorEq1);
+            this.Controls.Add(this.BtnDimEq1);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.BtnExit);
             this.Controls.Add(this.BtnMostrarNuevojugadorEq2);
             this.Controls.Add(this.BtnMostrarNuevojugadorEq1);
@@ -211,6 +285,12 @@ namespace ProyectoFinal_Programación
         private System.Windows.Forms.Button BtnMostrarNuevojugadorEq1;
         private System.Windows.Forms.Button BtnMostrarNuevojugadorEq2;
         private System.Windows.Forms.Button BtnExit;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button BtnDimEq1;
+        private System.Windows.Forms.TextBox TxtDimJugadorEq1;
+        private System.Windows.Forms.TextBox TxtDimJugadorEq2;
+        private System.Windows.Forms.Button BtnDimEq2;
+        private System.Windows.Forms.Label label3;
     }
 }
 

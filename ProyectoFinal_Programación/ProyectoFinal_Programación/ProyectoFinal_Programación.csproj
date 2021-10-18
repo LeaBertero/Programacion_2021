@@ -47,25 +47,25 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Clases_Jugadores_suplentes\Suplentes.cs" />
-    <Compile Include="Form_inicio.cs">
+    <Compile Include="Frm_Titulares.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form_inicio.Designer.cs">
-      <DependentUpon>Form_inicio.cs</DependentUpon>
+    <Compile Include="Frm_Titulares.Designer.cs">
+      <DependentUpon>Frm_Titulares.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form_Suplentes.cs">
+    <Compile Include="Frm_Suplentes.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form_Suplentes.Designer.cs">
-      <DependentUpon>Form_Suplentes.cs</DependentUpon>
+    <Compile Include="Frm_Suplentes.Designer.cs">
+      <DependentUpon>Frm_Suplentes.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form_inicio.resx">
-      <DependentUpon>Form_inicio.cs</DependentUpon>
+    <EmbeddedResource Include="Frm_Titulares.resx">
+      <DependentUpon>Frm_Titulares.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form_Suplentes.resx">
-      <DependentUpon>Form_Suplentes.cs</DependentUpon>
+    <EmbeddedResource Include="Frm_Suplentes.resx">
+      <DependentUpon>Frm_Suplentes.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

@@ -1,7 +1,7 @@
 ﻿
 namespace ProyectoFinal_Programación
 {
-    partial class Form_inicio
+    partial class Frm_Titulares
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -263,13 +263,16 @@ namespace ProyectoFinal_Programación
             this.label4.TabIndex = 19;
             this.label4.Text = "Ir a suplentes";
             // 
-            // Form_inicio
+            // Frm_Titulares
             // 
+            this.AcceptButton = this.BtnCargaJugadorEq1;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::ProyectoFinal_Programación.Properties.Resources.depositphotos_56044831_stock_photo_soccer_field_and_the_bright;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1224, 539);
+            this.Controls.Add(this.BtnCargaJugadorEq1);
+            this.Controls.Add(this.BtnCargaJugadorEq2);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.Btn_Suplentes);
             this.Controls.Add(this.TxtDimJugadorEq2);
@@ -281,8 +284,6 @@ namespace ProyectoFinal_Programación
             this.Controls.Add(this.BtnExit);
             this.Controls.Add(this.BtnMostrarNuevojugadorEq2);
             this.Controls.Add(this.BtnMostrarNuevojugadorEq1);
-            this.Controls.Add(this.BtnCargaJugadorEq2);
-            this.Controls.Add(this.BtnCargaJugadorEq1);
             this.Controls.Add(this.LblListaEquipo1);
             this.Controls.Add(this.LblListaEquipo2);
             this.Controls.Add(this.label1);
@@ -291,7 +292,7 @@ namespace ProyectoFinal_Programación
             this.Controls.Add(this.TxtCargaJugadorEq1);
             this.Controls.Add(this.BtnEquipo1);
             this.Font = new System.Drawing.Font("Microsoft PhagsPa", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Name = "Form_inicio";
+            this.Name = "Frm_Titulares";
             this.Text = "Proyecto final - 2021 (Programacion)";
             this.ResumeLayout(false);
             this.PerformLayout();

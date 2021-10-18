@@ -1,7 +1,7 @@
 ﻿
 namespace ProyectoFinal_Programación
 {
-    partial class Form_Suplentes
+    partial class Frm_Suplentes
     {
         /// <summary>
         /// Required designer variable.
@@ -84,11 +84,11 @@ namespace ProyectoFinal_Programación
             this.BtnSalir.Name = "BtnSalir";
             this.BtnSalir.Size = new System.Drawing.Size(93, 31);
             this.BtnSalir.TabIndex = 21;
-            this.BtnSalir.Text = "Salir";
+            this.BtnSalir.Text = "Atrás";
             this.BtnSalir.UseVisualStyleBackColor = true;
             this.BtnSalir.Click += new System.EventHandler(this.BtnSalir_Click);
             // 
-            // Form_Suplentes
+            // Frm_Suplentes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -99,7 +99,7 @@ namespace ProyectoFinal_Programación
             this.Controls.Add(this.LblListaSuplentes);
             this.Controls.Add(this.TxtAgregarSuplentes);
             this.Controls.Add(this.BtnAgregarSup);
-            this.Name = "Form_Suplentes";
+            this.Name = "Frm_Suplentes";
             this.Text = "Suplentes";
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace ProyectoFinal_Programación
 {
-    public partial class Form_inicio : Form
+    public partial class Frm_Titulares : Form
     {
         //Variables
         string[] NuevojugadorEq1;
@@ -20,7 +20,7 @@ namespace ProyectoFinal_Programación
         int posicionEq1 = 0;
         int posicionEq2 = 0;
 
-        public Form_inicio()
+        public Frm_Titulares()
         {
             InitializeComponent();
         }
@@ -141,7 +141,7 @@ namespace ProyectoFinal_Programación
         {
             //Se agregó un botón para ir a un formulario nuevo
             //donde se va a mostrar la lista de jugadores suplentes
-            Form FrmSuplentes = new Form_Suplentes();
+            Form FrmSuplentes = new Frm_Suplentes();
             FrmSuplentes.ShowDialog();
         }
     }

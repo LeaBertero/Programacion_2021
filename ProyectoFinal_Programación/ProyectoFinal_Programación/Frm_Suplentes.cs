@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace ProyectoFinal_Programación
 {
-    public partial class Form_Suplentes : Form
+    public partial class Frm_Suplentes : Form
     {
-        public Form_Suplentes()
+        public Frm_Suplentes()
         {
             InitializeComponent();
         }

@@ -6,9 +6,12 @@ using System.Threading.Tasks;
 
 namespace ProyectoFinal_Programación.Clases_Jugadores_suplentes
 {
-    class Suplentes
+    public class SuplentesEq1
     {
-        
+        //Es una Propiedad
+        //Proiedad de la clase persona
+
+
     }
 }
 

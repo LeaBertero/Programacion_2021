@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ProyectoFinal_Programación.Clases_Jugadores_suplentes;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,6 +13,8 @@ namespace ProyectoFinal_Programación
 {
     public partial class Frm_Suplentes : Form
     {
+        public SuplentesEq1 SuplentesEq1;
+
         public Frm_Suplentes()
         {
             InitializeComponent();
@@ -22,4 +25,6 @@ namespace ProyectoFinal_Programación
             Close();
         }
     }
+        
+
 }

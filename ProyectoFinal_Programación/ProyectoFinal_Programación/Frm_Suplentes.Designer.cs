@@ -80,7 +80,7 @@ namespace ProyectoFinal_Programación
             // BtnSalir
             // 
             this.BtnSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnSalir.Location = new System.Drawing.Point(500, 489);
+            this.BtnSalir.Location = new System.Drawing.Point(841, 489);
             this.BtnSalir.Name = "BtnSalir";
             this.BtnSalir.Size = new System.Drawing.Size(93, 31);
             this.BtnSalir.TabIndex = 21;
@@ -93,7 +93,7 @@ namespace ProyectoFinal_Programación
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::ProyectoFinal_Programación.Properties.Resources._2013_06_03_15_22_06_sup_jpg;
-            this.ClientSize = new System.Drawing.Size(605, 532);
+            this.ClientSize = new System.Drawing.Size(946, 532);
             this.Controls.Add(this.BtnSalir);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.LblListaSuplentes);

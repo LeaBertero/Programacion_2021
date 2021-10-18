@@ -63,6 +63,16 @@ namespace ProyectoFinal_Programación.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _2013_06_03_15_22_06_sup_jpg {
+            get {
+                object obj = ResourceManager.GetObject("2013-06-03-15-22-06_sup-jpg", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap depositphotos_56044831_stock_photo_soccer_field_and_the_bright {
             get {
                 object obj = ResourceManager.GetObject("depositphotos_56044831-stock-photo-soccer-field-and-the-bright", resourceCulture);

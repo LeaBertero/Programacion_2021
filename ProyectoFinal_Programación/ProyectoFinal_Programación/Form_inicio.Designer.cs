@@ -1,7 +1,7 @@
 ﻿
 namespace ProyectoFinal_Programación
 {
-    partial class Pantalla_inicial
+    partial class Form_inicio
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -47,6 +47,8 @@ namespace ProyectoFinal_Programación
             this.TxtDimJugadorEq2 = new System.Windows.Forms.TextBox();
             this.BtnDimEq2 = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
+            this.Btn_Suplentes = new System.Windows.Forms.Button();
+            this.label4 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // BtnEquipo1
@@ -238,13 +240,38 @@ namespace ProyectoFinal_Programación
             this.label3.TabIndex = 15;
             this.label3.Text = "Cantidad de jugadores Eq 2";
             // 
-            // Pantalla_inicial
+            // Btn_Suplentes
+            // 
+            this.Btn_Suplentes.Font = new System.Drawing.Font("Microsoft PhagsPa", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btn_Suplentes.Location = new System.Drawing.Point(16, 480);
+            this.Btn_Suplentes.Name = "Btn_Suplentes";
+            this.Btn_Suplentes.Size = new System.Drawing.Size(130, 35);
+            this.Btn_Suplentes.TabIndex = 18;
+            this.Btn_Suplentes.Text = "Suplentes";
+            this.Btn_Suplentes.UseVisualStyleBackColor = true;
+            this.Btn_Suplentes.Click += new System.EventHandler(this.Btn_Suplentes_Click);
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.Transparent;
+            this.label4.Font = new System.Drawing.Font("NSimSun", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.White;
+            this.label4.Location = new System.Drawing.Point(12, 438);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(178, 21);
+            this.label4.TabIndex = 19;
+            this.label4.Text = "Ir a suplentes";
+            // 
+            // Form_inicio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::ProyectoFinal_Programación.Properties.Resources.depositphotos_56044831_stock_photo_soccer_field_and_the_bright;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1224, 539);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.Btn_Suplentes);
             this.Controls.Add(this.TxtDimJugadorEq2);
             this.Controls.Add(this.BtnDimEq2);
             this.Controls.Add(this.label3);
@@ -264,7 +291,7 @@ namespace ProyectoFinal_Programación
             this.Controls.Add(this.TxtCargaJugadorEq1);
             this.Controls.Add(this.BtnEquipo1);
             this.Font = new System.Drawing.Font("Microsoft PhagsPa", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Name = "Pantalla_inicial";
+            this.Name = "Form_inicio";
             this.Text = "Proyecto final - 2021 (Programacion)";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -291,6 +318,8 @@ namespace ProyectoFinal_Programación
         private System.Windows.Forms.TextBox TxtDimJugadorEq2;
         private System.Windows.Forms.Button BtnDimEq2;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button Btn_Suplentes;
+        private System.Windows.Forms.Label label4;
     }
 }
 

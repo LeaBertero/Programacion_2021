@@ -154,7 +154,7 @@ namespace ProyectoFinal_Programación
             this.BtnMostrarNuevojugadorEq1.Name = "BtnMostrarNuevojugadorEq1";
             this.BtnMostrarNuevojugadorEq1.Size = new System.Drawing.Size(154, 51);
             this.BtnMostrarNuevojugadorEq1.TabIndex = 9;
-            this.BtnMostrarNuevojugadorEq1.Text = "Mostrar nuevo jugador Eq N° 1";
+            this.BtnMostrarNuevojugadorEq1.Text = "Mostrar lista jugadores Eq N° 1";
             this.BtnMostrarNuevojugadorEq1.UseVisualStyleBackColor = true;
             this.BtnMostrarNuevojugadorEq1.Click += new System.EventHandler(this.BtnMostrarNuevojugadorEq1_Click);
             // 
@@ -165,7 +165,7 @@ namespace ProyectoFinal_Programación
             this.BtnMostrarNuevojugadorEq2.Name = "BtnMostrarNuevojugadorEq2";
             this.BtnMostrarNuevojugadorEq2.Size = new System.Drawing.Size(154, 51);
             this.BtnMostrarNuevojugadorEq2.TabIndex = 10;
-            this.BtnMostrarNuevojugadorEq2.Text = "Mostrar nuevo jugador Eq N° 2";
+            this.BtnMostrarNuevojugadorEq2.Text = "Mostrar lista jugadores Eq N° 2";
             this.BtnMostrarNuevojugadorEq2.UseVisualStyleBackColor = true;
             this.BtnMostrarNuevojugadorEq2.Click += new System.EventHandler(this.BtnMostrarNuevojugadorEq2_Click);
             // 

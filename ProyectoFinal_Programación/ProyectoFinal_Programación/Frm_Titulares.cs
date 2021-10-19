@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace ProyectoFinal_Programación
@@ -29,7 +22,7 @@ namespace ProyectoFinal_Programación
         //Boton para cargar nuevos jugadores del equipo 1
         public void BtnCargaJugadorEq1_Click(object sender, EventArgs e)
         {
-            NuevojugadorEq1[posicionEq1]= TxtCargaJugadorEq1.Text;
+            NuevojugadorEq1[posicionEq1] = TxtCargaJugadorEq1.Text;
             posicionEq1 = posicionEq1 + 1;
             TxtCargaJugadorEq1.Focus();
             TxtCargaJugadorEq1.SelectAll();
@@ -88,7 +81,7 @@ namespace ProyectoFinal_Programación
 
         public void BtnEquipo1_Click(object sender, EventArgs e)
         {
-            string[] Equiponumero1 = {"Jugador 1", "Jugador 2", "Jugador 3", 
+            string[] Equiponumero1 = {"Jugador 1", "Jugador 2", "Jugador 3",
                 "Jugador 4", "Jugador 5" };
 
             for (int i = 0; i < Equiponumero1.Length; i++)
@@ -147,6 +140,6 @@ namespace ProyectoFinal_Programación
     }
 }
 
-        
 
-        
+
+

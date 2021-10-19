@@ -150,7 +150,7 @@ namespace ProyectoFinal_Programación
             // BtnMostrarNuevojugadorEq1
             // 
             this.BtnMostrarNuevojugadorEq1.Font = new System.Drawing.Font("Microsoft PhagsPa", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnMostrarNuevojugadorEq1.Location = new System.Drawing.Point(376, 405);
+            this.BtnMostrarNuevojugadorEq1.Location = new System.Drawing.Point(375, 405);
             this.BtnMostrarNuevojugadorEq1.Name = "BtnMostrarNuevojugadorEq1";
             this.BtnMostrarNuevojugadorEq1.Size = new System.Drawing.Size(154, 51);
             this.BtnMostrarNuevojugadorEq1.TabIndex = 9;
@@ -161,7 +161,7 @@ namespace ProyectoFinal_Programación
             // BtnMostrarNuevojugadorEq2
             // 
             this.BtnMostrarNuevojugadorEq2.Font = new System.Drawing.Font("Microsoft PhagsPa", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnMostrarNuevojugadorEq2.Location = new System.Drawing.Point(672, 405);
+            this.BtnMostrarNuevojugadorEq2.Location = new System.Drawing.Point(673, 405);
             this.BtnMostrarNuevojugadorEq2.Name = "BtnMostrarNuevojugadorEq2";
             this.BtnMostrarNuevojugadorEq2.Size = new System.Drawing.Size(154, 51);
             this.BtnMostrarNuevojugadorEq2.TabIndex = 10;

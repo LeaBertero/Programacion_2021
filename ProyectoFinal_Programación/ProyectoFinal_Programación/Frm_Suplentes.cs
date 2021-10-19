@@ -6,7 +6,9 @@ namespace ProyectoFinal_Programación
 {
     public partial class Frm_Suplentes : Form
     {
-        public SuplentesEq1 SuplentesEq1;
+        //se definen var
+        public SuplentesEq1 ListaSuplentesEq1;
+        
 
         public Frm_Suplentes()
         {

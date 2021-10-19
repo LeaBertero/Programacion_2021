@@ -2,10 +2,14 @@
 {
     public class SuplentesEq1
     {
-        //Es una Propiedad
-        //Proiedad de la clase persona
-
-
+        //propiedad de la lista de suplentes del equipo 1
+        
+        public string EquipoPertenecienteEq1 { get; set; }
+        
     }
+
+
+
+
 }
 

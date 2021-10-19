@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Clases_Jugadores_suplentes\SuplentesEq2.cs" />
     <Compile Include="Clases_Jugadores_suplentes\SuplentesEq1.cs" />
     <Compile Include="Frm_Titulares.cs">
       <SubType>Form</SubType>

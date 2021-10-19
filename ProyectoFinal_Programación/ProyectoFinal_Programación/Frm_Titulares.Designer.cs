@@ -53,6 +53,8 @@ namespace ProyectoFinal_Programación
             this.label6 = new System.Windows.Forms.Label();
             this.BtnBorrarEq1 = new System.Windows.Forms.Button();
             this.BtnBorrarEq2 = new System.Windows.Forms.Button();
+            this.BtnBorrarListaEq1 = new System.Windows.Forms.Button();
+            this.BtnBorrarListaEq2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // BtnEquipo1
@@ -197,7 +199,7 @@ namespace ProyectoFinal_Programación
             // BtnDimEq1
             // 
             this.BtnDimEq1.Font = new System.Drawing.Font("Microsoft PhagsPa", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnDimEq1.Location = new System.Drawing.Point(153, 226);
+            this.BtnDimEq1.Location = new System.Drawing.Point(129, 226);
             this.BtnDimEq1.Name = "BtnDimEq1";
             this.BtnDimEq1.Size = new System.Drawing.Size(128, 51);
             this.BtnDimEq1.TabIndex = 13;
@@ -208,7 +210,7 @@ namespace ProyectoFinal_Programación
             // TxtDimJugadorEq1
             // 
             this.TxtDimJugadorEq1.Font = new System.Drawing.Font("Microsoft PhagsPa", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtDimJugadorEq1.Location = new System.Drawing.Point(153, 182);
+            this.TxtDimJugadorEq1.Location = new System.Drawing.Point(129, 182);
             this.TxtDimJugadorEq1.Name = "TxtDimJugadorEq1";
             this.TxtDimJugadorEq1.Size = new System.Drawing.Size(128, 28);
             this.TxtDimJugadorEq1.TabIndex = 14;
@@ -216,7 +218,7 @@ namespace ProyectoFinal_Programación
             // TxtDimJugadorEq2
             // 
             this.TxtDimJugadorEq2.Font = new System.Drawing.Font("Microsoft PhagsPa", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtDimJugadorEq2.Location = new System.Drawing.Point(946, 182);
+            this.TxtDimJugadorEq2.Location = new System.Drawing.Point(945, 182);
             this.TxtDimJugadorEq2.Name = "TxtDimJugadorEq2";
             this.TxtDimJugadorEq2.Size = new System.Drawing.Size(128, 28);
             this.TxtDimJugadorEq2.TabIndex = 17;
@@ -224,7 +226,7 @@ namespace ProyectoFinal_Programación
             // BtnDimEq2
             // 
             this.BtnDimEq2.Font = new System.Drawing.Font("Microsoft PhagsPa", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnDimEq2.Location = new System.Drawing.Point(946, 226);
+            this.BtnDimEq2.Location = new System.Drawing.Point(945, 226);
             this.BtnDimEq2.Name = "BtnDimEq2";
             this.BtnDimEq2.Size = new System.Drawing.Size(128, 51);
             this.BtnDimEq2.TabIndex = 16;
@@ -238,7 +240,7 @@ namespace ProyectoFinal_Programación
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("NSimSun", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(870, 139);
+            this.label3.Location = new System.Drawing.Point(862, 139);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(322, 21);
             this.label3.TabIndex = 15;
@@ -315,6 +317,30 @@ namespace ProyectoFinal_Programación
             this.BtnBorrarEq2.UseVisualStyleBackColor = true;
             this.BtnBorrarEq2.Click += new System.EventHandler(this.BtnBorrarEq2_Click);
             // 
+            // BtnBorrarListaEq1
+            // 
+            this.BtnBorrarListaEq1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BtnBorrarListaEq1.Font = new System.Drawing.Font("Microsoft PhagsPa", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnBorrarListaEq1.Location = new System.Drawing.Point(214, 318);
+            this.BtnBorrarListaEq1.Name = "BtnBorrarListaEq1";
+            this.BtnBorrarListaEq1.Size = new System.Drawing.Size(123, 64);
+            this.BtnBorrarListaEq1.TabIndex = 24;
+            this.BtnBorrarListaEq1.Text = "Borrar lista jugadores";
+            this.BtnBorrarListaEq1.UseVisualStyleBackColor = true;
+            this.BtnBorrarListaEq1.Click += new System.EventHandler(this.BtnBorrarListaEq1_Click);
+            // 
+            // BtnBorrarListaEq2
+            // 
+            this.BtnBorrarListaEq2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BtnBorrarListaEq2.Font = new System.Drawing.Font("Microsoft PhagsPa", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnBorrarListaEq2.Location = new System.Drawing.Point(902, 318);
+            this.BtnBorrarListaEq2.Name = "BtnBorrarListaEq2";
+            this.BtnBorrarListaEq2.Size = new System.Drawing.Size(123, 64);
+            this.BtnBorrarListaEq2.TabIndex = 25;
+            this.BtnBorrarListaEq2.Text = "Borrar lista jugadores";
+            this.BtnBorrarListaEq2.UseVisualStyleBackColor = true;
+            this.BtnBorrarListaEq2.Click += new System.EventHandler(this.BtnBorrarListaEq2_Click);
+            // 
             // Frm_Titulares
             // 
             this.AcceptButton = this.BtnCargaJugadorEq1;
@@ -323,6 +349,8 @@ namespace ProyectoFinal_Programación
             this.BackgroundImage = global::ProyectoFinal_Programación.Properties.Resources.depositphotos_56044831_stock_photo_soccer_field_and_the_bright;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1245, 539);
+            this.Controls.Add(this.BtnBorrarListaEq2);
+            this.Controls.Add(this.BtnBorrarListaEq1);
             this.Controls.Add(this.BtnBorrarEq2);
             this.Controls.Add(this.BtnBorrarEq1);
             this.Controls.Add(this.label5);
@@ -381,6 +409,8 @@ namespace ProyectoFinal_Programación
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Button BtnBorrarEq1;
         private System.Windows.Forms.Button BtnBorrarEq2;
+        private System.Windows.Forms.Button BtnBorrarListaEq1;
+        private System.Windows.Forms.Button BtnBorrarListaEq2;
     }
 }
 

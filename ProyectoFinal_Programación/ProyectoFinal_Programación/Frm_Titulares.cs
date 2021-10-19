@@ -147,6 +147,16 @@ namespace ProyectoFinal_Programación
         {
             TxtCargaJugadorEq1.Text = " ";
         }
+
+        private void BtnBorrarListaEq1_Click(object sender, EventArgs e)
+        {
+            LblListaEquipo1.Text = " ";
+        }
+
+        private void BtnBorrarListaEq2_Click(object sender, EventArgs e)
+        {
+            LblListaEquipo2.Text = " ";
+        }
     }
 }
 

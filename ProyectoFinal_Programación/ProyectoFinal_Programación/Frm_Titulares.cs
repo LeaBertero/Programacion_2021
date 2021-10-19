@@ -6,7 +6,7 @@ namespace ProyectoFinal_Programación
     public partial class Frm_Titulares : Form
     {
         //Variables
-        string[] NuevojugadorEq1;
+        string[] NuevojugadorEq1 = new string[5];
         string[] NuevojugadorEq2 = new string[5];
 
         //Posición inicial de la carga de nombres de los jugadores
@@ -136,6 +136,16 @@ namespace ProyectoFinal_Programación
             //donde se va a mostrar la lista de jugadores suplentes
             Form FrmSuplentes = new Frm_Suplentes();
             FrmSuplentes.ShowDialog();
+        }
+
+        private void BtnBorrarEq2_Click(object sender, EventArgs e)
+        {
+            TxtCargaJugadorEq2.Text = " ";
+        }
+
+        private void BtnBorrarEq1_Click(object sender, EventArgs e)
+        {
+            TxtCargaJugadorEq1.Text = " ";
         }
     }
 }

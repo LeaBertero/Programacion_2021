@@ -51,6 +51,8 @@ namespace ProyectoFinal_Programación
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
+            this.BtnBorrarEq1 = new System.Windows.Forms.Button();
+            this.BtnBorrarEq2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // BtnEquipo1
@@ -271,7 +273,7 @@ namespace ProyectoFinal_Programación
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("NSimSun", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.Red;
-            this.label5.Location = new System.Drawing.Point(840, 29);
+            this.label5.Location = new System.Drawing.Point(851, 29);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(382, 21);
             this.label5.TabIndex = 21;
@@ -289,6 +291,30 @@ namespace ProyectoFinal_Programación
             this.label6.TabIndex = 20;
             this.label6.Text = "Mostrar lista de jugadores Eq 1";
             // 
+            // BtnBorrarEq1
+            // 
+            this.BtnBorrarEq1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BtnBorrarEq1.Font = new System.Drawing.Font("Microsoft PhagsPa", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnBorrarEq1.Location = new System.Drawing.Point(246, 67);
+            this.BtnBorrarEq1.Name = "BtnBorrarEq1";
+            this.BtnBorrarEq1.Size = new System.Drawing.Size(123, 64);
+            this.BtnBorrarEq1.TabIndex = 22;
+            this.BtnBorrarEq1.Text = "Borrar Nombre Eq1";
+            this.BtnBorrarEq1.UseVisualStyleBackColor = true;
+            this.BtnBorrarEq1.Click += new System.EventHandler(this.BtnBorrarEq1_Click);
+            // 
+            // BtnBorrarEq2
+            // 
+            this.BtnBorrarEq2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BtnBorrarEq2.Font = new System.Drawing.Font("Microsoft PhagsPa", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnBorrarEq2.Location = new System.Drawing.Point(838, 67);
+            this.BtnBorrarEq2.Name = "BtnBorrarEq2";
+            this.BtnBorrarEq2.Size = new System.Drawing.Size(123, 64);
+            this.BtnBorrarEq2.TabIndex = 23;
+            this.BtnBorrarEq2.Text = "Borraar nombre Eq2";
+            this.BtnBorrarEq2.UseVisualStyleBackColor = true;
+            this.BtnBorrarEq2.Click += new System.EventHandler(this.BtnBorrarEq2_Click);
+            // 
             // Frm_Titulares
             // 
             this.AcceptButton = this.BtnCargaJugadorEq1;
@@ -297,6 +323,8 @@ namespace ProyectoFinal_Programación
             this.BackgroundImage = global::ProyectoFinal_Programación.Properties.Resources.depositphotos_56044831_stock_photo_soccer_field_and_the_bright;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1245, 539);
+            this.Controls.Add(this.BtnBorrarEq2);
+            this.Controls.Add(this.BtnBorrarEq1);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.BtnCargaJugadorEq1);
@@ -351,6 +379,8 @@ namespace ProyectoFinal_Programación
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Button BtnBorrarEq1;
+        private System.Windows.Forms.Button BtnBorrarEq2;
     }
 }
 

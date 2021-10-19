@@ -48,6 +48,7 @@ namespace ProyectoFinal_Programación
             this.BtnAgregarSupEq1.TabIndex = 0;
             this.BtnAgregarSupEq1.Text = "Lista de suplentes Equipo 1";
             this.BtnAgregarSupEq1.UseVisualStyleBackColor = true;
+            this.BtnAgregarSupEq1.Click += new System.EventHandler(this.BtnAgregarSupEq1_Click);
             // 
             // TxtAgregarSuplentesEq1
             // 
@@ -117,8 +118,9 @@ namespace ProyectoFinal_Programación
             this.BtnAgregarSupEq2.Name = "BtnAgregarSupEq2";
             this.BtnAgregarSupEq2.Size = new System.Drawing.Size(184, 58);
             this.BtnAgregarSupEq2.TabIndex = 22;
-            this.BtnAgregarSupEq2.Text = "Lista de suplentes Equipo 1";
+            this.BtnAgregarSupEq2.Text = "Lista de suplentes Equipo 2";
             this.BtnAgregarSupEq2.UseVisualStyleBackColor = true;
+            this.BtnAgregarSupEq2.Click += new System.EventHandler(this.BtnAgregarSupEq2_Click);
             // 
             // Frm_Suplentes
             // 

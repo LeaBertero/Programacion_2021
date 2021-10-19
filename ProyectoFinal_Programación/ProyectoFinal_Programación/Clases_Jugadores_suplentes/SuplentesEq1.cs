@@ -7,9 +7,9 @@
         public string EquipoPertenecienteEq1 { get; set; }
         
     }
-
-
-
-
 }
+
+
+
+
 

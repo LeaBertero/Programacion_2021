@@ -121,8 +121,8 @@ namespace ProyectoFinal_Programación
             //Equiponumero1[4] = "jugador 5";
 
             //LblEquipo1.Text = Equiponumero1[3];
-
         }
+
 
         //ÉSTE BOTÓN CIERRA EL PROGRAMA
         private void BtnExit_Click(object sender, EventArgs e)

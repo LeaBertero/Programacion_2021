@@ -40,7 +40,7 @@ namespace CargaPersonasV2
         {
             Materia MateriaInscripta = new Materia();
             MateriaInscripta.Nombre = TxtMateria.Text;
-            MateriaInscripta.Año = System.Convert.ToInt32(TxtAño.Text);
+            MateriaInscripta.Año = TxtAño.Text;
         }
     }
 }

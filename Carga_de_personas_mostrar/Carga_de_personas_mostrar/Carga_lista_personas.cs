@@ -23,9 +23,6 @@ namespace Carga_de_personas_mostrar
         {
             InitializeComponent();
         }
-
-        
-
         private void BtnCargar_Click(object sender, EventArgs e)
         {
             nombres[posicion] = TxtCargaNombre.Text;
@@ -33,9 +30,10 @@ namespace Carga_de_personas_mostrar
             TxtCargaNombre.Focus();
             TxtCargaNombre.SelectAll();
         }
-
         private void BtnMostrar_Click(object sender, EventArgs e)
         {
+            
+
             LbllistaMostrar.Visible = true;
         }
 
@@ -43,21 +41,35 @@ namespace Carga_de_personas_mostrar
         {
             Close();
         }
-
-        
-
         private void BtDimensionar_Click(object sender, EventArgs e)
         {
-            int Cantidad = System.Convert.ToInt32(TxtDimension);
+            int Cantidad = System.Convert.ToInt32(TxtDimension.Text);
             nombres = new string[Cantidad];
         }
 
         private void Carga_lista_personas_Load(object sender, EventArgs e)
         {
+           
+        }
 
+        private void BtnLimpiar1_Click(object sender, EventArgs e)
+        {
+            TxtDimension.Text = " ";
+        }
+
+        private void BtnLimpiar2_Click(object sender, EventArgs e)
+        {
+            TxtCargaNombre.Text = " ";
         }
     }
 }
+
+        
+
+
+
+        
+
     
     
 

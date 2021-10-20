@@ -38,6 +38,8 @@ namespace Carga_de_personas_mostrar
             this.BtDimensionar = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.BtnLimpiar1 = new System.Windows.Forms.Button();
+            this.BtnLimpiar2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // BtnCargar
@@ -130,11 +132,35 @@ namespace Carga_de_personas_mostrar
             this.label2.TabIndex = 8;
             this.label2.Text = "Nombres";
             // 
+            // BtnLimpiar1
+            // 
+            this.BtnLimpiar1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnLimpiar1.Location = new System.Drawing.Point(12, 68);
+            this.BtnLimpiar1.Name = "BtnLimpiar1";
+            this.BtnLimpiar1.Size = new System.Drawing.Size(110, 30);
+            this.BtnLimpiar1.TabIndex = 9;
+            this.BtnLimpiar1.Text = "Limpiar";
+            this.BtnLimpiar1.UseVisualStyleBackColor = true;
+            this.BtnLimpiar1.Click += new System.EventHandler(this.BtnLimpiar1_Click);
+            // 
+            // BtnLimpiar2
+            // 
+            this.BtnLimpiar2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnLimpiar2.Location = new System.Drawing.Point(12, 176);
+            this.BtnLimpiar2.Name = "BtnLimpiar2";
+            this.BtnLimpiar2.Size = new System.Drawing.Size(110, 30);
+            this.BtnLimpiar2.TabIndex = 10;
+            this.BtnLimpiar2.Text = "Limpiar";
+            this.BtnLimpiar2.UseVisualStyleBackColor = true;
+            this.BtnLimpiar2.Click += new System.EventHandler(this.BtnLimpiar2_Click);
+            // 
             // Carga_lista_personas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 517);
+            this.Controls.Add(this.BtnLimpiar2);
+            this.Controls.Add(this.BtnLimpiar1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.TxtDimension);
@@ -163,6 +189,8 @@ namespace Carga_de_personas_mostrar
         private System.Windows.Forms.Button BtDimensionar;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button BtnLimpiar1;
+        private System.Windows.Forms.Button BtnLimpiar2;
     }
 }
 

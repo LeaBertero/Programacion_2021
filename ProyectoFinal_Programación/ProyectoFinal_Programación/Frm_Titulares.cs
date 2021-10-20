@@ -98,8 +98,8 @@ namespace ProyectoFinal_Programación
             //Equiponumero1[4] = "jugador 5";
 
             //LblEquipo1.Text = Equiponumero1[3];
-
         }
+
 
 
         public void BtnEquipo2_Click(object sender, EventArgs e)

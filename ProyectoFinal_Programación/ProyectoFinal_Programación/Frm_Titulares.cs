@@ -6,8 +6,8 @@ namespace ProyectoFinal_Programación
     public partial class Frm_Titulares : Form
     {
         //Variables
-        string[] NuevojugadorEq1 = new string[5];
-        string[] NuevojugadorEq2 = new string[5];
+        string[] NuevojugadorEq1 = new string[0];
+        string[] NuevojugadorEq2 = new string[0];
 
         //Posición inicial de la carga de nombres de los jugadores
         int posicionEq1 = 0;

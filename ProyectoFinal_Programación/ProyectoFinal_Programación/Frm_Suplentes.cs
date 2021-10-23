@@ -23,15 +23,24 @@ namespace ProyectoFinal_Programación
 
         private void BtnAgregarSupEq1_Click(object sender, EventArgs e)
         {
-            string[] Equiponumero1 = {"1 - Pastore", "2 - Lucas Zelarayan ", "3 - Javier Correa",
-                "4 - Franco Vazquez", "5 - Juan Ramírez " };
 
-            for (int i = 0; i < Equiponumero1.Length; i++)
-            {
-                LblListaSuplentesEq1.Text = LblListaSuplentesEq1.Text + Equiponumero1[i] + "\r\n";
-            }
+            
 
-            LblListaSuplentesEq1.Visible = true;
+            
+
+           
+
+
+
+            //string[] Equiponumero1 = {"1 - Pastore", "2 - Lucas Zelarayan ", "3 - Javier Correa",
+            //    "4 - Franco Vazquez", "5 - Juan Ramírez " };
+
+            //for (int i = 0; i < Equiponumero1.Length; i++)
+            //{
+            //    LblListaSuplentesEq1.Text = LblListaSuplentesEq1.Text + Equiponumero1[i] + "\r\n";
+            //}
+
+
 
             //Equiponumero1[0] = "jugador 1";
             //Equiponumero1[1] = "jugador 2";
@@ -44,15 +53,15 @@ namespace ProyectoFinal_Programación
 
         private void BtnAgregarSupEq2_Click(object sender, EventArgs e)
         {
-            string[] Equiponumero2 = {"1 - EMILIANO RIGONI", "2 - DANIEL MANCINI ", "3 - LUCIANO VIETTO",
-                "4 - MATEO GARCÍA", "5 - MATEO BUSTOS" };
+            //string[] Equiponumero2 = {"1 - EMILIANO RIGONI", "2 - DANIEL MANCINI ", "3 - LUCIANO VIETTO",
+            //    "4 - MATEO GARCÍA", "5 - MATEO BUSTOS" };
 
-            for (int i = 0; i < Equiponumero2.Length; i++)
-            {
-                LblListaSuplentesEq2.Text = LblListaSuplentesEq2.Text + Equiponumero2[i] + "\r\n";
-            }
+            //for (int i = 0; i < Equiponumero2.Length; i++)
+            //{
+            //    LblListaSuplentesEq2.Text = LblListaSuplentesEq2.Text + Equiponumero2[i] + "\r\n";
+            //}
 
-            LblListaSuplentesEq2.Visible = true;
+
 
             //Equiponumero1[0] = "jugador 1";
             //Equiponumero1[1] = "jugador 2";
@@ -62,6 +71,18 @@ namespace ProyectoFinal_Programación
 
             //LblEquipo1.Text = Equiponumero1[3];
         }
+
+        private void BtnDeleteEq1_Click(object sender, EventArgs e)
+        {
+            TxtAgregarSuplentesEq1.Text = " ";
+        }
+
+        private void BtnDeleteEq2_Click(object sender, EventArgs e)
+        {
+            TxtAgregarSuplentesEq2.Text = " ";
+        }
+
+       
     }
 }
 

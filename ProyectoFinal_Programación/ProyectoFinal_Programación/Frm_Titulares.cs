@@ -10,7 +10,7 @@ namespace ProyectoFinal_Programación
         string[] NuevojugadorEq2 = new string[0];
 
         //Posición inicial de la carga de nombres de los jugadores
-        int posicionEq1 = 0;
+        int posicionEq1 = 2;
         int posicionEq2 = 0;
 
         public Frm_Titulares()
@@ -27,6 +27,7 @@ namespace ProyectoFinal_Programación
             TxtCargaJugadorEq1.Focus();
             TxtCargaJugadorEq1.SelectAll();
         }
+            
 
         //Boton para cargar nuevos jugadores del equipo 1
         public void BtnCargaJugadorEq2_Click(object sender, EventArgs e)
@@ -68,14 +69,14 @@ namespace ProyectoFinal_Programación
         //Dimensionar jugadores de equipo numero 1
         public void BtnDimEq1_Click(object sender, EventArgs e)
         {
-            int cantidad = System.Convert.ToInt32(TxtDimJugadorEq1.Text);
+            int cantidad = Convert.ToInt32(TxtDimJugadorEq1.Text);
             NuevojugadorEq1 = new string[cantidad];
         }
 
         //Dimensionar jugadores de equipo numero 2
         public void BtnDimEq2_Click(object sender, EventArgs e)
         {
-            int cantidad = System.Convert.ToInt32(TxtDimJugadorEq2.Text);
+            int cantidad = Convert.ToInt32(TxtDimJugadorEq2.Text);
             NuevojugadorEq2 = new string[cantidad];
         }
 

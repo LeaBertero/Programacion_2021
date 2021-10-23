@@ -31,12 +31,16 @@ namespace ProyectoFinal_Programación
         {
             this.BtnAgregarSupEq1 = new System.Windows.Forms.Button();
             this.TxtAgregarSuplentesEq1 = new System.Windows.Forms.TextBox();
-            this.LblListaSuplentesEq1 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.BtnSalir = new System.Windows.Forms.Button();
-            this.LblListaSuplentesEq2 = new System.Windows.Forms.Label();
             this.TxtAgregarSuplentesEq2 = new System.Windows.Forms.TextBox();
             this.BtnAgregarSupEq2 = new System.Windows.Forms.Button();
+            this.BtnDeleteEq1 = new System.Windows.Forms.Button();
+            this.BtnDeleteEq2 = new System.Windows.Forms.Button();
+            this.DtGridEq1 = new System.Windows.Forms.DataGridView();
+            this.DtGridEq2 = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.DtGridEq1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DtGridEq2)).BeginInit();
             this.SuspendLayout();
             // 
             // BtnAgregarSupEq1
@@ -57,17 +61,6 @@ namespace ProyectoFinal_Programación
             this.TxtAgregarSuplentesEq1.Name = "TxtAgregarSuplentesEq1";
             this.TxtAgregarSuplentesEq1.Size = new System.Drawing.Size(100, 26);
             this.TxtAgregarSuplentesEq1.TabIndex = 1;
-            // 
-            // LblListaSuplentesEq1
-            // 
-            this.LblListaSuplentesEq1.BackColor = System.Drawing.Color.LimeGreen;
-            this.LblListaSuplentesEq1.Font = new System.Drawing.Font("Microsoft PhagsPa", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblListaSuplentesEq1.ForeColor = System.Drawing.Color.White;
-            this.LblListaSuplentesEq1.Location = new System.Drawing.Point(74, 184);
-            this.LblListaSuplentesEq1.Name = "LblListaSuplentesEq1";
-            this.LblListaSuplentesEq1.Size = new System.Drawing.Size(215, 317);
-            this.LblListaSuplentesEq1.TabIndex = 7;
-            this.LblListaSuplentesEq1.Visible = false;
             // 
             // label4
             // 
@@ -92,17 +85,6 @@ namespace ProyectoFinal_Programación
             this.BtnSalir.UseVisualStyleBackColor = true;
             this.BtnSalir.Click += new System.EventHandler(this.BtnSalir_Click);
             // 
-            // LblListaSuplentesEq2
-            // 
-            this.LblListaSuplentesEq2.BackColor = System.Drawing.Color.LimeGreen;
-            this.LblListaSuplentesEq2.Font = new System.Drawing.Font("Microsoft PhagsPa", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblListaSuplentesEq2.ForeColor = System.Drawing.Color.White;
-            this.LblListaSuplentesEq2.Location = new System.Drawing.Point(697, 184);
-            this.LblListaSuplentesEq2.Name = "LblListaSuplentesEq2";
-            this.LblListaSuplentesEq2.Size = new System.Drawing.Size(215, 317);
-            this.LblListaSuplentesEq2.TabIndex = 24;
-            this.LblListaSuplentesEq2.Visible = false;
-            // 
             // TxtAgregarSuplentesEq2
             // 
             this.TxtAgregarSuplentesEq2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -122,22 +104,65 @@ namespace ProyectoFinal_Programación
             this.BtnAgregarSupEq2.UseVisualStyleBackColor = true;
             this.BtnAgregarSupEq2.Click += new System.EventHandler(this.BtnAgregarSupEq2_Click);
             // 
+            // BtnDeleteEq1
+            // 
+            this.BtnDeleteEq1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnDeleteEq1.Location = new System.Drawing.Point(323, 161);
+            this.BtnDeleteEq1.Name = "BtnDeleteEq1";
+            this.BtnDeleteEq1.Size = new System.Drawing.Size(122, 36);
+            this.BtnDeleteEq1.TabIndex = 25;
+            this.BtnDeleteEq1.Text = "Borrar - 1";
+            this.BtnDeleteEq1.UseVisualStyleBackColor = true;
+            this.BtnDeleteEq1.Click += new System.EventHandler(this.BtnDeleteEq1_Click);
+            // 
+            // BtnDeleteEq2
+            // 
+            this.BtnDeleteEq2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnDeleteEq2.Location = new System.Drawing.Point(525, 161);
+            this.BtnDeleteEq2.Name = "BtnDeleteEq2";
+            this.BtnDeleteEq2.Size = new System.Drawing.Size(122, 36);
+            this.BtnDeleteEq2.TabIndex = 26;
+            this.BtnDeleteEq2.Text = "Borrar - 2";
+            this.BtnDeleteEq2.UseVisualStyleBackColor = true;
+            this.BtnDeleteEq2.Click += new System.EventHandler(this.BtnDeleteEq2_Click);
+            // 
+            // DtGridEq1
+            // 
+            this.DtGridEq1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.DtGridEq1.Location = new System.Drawing.Point(79, 235);
+            this.DtGridEq1.Name = "DtGridEq1";
+            this.DtGridEq1.Size = new System.Drawing.Size(331, 232);
+            this.DtGridEq1.TabIndex = 27;
+            // 
+            // DtGridEq2
+            // 
+            this.DtGridEq2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.DtGridEq2.Location = new System.Drawing.Point(592, 235);
+            this.DtGridEq2.Name = "DtGridEq2";
+            this.DtGridEq2.Size = new System.Drawing.Size(331, 232);
+            this.DtGridEq2.TabIndex = 28;
+            // 
             // Frm_Suplentes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::ProyectoFinal_Programación.Properties.Resources._2013_06_03_15_22_06_sup_jpg;
             this.ClientSize = new System.Drawing.Size(946, 548);
-            this.Controls.Add(this.LblListaSuplentesEq2);
+            this.Controls.Add(this.DtGridEq2);
+            this.Controls.Add(this.DtGridEq1);
+            this.Controls.Add(this.BtnDeleteEq2);
+            this.Controls.Add(this.BtnDeleteEq1);
             this.Controls.Add(this.TxtAgregarSuplentesEq2);
             this.Controls.Add(this.BtnAgregarSupEq2);
             this.Controls.Add(this.BtnSalir);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.LblListaSuplentesEq1);
             this.Controls.Add(this.TxtAgregarSuplentesEq1);
             this.Controls.Add(this.BtnAgregarSupEq1);
             this.Name = "Frm_Suplentes";
             this.Text = "Suplentes";
+
+            ((System.ComponentModel.ISupportInitialize)(this.DtGridEq1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DtGridEq2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -147,11 +172,13 @@ namespace ProyectoFinal_Programación
 
         private System.Windows.Forms.Button BtnAgregarSupEq1;
         private System.Windows.Forms.TextBox TxtAgregarSuplentesEq1;
-        private System.Windows.Forms.Label LblListaSuplentesEq1;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button BtnSalir;
-        private System.Windows.Forms.Label LblListaSuplentesEq2;
         private System.Windows.Forms.TextBox TxtAgregarSuplentesEq2;
         private System.Windows.Forms.Button BtnAgregarSupEq2;
+        private System.Windows.Forms.Button BtnDeleteEq1;
+        private System.Windows.Forms.Button BtnDeleteEq2;
+        private System.Windows.Forms.DataGridView DtGridEq1;
+        private System.Windows.Forms.DataGridView DtGridEq2;
     }
 }

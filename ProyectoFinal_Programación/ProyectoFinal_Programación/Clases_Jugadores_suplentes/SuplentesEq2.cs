@@ -10,7 +10,7 @@ namespace ProyectoFinal_Programación.Clases_Jugadores_suplentes
     {
         //Propiedades de la lista de suplentes del equipo 2
 
-        public string EquipoPertenecienteEq2 { get; set; }
+        public string NuevoJugadorEq1 { get; set; }
 
     }
 }

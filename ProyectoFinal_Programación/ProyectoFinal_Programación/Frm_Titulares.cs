@@ -6,12 +6,12 @@ namespace ProyectoFinal_Programación
     public partial class Frm_Titulares : Form
     {
         //Variables
-        string[] NuevojugadorEq1 = new string[0];
-        string[] NuevojugadorEq2 = new string[0];
+        string[] CargajugadorEq1 = new string[5];
+        string[] CargajugadorEq2 = new string[5];
 
         //Posición inicial de la carga de nombres de los jugadores
-        int posicionEq1 = 2;
-        int posicionEq2 = 0;
+        int posicionEq1 = 5;
+        int posicionEq2 = 5;
 
         public Frm_Titulares()
         {
@@ -22,21 +22,34 @@ namespace ProyectoFinal_Programación
         //Boton para cargar nuevos jugadores del equipo 1
         public void BtnCargaJugadorEq1_Click(object sender, EventArgs e)
         {
-            NuevojugadorEq1[posicionEq1] = TxtCargaJugadorEq1.Text;
+            CargajugadorEq1[posicionEq1] = TxtCargaJugadorEq1.Text;
             posicionEq1 = posicionEq1 + 1;
             TxtCargaJugadorEq1.Focus();
             TxtCargaJugadorEq1.SelectAll();
         }
-            
+
+        //Dimensionar jugadores de equipo numero 1
+        public void BtnDimEq1_Click(object sender, EventArgs e)
+        {
+            int cantidad = Convert.ToInt32(TxtDimJugadorEq1.Text);
+            CargajugadorEq1 = new string[cantidad];
+        }
 
         //Boton para cargar nuevos jugadores del equipo 1
         public void BtnCargaJugadorEq2_Click(object sender, EventArgs e)
         {
-            NuevojugadorEq2[posicionEq2] = TxtCargaJugadorEq2.Text;
+            CargajugadorEq2[posicionEq2] = TxtCargaJugadorEq2.Text;
             posicionEq2 = posicionEq2 + 1;
             TxtCargaJugadorEq2.Focus();
             TxtCargaJugadorEq2.SelectAll();
         }
+
+        public void BtnDimEq2_Click(object sender, EventArgs e)
+        {
+            int cantidad = Convert.ToInt32(TxtDimJugadorEq2.Text);
+            CargajugadorEq2 = new string[cantidad];
+        }
+
         //Mostrar en pantalla nuevo jugador en la lista de jugadores del equipo 1
         public void BtnMostrarNuevojugadorEq1_Click(object sender, EventArgs e)
         {
@@ -45,7 +58,7 @@ namespace ProyectoFinal_Programación
 
             LblListaEquipo1.Text = "";
 
-            foreach (var item in NuevojugadorEq1)
+            foreach (var item in CargajugadorEq1)
             {
                 LblListaEquipo1.Text = LblListaEquipo1.Text + item + "\r\n";
             }
@@ -58,7 +71,7 @@ namespace ProyectoFinal_Programación
 
             LblListaEquipo2.Text = "";
 
-            foreach (var item in NuevojugadorEq2)
+            foreach (var item in CargajugadorEq2)
             {
                 LblListaEquipo2.Text = LblListaEquipo2.Text + item + "\r\n";
             }
@@ -66,19 +79,10 @@ namespace ProyectoFinal_Programación
 
 
 
-        //Dimensionar jugadores de equipo numero 1
-        public void BtnDimEq1_Click(object sender, EventArgs e)
-        {
-            int cantidad = Convert.ToInt32(TxtDimJugadorEq1.Text);
-            NuevojugadorEq1 = new string[cantidad];
-        }
+       
 
         //Dimensionar jugadores de equipo numero 2
-        public void BtnDimEq2_Click(object sender, EventArgs e)
-        {
-            int cantidad = Convert.ToInt32(TxtDimJugadorEq2.Text);
-            NuevojugadorEq2 = new string[cantidad];
-        }
+       
 
         public void BtnEquipo1_Click(object sender, EventArgs e)
         {
@@ -157,6 +161,11 @@ namespace ProyectoFinal_Programación
         private void BtnBorrarListaEq2_Click(object sender, EventArgs e)
         {
             LblListaEquipo2.Text = " ";
+        }
+
+        private void TxtDimJugadorEq1_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

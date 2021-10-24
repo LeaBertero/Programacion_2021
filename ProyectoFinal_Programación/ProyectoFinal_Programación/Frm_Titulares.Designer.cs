@@ -214,6 +214,7 @@ namespace ProyectoFinal_Programación
             this.TxtDimJugadorEq1.Name = "TxtDimJugadorEq1";
             this.TxtDimJugadorEq1.Size = new System.Drawing.Size(128, 28);
             this.TxtDimJugadorEq1.TabIndex = 14;
+            this.TxtDimJugadorEq1.TextChanged += new System.EventHandler(this.TxtDimJugadorEq1_TextChanged);
             // 
             // TxtDimJugadorEq2
             // 

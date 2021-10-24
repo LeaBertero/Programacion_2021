@@ -4,12 +4,25 @@ using System.Windows.Forms;
 
 namespace ProyectoFinal_Programación
 {
+
+
     public partial class Frm_Suplentes : Form
     {
         //se definen var
 
         public SuplentesEq1 ListaSuplentesEq1;
+
+        public object LblListaSuplentesEq1 { get; private set; }
+        public string LblListaSuplentesEq2 { get; private set; }
+        //public object Equiponumero1 { get; private set; }
+
+
+
+
         //public SuplentesEq2 ListaSuplentesEq2;
+
+        string[] CambiojugadorEq1Sup = new string[5];
+        string[] CambiojugadorEq2Sup = new string[5];
 
         public Frm_Suplentes()
         {
@@ -21,70 +34,53 @@ namespace ProyectoFinal_Programación
             Close();
         }
 
-        private void BtnAgregarSupEq1_Click(object sender, EventArgs e)
-        {
-
-            
-
-            
-
-           
-
-
-
-            //string[] Equiponumero1 = {"1 - Pastore", "2 - Lucas Zelarayan ", "3 - Javier Correa",
-            //    "4 - Franco Vazquez", "5 - Juan Ramírez " };
-
-            //for (int i = 0; i < Equiponumero1.Length; i++)
-            //{
-            //    LblListaSuplentesEq1.Text = LblListaSuplentesEq1.Text + Equiponumero1[i] + "\r\n";
-            //}
-
-
-
-            //Equiponumero1[0] = "jugador 1";
-            //Equiponumero1[1] = "jugador 2";
-            //Equiponumero1[2] = "jugador 3";
-            //Equiponumero1[3] = "jugador 4";
-            //Equiponumero1[4] = "jugador 5";
-
-            //LblEquipo1.Text = Equiponumero1[3];
-        }
-
-        private void BtnAgregarSupEq2_Click(object sender, EventArgs e)
-        {
-            //string[] Equiponumero2 = {"1 - EMILIANO RIGONI", "2 - DANIEL MANCINI ", "3 - LUCIANO VIETTO",
-            //    "4 - MATEO GARCÍA", "5 - MATEO BUSTOS" };
-
-            //for (int i = 0; i < Equiponumero2.Length; i++)
-            //{
-            //    LblListaSuplentesEq2.Text = LblListaSuplentesEq2.Text + Equiponumero2[i] + "\r\n";
-            //}
-
-
-
-            //Equiponumero1[0] = "jugador 1";
-            //Equiponumero1[1] = "jugador 2";
-            //Equiponumero1[2] = "jugador 3";
-            //Equiponumero1[3] = "jugador 4";
-            //Equiponumero1[4] = "jugador 5";
-
-            //LblEquipo1.Text = Equiponumero1[3];
-        }
-
         private void BtnDeleteEq1_Click(object sender, EventArgs e)
         {
-            TxtAgregarSuplentesEq1.Text = " ";
+            TxtCargaSupEq1.Text = " ";
         }
 
         private void BtnDeleteEq2_Click(object sender, EventArgs e)
         {
-            TxtAgregarSuplentesEq2.Text = " ";
+            TxtCargaSupEq2.Text = " ";
         }
 
+        
+
        
+
+        public void BtnAgregarSupEq1_Click(object sender, EventArgs e)
+        {
+            string[] JugSupEq1 = new string[6];
+            
+            JugSupEq1[0] = "Jugador 1";
+            JugSupEq1[1] = "Jugador 2";
+            JugSupEq1[2] = "Jugador 3";
+            JugSupEq1[3] = "Jugador 4";
+            JugSupEq1[4] = "Jugador 5";
+            JugSupEq1[5] = "Jugador 6";
+
+            LblEquipo1.Text = JugSupEq1[3];
+        }
+
+
+        private void BtnAgregarSupEq2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+       
 
    
 

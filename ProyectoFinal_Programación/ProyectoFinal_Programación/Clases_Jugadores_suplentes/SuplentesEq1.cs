@@ -4,7 +4,7 @@
     {
         //propiedad de la lista de suplentes del equipo 1
         
-        public string EquipoPertenecienteEq1 { get; set; }
+        public string AgregarjugadorEq1 { get; set; }
         
     }
 }

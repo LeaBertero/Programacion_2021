@@ -33,11 +33,11 @@ namespace ProyectoFinal_Programación
         }
         private void BtnDeleteEq1_Click(object sender, EventArgs e)
         {
-            TxtCargaSupEq1.Text = " ";
+            LblListaEqSup1.Text = " ";
         }
         private void BtnDeleteEq2_Click(object sender, EventArgs e)
         {
-            TxtCargaSupEq2.Text = " ";
+            LblListaEqSup2.Text = " ";
         }
         public void BtnAgregarSupEq1_Click(object sender, EventArgs e)
         {

@@ -218,6 +218,7 @@ namespace ProyectoFinal_Programación
             // 
             // Frm_Suplentes
             // 
+            this.AcceptButton = this.BtCargaSupEq1;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::ProyectoFinal_Programación.Properties.Resources._2013_06_03_15_22_06_sup_jpg;

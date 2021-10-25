@@ -16,8 +16,8 @@ namespace ProyectoFinal_Programación
 
         //public SuplentesEq2 ListaSuplentesEq2;
 
-        string[] CambiojugadorEq1Sup = new string[3];
-        string[] CambiojugadorEq2Sup = new string[3];
+        string[] CambiojugadorEq1Sup = new string[0];
+        string[] CambiojugadorEq2Sup = new string[0];
 
 
         int posicionEqSup1 = 0;

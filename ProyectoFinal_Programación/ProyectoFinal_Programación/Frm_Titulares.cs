@@ -133,11 +133,13 @@ namespace ProyectoFinal_Programación
         }
         private void BtnBorrarEq2_Click(object sender, EventArgs e)
         {
-            TxtCargaJugadorEq2.Text = " ";
+            //TxtCargaJugadorEq2.Text = " ";
+            TxtCargaJugadorEq2.Clear();
         }
         private void BtnBorrarEq1_Click(object sender, EventArgs e)
         {
-            TxtCargaJugadorEq1.Text = " ";
+            //TxtCargaJugadorEq1.Text = " ";
+            TxtCargaJugadorEq1.Clear();
         }
         private void BtnBorrarListaEq1_Click(object sender, EventArgs e)
         {

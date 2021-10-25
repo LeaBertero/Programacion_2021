@@ -50,7 +50,7 @@ namespace ProyectoFinal_Programación
             // BtCargaSupEq1
             // 
             this.BtCargaSupEq1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtCargaSupEq1.Location = new System.Drawing.Point(55, 99);
+            this.BtCargaSupEq1.Location = new System.Drawing.Point(100, 99);
             this.BtCargaSupEq1.Name = "BtCargaSupEq1";
             this.BtCargaSupEq1.Size = new System.Drawing.Size(208, 41);
             this.BtCargaSupEq1.TabIndex = 0;
@@ -60,10 +60,10 @@ namespace ProyectoFinal_Programación
             // 
             // TxtCargaSupEq1
             // 
-            this.TxtCargaSupEq1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtCargaSupEq1.Location = new System.Drawing.Point(345, 114);
+            this.TxtCargaSupEq1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxtCargaSupEq1.Location = new System.Drawing.Point(358, 105);
             this.TxtCargaSupEq1.Name = "TxtCargaSupEq1";
-            this.TxtCargaSupEq1.Size = new System.Drawing.Size(100, 26);
+            this.TxtCargaSupEq1.Size = new System.Drawing.Size(100, 27);
             this.TxtCargaSupEq1.TabIndex = 1;
             // 
             // label4
@@ -80,27 +80,29 @@ namespace ProyectoFinal_Programación
             // 
             // BtnSalir
             // 
-            this.BtnSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnSalir.Location = new System.Drawing.Point(447, 495);
+            this.BtnSalir.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.BtnSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnSalir.ForeColor = System.Drawing.SystemColors.Control;
+            this.BtnSalir.Location = new System.Drawing.Point(448, 468);
             this.BtnSalir.Name = "BtnSalir";
-            this.BtnSalir.Size = new System.Drawing.Size(93, 31);
+            this.BtnSalir.Size = new System.Drawing.Size(112, 58);
             this.BtnSalir.TabIndex = 21;
             this.BtnSalir.Text = "Atrás";
-            this.BtnSalir.UseVisualStyleBackColor = true;
+            this.BtnSalir.UseVisualStyleBackColor = false;
             this.BtnSalir.Click += new System.EventHandler(this.BtnSalir_Click);
             // 
             // TxtCargaSupEq2
             // 
-            this.TxtCargaSupEq2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtCargaSupEq2.Location = new System.Drawing.Point(569, 114);
+            this.TxtCargaSupEq2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxtCargaSupEq2.Location = new System.Drawing.Point(559, 106);
             this.TxtCargaSupEq2.Name = "TxtCargaSupEq2";
-            this.TxtCargaSupEq2.Size = new System.Drawing.Size(100, 26);
+            this.TxtCargaSupEq2.Size = new System.Drawing.Size(100, 27);
             this.TxtCargaSupEq2.TabIndex = 23;
             // 
             // BtCargaSupEq2
             // 
             this.BtCargaSupEq2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtCargaSupEq2.Location = new System.Drawing.Point(715, 107);
+            this.BtCargaSupEq2.Location = new System.Drawing.Point(701, 98);
             this.BtCargaSupEq2.Name = "BtCargaSupEq2";
             this.BtCargaSupEq2.Size = new System.Drawing.Size(208, 41);
             this.BtCargaSupEq2.TabIndex = 22;
@@ -135,7 +137,7 @@ namespace ProyectoFinal_Programación
             this.LblListaEqSup1.BackColor = System.Drawing.Color.ForestGreen;
             this.LblListaEqSup1.Font = new System.Drawing.Font("NSimSun", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblListaEqSup1.ForeColor = System.Drawing.Color.White;
-            this.LblListaEqSup1.Location = new System.Drawing.Point(28, 161);
+            this.LblListaEqSup1.Location = new System.Drawing.Point(57, 161);
             this.LblListaEqSup1.Name = "LblListaEqSup1";
             this.LblListaEqSup1.Size = new System.Drawing.Size(251, 253);
             this.LblListaEqSup1.TabIndex = 27;
@@ -157,7 +159,7 @@ namespace ProyectoFinal_Programación
             // BtnDimEqSup1
             // 
             this.BtnDimEqSup1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnDimEqSup1.Location = new System.Drawing.Point(269, 51);
+            this.BtnDimEqSup1.Location = new System.Drawing.Point(220, 51);
             this.BtnDimEqSup1.Name = "BtnDimEqSup1";
             this.BtnDimEqSup1.Size = new System.Drawing.Size(249, 41);
             this.BtnDimEqSup1.TabIndex = 29;
@@ -168,7 +170,7 @@ namespace ProyectoFinal_Programación
             // BtnDimEqSup2
             // 
             this.BtnDimEqSup2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnDimEqSup2.Location = new System.Drawing.Point(524, 51);
+            this.BtnDimEqSup2.Location = new System.Drawing.Point(543, 51);
             this.BtnDimEqSup2.Name = "BtnDimEqSup2";
             this.BtnDimEqSup2.Size = new System.Drawing.Size(249, 41);
             this.BtnDimEqSup2.TabIndex = 30;
@@ -179,7 +181,7 @@ namespace ProyectoFinal_Programación
             // BtnMostrarListaEqSup2
             // 
             this.BtnMostrarListaEqSup2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnMostrarListaEqSup2.Location = new System.Drawing.Point(100, 490);
+            this.BtnMostrarListaEqSup2.Location = new System.Drawing.Point(100, 485);
             this.BtnMostrarListaEqSup2.Name = "BtnMostrarListaEqSup2";
             this.BtnMostrarListaEqSup2.Size = new System.Drawing.Size(208, 41);
             this.BtnMostrarListaEqSup2.TabIndex = 31;
@@ -190,7 +192,7 @@ namespace ProyectoFinal_Programación
             // button4
             // 
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(689, 490);
+            this.button4.Location = new System.Drawing.Point(701, 485);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(208, 41);
             this.button4.TabIndex = 32;
@@ -200,18 +202,18 @@ namespace ProyectoFinal_Programación
             // 
             // TxtDimEqSup1
             // 
-            this.TxtDimEqSup1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtDimEqSup1.Location = new System.Drawing.Point(139, 58);
+            this.TxtDimEqSup1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxtDimEqSup1.Location = new System.Drawing.Point(70, 58);
             this.TxtDimEqSup1.Name = "TxtDimEqSup1";
-            this.TxtDimEqSup1.Size = new System.Drawing.Size(100, 26);
+            this.TxtDimEqSup1.Size = new System.Drawing.Size(100, 27);
             this.TxtDimEqSup1.TabIndex = 33;
             // 
             // TxtDimEqSup2
             // 
-            this.TxtDimEqSup2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtDimEqSup2.Location = new System.Drawing.Point(806, 58);
+            this.TxtDimEqSup2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxtDimEqSup2.Location = new System.Drawing.Point(880, 58);
             this.TxtDimEqSup2.Name = "TxtDimEqSup2";
-            this.TxtDimEqSup2.Size = new System.Drawing.Size(100, 26);
+            this.TxtDimEqSup2.Size = new System.Drawing.Size(100, 27);
             this.TxtDimEqSup2.TabIndex = 34;
             // 
             // Frm_Suplentes

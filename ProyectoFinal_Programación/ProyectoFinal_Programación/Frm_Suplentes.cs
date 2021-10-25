@@ -55,11 +55,11 @@ namespace ProyectoFinal_Programación
         }
         private void BtnMostrarListaEqSup2_Click(object sender, EventArgs e)
         {
-            LblListaEqSup1.Text = "";
+            LblListaEqSup1.Text = " ";
 
             foreach (var item in CambiojugadorEq1Sup)
             {
-                LblListaSuplentesEq1 = LblListaSuplentesEq1 + item + "\r\n";
+                LblListaEqSup1.Text = LblListaEqSup1.Text + item + "\r\n";
             }
         }
         private void BtnDimEqSup1_Click(object sender, EventArgs e)
@@ -79,7 +79,7 @@ namespace ProyectoFinal_Programación
 
             foreach (var item in CambiojugadorEq2Sup)
             {
-                LblListaSuplentesEq2 = LblListaSuplentesEq2 + item + "\r\n";
+                LblListaEqSup2.Text = LblListaEqSup2.Text + item + "\r\n";
             }
         }
     }

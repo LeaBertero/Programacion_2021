@@ -194,6 +194,7 @@ namespace ProyectoFinal_Programación
             this.Controls.Add(this.dataGridView2);
             this.Controls.Add(this.DataTitulares);
             this.Name = "FormTit_Sup";
+            this.Opacity = 0.8D;
             this.Text = "Datos Equipos";
             ((System.ComponentModel.ISupportInitialize)(this.DataTitulares)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();

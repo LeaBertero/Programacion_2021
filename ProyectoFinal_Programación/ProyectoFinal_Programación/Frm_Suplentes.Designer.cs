@@ -51,7 +51,7 @@ namespace ProyectoFinal_Programación
             // BtCargaSupEq1
             // 
             this.BtCargaSupEq1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtCargaSupEq1.Location = new System.Drawing.Point(100, 99);
+            this.BtCargaSupEq1.Location = new System.Drawing.Point(87, 105);
             this.BtCargaSupEq1.Name = "BtCargaSupEq1";
             this.BtCargaSupEq1.Size = new System.Drawing.Size(208, 41);
             this.BtCargaSupEq1.TabIndex = 0;
@@ -62,7 +62,7 @@ namespace ProyectoFinal_Programación
             // TxtCargaSupEq1
             // 
             this.TxtCargaSupEq1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtCargaSupEq1.Location = new System.Drawing.Point(358, 105);
+            this.TxtCargaSupEq1.Location = new System.Drawing.Point(135, 166);
             this.TxtCargaSupEq1.Name = "TxtCargaSupEq1";
             this.TxtCargaSupEq1.Size = new System.Drawing.Size(100, 27);
             this.TxtCargaSupEq1.TabIndex = 1;
@@ -72,11 +72,11 @@ namespace ProyectoFinal_Programación
             this.label4.BackColor = System.Drawing.Color.ForestGreen;
             this.label4.Font = new System.Drawing.Font("NSimSun", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(319, 9);
+            this.label4.Location = new System.Drawing.Point(233, 9);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(328, 39);
+            this.label4.Size = new System.Drawing.Size(629, 39);
             this.label4.TabIndex = 20;
-            this.label4.Text = "Agregar lista de suplentes";
+            this.label4.Text = "Agregar lista de suplentes (Puede agregar hasta 4)";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // BtnSalir
@@ -84,7 +84,7 @@ namespace ProyectoFinal_Programación
             this.BtnSalir.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.BtnSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnSalir.ForeColor = System.Drawing.SystemColors.Control;
-            this.BtnSalir.Location = new System.Drawing.Point(445, 258);
+            this.BtnSalir.Location = new System.Drawing.Point(507, 481);
             this.BtnSalir.Name = "BtnSalir";
             this.BtnSalir.Size = new System.Drawing.Size(112, 58);
             this.BtnSalir.TabIndex = 21;
@@ -95,7 +95,7 @@ namespace ProyectoFinal_Programación
             // TxtCargaSupEq2
             // 
             this.TxtCargaSupEq2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtCargaSupEq2.Location = new System.Drawing.Point(559, 106);
+            this.TxtCargaSupEq2.Location = new System.Drawing.Point(910, 166);
             this.TxtCargaSupEq2.Name = "TxtCargaSupEq2";
             this.TxtCargaSupEq2.Size = new System.Drawing.Size(100, 27);
             this.TxtCargaSupEq2.TabIndex = 23;
@@ -103,7 +103,7 @@ namespace ProyectoFinal_Programación
             // BtCargaSupEq2
             // 
             this.BtCargaSupEq2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtCargaSupEq2.Location = new System.Drawing.Point(701, 98);
+            this.BtCargaSupEq2.Location = new System.Drawing.Point(848, 105);
             this.BtCargaSupEq2.Name = "BtCargaSupEq2";
             this.BtCargaSupEq2.Size = new System.Drawing.Size(208, 41);
             this.BtCargaSupEq2.TabIndex = 22;
@@ -114,22 +114,22 @@ namespace ProyectoFinal_Programación
             // BtnDeleteEq1
             // 
             this.BtnDeleteEq1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnDeleteEq1.Location = new System.Drawing.Point(323, 161);
+            this.BtnDeleteEq1.Location = new System.Drawing.Point(378, 210);
             this.BtnDeleteEq1.Name = "BtnDeleteEq1";
-            this.BtnDeleteEq1.Size = new System.Drawing.Size(122, 36);
+            this.BtnDeleteEq1.Size = new System.Drawing.Size(144, 36);
             this.BtnDeleteEq1.TabIndex = 25;
-            this.BtnDeleteEq1.Text = "Borrar - 1";
+            this.BtnDeleteEq1.Text = "Borrar lista - 1";
             this.BtnDeleteEq1.UseVisualStyleBackColor = true;
             this.BtnDeleteEq1.Click += new System.EventHandler(this.BtnDeleteEq1_Click);
             // 
             // BtnDeleteEq2
             // 
             this.BtnDeleteEq2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnDeleteEq2.Location = new System.Drawing.Point(559, 161);
+            this.BtnDeleteEq2.Location = new System.Drawing.Point(617, 210);
             this.BtnDeleteEq2.Name = "BtnDeleteEq2";
-            this.BtnDeleteEq2.Size = new System.Drawing.Size(122, 36);
+            this.BtnDeleteEq2.Size = new System.Drawing.Size(144, 36);
             this.BtnDeleteEq2.TabIndex = 26;
-            this.BtnDeleteEq2.Text = "Borrar - 2";
+            this.BtnDeleteEq2.Text = "Borrar lista - 2";
             this.BtnDeleteEq2.UseVisualStyleBackColor = true;
             this.BtnDeleteEq2.Click += new System.EventHandler(this.BtnDeleteEq2_Click);
             // 
@@ -138,7 +138,7 @@ namespace ProyectoFinal_Programación
             this.LblListaEqSup1.BackColor = System.Drawing.Color.ForestGreen;
             this.LblListaEqSup1.Font = new System.Drawing.Font("NSimSun", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblListaEqSup1.ForeColor = System.Drawing.Color.White;
-            this.LblListaEqSup1.Location = new System.Drawing.Point(57, 161);
+            this.LblListaEqSup1.Location = new System.Drawing.Point(44, 286);
             this.LblListaEqSup1.Name = "LblListaEqSup1";
             this.LblListaEqSup1.Size = new System.Drawing.Size(251, 253);
             this.LblListaEqSup1.TabIndex = 27;
@@ -150,7 +150,7 @@ namespace ProyectoFinal_Programación
             this.LblListaEqSup2.BackColor = System.Drawing.Color.ForestGreen;
             this.LblListaEqSup2.Font = new System.Drawing.Font("NSimSun", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblListaEqSup2.ForeColor = System.Drawing.Color.White;
-            this.LblListaEqSup2.Location = new System.Drawing.Point(697, 161);
+            this.LblListaEqSup2.Location = new System.Drawing.Point(844, 286);
             this.LblListaEqSup2.Name = "LblListaEqSup2";
             this.LblListaEqSup2.Size = new System.Drawing.Size(251, 253);
             this.LblListaEqSup2.TabIndex = 28;
@@ -160,12 +160,13 @@ namespace ProyectoFinal_Programación
             // BtnDimEqSup1
             // 
             this.BtnDimEqSup1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnDimEqSup1.Location = new System.Drawing.Point(220, 51);
+            this.BtnDimEqSup1.Location = new System.Drawing.Point(209, 51);
             this.BtnDimEqSup1.Name = "BtnDimEqSup1";
             this.BtnDimEqSup1.Size = new System.Drawing.Size(249, 41);
             this.BtnDimEqSup1.TabIndex = 29;
             this.BtnDimEqSup1.Text = "Dimensionar suplentes Eq1";
             this.BtnDimEqSup1.UseVisualStyleBackColor = true;
+            this.BtnDimEqSup1.Visible = false;
             this.BtnDimEqSup1.Click += new System.EventHandler(this.BtnDimEqSup1_Click);
             // 
             // BtnDimEqSup2
@@ -177,12 +178,13 @@ namespace ProyectoFinal_Programación
             this.BtnDimEqSup2.TabIndex = 30;
             this.BtnDimEqSup2.Text = "Dimensionar suplentes Eq2";
             this.BtnDimEqSup2.UseVisualStyleBackColor = true;
+            this.BtnDimEqSup2.Visible = false;
             this.BtnDimEqSup2.Click += new System.EventHandler(this.BtnDimEqSup2_Click);
             // 
             // BtnMostrarListaEqSup2
             // 
             this.BtnMostrarListaEqSup2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnMostrarListaEqSup2.Location = new System.Drawing.Point(100, 485);
+            this.BtnMostrarListaEqSup2.Location = new System.Drawing.Point(314, 299);
             this.BtnMostrarListaEqSup2.Name = "BtnMostrarListaEqSup2";
             this.BtnMostrarListaEqSup2.Size = new System.Drawing.Size(208, 41);
             this.BtnMostrarListaEqSup2.TabIndex = 31;
@@ -193,7 +195,7 @@ namespace ProyectoFinal_Programación
             // button4
             // 
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(701, 485);
+            this.button4.Location = new System.Drawing.Point(617, 299);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(208, 41);
             this.button4.TabIndex = 32;
@@ -208,6 +210,7 @@ namespace ProyectoFinal_Programación
             this.TxtDimEqSup1.Name = "TxtDimEqSup1";
             this.TxtDimEqSup1.Size = new System.Drawing.Size(100, 27);
             this.TxtDimEqSup1.TabIndex = 33;
+            this.TxtDimEqSup1.Visible = false;
             // 
             // TxtDimEqSup2
             // 
@@ -216,13 +219,14 @@ namespace ProyectoFinal_Programación
             this.TxtDimEqSup2.Name = "TxtDimEqSup2";
             this.TxtDimEqSup2.Size = new System.Drawing.Size(100, 27);
             this.TxtDimEqSup2.TabIndex = 34;
+            this.TxtDimEqSup2.Visible = false;
             // 
             // button1
             // 
             this.button1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.Control;
-            this.button1.Location = new System.Drawing.Point(406, 426);
+            this.button1.Location = new System.Drawing.Point(474, 362);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(185, 100);
             this.button1.TabIndex = 35;
@@ -236,7 +240,7 @@ namespace ProyectoFinal_Programación
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::ProyectoFinal_Programación.Properties.Resources._2013_06_03_15_22_06_sup_jpg;
-            this.ClientSize = new System.Drawing.Size(1035, 548);
+            this.ClientSize = new System.Drawing.Size(1134, 548);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.TxtDimEqSup2);
             this.Controls.Add(this.TxtDimEqSup1);

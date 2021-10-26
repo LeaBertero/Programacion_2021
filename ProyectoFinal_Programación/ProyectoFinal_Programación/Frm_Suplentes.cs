@@ -16,8 +16,8 @@ namespace ProyectoFinal_Programación
 
         //public SuplentesEq2 ListaSuplentesEq2;
 
-        string[] CambiojugadorEq1Sup = new string[0];
-        string[] CambiojugadorEq2Sup = new string[0];
+        string[] CambiojugadorEq1Sup = new string[3];
+        string[] CambiojugadorEq2Sup = new string[3];
 
 
         int posicionEqSup1 = 0;
@@ -64,13 +64,13 @@ namespace ProyectoFinal_Programación
         }
         private void BtnDimEqSup1_Click(object sender, EventArgs e)
         {
-            int CantJugEq1 = Convert.ToInt32(TxtDimEqSup1.Text);
-            CambiojugadorEq1Sup = new string[CantJugEq1];
+            //int CantJugEq1 = Convert.ToInt32(TxtDimEqSup1.Text);
+            //CambiojugadorEq1Sup = new string[CantJugEq1];
         }
         private void BtnDimEqSup2_Click(object sender, EventArgs e)
         {
-            int CantJugEq2 = Convert.ToInt32(TxtDimEqSup2.Text);
-            CambiojugadorEq2Sup = new string[CantJugEq2];
+            //int CantJugEq2 = Convert.ToInt32(TxtDimEqSup2.Text);
+            //CambiojugadorEq2Sup = new string[CantJugEq2];
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -89,6 +89,8 @@ namespace ProyectoFinal_Programación
             Form FormTit_Sup = new FormTit_Sup();
             FormTit_Sup.ShowDialog();
         }
+
+        
     }
 }
 

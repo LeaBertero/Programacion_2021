@@ -48,6 +48,12 @@
   <ItemGroup>
     <Compile Include="Clases_Jugadores_suplentes\SuplentesEq2.cs" />
     <Compile Include="Clases_Jugadores_suplentes\SuplentesEq1.cs" />
+    <Compile Include="FormTit_Sup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTit_Sup.Designer.cs">
+      <DependentUpon>FormTit_Sup.cs</DependentUpon>
+    </Compile>
     <Compile Include="Frm_Titulares.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -62,6 +68,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormTit_Sup.resx">
+      <DependentUpon>FormTit_Sup.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Frm_Titulares.resx">
       <DependentUpon>Frm_Titulares.cs</DependentUpon>
     </EmbeddedResource>

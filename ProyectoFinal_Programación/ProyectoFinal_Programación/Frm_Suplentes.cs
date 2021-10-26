@@ -82,6 +82,13 @@ namespace ProyectoFinal_Programación
                 LblListaEqSup2.Text = LblListaEqSup2.Text + item + "\r\n";
             }
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            //Corregir
+            Form FormTit_Sup = new FormTit_Sup();
+            FormTit_Sup.ShowDialog();
+        }
     }
 }
 

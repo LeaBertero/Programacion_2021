@@ -45,6 +45,7 @@ namespace ProyectoFinal_Programación
             this.button4 = new System.Windows.Forms.Button();
             this.TxtDimEqSup1 = new System.Windows.Forms.TextBox();
             this.TxtDimEqSup2 = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // BtCargaSupEq1
@@ -83,7 +84,7 @@ namespace ProyectoFinal_Programación
             this.BtnSalir.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.BtnSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnSalir.ForeColor = System.Drawing.SystemColors.Control;
-            this.BtnSalir.Location = new System.Drawing.Point(448, 468);
+            this.BtnSalir.Location = new System.Drawing.Point(445, 258);
             this.BtnSalir.Name = "BtnSalir";
             this.BtnSalir.Size = new System.Drawing.Size(112, 58);
             this.BtnSalir.TabIndex = 21;
@@ -216,6 +217,19 @@ namespace ProyectoFinal_Programación
             this.TxtDimEqSup2.Size = new System.Drawing.Size(100, 27);
             this.TxtDimEqSup2.TabIndex = 34;
             // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.SystemColors.Control;
+            this.button1.Location = new System.Drawing.Point(406, 426);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(185, 100);
+            this.button1.TabIndex = 35;
+            this.button1.Text = "Mostrar listas Titilares / Suplentes";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Frm_Suplentes
             // 
             this.AcceptButton = this.BtCargaSupEq1;
@@ -223,6 +237,7 @@ namespace ProyectoFinal_Programación
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::ProyectoFinal_Programación.Properties.Resources._2013_06_03_15_22_06_sup_jpg;
             this.ClientSize = new System.Drawing.Size(1035, 548);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.TxtDimEqSup2);
             this.Controls.Add(this.TxtDimEqSup1);
             this.Controls.Add(this.button4);
@@ -264,5 +279,6 @@ namespace ProyectoFinal_Programación
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.TextBox TxtDimEqSup1;
         private System.Windows.Forms.TextBox TxtDimEqSup2;
+        private System.Windows.Forms.Button button1;
     }
 }

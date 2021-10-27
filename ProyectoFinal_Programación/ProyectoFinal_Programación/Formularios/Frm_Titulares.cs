@@ -5,7 +5,7 @@ namespace ProyectoFinal_Programación
 {
     public partial class Frm_Titulares : Form
     {
-        //Variables
+        //Propiedades //se cargan solamente dos jugadores titulares de tres fijos que ya hay
         string[] CargajugadorEq1 = new string[2];
         string[] CargajugadorEq2 = new string[2];
 
@@ -13,18 +13,16 @@ namespace ProyectoFinal_Programación
         int posicionEqTit1 = 0;
         int posicionEqTit2 = 0;
 
-
         public Frm_Titulares()
         {
             InitializeComponent();
         }
 
-
         //Boton para cargar nuevos jugadores del equipo 1
         public void BtnCargaJugadorEq1_Click(object sender, EventArgs e)
         {
             CargajugadorEq1[posicionEqTit1] = TxtCargaJugadorEq1.Text;
-            posicionEqTit1 = posicionEqTit1 + 1;
+            posicionEqTit1 = posicionEqTit1 +1;
             TxtCargaJugadorEq1.Focus();
             TxtCargaJugadorEq1.SelectAll();
         }
@@ -44,14 +42,12 @@ namespace ProyectoFinal_Programación
             //int cantidad = Convert.ToInt32(TxtDimJugadorEq1.Text);
             //CargajugadorEq1 = new string[cantidad];
         }
-            
-       
         public void BtnDimEq2_Click(object sender, EventArgs e)
         {
             //int cantidad = Convert.ToInt32(TxtDimJugadorEq2.Text);
             //CargajugadorEq2 = new string[cantidad];
         }
-            
+
         //Mostrar en pantalla nuevo jugador en la lista de jugadores del equipo 1
         public void BtnMostrarNuevojugadorEq1_Click(object sender, EventArgs e)
         {
@@ -79,7 +75,7 @@ namespace ProyectoFinal_Programación
                 LblListaEquipo2.Text = LblListaEquipo2.Text + item + "\r\n";
             }
         }
-
+            
         //Dimensionar jugadores de equipo numero 2
         public void BtnEquipo1_Click(object sender, EventArgs e)
         {
@@ -102,8 +98,7 @@ namespace ProyectoFinal_Programación
         }
         public void BtnEquipo2_Click(object sender, EventArgs e)
         {
-            string[] Equiponumero2 = {"Jugador 1", "Jugador 2", "Jugador 3",
-                "Jugador 4", "Jugador 5" };
+            string[] Equiponumero2 = {"Jugador 1", "Jugador 2", "Jugador 3" };
 
             for (int i = 0; i < Equiponumero2.Length; i++)
             {
@@ -120,7 +115,7 @@ namespace ProyectoFinal_Programación
 
             //LblEquipo1.Text = Equiponumero1[3];
         }
-
+       
         //ÉSTE BOTÓN CIERRA EL PROGRAMA
         private void BtnExit_Click(object sender, EventArgs e)
         {
@@ -151,13 +146,14 @@ namespace ProyectoFinal_Programación
         {
             LblListaEquipo2.Text = " ";
         }
-
-        private void TxtDimJugadorEq1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
     }
 }
+            
+
+
+
+
+        
 
 
 

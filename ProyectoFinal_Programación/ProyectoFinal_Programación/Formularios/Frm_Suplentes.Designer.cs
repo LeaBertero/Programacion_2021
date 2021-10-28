@@ -74,7 +74,6 @@ namespace ProyectoFinal_Programación
             this.label4.TabIndex = 20;
             this.label4.Text = "Agregar lista de suplentes (Puede agregar hasta 4)";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-
             // 
             // BtnSalir
             // 
@@ -209,7 +208,9 @@ namespace ProyectoFinal_Programación
             this.Controls.Add(this.label4);
             this.Controls.Add(this.TxtCargaSupEq1);
             this.Controls.Add(this.BtCargaSupEq1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Frm_Suplentes";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Suplentes";
             this.ResumeLayout(false);
             this.PerformLayout();

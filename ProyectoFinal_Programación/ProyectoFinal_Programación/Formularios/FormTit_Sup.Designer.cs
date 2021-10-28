@@ -179,6 +179,7 @@ namespace ProyectoFinal_Programación
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.ClientSize = new System.Drawing.Size(1010, 515);
             this.Controls.Add(this.TxtSupLista);
             this.Controls.Add(this.BtnCargalistaSupEq2);
@@ -193,8 +194,9 @@ namespace ProyectoFinal_Programación
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dataGridView2);
             this.Controls.Add(this.DataTitulares);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FormTit_Sup";
-            this.Opacity = 0.8D;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Datos Equipos";
             ((System.ComponentModel.ISupportInitialize)(this.DataTitulares)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();

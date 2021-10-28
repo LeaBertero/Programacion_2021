@@ -43,7 +43,6 @@ namespace ProyectoFinal_Programación
             this.BtnExit = new System.Windows.Forms.Button();
             this.Btn_Suplentes = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.BtnBorrarEq1 = new System.Windows.Forms.Button();
             this.BtnBorrarEq2 = new System.Windows.Forms.Button();
@@ -203,29 +202,17 @@ namespace ProyectoFinal_Programación
             this.label4.TabIndex = 19;
             this.label4.Text = "Ir a suplentes";
             // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.Color.Transparent;
-            this.label5.Font = new System.Drawing.Font("NSimSun", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.Red;
-            this.label5.Location = new System.Drawing.Point(662, 9);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(514, 21);
-            this.label5.TabIndex = 21;
-            this.label5.Text = "Puede caragar hasta 2 jugadores (Equipo 2)";
-            // 
             // label6
             // 
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.Transparent;
-            this.label6.Font = new System.Drawing.Font("NSimSun", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Font = new System.Drawing.Font("NSimSun", 22F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.Red;
-            this.label6.Location = new System.Drawing.Point(12, 9);
+            this.label6.Location = new System.Drawing.Point(192, 9);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(658, 21);
+            this.label6.Size = new System.Drawing.Size(829, 30);
             this.label6.TabIndex = 20;
-            this.label6.Text = "Puede cargar hasta un máximo de 5 jugadores (Equipo 1)";
+            this.label6.Text = "Solamente podrá cargar hasta 5 jugadores por equipo";
             // 
             // BtnBorrarEq1
             // 
@@ -287,7 +274,6 @@ namespace ProyectoFinal_Programación
             this.Controls.Add(this.BtnBorrarListaEq2);
             this.Controls.Add(this.BtnBorrarEq2);
             this.Controls.Add(this.BtnBorrarEq1);
-            this.Controls.Add(this.label5);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.BtnCargaJugadorEq1);
             this.Controls.Add(this.BtnCargaJugadorEq2);
@@ -304,7 +290,9 @@ namespace ProyectoFinal_Programación
             this.Controls.Add(this.TxtCargaJugadorEq1);
             this.Controls.Add(this.BtnListaEquipo1);
             this.Font = new System.Drawing.Font("Microsoft PhagsPa", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Frm_Titulares";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Proyecto final - 2021 (Programacion)";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -327,7 +315,6 @@ namespace ProyectoFinal_Programación
         private System.Windows.Forms.Button BtnExit;
         private System.Windows.Forms.Button Btn_Suplentes;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Button BtnBorrarEq1;
         private System.Windows.Forms.Button BtnBorrarEq2;

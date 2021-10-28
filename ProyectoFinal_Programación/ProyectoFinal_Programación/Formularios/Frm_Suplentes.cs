@@ -6,16 +6,15 @@ namespace ProyectoFinal_Programación
 {
     public partial class Frm_Suplentes : Form
     {
-        //se definen var
+        //Propiedades // publicas, para todo el programa
 
-        public SuplentesEq1 ListaSuplentesEq1;
-
+        //Se 
         string[] Equiponumero1 = {  };
         string[] Equiponumero2 = {  };
-
-        public object LblListaSuplentesEq1 { get; private set; }
-        public string LblListaSuplentesEq2 { get; private set; }
-       
+        
+        //public object LblListaSuplentesEq1 { get; private set; }
+        //public string LblListaSuplentesEq2 { get; private set; }
+        
         string[] CambiojugadorEq1Sup = new string[4];
         string[] CambiojugadorEq2Sup = new string[4];
 
@@ -53,14 +52,6 @@ namespace ProyectoFinal_Programación
         }
         public void BtnMostrarListaEqSup2_Click(object sender, EventArgs e)
         {
-            //for (int contadorsuplentes = 0; contadorsuplentes < Equiponumero1.Length; contadorsuplentes++)
-            //{
-            //    LblListaEqSup1.Text = LblListaEqSup1.Text + Equiponumero1[contadorsuplentes] + "\r\n";
-            //}
-
-
-            // estructura comentada y cambiada :D
-
             LblListaEqSup1.Visible = true;
             LblListaEqSup1.Text = " ";
 
@@ -79,15 +70,12 @@ namespace ProyectoFinal_Programación
             //int CantJugEq2 = Convert.ToInt32(TxtDimEqSup2.Text);
             //CambiojugadorEq2Sup = new string[CantJugEq2];
         }
-        
         public void button1_Click(object sender, EventArgs e)
         {
             //Corregir
             Form FormTit_Sup = new FormTit_Sup();
             FormTit_Sup.ShowDialog();
         }
-        
-
         private void BtnMostrarListaEqSup2_Click_1(object sender, EventArgs e)
         {
             //for (int i = 0; i < Equiponumero2.Length; i++)
@@ -105,6 +93,14 @@ namespace ProyectoFinal_Programación
             }
         }
     }
+
+
+       
+            
+
+        
+        
+
 }
 
        

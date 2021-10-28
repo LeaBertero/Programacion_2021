@@ -65,7 +65,7 @@ namespace ProyectoFinal_Programación
             // TxtCargaJugadorEq1
             // 
             this.TxtCargaJugadorEq1.Font = new System.Drawing.Font("Microsoft PhagsPa", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtCargaJugadorEq1.Location = new System.Drawing.Point(387, 108);
+            this.TxtCargaJugadorEq1.Location = new System.Drawing.Point(387, 109);
             this.TxtCargaJugadorEq1.Name = "TxtCargaJugadorEq1";
             this.TxtCargaJugadorEq1.Size = new System.Drawing.Size(185, 28);
             this.TxtCargaJugadorEq1.TabIndex = 1;
@@ -150,7 +150,7 @@ namespace ProyectoFinal_Programación
             // BtnMostrarNuevojugadorEq1
             // 
             this.BtnMostrarNuevojugadorEq1.Font = new System.Drawing.Font("Microsoft PhagsPa", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnMostrarNuevojugadorEq1.Location = new System.Drawing.Point(387, 434);
+            this.BtnMostrarNuevojugadorEq1.Location = new System.Drawing.Point(387, 438);
             this.BtnMostrarNuevojugadorEq1.Name = "BtnMostrarNuevojugadorEq1";
             this.BtnMostrarNuevojugadorEq1.Size = new System.Drawing.Size(185, 51);
             this.BtnMostrarNuevojugadorEq1.TabIndex = 9;
@@ -221,11 +221,11 @@ namespace ProyectoFinal_Programación
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Font = new System.Drawing.Font("NSimSun", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.Red;
-            this.label6.Location = new System.Drawing.Point(70, 9);
+            this.label6.Location = new System.Drawing.Point(12, 9);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(502, 21);
+            this.label6.Size = new System.Drawing.Size(658, 21);
             this.label6.TabIndex = 20;
-            this.label6.Text = "Puede cargar hasta 2 jugadores (Equipo 1)";
+            this.label6.Text = "Puede cargar hasta un máximo de 5 jugadores (Equipo 1)";
             // 
             // BtnBorrarEq1
             // 

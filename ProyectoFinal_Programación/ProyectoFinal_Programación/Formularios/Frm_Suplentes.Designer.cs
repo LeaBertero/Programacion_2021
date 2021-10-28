@@ -47,7 +47,7 @@ namespace ProyectoFinal_Programación
             // BtCargaSupEq1
             // 
             this.BtCargaSupEq1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtCargaSupEq1.Location = new System.Drawing.Point(53, 105);
+            this.BtCargaSupEq1.Location = new System.Drawing.Point(271, 66);
             this.BtCargaSupEq1.Name = "BtCargaSupEq1";
             this.BtCargaSupEq1.Size = new System.Drawing.Size(208, 41);
             this.BtCargaSupEq1.TabIndex = 0;
@@ -58,7 +58,7 @@ namespace ProyectoFinal_Programación
             // TxtCargaSupEq1
             // 
             this.TxtCargaSupEq1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtCargaSupEq1.Location = new System.Drawing.Point(53, 168);
+            this.TxtCargaSupEq1.Location = new System.Drawing.Point(271, 129);
             this.TxtCargaSupEq1.Name = "TxtCargaSupEq1";
             this.TxtCargaSupEq1.Size = new System.Drawing.Size(208, 27);
             this.TxtCargaSupEq1.TabIndex = 1;
@@ -74,14 +74,14 @@ namespace ProyectoFinal_Programación
             this.label4.TabIndex = 20;
             this.label4.Text = "Agregar lista de suplentes (Puede agregar hasta 4)";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label4.Click += new System.EventHandler(this.label4_Click);
+
             // 
             // BtnSalir
             // 
             this.BtnSalir.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.BtnSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnSalir.ForeColor = System.Drawing.SystemColors.Control;
-            this.BtnSalir.Location = new System.Drawing.Point(507, 481);
+            this.BtnSalir.Location = new System.Drawing.Point(1010, 478);
             this.BtnSalir.Name = "BtnSalir";
             this.BtnSalir.Size = new System.Drawing.Size(112, 58);
             this.BtnSalir.TabIndex = 21;
@@ -92,7 +92,7 @@ namespace ProyectoFinal_Programación
             // TxtCargaSupEq2
             // 
             this.TxtCargaSupEq2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtCargaSupEq2.Location = new System.Drawing.Point(881, 168);
+            this.TxtCargaSupEq2.Location = new System.Drawing.Point(667, 129);
             this.TxtCargaSupEq2.Name = "TxtCargaSupEq2";
             this.TxtCargaSupEq2.Size = new System.Drawing.Size(208, 27);
             this.TxtCargaSupEq2.TabIndex = 23;
@@ -100,7 +100,7 @@ namespace ProyectoFinal_Programación
             // BtCargaSupEq2
             // 
             this.BtCargaSupEq2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtCargaSupEq2.Location = new System.Drawing.Point(881, 105);
+            this.BtCargaSupEq2.Location = new System.Drawing.Point(667, 66);
             this.BtCargaSupEq2.Name = "BtCargaSupEq2";
             this.BtCargaSupEq2.Size = new System.Drawing.Size(208, 41);
             this.BtCargaSupEq2.TabIndex = 22;
@@ -111,7 +111,7 @@ namespace ProyectoFinal_Programación
             // BtnDeleteEq1
             // 
             this.BtnDeleteEq1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnDeleteEq1.Location = new System.Drawing.Point(85, 494);
+            this.BtnDeleteEq1.Location = new System.Drawing.Point(12, 27);
             this.BtnDeleteEq1.Name = "BtnDeleteEq1";
             this.BtnDeleteEq1.Size = new System.Drawing.Size(144, 36);
             this.BtnDeleteEq1.TabIndex = 25;
@@ -122,7 +122,7 @@ namespace ProyectoFinal_Programación
             // BtnDeleteEq2
             // 
             this.BtnDeleteEq2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnDeleteEq2.Location = new System.Drawing.Point(919, 494);
+            this.BtnDeleteEq2.Location = new System.Drawing.Point(978, 24);
             this.BtnDeleteEq2.Name = "BtnDeleteEq2";
             this.BtnDeleteEq2.Size = new System.Drawing.Size(144, 36);
             this.BtnDeleteEq2.TabIndex = 26;
@@ -135,11 +135,10 @@ namespace ProyectoFinal_Programación
             this.LblListaEqSup1.BackColor = System.Drawing.Color.ForestGreen;
             this.LblListaEqSup1.Font = new System.Drawing.Font("NSimSun", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblListaEqSup1.ForeColor = System.Drawing.Color.White;
-            this.LblListaEqSup1.Location = new System.Drawing.Point(49, 237);
+            this.LblListaEqSup1.Location = new System.Drawing.Point(267, 168);
             this.LblListaEqSup1.Name = "LblListaEqSup1";
             this.LblListaEqSup1.Size = new System.Drawing.Size(212, 207);
             this.LblListaEqSup1.TabIndex = 27;
-            this.LblListaEqSup1.Text = "Mostrar lista - Eq1";
             this.LblListaEqSup1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.LblListaEqSup1.Visible = false;
             // 
@@ -148,20 +147,19 @@ namespace ProyectoFinal_Programación
             this.LblListaEqSup2.BackColor = System.Drawing.Color.ForestGreen;
             this.LblListaEqSup2.Font = new System.Drawing.Font("NSimSun", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblListaEqSup2.ForeColor = System.Drawing.Color.White;
-            this.LblListaEqSup2.Location = new System.Drawing.Point(877, 237);
+            this.LblListaEqSup2.Location = new System.Drawing.Point(663, 168);
             this.LblListaEqSup2.Name = "LblListaEqSup2";
             this.LblListaEqSup2.Size = new System.Drawing.Size(212, 207);
             this.LblListaEqSup2.TabIndex = 28;
-            this.LblListaEqSup2.Text = "Mostrar lista - Eq2";
             this.LblListaEqSup2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.LblListaEqSup2.Visible = false;
             // 
             // BtnMostrarListaEqSup1
             // 
             this.BtnMostrarListaEqSup1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnMostrarListaEqSup1.Location = new System.Drawing.Point(317, 276);
+            this.BtnMostrarListaEqSup1.Location = new System.Drawing.Point(301, 421);
             this.BtnMostrarListaEqSup1.Name = "BtnMostrarListaEqSup1";
-            this.BtnMostrarListaEqSup1.Size = new System.Drawing.Size(208, 41);
+            this.BtnMostrarListaEqSup1.Size = new System.Drawing.Size(154, 41);
             this.BtnMostrarListaEqSup1.TabIndex = 31;
             this.BtnMostrarListaEqSup1.Text = "Mostrar lista Eq1";
             this.BtnMostrarListaEqSup1.UseVisualStyleBackColor = true;
@@ -170,20 +168,20 @@ namespace ProyectoFinal_Programación
             // BtnMostrarListaEqSup2
             // 
             this.BtnMostrarListaEqSup2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnMostrarListaEqSup2.Location = new System.Drawing.Point(613, 276);
+            this.BtnMostrarListaEqSup2.Location = new System.Drawing.Point(688, 421);
             this.BtnMostrarListaEqSup2.Name = "BtnMostrarListaEqSup2";
-            this.BtnMostrarListaEqSup2.Size = new System.Drawing.Size(208, 41);
+            this.BtnMostrarListaEqSup2.Size = new System.Drawing.Size(154, 41);
             this.BtnMostrarListaEqSup2.TabIndex = 32;
             this.BtnMostrarListaEqSup2.Text = "Mostrar lista Eq2";
             this.BtnMostrarListaEqSup2.UseVisualStyleBackColor = true;
-            this.BtnMostrarListaEqSup2.Click += new System.EventHandler(this.button4_Click);
+            this.BtnMostrarListaEqSup2.Click += new System.EventHandler(this.BtnMostrarListaEqSup2_Click_1);
             // 
             // button1
             // 
             this.button1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.Control;
-            this.button1.Location = new System.Drawing.Point(474, 362);
+            this.button1.Location = new System.Drawing.Point(482, 436);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(185, 100);
             this.button1.TabIndex = 35;

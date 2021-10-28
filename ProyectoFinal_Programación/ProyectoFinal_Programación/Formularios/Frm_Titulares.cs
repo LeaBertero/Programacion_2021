@@ -6,8 +6,8 @@ namespace ProyectoFinal_Programación
     public partial class Frm_Titulares : Form
     {
         //Propiedades //se cargan solamente dos jugadores titulares de tres fijos que ya hay
-        string[] CargajugadorEq1 = new string[2];
-        string[] CargajugadorEq2 = new string[2];
+        string[] CargajugadorEq1 = new string[5];
+        string[] CargajugadorEq2 = new string[5];
 
         //Posición inicial de la carga de nombres de los jugadores
         int posicionEqTit1 = 0;
@@ -54,7 +54,7 @@ namespace ProyectoFinal_Programación
             //Lismpia la lista, en el caso de que el usuario se arrepienta
             //de la cantidad de jugadores a cargar
 
-            LblListaEquipo1.Text = "";
+            LblListaEquipo1.Text = " ";
 
             foreach (var item in CargajugadorEq1)
             {
@@ -68,7 +68,7 @@ namespace ProyectoFinal_Programación
             //Lismpia la lista, en el caso de que el usuario se arrepienta
             //de la cantidad de jugadores a cargar
 
-            LblListaEquipo2.Text = "";
+            LblListaEquipo2.Text = " ";
 
             foreach (var item in CargajugadorEq2)
             {
@@ -79,7 +79,7 @@ namespace ProyectoFinal_Programación
         //Dimensionar jugadores de equipo numero 2
         public void BtnEquipo1_Click(object sender, EventArgs e)
         {
-            string[] Equiponumero1 = {"Jugador 1", "Jugador 2", "Jugador 3" };
+            string[] Equiponumero1 = { };
 
             for (int i = 0; i < Equiponumero1.Length; i++)
             {
@@ -98,7 +98,7 @@ namespace ProyectoFinal_Programación
         }
         public void BtnEquipo2_Click(object sender, EventArgs e)
         {
-            string[] Equiponumero2 = {"Jugador 1", "Jugador 2", "Jugador 3" };
+            string[] Equiponumero2 = { };
 
             for (int i = 0; i < Equiponumero2.Length; i++)
             {
@@ -148,6 +148,10 @@ namespace ProyectoFinal_Programación
         }
     }
 }
+
+        
+
+        
             
 
 

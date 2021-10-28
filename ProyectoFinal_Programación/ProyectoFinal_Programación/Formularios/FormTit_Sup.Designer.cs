@@ -123,7 +123,7 @@ namespace ProyectoFinal_Programación
             // dataGridView3
             // 
             this.dataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView3.Location = new System.Drawing.Point(414, 343);
+            this.dataGridView3.Location = new System.Drawing.Point(413, 343);
             this.dataGridView3.Name = "dataGridView3";
             this.dataGridView3.Size = new System.Drawing.Size(240, 150);
             this.dataGridView3.TabIndex = 6;
@@ -160,7 +160,7 @@ namespace ProyectoFinal_Programación
             // TxtTitLista
             // 
             this.TxtTitLista.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtTitLista.Location = new System.Drawing.Point(769, 156);
+            this.TxtTitLista.Location = new System.Drawing.Point(769, 154);
             this.TxtTitLista.Name = "TxtTitLista";
             this.TxtTitLista.Size = new System.Drawing.Size(208, 27);
             this.TxtTitLista.TabIndex = 25;

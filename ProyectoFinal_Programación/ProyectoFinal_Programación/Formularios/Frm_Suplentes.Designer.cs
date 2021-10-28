@@ -47,7 +47,7 @@ namespace ProyectoFinal_Programación
             // BtCargaSupEq1
             // 
             this.BtCargaSupEq1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtCargaSupEq1.Location = new System.Drawing.Point(271, 66);
+            this.BtCargaSupEq1.Location = new System.Drawing.Point(271, 115);
             this.BtCargaSupEq1.Name = "BtCargaSupEq1";
             this.BtCargaSupEq1.Size = new System.Drawing.Size(208, 41);
             this.BtCargaSupEq1.TabIndex = 0;
@@ -58,7 +58,7 @@ namespace ProyectoFinal_Programación
             // TxtCargaSupEq1
             // 
             this.TxtCargaSupEq1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtCargaSupEq1.Location = new System.Drawing.Point(271, 129);
+            this.TxtCargaSupEq1.Location = new System.Drawing.Point(271, 73);
             this.TxtCargaSupEq1.Name = "TxtCargaSupEq1";
             this.TxtCargaSupEq1.Size = new System.Drawing.Size(208, 27);
             this.TxtCargaSupEq1.TabIndex = 1;
@@ -91,7 +91,7 @@ namespace ProyectoFinal_Programación
             // TxtCargaSupEq2
             // 
             this.TxtCargaSupEq2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtCargaSupEq2.Location = new System.Drawing.Point(667, 129);
+            this.TxtCargaSupEq2.Location = new System.Drawing.Point(667, 73);
             this.TxtCargaSupEq2.Name = "TxtCargaSupEq2";
             this.TxtCargaSupEq2.Size = new System.Drawing.Size(208, 27);
             this.TxtCargaSupEq2.TabIndex = 23;
@@ -99,7 +99,7 @@ namespace ProyectoFinal_Programación
             // BtCargaSupEq2
             // 
             this.BtCargaSupEq2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtCargaSupEq2.Location = new System.Drawing.Point(667, 66);
+            this.BtCargaSupEq2.Location = new System.Drawing.Point(667, 115);
             this.BtCargaSupEq2.Name = "BtCargaSupEq2";
             this.BtCargaSupEq2.Size = new System.Drawing.Size(208, 41);
             this.BtCargaSupEq2.TabIndex = 22;

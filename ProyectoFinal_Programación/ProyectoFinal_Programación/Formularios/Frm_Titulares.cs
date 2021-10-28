@@ -146,6 +146,16 @@ namespace ProyectoFinal_Programación
         {
             LblListaEquipo2.Text = " ";
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            LblListaEquipo1.Visible = false;
+        }
+
+        private void BtnOculatrListaEq2_Click(object sender, EventArgs e)
+        {
+            LblListaEquipo2.Visible = false;
+        }
     }
 }
 

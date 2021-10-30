@@ -9,7 +9,7 @@ namespace Carga_personas
 {
     //Sepone public a la clase para que se pueda ver en el formulario,
     //de lo contrario no se puede ver si no es publica
-    public class Persona
+    public class Personas
     {
         public string Nombre { get; set; }
 

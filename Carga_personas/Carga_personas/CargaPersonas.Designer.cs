@@ -34,6 +34,7 @@ namespace Carga_personas
             this.label1 = new System.Windows.Forms.Label();
             this.LblLista = new System.Windows.Forms.Label();
             this.BtnMostrar = new System.Windows.Forms.Button();
+            this.BtnSalir = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // TxtCargaPers
@@ -83,11 +84,22 @@ namespace Carga_personas
             this.BtnMostrar.UseVisualStyleBackColor = true;
             this.BtnMostrar.Click += new System.EventHandler(this.BtnMostrar_Click);
             // 
+            // BtnSalir
+            // 
+            this.BtnSalir.Location = new System.Drawing.Point(351, 290);
+            this.BtnSalir.Name = "BtnSalir";
+            this.BtnSalir.Size = new System.Drawing.Size(75, 23);
+            this.BtnSalir.TabIndex = 5;
+            this.BtnSalir.Text = "Salir";
+            this.BtnSalir.UseVisualStyleBackColor = true;
+            this.BtnSalir.Click += new System.EventHandler(this.BtnSalir_Click);
+            // 
             // CargaPersonas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(438, 325);
+            this.Controls.Add(this.BtnSalir);
             this.Controls.Add(this.BtnMostrar);
             this.Controls.Add(this.LblLista);
             this.Controls.Add(this.label1);
@@ -107,6 +119,7 @@ namespace Carga_personas
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label LblLista;
         private System.Windows.Forms.Button BtnMostrar;
+        private System.Windows.Forms.Button BtnSalir;
     }
 }
 

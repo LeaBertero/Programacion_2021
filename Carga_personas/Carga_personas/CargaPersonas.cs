@@ -33,7 +33,11 @@ namespace Carga_personas
             //Lista.Redimensionar();
             //Lista.personas[Lista.personas.Length -1] = persona;
             //persona.AñoNacimiento = System.Convert.ToInt32(TxtNacimiento.Text);
-            Lista.AddPersona(TxtCargaPers.Text, TxtNacimiento.Text);
+            LblLista.Text = " ";
+            if ( !Lista.AddPersona(TxtCargaPers.Text, TxtNacimiento.Text))
+            {
+                LblLista.Text = "Persona no valida";
+            }
         }
 
         public void BtnMostrar_Click(object sender, EventArgs e)

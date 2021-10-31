@@ -12,6 +12,6 @@ namespace Carga_personas
     public class Personas
     {
         public string Nombre { get; set; }
-
+        public int AñoNacimiento { get; set; }
     }
 }

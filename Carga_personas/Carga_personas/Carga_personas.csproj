@@ -53,6 +53,7 @@
       <DependentUpon>CargaPersonas.cs</DependentUpon>
     </Compile>
     <Compile Include="Clases\Persona.cs" />
+    <Compile Include="Clases\ListaPersonas.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="CargaPersonas.resx">

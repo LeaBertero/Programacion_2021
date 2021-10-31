@@ -52,8 +52,7 @@
     <Compile Include="CargaPersonas.Designer.cs">
       <DependentUpon>CargaPersonas.cs</DependentUpon>
     </Compile>
-    <Compile Include="Clases\Persona.cs" />
-    <Compile Include="Clases\ListaPersonas.cs" />
+    <Compile Include="Persona.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="CargaPersonas.resx">
@@ -80,6 +79,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Clases\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

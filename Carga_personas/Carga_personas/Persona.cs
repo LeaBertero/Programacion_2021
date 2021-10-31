@@ -6,8 +6,10 @@ using System.Threading.Tasks;
 
 namespace Carga_personas
 {
-    public class ListaPersonas
+    public class Persona
     {
+        public string Nombre { get; set; }
+        public int AñoNacimiento { get; set; }
 
     }
 }

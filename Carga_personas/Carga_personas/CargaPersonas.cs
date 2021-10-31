@@ -14,12 +14,12 @@ namespace Carga_personas
     {
 
         //Se declara una propiedad persona como entero
-        public Personas[] personas { get; set; }
+        public Persona[] personas { get; set; }
         //public Personas[] personas { get; set; } = new Personas[3];
         //public int Pos = -1;
-        public ListaPersonas Lista { get; set; }
 
-
+        public Persona Lista { get; set; }
+        public Persona lista { get; set; }
 
         public CargaPersonas()
         {
@@ -28,7 +28,7 @@ namespace Carga_personas
 
         private void BtnCargar_Click(object sender, EventArgs e)
         {
-            Personas persona = new Personas();
+            Persona persona = new Persona();
             persona.Nombre = TxtCargaPers.Text;
             //Pos = Pos + 1;
             Redimensionar();
@@ -40,7 +40,7 @@ namespace Carga_personas
         {
 
             LblLista.Text = "Lista de personas cargadas: \r\n";
-            foreach (Personas item in personas)
+            foreach (Persona item in personas)
             {
                 LblLista.Text = LblLista.Text  +item.Nombre + " - " + item.AñoNacimiento + "\r\n";
             }
@@ -54,11 +54,11 @@ namespace Carga_personas
         {
             if (personas == null)
             {
-                personas = new Personas[1];
+                personas = new Persona[1];
             }
             else 
             {
-                Personas[] arraux = new Personas[personas.Length + 1];
+                Persona[] arraux = new Persona[personas.Length + 1];
                 
                 for (int contador = 0; contador < personas.Length; contador++)
                 {

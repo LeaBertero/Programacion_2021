@@ -12,6 +12,7 @@ namespace ProyectoFinal_Programación
 {
     public partial class FormTit_Sup : Form
     {
+
         public FormTit_Sup()
         {
             InitializeComponent();
@@ -20,6 +21,11 @@ namespace ProyectoFinal_Programación
         private void BtnExit_Click(object sender, EventArgs e)
         {
             Close();
+        }
+
+        private void BtnCargaListaTitEq1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

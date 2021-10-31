@@ -174,6 +174,7 @@ namespace ProyectoFinal_Programación
             this.BtnCargaListaTitEq1.TabIndex = 24;
             this.BtnCargaListaTitEq1.Text = "Cargar lista  Eq1";
             this.BtnCargaListaTitEq1.UseVisualStyleBackColor = true;
+            this.BtnCargaListaTitEq1.Click += new System.EventHandler(this.BtnCargaListaTitEq1_Click);
             // 
             // FormTit_Sup
             // 

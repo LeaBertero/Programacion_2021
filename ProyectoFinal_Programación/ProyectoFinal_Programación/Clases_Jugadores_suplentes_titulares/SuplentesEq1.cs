@@ -7,9 +7,9 @@
 
         public string jugadoresEq1Suplentes { get; set; }
     }
-        
-        
 }
+
+    
 
 
 

@@ -37,6 +37,7 @@ namespace Carga_personas
             this.BtnSalir = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.TxtNacimiento = new System.Windows.Forms.TextBox();
+            this.BtnBorrar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // TxtCargaPers
@@ -72,9 +73,9 @@ namespace Carga_personas
             this.LblLista.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblLista.Location = new System.Drawing.Point(476, 61);
             this.LblLista.Name = "LblLista";
-            this.LblLista.Size = new System.Drawing.Size(52, 24);
+            this.LblLista.Size = new System.Drawing.Size(265, 24);
             this.LblLista.TabIndex = 3;
-            this.LblLista.Text = "Lista";
+            this.LblLista.Text = "Lista de personas cargadas";
             // 
             // BtnMostrar
             // 
@@ -113,11 +114,22 @@ namespace Carga_personas
             this.TxtNacimiento.Size = new System.Drawing.Size(71, 20);
             this.TxtNacimiento.TabIndex = 6;
             // 
+            // BtnBorrar
+            // 
+            this.BtnBorrar.Location = new System.Drawing.Point(49, 189);
+            this.BtnBorrar.Name = "BtnBorrar";
+            this.BtnBorrar.Size = new System.Drawing.Size(75, 23);
+            this.BtnBorrar.TabIndex = 8;
+            this.BtnBorrar.Text = "Borrar";
+            this.BtnBorrar.UseVisualStyleBackColor = true;
+
+            // 
             // CargaPersonas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(756, 324);
+            this.Controls.Add(this.BtnBorrar);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.TxtNacimiento);
             this.Controls.Add(this.BtnSalir);
@@ -128,7 +140,6 @@ namespace Carga_personas
             this.Controls.Add(this.TxtCargaPers);
             this.Name = "CargaPersonas";
             this.Text = "Form1";
-
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -144,6 +155,7 @@ namespace Carga_personas
         private System.Windows.Forms.Button BtnSalir;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox TxtNacimiento;
+        private System.Windows.Forms.Button BtnBorrar;
     }
 }
 

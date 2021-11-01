@@ -59,7 +59,7 @@ namespace ProyectoFinal_Programación
             // dataGridView2
             // 
             this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView2.Location = new System.Drawing.Point(413, 95);
+            this.dataGridView2.Location = new System.Drawing.Point(55, 343);
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.Size = new System.Drawing.Size(240, 150);
             this.dataGridView2.TabIndex = 1;
@@ -81,7 +81,7 @@ namespace ProyectoFinal_Programación
             this.label2.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(410, 33);
+            this.label2.Location = new System.Drawing.Point(52, 281);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(243, 42);
             this.label2.TabIndex = 3;
@@ -93,7 +93,7 @@ namespace ProyectoFinal_Programación
             this.label3.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(55, 281);
+            this.label3.Location = new System.Drawing.Point(419, 33);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(240, 42);
             this.label3.TabIndex = 5;
@@ -103,7 +103,7 @@ namespace ProyectoFinal_Programación
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(55, 343);
+            this.dataGridView1.Location = new System.Drawing.Point(419, 95);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(240, 150);
             this.dataGridView1.TabIndex = 4;
@@ -113,7 +113,7 @@ namespace ProyectoFinal_Programación
             this.label4.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(411, 281);
+            this.label4.Location = new System.Drawing.Point(416, 281);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(243, 42);
             this.label4.TabIndex = 7;
@@ -123,7 +123,7 @@ namespace ProyectoFinal_Programación
             // dataGridView3
             // 
             this.dataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView3.Location = new System.Drawing.Point(413, 343);
+            this.dataGridView3.Location = new System.Drawing.Point(419, 343);
             this.dataGridView3.Name = "dataGridView3";
             this.dataGridView3.Size = new System.Drawing.Size(240, 150);
             this.dataGridView3.TabIndex = 6;

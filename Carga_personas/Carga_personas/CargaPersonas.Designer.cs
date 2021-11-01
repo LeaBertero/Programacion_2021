@@ -38,6 +38,7 @@ namespace Carga_personas
             this.label2 = new System.Windows.Forms.Label();
             this.TxtNacimiento = new System.Windows.Forms.TextBox();
             this.BtnBorrar = new System.Windows.Forms.Button();
+            this.BtnMostraFiltro = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // TxtCargaPers
@@ -45,14 +46,14 @@ namespace Carga_personas
             this.TxtCargaPers.Location = new System.Drawing.Point(150, 100);
             this.TxtCargaPers.Name = "TxtCargaPers";
             this.TxtCargaPers.Size = new System.Drawing.Size(100, 20);
-            this.TxtCargaPers.TabIndex = 0;
+            this.TxtCargaPers.TabIndex = 1;
             // 
             // BtnCargar
             // 
             this.BtnCargar.Location = new System.Drawing.Point(49, 100);
             this.BtnCargar.Name = "BtnCargar";
             this.BtnCargar.Size = new System.Drawing.Size(75, 23);
-            this.BtnCargar.TabIndex = 1;
+            this.BtnCargar.TabIndex = 3;
             this.BtnCargar.Text = "Cargar";
             this.BtnCargar.UseVisualStyleBackColor = true;
             this.BtnCargar.Click += new System.EventHandler(this.BtnCargar_Click);
@@ -112,7 +113,7 @@ namespace Carga_personas
             this.TxtNacimiento.Location = new System.Drawing.Point(273, 100);
             this.TxtNacimiento.Name = "TxtNacimiento";
             this.TxtNacimiento.Size = new System.Drawing.Size(71, 20);
-            this.TxtNacimiento.TabIndex = 6;
+            this.TxtNacimiento.TabIndex = 2;
             // 
             // BtnBorrar
             // 
@@ -122,13 +123,23 @@ namespace Carga_personas
             this.BtnBorrar.TabIndex = 8;
             this.BtnBorrar.Text = "Borrar";
             this.BtnBorrar.UseVisualStyleBackColor = true;
-
+            // 
+            // BtnMostraFiltro
+            // 
+            this.BtnMostraFiltro.Location = new System.Drawing.Point(49, 235);
+            this.BtnMostraFiltro.Name = "BtnMostraFiltro";
+            this.BtnMostraFiltro.Size = new System.Drawing.Size(97, 23);
+            this.BtnMostraFiltro.TabIndex = 9;
+            this.BtnMostraFiltro.Text = "Mostrar con filtro";
+            this.BtnMostraFiltro.UseVisualStyleBackColor = true;
+            this.BtnMostraFiltro.Click += new System.EventHandler(this.BtnMostraFiltro_Click);
             // 
             // CargaPersonas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(756, 324);
+            this.Controls.Add(this.BtnMostraFiltro);
             this.Controls.Add(this.BtnBorrar);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.TxtNacimiento);
@@ -156,6 +167,7 @@ namespace Carga_personas
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox TxtNacimiento;
         private System.Windows.Forms.Button BtnBorrar;
+        private System.Windows.Forms.Button BtnMostraFiltro;
     }
 }
 

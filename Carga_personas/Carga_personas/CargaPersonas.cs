@@ -36,10 +36,17 @@ namespace Carga_personas
             //LblLista.Text = " ";
             if (!Lista.AddPersona(TxtCargaPers.Text, TxtNacimiento.Text))
             {
+                TxtNacimiento.Text = "";
+                TxtNacimiento.Focus();
+                TxtNacimiento.SelectAll();
                 LblLista.Text = "Persona no valida";
+                
             }
             else 
             {
+                TxtNacimiento.Text = "";
+                TxtCargaPers.Text = "";
+                TxtCargaPers.Focus();
                 LblLista.Text = "Persona aceptada";
             }
         }
@@ -60,7 +67,14 @@ namespace Carga_personas
             Close();
         }
 
-        
+        private void BtnMostraFiltro_Click(object sender, EventArgs e)
+        {
+            LblLista.Text = Lista.ToStringFiltrado(2000);
+        }
+
+
+
+
 
         //private void Redimensionar()
         //{

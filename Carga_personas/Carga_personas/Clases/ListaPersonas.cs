@@ -46,14 +46,19 @@ namespace Carga_personas
         }
 
         //override es para reempleza el tostring por defecto de la conversion que viene en el programa (C#)
-        public override string ToString()
+        public  string ToStringFiltrado(int añominimo )
         {
             string Resp = "";
 
-            Resp = "Lista de personas cargadas \r\n";
+            Resp = "Lista: \r\n";
+
             foreach (Persona item in personas)
             {
-                Resp = Resp + item.Nombre + " - " + item.AñoNacimiento + "\r\n";
+                if (item.AñoNacimiento >= añominimo)
+                {
+                    Resp = Resp + item.AñoNacimiento.ToString() + " - " + item.Nombre + "\r\n";
+                }
+                
             }
 
             return Resp;

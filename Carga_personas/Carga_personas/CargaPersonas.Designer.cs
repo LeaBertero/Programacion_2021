@@ -43,14 +43,14 @@ namespace Carga_personas
             // 
             // TxtCargaPers
             // 
-            this.TxtCargaPers.Location = new System.Drawing.Point(150, 100);
+            this.TxtCargaPers.Location = new System.Drawing.Point(124, 66);
             this.TxtCargaPers.Name = "TxtCargaPers";
             this.TxtCargaPers.Size = new System.Drawing.Size(100, 20);
             this.TxtCargaPers.TabIndex = 1;
             // 
             // BtnCargar
             // 
-            this.BtnCargar.Location = new System.Drawing.Point(49, 100);
+            this.BtnCargar.Location = new System.Drawing.Point(23, 66);
             this.BtnCargar.Name = "BtnCargar";
             this.BtnCargar.Size = new System.Drawing.Size(75, 23);
             this.BtnCargar.TabIndex = 3;
@@ -62,7 +62,7 @@ namespace Carga_personas
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(155, 61);
+            this.label1.Location = new System.Drawing.Point(120, 27);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(85, 24);
             this.label1.TabIndex = 2;
@@ -72,7 +72,7 @@ namespace Carga_personas
             // 
             this.LblLista.AutoSize = true;
             this.LblLista.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblLista.Location = new System.Drawing.Point(476, 61);
+            this.LblLista.Location = new System.Drawing.Point(401, 27);
             this.LblLista.Name = "LblLista";
             this.LblLista.Size = new System.Drawing.Size(265, 24);
             this.LblLista.TabIndex = 3;
@@ -80,7 +80,7 @@ namespace Carga_personas
             // 
             // BtnMostrar
             // 
-            this.BtnMostrar.Location = new System.Drawing.Point(49, 142);
+            this.BtnMostrar.Location = new System.Drawing.Point(23, 108);
             this.BtnMostrar.Name = "BtnMostrar";
             this.BtnMostrar.Size = new System.Drawing.Size(75, 23);
             this.BtnMostrar.TabIndex = 4;
@@ -90,7 +90,7 @@ namespace Carga_personas
             // 
             // BtnSalir
             // 
-            this.BtnSalir.Location = new System.Drawing.Point(669, 289);
+            this.BtnSalir.Location = new System.Drawing.Point(23, 289);
             this.BtnSalir.Name = "BtnSalir";
             this.BtnSalir.Size = new System.Drawing.Size(75, 23);
             this.BtnSalir.TabIndex = 5;
@@ -102,7 +102,7 @@ namespace Carga_personas
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(278, 61);
+            this.label2.Location = new System.Drawing.Point(243, 27);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(115, 24);
             this.label2.TabIndex = 7;
@@ -110,14 +110,14 @@ namespace Carga_personas
             // 
             // TxtNacimiento
             // 
-            this.TxtNacimiento.Location = new System.Drawing.Point(273, 100);
+            this.TxtNacimiento.Location = new System.Drawing.Point(247, 66);
             this.TxtNacimiento.Name = "TxtNacimiento";
             this.TxtNacimiento.Size = new System.Drawing.Size(71, 20);
             this.TxtNacimiento.TabIndex = 2;
             // 
             // BtnBorrar
             // 
-            this.BtnBorrar.Location = new System.Drawing.Point(49, 189);
+            this.BtnBorrar.Location = new System.Drawing.Point(23, 155);
             this.BtnBorrar.Name = "BtnBorrar";
             this.BtnBorrar.Size = new System.Drawing.Size(75, 23);
             this.BtnBorrar.TabIndex = 8;
@@ -126,7 +126,7 @@ namespace Carga_personas
             // 
             // BtnMostraFiltro
             // 
-            this.BtnMostraFiltro.Location = new System.Drawing.Point(49, 235);
+            this.BtnMostraFiltro.Location = new System.Drawing.Point(23, 201);
             this.BtnMostraFiltro.Name = "BtnMostraFiltro";
             this.BtnMostraFiltro.Size = new System.Drawing.Size(97, 23);
             this.BtnMostraFiltro.TabIndex = 9;
@@ -138,7 +138,7 @@ namespace Carga_personas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(756, 324);
+            this.ClientSize = new System.Drawing.Size(671, 324);
             this.Controls.Add(this.BtnMostraFiltro);
             this.Controls.Add(this.BtnBorrar);
             this.Controls.Add(this.label2);

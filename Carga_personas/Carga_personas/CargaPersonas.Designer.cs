@@ -37,8 +37,10 @@ namespace Carga_personas
             this.BtnSalir = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.TxtNacimiento = new System.Windows.Forms.TextBox();
-            this.BtnBorrar = new System.Windows.Forms.Button();
-            this.BtnMostraFiltro = new System.Windows.Forms.Button();
+            this.BtnBuscar = new System.Windows.Forms.Button();
+            this.BtnFiltro = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
+            this.TxtCodigo = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // TxtCargaPers
@@ -50,7 +52,8 @@ namespace Carga_personas
             // 
             // BtnCargar
             // 
-            this.BtnCargar.Location = new System.Drawing.Point(23, 66);
+            this.BtnCargar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnCargar.Location = new System.Drawing.Point(30, 137);
             this.BtnCargar.Name = "BtnCargar";
             this.BtnCargar.Size = new System.Drawing.Size(75, 23);
             this.BtnCargar.TabIndex = 3;
@@ -62,7 +65,7 @@ namespace Carga_personas
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(120, 27);
+            this.label1.Location = new System.Drawing.Point(126, 27);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(85, 24);
             this.label1.TabIndex = 2;
@@ -72,7 +75,7 @@ namespace Carga_personas
             // 
             this.LblLista.AutoSize = true;
             this.LblLista.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblLista.Location = new System.Drawing.Point(401, 27);
+            this.LblLista.Location = new System.Drawing.Point(519, 27);
             this.LblLista.Name = "LblLista";
             this.LblLista.Size = new System.Drawing.Size(265, 24);
             this.LblLista.TabIndex = 3;
@@ -80,7 +83,8 @@ namespace Carga_personas
             // 
             // BtnMostrar
             // 
-            this.BtnMostrar.Location = new System.Drawing.Point(23, 108);
+            this.BtnMostrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnMostrar.Location = new System.Drawing.Point(136, 137);
             this.BtnMostrar.Name = "BtnMostrar";
             this.BtnMostrar.Size = new System.Drawing.Size(75, 23);
             this.BtnMostrar.TabIndex = 4;
@@ -90,7 +94,8 @@ namespace Carga_personas
             // 
             // BtnSalir
             // 
-            this.BtnSalir.Location = new System.Drawing.Point(23, 289);
+            this.BtnSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnSalir.Location = new System.Drawing.Point(12, 289);
             this.BtnSalir.Name = "BtnSalir";
             this.BtnSalir.Size = new System.Drawing.Size(75, 23);
             this.BtnSalir.TabIndex = 5;
@@ -115,33 +120,54 @@ namespace Carga_personas
             this.TxtNacimiento.Size = new System.Drawing.Size(71, 20);
             this.TxtNacimiento.TabIndex = 2;
             // 
-            // BtnBorrar
+            // BtnBuscar
             // 
-            this.BtnBorrar.Location = new System.Drawing.Point(23, 155);
-            this.BtnBorrar.Name = "BtnBorrar";
-            this.BtnBorrar.Size = new System.Drawing.Size(75, 23);
-            this.BtnBorrar.TabIndex = 8;
-            this.BtnBorrar.Text = "Borrar";
-            this.BtnBorrar.UseVisualStyleBackColor = true;
+            this.BtnBuscar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnBuscar.Location = new System.Drawing.Point(243, 137);
+            this.BtnBuscar.Name = "BtnBuscar";
+            this.BtnBuscar.Size = new System.Drawing.Size(75, 23);
+            this.BtnBuscar.TabIndex = 8;
+            this.BtnBuscar.Text = "Buscar";
+            this.BtnBuscar.UseVisualStyleBackColor = true;
             // 
-            // BtnMostraFiltro
+            // BtnFiltro
             // 
-            this.BtnMostraFiltro.Location = new System.Drawing.Point(23, 201);
-            this.BtnMostraFiltro.Name = "BtnMostraFiltro";
-            this.BtnMostraFiltro.Size = new System.Drawing.Size(97, 23);
-            this.BtnMostraFiltro.TabIndex = 9;
-            this.BtnMostraFiltro.Text = "Mostrar con filtro";
-            this.BtnMostraFiltro.UseVisualStyleBackColor = true;
-            this.BtnMostraFiltro.Click += new System.EventHandler(this.BtnMostraFiltro_Click);
+            this.BtnFiltro.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnFiltro.Location = new System.Drawing.Point(136, 178);
+            this.BtnFiltro.Name = "BtnFiltro";
+            this.BtnFiltro.Size = new System.Drawing.Size(76, 42);
+            this.BtnFiltro.TabIndex = 9;
+            this.BtnFiltro.Text = "Mostrar con filtro";
+            this.BtnFiltro.UseVisualStyleBackColor = true;
+            this.BtnFiltro.Click += new System.EventHandler(this.BtnMostraFiltro_Click);
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(26, 27);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(77, 24);
+            this.label3.TabIndex = 11;
+            this.label3.Text = "Codigo";
+            // 
+            // TxtCodigo
+            // 
+            this.TxtCodigo.Location = new System.Drawing.Point(30, 66);
+            this.TxtCodigo.Name = "TxtCodigo";
+            this.TxtCodigo.Size = new System.Drawing.Size(71, 20);
+            this.TxtCodigo.TabIndex = 10;
             // 
             // CargaPersonas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkOrange;
-            this.ClientSize = new System.Drawing.Size(671, 324);
-            this.Controls.Add(this.BtnMostraFiltro);
-            this.Controls.Add(this.BtnBorrar);
+            this.ClientSize = new System.Drawing.Size(796, 324);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.TxtCodigo);
+            this.Controls.Add(this.BtnFiltro);
+            this.Controls.Add(this.BtnBuscar);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.TxtNacimiento);
             this.Controls.Add(this.BtnSalir);
@@ -151,7 +177,7 @@ namespace Carga_personas
             this.Controls.Add(this.BtnCargar);
             this.Controls.Add(this.TxtCargaPers);
             this.Name = "CargaPersonas";
-            this.Text = "Form1";
+            this.Text = "Sistema de carga de personas";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -167,8 +193,10 @@ namespace Carga_personas
         private System.Windows.Forms.Button BtnSalir;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox TxtNacimiento;
-        private System.Windows.Forms.Button BtnBorrar;
-        private System.Windows.Forms.Button BtnMostraFiltro;
+        private System.Windows.Forms.Button BtnBuscar;
+        private System.Windows.Forms.Button BtnFiltro;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox TxtCodigo;
     }
 }
 

@@ -62,6 +62,7 @@ namespace Carga_personas
             LblLista.Text = Lista.ToString();
         }
 
+       
         private void BtnSalir_Click(object sender, EventArgs e)
         {
             Close();
@@ -69,7 +70,7 @@ namespace Carga_personas
 
         private void BtnMostraFiltro_Click(object sender, EventArgs e)
         {
-            LblLista.Text = Lista.ToStringFiltrado(2000);
+            LblLista.Text = Lista.ToString(
         }
 
 

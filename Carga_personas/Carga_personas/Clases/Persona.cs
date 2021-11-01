@@ -8,6 +8,7 @@ namespace Carga_personas
 {
     public class Persona
     {
+        public int Codigo { get; set; }
         public string Nombre { get; set; }
         public int AñoNacimiento { get; set; }
 
@@ -22,6 +23,7 @@ namespace Carga_personas
             }
             return resp;
         }
-
     }
 }
+
+

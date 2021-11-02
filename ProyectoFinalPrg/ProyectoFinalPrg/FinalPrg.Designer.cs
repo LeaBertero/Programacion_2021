@@ -36,6 +36,8 @@ namespace ProyectoFinalPrg
             this.BtnSalir = new System.Windows.Forms.Button();
             this.BtnClickLista = new System.Windows.Forms.Button();
             this.LblMostrarLista = new System.Windows.Forms.Label();
+            this.TxtAño = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // BtnCarga
@@ -111,6 +113,24 @@ namespace ProyectoFinalPrg
             this.LblMostrarLista.TabIndex = 20;
             this.LblMostrarLista.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // TxtAño
+            // 
+            this.TxtAño.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxtAño.Location = new System.Drawing.Point(251, 29);
+            this.TxtAño.Name = "TxtAño";
+            this.TxtAño.Size = new System.Drawing.Size(80, 32);
+            this.TxtAño.TabIndex = 26;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(271, 9);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(36, 17);
+            this.label2.TabIndex = 27;
+            this.label2.Text = "Año";
+            // 
             // FinalPrg
             // 
             this.AcceptButton = this.BtnCarga;
@@ -118,6 +138,8 @@ namespace ProyectoFinalPrg
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::ProyectoFinalPrg.Properties.Resources.escudo_atletico_river_plate_deportes_escudos_de_futbol_10383693;
             this.ClientSize = new System.Drawing.Size(975, 450);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.TxtAño);
             this.Controls.Add(this.BtnSalir);
             this.Controls.Add(this.BtnCarga);
             this.Controls.Add(this.TxtIngreso);
@@ -141,6 +163,8 @@ namespace ProyectoFinalPrg
         private System.Windows.Forms.Button BtnSalir;
         private System.Windows.Forms.Button BtnClickLista;
         private System.Windows.Forms.Label LblMostrarLista;
+        private System.Windows.Forms.TextBox TxtAño;
+        private System.Windows.Forms.Label label2;
     }
 }
 

@@ -26,6 +26,7 @@ namespace ProyectoFinalPrg
         {
             Jugador Persona = new Jugador();
             Persona.Nombre = TxtIngreso.Text;
+            Persona.AñoNacimiento = Convert.ToInt32(TxtAño.Text);
             pos = pos + 1;
             Personas[pos] = Persona;
             TxtIngreso.Focus();
@@ -36,10 +37,10 @@ namespace ProyectoFinalPrg
         private void BtnClickLista_Click(object sender, EventArgs e)
         {
 
-            LblMostrarLista.Text = "" + "Lista de titulares \r\n";
+            LblMostrarLista.Text = "Lista de titulares \r\n";
             foreach (Jugador item in Personas)
             {
-                LblMostrarLista.Text = LblMostrarLista.Text + item.Nombre + "\r\n";
+                LblMostrarLista.Text = LblMostrarLista.Text + item.AñoNacimiento.ToString() + item.Nombre  + "\r\n";
             }
         }
     }

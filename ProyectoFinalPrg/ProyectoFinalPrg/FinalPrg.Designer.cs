@@ -102,9 +102,9 @@ namespace ProyectoFinalPrg
             // 
             // LblMostrarLista
             // 
-            this.LblMostrarLista.BackColor = System.Drawing.Color.Chartreuse;
+            this.LblMostrarLista.BackColor = System.Drawing.Color.Gray;
             this.LblMostrarLista.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblMostrarLista.ForeColor = System.Drawing.Color.Black;
+            this.LblMostrarLista.ForeColor = System.Drawing.Color.White;
             this.LblMostrarLista.Location = new System.Drawing.Point(37, 200);
             this.LblMostrarLista.Name = "LblMostrarLista";
             this.LblMostrarLista.Size = new System.Drawing.Size(257, 195);
@@ -116,6 +116,7 @@ namespace ProyectoFinalPrg
             this.AcceptButton = this.BtnCarga;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::ProyectoFinalPrg.Properties.Resources.escudo_atletico_river_plate_deportes_escudos_de_futbol_10383693;
             this.ClientSize = new System.Drawing.Size(975, 450);
             this.Controls.Add(this.BtnSalir);
             this.Controls.Add(this.BtnCarga);
@@ -125,7 +126,7 @@ namespace ProyectoFinalPrg
             this.Controls.Add(this.BtnClickLista);
             this.Controls.Add(this.LblMostrarLista);
             this.Name = "FinalPrg";
-            this.Text = "Form1";
+            this.Text = "Player loading program";
             this.ResumeLayout(false);
             this.PerformLayout();
 

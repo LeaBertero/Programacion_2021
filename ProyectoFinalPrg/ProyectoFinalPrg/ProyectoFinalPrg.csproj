@@ -46,7 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Clases\Persona.cs" />
+    <Compile Include="Clases\Jugador.cs" />
     <Compile Include="FinalPrg.cs">
       <SubType>Form</SubType>
     </Compile>

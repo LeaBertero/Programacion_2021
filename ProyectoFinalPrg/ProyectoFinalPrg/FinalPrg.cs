@@ -7,8 +7,9 @@ namespace ProyectoFinalPrg
     public partial class FinalPrg : Form
     {
         //Propiedades
-        public Persona[] Personas { get; set; } = new Persona[1];
+        public Jugador[] Personas { get; set; } = new Jugador[5];
 
+        public int pos = -1;
 
         public FinalPrg()
         {
@@ -23,17 +24,20 @@ namespace ProyectoFinalPrg
 
         private void BtnCarga_Click(object sender, EventArgs e)
         {
-            Persona Persona = new Persona();
+            Jugador Persona = new Jugador();
             Persona.Nombre = TxtIngreso.Text;
-            Personas[0] = Persona;
+            pos = pos + 1;
+            Personas[pos] = Persona;
+            TxtIngreso.Focus();
+            TxtIngreso.SelectAll();
             
         }
 
         private void BtnClickLista_Click(object sender, EventArgs e)
         {
 
-            LblMostrarLista.Text = "Lista: \r\n";
-            foreach (Persona item in Personas)
+            LblMostrarLista.Text = "" + "Lista de titulares \r\n";
+            foreach (Jugador item in Personas)
             {
                 LblMostrarLista.Text = LblMostrarLista.Text + item.Nombre + "\r\n";
             }

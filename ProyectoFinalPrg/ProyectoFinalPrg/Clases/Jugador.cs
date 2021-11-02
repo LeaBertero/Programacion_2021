@@ -1,6 +1,6 @@
 ﻿namespace ProyectoFinalPrg.Clases
 {
-    public class Persona
+    public class Jugador
     {
 
         public string Nombre { get; set; }

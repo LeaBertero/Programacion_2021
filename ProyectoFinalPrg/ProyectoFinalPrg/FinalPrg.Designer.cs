@@ -32,7 +32,6 @@ namespace ProyectoFinalPrg
             this.BtnCarga = new System.Windows.Forms.Button();
             this.TxtIngreso = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.BtnSalir = new System.Windows.Forms.Button();
             this.BtnClickLista = new System.Windows.Forms.Button();
@@ -42,9 +41,9 @@ namespace ProyectoFinalPrg
             // BtnCarga
             // 
             this.BtnCarga.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnCarga.Location = new System.Drawing.Point(12, 52);
+            this.BtnCarga.Location = new System.Drawing.Point(79, 67);
             this.BtnCarga.Name = "BtnCarga";
-            this.BtnCarga.Size = new System.Drawing.Size(75, 32);
+            this.BtnCarga.Size = new System.Drawing.Size(75, 36);
             this.BtnCarga.TabIndex = 18;
             this.BtnCarga.Text = "Cargar";
             this.BtnCarga.UseVisualStyleBackColor = true;
@@ -53,38 +52,28 @@ namespace ProyectoFinalPrg
             // TxtIngreso
             // 
             this.TxtIngreso.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtIngreso.Location = new System.Drawing.Point(108, 51);
+            this.TxtIngreso.Location = new System.Drawing.Point(42, 29);
             this.TxtIngreso.Name = "TxtIngreso";
-            this.TxtIngreso.Size = new System.Drawing.Size(100, 32);
+            this.TxtIngreso.Size = new System.Drawing.Size(159, 32);
             this.TxtIngreso.TabIndex = 19;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(12, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(301, 29);
+            this.label1.Size = new System.Drawing.Size(222, 17);
             this.label1.TabIndex = 22;
-            this.label1.Text = "Cargue aquí sus jugadores";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(408, 9);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(465, 29);
-            this.label3.TabIndex = 23;
-            this.label3.Text = "Atención : Puede cargar hasta 5 jugadores";
+            this.label1.Text = "Cargue aquí sus 5  jugadores";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(384, 51);
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(12, 145);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(511, 29);
+            this.label4.Size = new System.Drawing.Size(351, 17);
             this.label4.TabIndex = 25;
             this.label4.Text = "Presione el botón para mostrar la lista cargada";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -92,9 +81,9 @@ namespace ProyectoFinalPrg
             // BtnSalir
             // 
             this.BtnSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnSalir.Location = new System.Drawing.Point(12, 380);
+            this.BtnSalir.Location = new System.Drawing.Point(876, 395);
             this.BtnSalir.Name = "BtnSalir";
-            this.BtnSalir.Size = new System.Drawing.Size(114, 58);
+            this.BtnSalir.Size = new System.Drawing.Size(98, 54);
             this.BtnSalir.TabIndex = 24;
             this.BtnSalir.Text = "Salir del programa";
             this.BtnSalir.UseVisualStyleBackColor = true;
@@ -103,9 +92,9 @@ namespace ProyectoFinalPrg
             // BtnClickLista
             // 
             this.BtnClickLista.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnClickLista.Location = new System.Drawing.Point(573, 102);
+            this.BtnClickLista.Location = new System.Drawing.Point(42, 165);
             this.BtnClickLista.Name = "BtnClickLista";
-            this.BtnClickLista.Size = new System.Drawing.Size(125, 32);
+            this.BtnClickLista.Size = new System.Drawing.Size(252, 32);
             this.BtnClickLista.TabIndex = 21;
             this.BtnClickLista.Text = "Mostrar lista";
             this.BtnClickLista.UseVisualStyleBackColor = true;
@@ -116,9 +105,9 @@ namespace ProyectoFinalPrg
             this.LblMostrarLista.BackColor = System.Drawing.Color.Chartreuse;
             this.LblMostrarLista.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblMostrarLista.ForeColor = System.Drawing.Color.Black;
-            this.LblMostrarLista.Location = new System.Drawing.Point(505, 158);
+            this.LblMostrarLista.Location = new System.Drawing.Point(37, 200);
             this.LblMostrarLista.Name = "LblMostrarLista";
-            this.LblMostrarLista.Size = new System.Drawing.Size(257, 172);
+            this.LblMostrarLista.Size = new System.Drawing.Size(257, 195);
             this.LblMostrarLista.TabIndex = 20;
             this.LblMostrarLista.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -128,12 +117,11 @@ namespace ProyectoFinalPrg
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(975, 450);
+            this.Controls.Add(this.BtnSalir);
             this.Controls.Add(this.BtnCarga);
             this.Controls.Add(this.TxtIngreso);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.label3);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.BtnSalir);
             this.Controls.Add(this.BtnClickLista);
             this.Controls.Add(this.LblMostrarLista);
             this.Name = "FinalPrg";
@@ -148,7 +136,6 @@ namespace ProyectoFinalPrg
         private System.Windows.Forms.Button BtnCarga;
         private System.Windows.Forms.TextBox TxtIngreso;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button BtnSalir;
         private System.Windows.Forms.Button BtnClickLista;

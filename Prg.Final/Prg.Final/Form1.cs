@@ -1,4 +1,5 @@
-﻿using System;
+﻿
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -14,6 +15,9 @@ namespace Prg.Final
     {
         //Propiedades
         string[] Nombres = new string[5];
+        //public Persona[] personas { get; set; }
+
+
         //Variable pública
         int pos = 0;
         
@@ -46,4 +50,6 @@ namespace Prg.Final
             Close();
         }
     }
+
+    
 }

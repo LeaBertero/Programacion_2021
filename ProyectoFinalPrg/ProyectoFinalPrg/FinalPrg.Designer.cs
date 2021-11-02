@@ -116,7 +116,7 @@ namespace ProyectoFinalPrg
             this.LblMostrarLista.BackColor = System.Drawing.Color.Chartreuse;
             this.LblMostrarLista.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblMostrarLista.ForeColor = System.Drawing.Color.Black;
-            this.LblMostrarLista.Location = new System.Drawing.Point(505, 147);
+            this.LblMostrarLista.Location = new System.Drawing.Point(505, 158);
             this.LblMostrarLista.Name = "LblMostrarLista";
             this.LblMostrarLista.Size = new System.Drawing.Size(257, 172);
             this.LblMostrarLista.TabIndex = 20;

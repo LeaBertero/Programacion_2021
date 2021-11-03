@@ -79,6 +79,11 @@ namespace ProyectoFinal_Programación
 
             }
         }
+
+        private void BtnBorrarEq1_Click(object sender, EventArgs e)
+        {
+            TxtCargaJugadorEq1.Text = "";
+        }
     }
 }
 

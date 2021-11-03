@@ -44,6 +44,8 @@ namespace ProyectoFinal_Programación
             this.BtnBorrarEq2 = new System.Windows.Forms.Button();
             this.BtnBorrarListaEq1 = new System.Windows.Forms.Button();
             this.BtnBorrarListaEq2 = new System.Windows.Forms.Button();
+            this.LblMensaje1 = new System.Windows.Forms.Label();
+            this.LblMensaje2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // TxtCargaJugadorEq1
@@ -214,6 +216,22 @@ namespace ProyectoFinal_Programación
             this.BtnBorrarListaEq2.UseVisualStyleBackColor = true;
             this.BtnBorrarListaEq2.Click += new System.EventHandler(this.BtnBorrarListaEq2_Click);
             // 
+            // LblMensaje1
+            // 
+            this.LblMensaje1.AutoSize = true;
+            this.LblMensaje1.Location = new System.Drawing.Point(87, 273);
+            this.LblMensaje1.Name = "LblMensaje1";
+            this.LblMensaje1.Size = new System.Drawing.Size(0, 14);
+            this.LblMensaje1.TabIndex = 26;
+            // 
+            // LblMensaje2
+            // 
+            this.LblMensaje2.AutoSize = true;
+            this.LblMensaje2.Location = new System.Drawing.Point(1021, 273);
+            this.LblMensaje2.Name = "LblMensaje2";
+            this.LblMensaje2.Size = new System.Drawing.Size(0, 14);
+            this.LblMensaje2.TabIndex = 27;
+            // 
             // Frm_Titulares
             // 
             this.AcceptButton = this.BtnCargaJugadorEq1;
@@ -222,6 +240,8 @@ namespace ProyectoFinal_Programación
             this.BackgroundImage = global::ProyectoFinal_Programación.Properties.Resources.depositphotos_56044831_stock_photo_soccer_field_and_the_bright;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1193, 572);
+            this.Controls.Add(this.LblMensaje2);
+            this.Controls.Add(this.LblMensaje1);
             this.Controls.Add(this.BtnBorrarListaEq1);
             this.Controls.Add(this.BtnBorrarListaEq2);
             this.Controls.Add(this.BtnBorrarEq2);
@@ -263,6 +283,8 @@ namespace ProyectoFinal_Programación
         private System.Windows.Forms.Button BtnBorrarEq2;
         private System.Windows.Forms.Button BtnBorrarListaEq1;
         private System.Windows.Forms.Button BtnBorrarListaEq2;
+        private System.Windows.Forms.Label LblMensaje1;
+        private System.Windows.Forms.Label LblMensaje2;
     }
 }
 

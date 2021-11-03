@@ -25,6 +25,8 @@ namespace ProyectoFinal_Programación
             posicionEqTit1 = posicionEqTit1 +1;
             TxtCargaJugadorEq1.Focus();
             TxtCargaJugadorEq1.SelectAll();
+            LblMensaje1.Text = "";
+            LblMensaje1.Text = "Carga correcta";
         }
 
         //Boton para cargar nuevos jugadores del equipo 1
@@ -34,6 +36,8 @@ namespace ProyectoFinal_Programación
             posicionEqTit2 = posicionEqTit2 + 1;
             TxtCargaJugadorEq2.Focus();
             TxtCargaJugadorEq2.SelectAll();
+            LblMensaje2.Text = "";
+            LblMensaje2.Text = "Carga correcta";
         }
 
         

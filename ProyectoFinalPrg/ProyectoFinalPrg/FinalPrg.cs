@@ -23,15 +23,19 @@ namespace ProyectoFinalPrg
             //Método instanciado e inicializado
             //por nombre, año de nacimiento
             //y posicion
-            Jugador Persona = new Jugador();
 
-            Persona.Nombre = TxtIngreso.Text;
-            Persona.AñoNacimiento = Convert.ToInt32(TxtAño.Text);
-            
-            pos = pos + 1;
-            Personas[pos] = Persona;
-            TxtIngreso.Focus();
-            TxtIngreso.SelectAll();
+
+            //Jugador Persona = new Jugador();
+
+            //Persona.Nombre = TxtIngreso.Text;
+            //Persona.AñoNacimiento = Convert.ToInt32(TxtAño.Text);
+
+            //pos = pos + 1;
+            //Personas[pos] = Persona;
+            //TxtIngreso.Focus();
+            //TxtIngreso.SelectAll();
+
+            AddPersona(TxtIngreso.Text, TxtIngreso.Text);
             
         }
         private void BtnClickLista_Click(object sender, EventArgs e)
@@ -43,23 +47,40 @@ namespace ProyectoFinalPrg
                 LblMostrarLista.Text = LblMostrarLista.Text + item.AñoNacimiento.ToString() + item.Nombre  + "\r\n";
             }
         }
-        //public void Redimensionar(object sender, EventArgs e)
-        //{
 
-        //    if (Personas == null)
-        //    {
-        //        Personas = new Jugador[1];
-        //    }
-        //    else
-        //    {
-        //        Jugador[] Arraux = new Jugador[Personas.Length + 1];
-        //        for (int i = 0; i < Personas.Length; i++)
-        //        {
-        //            Arraux[i] = Personas[i];
-        //        }
-        //        Personas = Arraux;
-        //    }
-        //}
+
+        public void Redimensionar(object sender, EventArgs e)
+        {
+
+            if (Personas == null)
+            {
+                Personas = new Jugador[1];
+            }
+            else
+            {
+                Jugador[] Arraux = new Jugador[Personas.Length + 1];
+                for (int i = 0; i < Personas.Length; i++)
+                {
+                    Arraux[i] = Personas[i];
+                }
+                Personas = Arraux;
+            }
+        }
+
+
+        public void AddPersona(string nombre , string año)
+        {
+            Jugador Persona = new Jugador();
+
+            Persona.Nombre = nombre;
+            Persona.AñoNacimiento = Convert.ToInt32(año);
+
+            //pos = pos + 1;
+            //Personas[pos] = Persona;
+            Personas[Personas.Length - 1] = Persona;
+        }
+
+
         private void BtnAparecerLista_Click(object sender, EventArgs e)
         {
             LblMostrarLista.Visible = true;

@@ -38,6 +38,7 @@ namespace ProyectoFinalPrg
             this.LblMostrarLista = new System.Windows.Forms.Label();
             this.TxtAño = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
+            this.BtnAparecerLista = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // BtnCarga
@@ -94,11 +95,11 @@ namespace ProyectoFinalPrg
             // BtnClickLista
             // 
             this.BtnClickLista.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnClickLista.Location = new System.Drawing.Point(42, 165);
+            this.BtnClickLista.Location = new System.Drawing.Point(3, 165);
             this.BtnClickLista.Name = "BtnClickLista";
-            this.BtnClickLista.Size = new System.Drawing.Size(252, 32);
+            this.BtnClickLista.Size = new System.Drawing.Size(131, 32);
             this.BtnClickLista.TabIndex = 21;
-            this.BtnClickLista.Text = "Mostrar lista";
+            this.BtnClickLista.Text = "Ejecutar lista";
             this.BtnClickLista.UseVisualStyleBackColor = true;
             this.BtnClickLista.Click += new System.EventHandler(this.BtnClickLista_Click);
             // 
@@ -107,11 +108,12 @@ namespace ProyectoFinalPrg
             this.LblMostrarLista.BackColor = System.Drawing.Color.Gray;
             this.LblMostrarLista.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblMostrarLista.ForeColor = System.Drawing.Color.White;
-            this.LblMostrarLista.Location = new System.Drawing.Point(37, 200);
+            this.LblMostrarLista.Location = new System.Drawing.Point(10, 200);
             this.LblMostrarLista.Name = "LblMostrarLista";
             this.LblMostrarLista.Size = new System.Drawing.Size(257, 195);
             this.LblMostrarLista.TabIndex = 20;
             this.LblMostrarLista.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.LblMostrarLista.Visible = false;
             // 
             // TxtAño
             // 
@@ -131,6 +133,17 @@ namespace ProyectoFinalPrg
             this.label2.TabIndex = 27;
             this.label2.Text = "Año";
             // 
+            // BtnAparecerLista
+            // 
+            this.BtnAparecerLista.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnAparecerLista.Location = new System.Drawing.Point(140, 165);
+            this.BtnAparecerLista.Name = "BtnAparecerLista";
+            this.BtnAparecerLista.Size = new System.Drawing.Size(131, 32);
+            this.BtnAparecerLista.TabIndex = 28;
+            this.BtnAparecerLista.Text = "Mostrar lista";
+            this.BtnAparecerLista.UseVisualStyleBackColor = true;
+            this.BtnAparecerLista.Click += new System.EventHandler(this.BtnAparecerLista_Click);
+            // 
             // FinalPrg
             // 
             this.AcceptButton = this.BtnCarga;
@@ -138,6 +151,7 @@ namespace ProyectoFinalPrg
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::ProyectoFinalPrg.Properties.Resources.escudo_atletico_river_plate_deportes_escudos_de_futbol_10383693;
             this.ClientSize = new System.Drawing.Size(975, 450);
+            this.Controls.Add(this.BtnAparecerLista);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.TxtAño);
             this.Controls.Add(this.BtnSalir);
@@ -165,6 +179,7 @@ namespace ProyectoFinalPrg
         private System.Windows.Forms.Label LblMostrarLista;
         private System.Windows.Forms.TextBox TxtAño;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button BtnAparecerLista;
     }
 }
 

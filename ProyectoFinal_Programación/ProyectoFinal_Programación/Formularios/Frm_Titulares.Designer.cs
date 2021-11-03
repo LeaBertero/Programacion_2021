@@ -145,7 +145,7 @@ namespace ProyectoFinal_Programación
             // BtnExit
             // 
             this.BtnExit.Font = new System.Drawing.Font("Microsoft PhagsPa", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnExit.Location = new System.Drawing.Point(1145, 494);
+            this.BtnExit.Location = new System.Drawing.Point(1152, 527);
             this.BtnExit.Name = "BtnExit";
             this.BtnExit.Size = new System.Drawing.Size(81, 33);
             this.BtnExit.TabIndex = 11;

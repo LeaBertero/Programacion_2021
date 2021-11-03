@@ -46,14 +46,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Clases_Jugadores_suplentes_titulares\DatosJugadoresEq1.cs" />
     <Compile Include="Formularios\Frm_Titulares.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Formularios\Frm_Titulares.Designer.cs">
       <DependentUpon>Frm_Titulares.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formularios\Persona.cs" />
+    <Compile Include="Clases_Jugadores_suplentes_titulares\persona.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Formularios\Frm_Titulares.resx">

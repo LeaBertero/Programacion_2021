@@ -1,6 +1,6 @@
 ﻿namespace ProyectoFinal_Programación
 {
-    public class Persona
+    public class persona
     {
         public string Nombre { get; set; }
 

@@ -5,7 +5,7 @@ namespace ProyectoFinal_Programación
 {
     public partial class Frm_Titulares : Form
     {
-        public Persona Persona { get; set; }
+        public persona[] Personas { get; set; } = new persona[1];
 
         //Propiedades //se cargan solamente dos jugadores titulares de tres fijos que ya hay
         string[] CargajugadorEq1 = new string[5];
@@ -13,7 +13,7 @@ namespace ProyectoFinal_Programación
 
         //Posición inicial de la carga de nombres de los jugadores
         int posicionEqTit1 = 0;
-        int posicionEqTit2 = 0;
+
 
         public Frm_Titulares()
         {
@@ -53,6 +53,30 @@ namespace ProyectoFinal_Programación
             for (int i = 0; i < Equiponumero1.Length; i++)
             {
                 LblListaEquipo1.Text = LblListaEquipo1.Text + Equiponumero1[i] + "\r\n";
+            }
+        }
+
+        private void BtnExit_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+
+        private void BtnCargarCuerpoTec_Click(object sender, EventArgs e)
+        {
+            persona persona = new persona();
+            persona.Nombre = TxtCuerpo.Text;
+            Personas[0] = persona;
+        }
+
+        private void BtnMostrar_Click(object sender, EventArgs e)
+        {
+
+            LblMostrarCuerpo.Text = "Técnico - El señor... \r\n";
+            foreach (persona item in Personas)
+            {
+                LblMostrarCuerpo.Text = LblMostrarCuerpo.Text + item.Nombre + "\r\n";
+
+
             }
         }
     }

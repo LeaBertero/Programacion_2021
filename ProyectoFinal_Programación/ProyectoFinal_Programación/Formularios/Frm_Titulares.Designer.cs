@@ -40,9 +40,10 @@ namespace ProyectoFinal_Programación
             this.BtnBorrarListaEq1 = new System.Windows.Forms.Button();
             this.LblMensaje1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
+            this.BtnCargarCuerpoTec = new System.Windows.Forms.Button();
+            this.TxtCuerpo = new System.Windows.Forms.TextBox();
+            this.LblMostrarCuerpo = new System.Windows.Forms.Label();
+            this.BtnMostrar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // TxtCargaJugadorEq1
@@ -110,7 +111,7 @@ namespace ProyectoFinal_Programación
             this.BtnExit.TabIndex = 11;
             this.BtnExit.Text = "Salir";
             this.BtnExit.UseVisualStyleBackColor = false;
-
+            this.BtnExit.Click += new System.EventHandler(this.BtnExit_Click);
             // 
             // label6
             // 
@@ -134,7 +135,6 @@ namespace ProyectoFinal_Programación
             this.BtnBorrarEq1.TabIndex = 22;
             this.BtnBorrarEq1.Text = "Borrar Nombre Eq1";
             this.BtnBorrarEq1.UseVisualStyleBackColor = true;
-
             // 
             // BtnBorrarListaEq1
             // 
@@ -161,40 +161,52 @@ namespace ProyectoFinal_Programación
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("NSimSun", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(272, 154);
+            this.label2.Location = new System.Drawing.Point(321, 155);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(178, 21);
             this.label2.TabIndex = 28;
             this.label2.Text = "Cuerpo Técnico";
             // 
-            // button1
+            // BtnCargarCuerpoTec
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft PhagsPa", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(306, 197);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(101, 40);
-            this.button1.TabIndex = 29;
-            this.button1.Text = " Cargar ";
-            this.button1.UseVisualStyleBackColor = true;
+            this.BtnCargarCuerpoTec.Font = new System.Drawing.Font("Microsoft PhagsPa", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnCargarCuerpoTec.Location = new System.Drawing.Point(303, 202);
+            this.BtnCargarCuerpoTec.Name = "BtnCargarCuerpoTec";
+            this.BtnCargarCuerpoTec.Size = new System.Drawing.Size(101, 40);
+            this.BtnCargarCuerpoTec.TabIndex = 29;
+            this.BtnCargarCuerpoTec.Text = " Cargar ";
+            this.BtnCargarCuerpoTec.UseVisualStyleBackColor = true;
+            this.BtnCargarCuerpoTec.Click += new System.EventHandler(this.BtnCargarCuerpoTec_Click);
             // 
-            // textBox1
+            // TxtCuerpo
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft PhagsPa", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(265, 257);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(185, 28);
-            this.textBox1.TabIndex = 30;
+            this.TxtCuerpo.Font = new System.Drawing.Font("Microsoft PhagsPa", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxtCuerpo.Location = new System.Drawing.Point(314, 264);
+            this.TxtCuerpo.Name = "TxtCuerpo";
+            this.TxtCuerpo.Size = new System.Drawing.Size(185, 28);
+            this.TxtCuerpo.TabIndex = 30;
             // 
-            // label4
+            // LblMostrarCuerpo
             // 
-            this.label4.BackColor = System.Drawing.Color.LimeGreen;
-            this.label4.Font = new System.Drawing.Font("Microsoft PhagsPa", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(260, 306);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(190, 129);
-            this.label4.TabIndex = 35;
-            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.LblMostrarCuerpo.BackColor = System.Drawing.Color.LimeGreen;
+            this.LblMostrarCuerpo.Font = new System.Drawing.Font("Microsoft PhagsPa", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblMostrarCuerpo.ForeColor = System.Drawing.Color.White;
+            this.LblMostrarCuerpo.Location = new System.Drawing.Point(271, 306);
+            this.LblMostrarCuerpo.Name = "LblMostrarCuerpo";
+            this.LblMostrarCuerpo.Size = new System.Drawing.Size(262, 94);
+            this.LblMostrarCuerpo.TabIndex = 35;
+            this.LblMostrarCuerpo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // BtnMostrar
+            // 
+            this.BtnMostrar.Font = new System.Drawing.Font("Microsoft PhagsPa", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnMostrar.Location = new System.Drawing.Point(410, 202);
+            this.BtnMostrar.Name = "BtnMostrar";
+            this.BtnMostrar.Size = new System.Drawing.Size(101, 40);
+            this.BtnMostrar.TabIndex = 36;
+            this.BtnMostrar.Text = "Mostrar";
+            this.BtnMostrar.UseVisualStyleBackColor = true;
+            this.BtnMostrar.Click += new System.EventHandler(this.BtnMostrar_Click);
             // 
             // Frm_Titulares
             // 
@@ -204,9 +216,10 @@ namespace ProyectoFinal_Programación
             this.BackgroundImage = global::ProyectoFinal_Programación.Properties.Resources.depositphotos_56044831_stock_photo_soccer_field_and_the_bright;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1193, 572);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.BtnMostrar);
+            this.Controls.Add(this.LblMostrarCuerpo);
+            this.Controls.Add(this.TxtCuerpo);
+            this.Controls.Add(this.BtnCargarCuerpoTec);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.LblMensaje1);
             this.Controls.Add(this.BtnBorrarListaEq1);
@@ -240,9 +253,10 @@ namespace ProyectoFinal_Programación
         private System.Windows.Forms.Button BtnBorrarListaEq1;
         private System.Windows.Forms.Label LblMensaje1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Button BtnCargarCuerpoTec;
+        private System.Windows.Forms.TextBox TxtCuerpo;
+        private System.Windows.Forms.Label LblMostrarCuerpo;
+        private System.Windows.Forms.Button BtnMostrar;
     }
 }
 

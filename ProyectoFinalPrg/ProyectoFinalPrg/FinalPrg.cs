@@ -24,14 +24,18 @@ namespace ProyectoFinalPrg
 
         private void BtnCarga_Click(object sender, EventArgs e)
         {
+            //Método instanciado e inicializado
+            //por nombre, año de nacimiento
+            //y posicion
             Jugador Persona = new Jugador();
+
             Persona.Nombre = TxtIngreso.Text;
             Persona.AñoNacimiento = Convert.ToInt32(TxtAño.Text);
             pos = pos + 1;
             Personas[pos] = Persona;
             TxtIngreso.Focus();
             TxtIngreso.SelectAll();
-            
+
         }
 
         private void BtnClickLista_Click(object sender, EventArgs e)

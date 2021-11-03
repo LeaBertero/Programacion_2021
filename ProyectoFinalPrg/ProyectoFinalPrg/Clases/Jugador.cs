@@ -1,4 +1,6 @@
-﻿namespace ProyectoFinalPrg.Clases
+﻿using System;
+
+namespace ProyectoFinalPrg.Clases
 {
     public class Jugador
     {
@@ -7,5 +9,18 @@
 
         public int AñoNacimiento { get; set; }
 
+        public bool Validar() 
+        {
+            bool resp = false;
+
+            if (AñoNacimiento > 1900 && AñoNacimiento <= DateTime.Now.Year)
+            {
+                resp = true;   
+            }
+
+            return resp;
+        }
     }
 }
+
+       

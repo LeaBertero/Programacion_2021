@@ -46,38 +46,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Clases_Jugadores_suplentes_titulares\SuplentesEq2.cs" />
-    <Compile Include="Clases_Jugadores_suplentes_titulares\SuplentesEq1.cs" />
-    <Compile Include="Formularios\FormTit_Sup.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Formularios\FormTit_Sup.Designer.cs">
-      <DependentUpon>FormTit_Sup.cs</DependentUpon>
-    </Compile>
     <Compile Include="Formularios\Frm_Titulares.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Formularios\Frm_Titulares.Designer.cs">
       <DependentUpon>Frm_Titulares.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formularios\Frm_Suplentes.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Formularios\Frm_Suplentes.Designer.cs">
-      <DependentUpon>Frm_Suplentes.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Clases_Jugadores_suplentes_titulares\TitularesEq1.cs" />
     <Compile Include="Clases_Jugadores_suplentes_titulares\TitularesEq2.cs" />
-    <EmbeddedResource Include="Formularios\FormTit_Sup.resx">
-      <DependentUpon>FormTit_Sup.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Formularios\Frm_Titulares.resx">
       <DependentUpon>Frm_Titulares.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Formularios\Frm_Suplentes.resx">
-      <DependentUpon>Frm_Suplentes.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

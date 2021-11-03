@@ -121,13 +121,13 @@ namespace ProyectoFinal_Programación
         {
             Close();
         }
-        public void Btn_Suplentes_Click(object sender, EventArgs e)
-        {
-            //Se agregó un botón para ir a un formulario nuevo
-            //donde se va a mostrar la lista de jugadores suplentes
-            Form FrmSuplentes = new Frm_Suplentes();
-            FrmSuplentes.ShowDialog();
-        }
+        //public void Btn_Suplentes_Click(object sender, EventArgs e)
+        //{
+        //    //Se agregó un botón para ir a un formulario nuevo
+        //    //donde se va a mostrar la lista de jugadores suplentes
+        //    Form FrmSuplentes = new Frm_Suplentes();
+        //    FrmSuplentes.ShowDialog();
+        //}
         private void BtnBorrarEq2_Click(object sender, EventArgs e)
         {
             //TxtCargaJugadorEq2.Text = " ";

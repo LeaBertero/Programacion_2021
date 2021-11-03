@@ -84,7 +84,6 @@ namespace ProyectoFinal_Programación
             this.LblListaEquipo2.Size = new System.Drawing.Size(190, 189);
             this.LblListaEquipo2.TabIndex = 5;
             this.LblListaEquipo2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.LblListaEquipo2.Visible = false;
             // 
             // LblListaEquipo1
             // 
@@ -96,7 +95,6 @@ namespace ProyectoFinal_Programación
             this.LblListaEquipo1.Size = new System.Drawing.Size(190, 189);
             this.LblListaEquipo1.TabIndex = 6;
             this.LblListaEquipo1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.LblListaEquipo1.Visible = false;
             // 
             // BtnCargaJugadorEq1
             // 

@@ -44,12 +44,15 @@ namespace ProyectoFinal_Programación
             this.TxtCuerpo = new System.Windows.Forms.TextBox();
             this.LblMostrarCuerpo = new System.Windows.Forms.Label();
             this.BtnMostrar = new System.Windows.Forms.Button();
+            this.TxtAño = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // TxtCargaJugadorEq1
             // 
             this.TxtCargaJugadorEq1.Font = new System.Drawing.Font("Microsoft PhagsPa", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtCargaJugadorEq1.Location = new System.Drawing.Point(27, 107);
+            this.TxtCargaJugadorEq1.Location = new System.Drawing.Point(27, 169);
             this.TxtCargaJugadorEq1.Name = "TxtCargaJugadorEq1";
             this.TxtCargaJugadorEq1.Size = new System.Drawing.Size(185, 28);
             this.TxtCargaJugadorEq1.TabIndex = 1;
@@ -71,7 +74,7 @@ namespace ProyectoFinal_Programación
             this.LblListaEquipo1.BackColor = System.Drawing.Color.LimeGreen;
             this.LblListaEquipo1.Font = new System.Drawing.Font("Microsoft PhagsPa", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblListaEquipo1.ForeColor = System.Drawing.Color.White;
-            this.LblListaEquipo1.Location = new System.Drawing.Point(28, 207);
+            this.LblListaEquipo1.Location = new System.Drawing.Point(22, 236);
             this.LblListaEquipo1.Name = "LblListaEquipo1";
             this.LblListaEquipo1.Size = new System.Drawing.Size(184, 189);
             this.LblListaEquipo1.TabIndex = 6;
@@ -80,7 +83,7 @@ namespace ProyectoFinal_Programación
             // BtnCargaJugadorEq1
             // 
             this.BtnCargaJugadorEq1.Font = new System.Drawing.Font("Microsoft PhagsPa", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnCargaJugadorEq1.Location = new System.Drawing.Point(27, 141);
+            this.BtnCargaJugadorEq1.Location = new System.Drawing.Point(27, 439);
             this.BtnCargaJugadorEq1.Name = "BtnCargaJugadorEq1";
             this.BtnCargaJugadorEq1.Size = new System.Drawing.Size(185, 53);
             this.BtnCargaJugadorEq1.TabIndex = 7;
@@ -92,7 +95,7 @@ namespace ProyectoFinal_Programación
             // 
             this.BtnMostrarNuevojugadorEq1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnMostrarNuevojugadorEq1.Font = new System.Drawing.Font("Microsoft PhagsPa", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnMostrarNuevojugadorEq1.Location = new System.Drawing.Point(57, 411);
+            this.BtnMostrarNuevojugadorEq1.Location = new System.Drawing.Point(2, 514);
             this.BtnMostrarNuevojugadorEq1.Name = "BtnMostrarNuevojugadorEq1";
             this.BtnMostrarNuevojugadorEq1.Size = new System.Drawing.Size(117, 33);
             this.BtnMostrarNuevojugadorEq1.TabIndex = 9;
@@ -130,7 +133,7 @@ namespace ProyectoFinal_Programación
             // 
             this.BtnBorrarEq1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnBorrarEq1.Font = new System.Drawing.Font("Microsoft PhagsPa", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnBorrarEq1.Location = new System.Drawing.Point(218, 107);
+            this.BtnBorrarEq1.Location = new System.Drawing.Point(44, 203);
             this.BtnBorrarEq1.Name = "BtnBorrarEq1";
             this.BtnBorrarEq1.Size = new System.Drawing.Size(148, 30);
             this.BtnBorrarEq1.TabIndex = 22;
@@ -142,7 +145,7 @@ namespace ProyectoFinal_Programación
             // 
             this.BtnBorrarListaEq1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnBorrarListaEq1.Font = new System.Drawing.Font("Microsoft PhagsPa", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnBorrarListaEq1.Location = new System.Drawing.Point(1, 3);
+            this.BtnBorrarListaEq1.Location = new System.Drawing.Point(133, 514);
             this.BtnBorrarListaEq1.Name = "BtnBorrarListaEq1";
             this.BtnBorrarListaEq1.Size = new System.Drawing.Size(108, 33);
             this.BtnBorrarListaEq1.TabIndex = 24;
@@ -153,7 +156,7 @@ namespace ProyectoFinal_Programación
             // LblMensaje1
             // 
             this.LblMensaje1.AutoSize = true;
-            this.LblMensaje1.Location = new System.Drawing.Point(87, 273);
+            this.LblMensaje1.Location = new System.Drawing.Point(141, 550);
             this.LblMensaje1.Name = "LblMensaje1";
             this.LblMensaje1.Size = new System.Drawing.Size(0, 14);
             this.LblMensaje1.TabIndex = 26;
@@ -213,6 +216,38 @@ namespace ProyectoFinal_Programación
             this.BtnMostrar.UseVisualStyleBackColor = true;
             this.BtnMostrar.Click += new System.EventHandler(this.BtnMostrar_Click);
             // 
+            // TxtAño
+            // 
+            this.TxtAño.Font = new System.Drawing.Font("Microsoft PhagsPa", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxtAño.Location = new System.Drawing.Point(232, 169);
+            this.TxtAño.Name = "TxtAño";
+            this.TxtAño.Size = new System.Drawing.Size(88, 28);
+            this.TxtAño.TabIndex = 37;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.Font = new System.Drawing.Font("NSimSun", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.Location = new System.Drawing.Point(244, 126);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(58, 21);
+            this.label3.TabIndex = 38;
+            this.label3.Text = "Edad";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.Transparent;
+            this.label4.Font = new System.Drawing.Font("NSimSun", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.White;
+            this.label4.Location = new System.Drawing.Point(59, 126);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(82, 21);
+            this.label4.TabIndex = 39;
+            this.label4.Text = "Nombre";
+            // 
             // Frm_Titulares
             // 
             this.AcceptButton = this.BtnCargaJugadorEq1;
@@ -221,6 +256,9 @@ namespace ProyectoFinal_Programación
             this.BackgroundImage = global::ProyectoFinal_Programación.Properties.Resources.depositphotos_56044831_stock_photo_soccer_field_and_the_bright;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1193, 572);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.TxtAño);
             this.Controls.Add(this.BtnMostrar);
             this.Controls.Add(this.LblMostrarCuerpo);
             this.Controls.Add(this.TxtCuerpo);
@@ -262,6 +300,9 @@ namespace ProyectoFinal_Programación
         private System.Windows.Forms.TextBox TxtCuerpo;
         private System.Windows.Forms.Label LblMostrarCuerpo;
         private System.Windows.Forms.Button BtnMostrar;
+        private System.Windows.Forms.TextBox TxtAño;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
     }
 }
 

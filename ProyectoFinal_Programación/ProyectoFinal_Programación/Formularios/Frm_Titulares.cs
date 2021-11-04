@@ -25,10 +25,10 @@ namespace ProyectoFinal_Programación
         {
             persona persona = new persona();
 
-            persona.AñoNacimiento = System.Convert.ToInt32(TxtAño.Text);
+            persona.Edad = System.Convert.ToInt32(TxtAño.Text);
             persona.Nombre = TxtCargaJugadorEq1.Text;
 
-
+            bool resp = true;
             CargajugadorEq1[posicionEqTit1] = TxtCargaJugadorEq1.Text;
             posicionEqTit1 = posicionEqTit1 +1;
             TxtCargaJugadorEq1.Focus();
@@ -67,7 +67,7 @@ namespace ProyectoFinal_Programación
             LblMostrarCuerpo.Text = "Técnico - El señor... \r\n";
             foreach (persona item in Personas)
             {
-                LblMostrarCuerpo.Text = LblMostrarCuerpo.Text + item.Nombre + item.AñoNacimiento.ToString() + item.Nombre + "\r\n";
+                LblMostrarCuerpo.Text = LblMostrarCuerpo.Text + item.Nombre + item.Edad.ToString() + item.Nombre + "\r\n";
             }
         }
         public void BtnBorrarEq1_Click(object sender, EventArgs e)
@@ -80,7 +80,7 @@ namespace ProyectoFinal_Programación
         }
         private void BtnBorrarListaEq1_Click(object sender, EventArgs e)
         {
-
+            LblListaEquipo1.Text = "";
         }
     }
 }

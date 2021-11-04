@@ -6,13 +6,13 @@ namespace ProyectoFinal_Programación
     {
         public string Nombre { get; set; }
 
-        public int AñoNacimiento { get; set; }
+        public int Edad { get; set; }
 
         public bool Validar() 
         {
             bool resp = false;
 
-            if (AñoNacimiento > 1900 && AñoNacimiento <= DateTime.Now.Year)
+            if (Edad > 16 && Edad <= 30)
             {
                 resp = true;
             }

@@ -44,7 +44,6 @@ namespace ProyectoFinal_Programación
             this.TxtCuerpo = new System.Windows.Forms.TextBox();
             this.LblMostrarCuerpo = new System.Windows.Forms.Label();
             this.BtnMostrar = new System.Windows.Forms.Button();
-            this.BtnBuscarJug = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // TxtCargaJugadorEq1
@@ -149,6 +148,7 @@ namespace ProyectoFinal_Programación
             this.BtnBorrarListaEq1.TabIndex = 24;
             this.BtnBorrarListaEq1.Text = "Borrar lista ";
             this.BtnBorrarListaEq1.UseVisualStyleBackColor = true;
+            this.BtnBorrarListaEq1.Click += new System.EventHandler(this.BtnBorrarListaEq1_Click);
             // 
             // LblMensaje1
             // 
@@ -213,17 +213,6 @@ namespace ProyectoFinal_Programación
             this.BtnMostrar.UseVisualStyleBackColor = true;
             this.BtnMostrar.Click += new System.EventHandler(this.BtnMostrar_Click);
             // 
-            // BtnBuscarJug
-            // 
-            this.BtnBuscarJug.Font = new System.Drawing.Font("Microsoft PhagsPa", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnBuscarJug.Location = new System.Drawing.Point(450, 101);
-            this.BtnBuscarJug.Name = "BtnBuscarJug";
-            this.BtnBuscarJug.Size = new System.Drawing.Size(129, 36);
-            this.BtnBuscarJug.TabIndex = 37;
-            this.BtnBuscarJug.Text = "Buscar jugador";
-            this.BtnBuscarJug.UseVisualStyleBackColor = true;
-            this.BtnBuscarJug.Click += new System.EventHandler(this.BtnBuscarJug_Click);
-            // 
             // Frm_Titulares
             // 
             this.AcceptButton = this.BtnCargaJugadorEq1;
@@ -232,7 +221,6 @@ namespace ProyectoFinal_Programación
             this.BackgroundImage = global::ProyectoFinal_Programación.Properties.Resources.depositphotos_56044831_stock_photo_soccer_field_and_the_bright;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1193, 572);
-            this.Controls.Add(this.BtnBuscarJug);
             this.Controls.Add(this.BtnMostrar);
             this.Controls.Add(this.LblMostrarCuerpo);
             this.Controls.Add(this.TxtCuerpo);
@@ -274,7 +262,6 @@ namespace ProyectoFinal_Programación
         private System.Windows.Forms.TextBox TxtCuerpo;
         private System.Windows.Forms.Label LblMostrarCuerpo;
         private System.Windows.Forms.Button BtnMostrar;
-        private System.Windows.Forms.Button BtnBuscarJug;
     }
 }
 

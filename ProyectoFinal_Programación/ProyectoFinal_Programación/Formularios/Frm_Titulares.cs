@@ -8,8 +8,8 @@ namespace ProyectoFinal_Programación
 
         //Propiedades
         public persona[] Personas { get; set; } = new persona[1];
-        string[] Equiponumero1 = { };
         string[] CargajugadorEq1 = new string[5];
+        string[] Equiponumero1 = { };
 
         //Posición inicial de la carga de nombres de los jugadores
         int posicionEqTit1 = 0;
@@ -74,33 +74,7 @@ namespace ProyectoFinal_Programación
             TxtCargaJugadorEq1.Text = "";
         }
 
-        //public void BtnBuscarJug_Click(object sender, EventArgs e)
-        //{
-        //    private void Btn_Buscar_Click(object sender, EventArgs e)
-        //    {
-        //        Personas = persona.(Convert.ToInt32(TB_BuscarID.Text));
-
-        //        if (persona.Id > 0)
-        //        {
-        //            TB_BuscarCat.Text = Prod.Cat;
-        //            TB_BuscarCant.Text = Prod.Cant.ToString();
-        //            TB_BuscarProd.Text = Prod.Prod;
-
-        //            TB_BuscarID.Focus();
-
-        //            Lbl_Notificaciones.Text = "Producto encontrado.";
-        //        }
-        //        else
-        //        {
-        //            TB_BuscarCat.Text = "";
-        //            TB_BuscarCant.Text = "";
-        //            TB_BuscarProd.Text = "";
-        //            TB_BuscarID.Focus();
-        //            TB_BuscarID.SelectAll();
-
-        //            Lbl_Notificaciones.Text = "El producto no existe.";
-        //        }
-        //    }
+        
 
 
         private void BtnExit_Click(object sender, EventArgs e)
@@ -108,6 +82,10 @@ namespace ProyectoFinal_Programación
             Close();
         }
 
+        private void BtnBorrarListaEq1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 

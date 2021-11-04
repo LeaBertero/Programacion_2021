@@ -28,6 +28,7 @@ namespace ProyectoFinal_Programación
             persona.AñoNacimiento = System.Convert.ToInt32(TxtAño.Text);
             persona.Nombre = TxtCargaJugadorEq1.Text;
 
+
             CargajugadorEq1[posicionEqTit1] = TxtCargaJugadorEq1.Text;
             posicionEqTit1 = posicionEqTit1 +1;
             TxtCargaJugadorEq1.Focus();

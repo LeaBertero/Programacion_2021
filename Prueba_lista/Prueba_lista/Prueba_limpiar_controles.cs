@@ -49,7 +49,7 @@ namespace Prueba_lista
 
         private void button6_Click(object sender, EventArgs e)
         {
-            textBox1.Visible = false;
+            textBox1.Text = "";
         }
     }
 }

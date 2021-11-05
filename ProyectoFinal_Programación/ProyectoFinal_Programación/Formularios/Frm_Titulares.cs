@@ -3,11 +3,14 @@ using System.Windows.Forms;
 
 namespace ProyectoFinal_Programación
 {
-    public partial class Frm_Titulares : Form
+    public partial class DataGr : Form
     {
 
         //Propiedades
         public persona[] Personas { get; set; } = new persona[1];
+      
+
+
         string[] CargajugadorEq1 = new string[5];
         string[] Equiponumero1 = { };
         //public int AñoNacimiento { get; set; }
@@ -15,10 +18,7 @@ namespace ProyectoFinal_Programación
         //Posición inicial de la carga de nombres de los jugadores
         int posicionEqTit1 = 0;
 
-        public Frm_Titulares()
-        {
-            InitializeComponent();
-        }
+        
         
         //Boton para cargar nuevos jugadores del equipo 1
         public void BtnCargaJugadorEq1_Click(object sender, EventArgs e)
@@ -36,10 +36,7 @@ namespace ProyectoFinal_Programación
             LblMensaje1.Text = "";
             LblMensaje1.Text = "Carga correcta";
 
-            //if (true)
-            //{
 
-            //}
         }
         
         //Mostrar en pantalla nuevo jugador en la lista de jugadores del equipo 1

@@ -1,5 +1,6 @@
 ﻿using System;
 
+
 namespace ProyectoFinal_Programación
 {
     public class persona
@@ -8,7 +9,16 @@ namespace ProyectoFinal_Programación
 
         public int Edad { get; set; }
 
-        public bool Validar() 
+        public DataGr Dt = new DataGr();
+
+        //Constructor de la clase persona
+        public persona()
+        {
+            
+
+        }
+
+        public bool Validar()
         {
             bool resp = false;
 
@@ -18,5 +28,23 @@ namespace ProyectoFinal_Programación
             }
             return resp;
         }
+
+
+      
+
     }
+
 }
+         
+        
+
+
+        
+
+
+
+
+
+
+
+

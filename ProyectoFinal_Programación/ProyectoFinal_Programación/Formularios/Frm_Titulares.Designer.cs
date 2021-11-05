@@ -1,7 +1,7 @@
 ﻿
 namespace ProyectoFinal_Programación
 {
-    partial class Frm_Titulares
+    partial class DataGr
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -47,6 +47,8 @@ namespace ProyectoFinal_Programación
             this.TxtAño = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // TxtCargaJugadorEq1
@@ -248,7 +250,15 @@ namespace ProyectoFinal_Programación
             this.label4.TabIndex = 39;
             this.label4.Text = "Nombre";
             // 
-            // Frm_Titulares
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(350, 236);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(240, 150);
+            this.dataGridView1.TabIndex = 40;
+            // 
+            // DataGr
             // 
             this.AcceptButton = this.BtnCargaJugadorEq1;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 14F);
@@ -256,6 +266,7 @@ namespace ProyectoFinal_Programación
             this.BackgroundImage = global::ProyectoFinal_Programación.Properties.Resources.depositphotos_56044831_stock_photo_soccer_field_and_the_bright;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1193, 572);
+            this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.TxtAño);
@@ -276,9 +287,10 @@ namespace ProyectoFinal_Programación
             this.Controls.Add(this.TxtCargaJugadorEq1);
             this.Font = new System.Drawing.Font("Microsoft PhagsPa", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Frm_Titulares";
+            this.Name = "DataGr";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Proyecto final - 2021 (Programacion)";
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -303,6 +315,7 @@ namespace ProyectoFinal_Programación
         private System.Windows.Forms.TextBox TxtAño;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.DataGridView dataGridView1;
     }
 }
 

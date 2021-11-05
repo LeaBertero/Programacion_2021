@@ -18,9 +18,9 @@ namespace ProyectoFinalPrg.Clases
             Persona.Nombre = nombre;
             Persona.AñoNacimiento = Convert.ToInt32(año);
 
+        }
             
            
-        }
 
        
 

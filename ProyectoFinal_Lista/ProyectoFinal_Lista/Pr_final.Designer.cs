@@ -35,13 +35,15 @@ namespace ProyectoFinal_Lista
             this.BtnAgregar = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.directoryEntry1 = new System.DirectoryServices.DirectoryEntry();
+            this.BtnMostrar = new System.Windows.Forms.Button();
+            this.LblLista = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // BtnDim
             // 
-            this.BtnDim.Location = new System.Drawing.Point(125, 79);
+            this.BtnDim.Location = new System.Drawing.Point(255, 45);
             this.BtnDim.Name = "BtnDim";
-            this.BtnDim.Size = new System.Drawing.Size(75, 23);
+            this.BtnDim.Size = new System.Drawing.Size(78, 23);
             this.BtnDim.TabIndex = 0;
             this.BtnDim.Text = "Dimensionar";
             this.BtnDim.UseVisualStyleBackColor = true;
@@ -49,23 +51,23 @@ namespace ProyectoFinal_Lista
             // 
             // TxtDim
             // 
-            this.TxtDim.Location = new System.Drawing.Point(255, 79);
+            this.TxtDim.Location = new System.Drawing.Point(339, 45);
             this.TxtDim.Name = "TxtDim";
             this.TxtDim.Size = new System.Drawing.Size(100, 20);
             this.TxtDim.TabIndex = 1;
             // 
             // TxtAgregar
             // 
-            this.TxtAgregar.Location = new System.Drawing.Point(255, 141);
+            this.TxtAgregar.Location = new System.Drawing.Point(339, 71);
             this.TxtAgregar.Name = "TxtAgregar";
             this.TxtAgregar.Size = new System.Drawing.Size(100, 20);
             this.TxtAgregar.TabIndex = 3;
             // 
             // BtnAgregar
             // 
-            this.BtnAgregar.Location = new System.Drawing.Point(125, 141);
+            this.BtnAgregar.Location = new System.Drawing.Point(255, 69);
             this.BtnAgregar.Name = "BtnAgregar";
-            this.BtnAgregar.Size = new System.Drawing.Size(75, 23);
+            this.BtnAgregar.Size = new System.Drawing.Size(78, 23);
             this.BtnAgregar.TabIndex = 2;
             this.BtnAgregar.Text = "Cargar";
             this.BtnAgregar.UseVisualStyleBackColor = true;
@@ -74,11 +76,30 @@ namespace ProyectoFinal_Lista
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(122, 18);
+            this.label1.Location = new System.Drawing.Point(266, 18);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(159, 13);
             this.label1.TabIndex = 4;
             this.label1.Text = "Dimensione la cantidad a cargar";
+            // 
+            // BtnMostrar
+            // 
+            this.BtnMostrar.Location = new System.Drawing.Point(687, 18);
+            this.BtnMostrar.Name = "BtnMostrar";
+            this.BtnMostrar.Size = new System.Drawing.Size(75, 23);
+            this.BtnMostrar.TabIndex = 5;
+            this.BtnMostrar.Text = "Lista";
+            this.BtnMostrar.UseVisualStyleBackColor = true;
+            this.BtnMostrar.Click += new System.EventHandler(this.BtnMostrar_Click);
+            // 
+            // LblLista
+            // 
+            this.LblLista.AutoSize = true;
+            this.LblLista.Location = new System.Drawing.Point(671, 55);
+            this.LblLista.Name = "LblLista";
+            this.LblLista.Size = new System.Drawing.Size(91, 13);
+            this.LblLista.TabIndex = 6;
+            this.LblLista.Text = "Lista de Personas";
             // 
             // Pr_final
             // 
@@ -86,6 +107,8 @@ namespace ProyectoFinal_Lista
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Gray;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.LblLista);
+            this.Controls.Add(this.BtnMostrar);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.TxtAgregar);
             this.Controls.Add(this.BtnAgregar);
@@ -93,7 +116,6 @@ namespace ProyectoFinal_Lista
             this.Controls.Add(this.BtnDim);
             this.Name = "Pr_final";
             this.Text = "Proyecto Final  - Programacion";
-
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -107,6 +129,8 @@ namespace ProyectoFinal_Lista
         private System.Windows.Forms.Button BtnAgregar;
         private System.Windows.Forms.Label label1;
         private System.DirectoryServices.DirectoryEntry directoryEntry1;
+        private System.Windows.Forms.Button BtnMostrar;
+        private System.Windows.Forms.Label LblLista;
     }
 }
 

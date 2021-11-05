@@ -39,7 +39,17 @@ namespace ProyectoFinal_Lista
             TxtAgregar.SelectAll();
         }
 
-       
+        private void BtnMostrar_Click(object sender, EventArgs e)
+        {
+
+            LblLista.Text = "";
+            LblLista.Text = "Lista de personas";
+
+            foreach (string item in Nombres)
+            {
+                LblLista.Text = LblLista.Text+ item + "\r\n";
+            }
+        }
     }
 }
 

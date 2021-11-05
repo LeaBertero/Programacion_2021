@@ -41,14 +41,18 @@ namespace ProyectoFinal_Lista
 
         private void BtnMostrar_Click(object sender, EventArgs e)
         {
-
             LblLista.Text = "";
-            LblLista.Text = "Lista de personas";
+            //LblLista.Text = "Lista de personas";
 
             foreach (string item in Nombres)
             {
-                LblLista.Text = LblLista.Text+ item + "\r\n";
+                LblLista.Text = LblLista.Text + item + "\r\n";
             }
+        }
+
+        private void BtnSalir_Click(object sender, EventArgs e)
+        {
+            Close();
         }
     }
 }

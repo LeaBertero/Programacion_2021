@@ -37,6 +37,7 @@ namespace ProyectoFinal_Lista
             this.directoryEntry1 = new System.DirectoryServices.DirectoryEntry();
             this.BtnMostrar = new System.Windows.Forms.Button();
             this.LblLista = new System.Windows.Forms.Label();
+            this.BtnSalir = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // BtnDim
@@ -84,9 +85,9 @@ namespace ProyectoFinal_Lista
             // 
             // BtnMostrar
             // 
-            this.BtnMostrar.Location = new System.Drawing.Point(687, 18);
+            this.BtnMostrar.Location = new System.Drawing.Point(255, 98);
             this.BtnMostrar.Name = "BtnMostrar";
-            this.BtnMostrar.Size = new System.Drawing.Size(75, 23);
+            this.BtnMostrar.Size = new System.Drawing.Size(78, 23);
             this.BtnMostrar.TabIndex = 5;
             this.BtnMostrar.Text = "Lista";
             this.BtnMostrar.UseVisualStyleBackColor = true;
@@ -95,18 +96,28 @@ namespace ProyectoFinal_Lista
             // LblLista
             // 
             this.LblLista.AutoSize = true;
-            this.LblLista.Location = new System.Drawing.Point(671, 55);
+            this.LblLista.Location = new System.Drawing.Point(669, 18);
             this.LblLista.Name = "LblLista";
-            this.LblLista.Size = new System.Drawing.Size(91, 13);
+            this.LblLista.Size = new System.Drawing.Size(0, 13);
             this.LblLista.TabIndex = 6;
-            this.LblLista.Text = "Lista de Personas";
+            // 
+            // BtnSalir
+            // 
+            this.BtnSalir.Location = new System.Drawing.Point(12, 8);
+            this.BtnSalir.Name = "BtnSalir";
+            this.BtnSalir.Size = new System.Drawing.Size(78, 23);
+            this.BtnSalir.TabIndex = 7;
+            this.BtnSalir.Text = "Salir";
+            this.BtnSalir.UseVisualStyleBackColor = true;
+            this.BtnSalir.Click += new System.EventHandler(this.BtnSalir_Click);
             // 
             // Pr_final
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Gray;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(797, 311);
+            this.Controls.Add(this.BtnSalir);
             this.Controls.Add(this.LblLista);
             this.Controls.Add(this.BtnMostrar);
             this.Controls.Add(this.label1);
@@ -131,6 +142,7 @@ namespace ProyectoFinal_Lista
         private System.DirectoryServices.DirectoryEntry directoryEntry1;
         private System.Windows.Forms.Button BtnMostrar;
         private System.Windows.Forms.Label LblLista;
+        private System.Windows.Forms.Button BtnSalir;
     }
 }
 

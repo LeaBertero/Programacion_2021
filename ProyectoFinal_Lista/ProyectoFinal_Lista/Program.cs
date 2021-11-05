@@ -16,7 +16,7 @@ namespace ProyectoFinal_Lista
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new Pr_final());
         }
     }
 }

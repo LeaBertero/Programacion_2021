@@ -1,7 +1,7 @@
 ﻿
 namespace ProyectoFinal_Lista
 {
-    partial class Form1
+    partial class Pr_final
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -45,6 +45,7 @@ namespace ProyectoFinal_Lista
             this.BtnDim.TabIndex = 0;
             this.BtnDim.Text = "Dimensionar";
             this.BtnDim.UseVisualStyleBackColor = true;
+            this.BtnDim.Click += new System.EventHandler(this.BtnDim_Click);
             // 
             // TxtDim
             // 
@@ -66,8 +67,9 @@ namespace ProyectoFinal_Lista
             this.BtnAgregar.Name = "BtnAgregar";
             this.BtnAgregar.Size = new System.Drawing.Size(75, 23);
             this.BtnAgregar.TabIndex = 2;
-            this.BtnAgregar.Text = "Dimensionar";
+            this.BtnAgregar.Text = "Cargar";
             this.BtnAgregar.UseVisualStyleBackColor = true;
+            this.BtnAgregar.Click += new System.EventHandler(this.BtnAgregar_Click);
             // 
             // label1
             // 
@@ -78,18 +80,20 @@ namespace ProyectoFinal_Lista
             this.label1.TabIndex = 4;
             this.label1.Text = "Dimensione la cantidad a cargar";
             // 
-            // Form1
+            // Pr_final
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Gray;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.TxtAgregar);
             this.Controls.Add(this.BtnAgregar);
             this.Controls.Add(this.TxtDim);
             this.Controls.Add(this.BtnDim);
-            this.Name = "Form1";
+            this.Name = "Pr_final";
             this.Text = "Proyecto Final  - Programacion";
+
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -58,7 +58,7 @@ namespace ProyectoFinal_Lista
         private void BtnCargar2_Click(object sender, EventArgs e)
         {
             Persona persona = new Persona();
-            pos2 = pos2 - 1;
+            pos2 = pos2 + 1;
             persona.Nombre = TxtCarga2.Text;
             personas[pos2] = persona;
             

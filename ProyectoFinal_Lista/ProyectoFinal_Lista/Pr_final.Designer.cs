@@ -48,8 +48,6 @@ namespace ProyectoFinal_Lista
             this.DGdatos = new System.Windows.Forms.DataGridView();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.TxtAño2 = new System.Windows.Forms.TextBox();
-            this.label8 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.DGdatos)).BeginInit();
             this.SuspendLayout();
             // 
@@ -72,14 +70,14 @@ namespace ProyectoFinal_Lista
             // 
             // TxtNombre
             // 
-            this.TxtNombre.Location = new System.Drawing.Point(89, 111);
+            this.TxtNombre.Location = new System.Drawing.Point(326, 37);
             this.TxtNombre.Name = "TxtNombre";
             this.TxtNombre.Size = new System.Drawing.Size(86, 20);
             this.TxtNombre.TabIndex = 3;
             // 
             // BtnAgregar
             // 
-            this.BtnAgregar.Location = new System.Drawing.Point(5, 111);
+            this.BtnAgregar.Location = new System.Drawing.Point(242, 37);
             this.BtnAgregar.Name = "BtnAgregar";
             this.BtnAgregar.Size = new System.Drawing.Size(78, 23);
             this.BtnAgregar.TabIndex = 2;
@@ -92,13 +90,13 @@ namespace ProyectoFinal_Lista
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(16, 10);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(159, 13);
+            this.label1.Size = new System.Drawing.Size(166, 13);
             this.label1.TabIndex = 4;
-            this.label1.Text = "Dimensione la cantidad a cargar";
+            this.label1.Text = "Dimensione las personas a cargar";
             // 
             // BtnMostrar
             // 
-            this.BtnMostrar.Location = new System.Drawing.Point(5, 166);
+            this.BtnMostrar.Location = new System.Drawing.Point(12, 146);
             this.BtnMostrar.Name = "BtnMostrar";
             this.BtnMostrar.Size = new System.Drawing.Size(78, 23);
             this.BtnMostrar.TabIndex = 5;
@@ -109,7 +107,7 @@ namespace ProyectoFinal_Lista
             // LblLista
             // 
             this.LblLista.AutoSize = true;
-            this.LblLista.Location = new System.Drawing.Point(2, 206);
+            this.LblLista.Location = new System.Drawing.Point(9, 172);
             this.LblLista.Name = "LblLista";
             this.LblLista.Size = new System.Drawing.Size(71, 13);
             this.LblLista.TabIndex = 6;
@@ -117,7 +115,7 @@ namespace ProyectoFinal_Lista
             // 
             // BtnSalir
             // 
-            this.BtnSalir.Location = new System.Drawing.Point(799, 276);
+            this.BtnSalir.Location = new System.Drawing.Point(529, 237);
             this.BtnSalir.Name = "BtnSalir";
             this.BtnSalir.Size = new System.Drawing.Size(78, 23);
             this.BtnSalir.TabIndex = 7;
@@ -127,14 +125,14 @@ namespace ProyectoFinal_Lista
             // 
             // TxtCargaPersona2
             // 
-            this.TxtCargaPersona2.Location = new System.Drawing.Point(660, 78);
+            this.TxtCargaPersona2.Location = new System.Drawing.Point(705, 78);
             this.TxtCargaPersona2.Name = "TxtCargaPersona2";
             this.TxtCargaPersona2.Size = new System.Drawing.Size(100, 20);
             this.TxtCargaPersona2.TabIndex = 9;
             // 
             // BtnCargar2
             // 
-            this.BtnCargar2.Location = new System.Drawing.Point(576, 76);
+            this.BtnCargar2.Location = new System.Drawing.Point(621, 76);
             this.BtnCargar2.Name = "BtnCargar2";
             this.BtnCargar2.Size = new System.Drawing.Size(78, 23);
             this.BtnCargar2.TabIndex = 8;
@@ -145,7 +143,7 @@ namespace ProyectoFinal_Lista
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(660, 62);
+            this.label2.Location = new System.Drawing.Point(705, 62);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(91, 13);
             this.label2.TabIndex = 10;
@@ -154,7 +152,7 @@ namespace ProyectoFinal_Lista
             // LblLista2
             // 
             this.LblLista2.AutoSize = true;
-            this.LblLista2.Location = new System.Drawing.Point(573, 146);
+            this.LblLista2.Location = new System.Drawing.Point(618, 146);
             this.LblLista2.Name = "LblLista2";
             this.LblLista2.Size = new System.Drawing.Size(55, 13);
             this.LblLista2.TabIndex = 11;
@@ -162,7 +160,7 @@ namespace ProyectoFinal_Lista
             // 
             // BtnMostrar2
             // 
-            this.BtnMostrar2.Location = new System.Drawing.Point(576, 109);
+            this.BtnMostrar2.Location = new System.Drawing.Point(621, 109);
             this.BtnMostrar2.Name = "BtnMostrar2";
             this.BtnMostrar2.Size = new System.Drawing.Size(78, 23);
             this.BtnMostrar2.TabIndex = 12;
@@ -173,7 +171,7 @@ namespace ProyectoFinal_Lista
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(621, 33);
+            this.label3.Location = new System.Drawing.Point(618, 37);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(198, 13);
             this.label3.TabIndex = 13;
@@ -182,25 +180,25 @@ namespace ProyectoFinal_Lista
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(16, 66);
+            this.label4.Location = new System.Drawing.Point(2, 76);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(102, 13);
+            this.label4.Size = new System.Drawing.Size(210, 13);
             this.label4.TabIndex = 14;
-            this.label4.Text = "Datos de la persona";
+            this.label4.Text = "Ingrese los datos requeridos en los campos";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(12, 146);
+            this.label5.Location = new System.Drawing.Point(9, 116);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(112, 13);
+            this.label5.Size = new System.Drawing.Size(197, 13);
             this.label5.TabIndex = 15;
-            this.label5.Text = "Muestra lista completa";
+            this.label5.Text = "Click en \"LISTA\", paa ver lista completa";
             // 
             // DGdatos
             // 
             this.DGdatos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.DGdatos.Location = new System.Drawing.Point(244, 78);
+            this.DGdatos.Location = new System.Drawing.Point(242, 92);
             this.DGdatos.Name = "DGdatos";
             this.DGdatos.Size = new System.Drawing.Size(281, 168);
             this.DGdatos.TabIndex = 16;
@@ -208,7 +206,7 @@ namespace ProyectoFinal_Lista
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(86, 92);
+            this.label6.Location = new System.Drawing.Point(323, 18);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(91, 13);
             this.label6.TabIndex = 18;
@@ -217,27 +215,11 @@ namespace ProyectoFinal_Lista
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(241, 44);
+            this.label7.Location = new System.Drawing.Point(239, 76);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(209, 13);
             this.label7.TabIndex = 19;
             this.label7.Text = "Datos cargados y guardados por el usuario";
-            // 
-            // TxtAño2
-            // 
-            this.TxtAño2.Location = new System.Drawing.Point(770, 78);
-            this.TxtAño2.Name = "TxtAño2";
-            this.TxtAño2.Size = new System.Drawing.Size(49, 20);
-            this.TxtAño2.TabIndex = 20;
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(770, 62);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(49, 13);
-            this.label8.TabIndex = 22;
-            this.label8.Text = "Año Nac";
             // 
             // Pr_final
             // 
@@ -245,9 +227,7 @@ namespace ProyectoFinal_Lista
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Gray;
-            this.ClientSize = new System.Drawing.Size(894, 311);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.TxtAño2);
+            this.ClientSize = new System.Drawing.Size(822, 278);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.DGdatos);
@@ -296,8 +276,6 @@ namespace ProyectoFinal_Lista
         private System.Windows.Forms.DataGridView DGdatos;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox TxtAño2;
-        private System.Windows.Forms.Label label8;
     }
 }
 

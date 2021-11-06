@@ -70,14 +70,14 @@ namespace ProyectoFinal_Lista
         public void BtnCargar2_Click(object sender, EventArgs e)
         {
             Persona persona = new Persona();
-            pos2 = pos2 + 1;
             persona.NombreYapellido = TxtCargaPersona2.Text;
-            persona.AñodeNaciemiento = Convert.ToInt32(TxtAño2.Text);
-            personas[personas.Length -1] = persona;
-
-            
+            pos2 = pos2 + 1;
+            //persona.AñodeNaciemiento = Convert.ToInt32(TxtAño2.Text);
             personas[pos2] = persona;
         }
+
+            
+
 
 
         public void BtnMostrar2_Click(object sender, EventArgs e)
@@ -87,7 +87,7 @@ namespace ProyectoFinal_Lista
 
             foreach (Persona item in personas)
             {
-                LblLista2.Text = LblLista2.Text + item.NombreYapellido + item.AñodeNaciemiento.ToString() + "\r\n";
+                LblLista2.Text = LblLista2.Text  + item.NombreYapellido +  "\r\n";
             }
         }
 

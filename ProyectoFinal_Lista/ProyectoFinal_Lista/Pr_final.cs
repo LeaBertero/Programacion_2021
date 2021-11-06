@@ -13,7 +13,8 @@ namespace ProyectoFinal_Lista
     public partial class Pr_final : Form
     {
         //Propiedades
-        string[] Nombres;
+        string[] NombreCompleto;
+        //string[] Apellido;
         int posicion1 = 0;
         int pos2 = -1;
 
@@ -21,52 +22,58 @@ namespace ProyectoFinal_Lista
         public Pr_final()
         {
             InitializeComponent();
+
+            //DGdate.DataSource = personas.
         }
 
         public void BtnDim_Click(object sender, EventArgs e)
         {
             int cantidad = System.Convert.ToInt32(TxtDim.Text);
-            Nombres = new string[cantidad];
+            NombreCompleto = new string[cantidad];
+
+            //Apellido = new string[cantidad];
+
 
            
         }
 
         public void BtnAgregar_Click(object sender, EventArgs e)
         {
-            Nombres[posicion1] = TxtNombre.Text;
+            
+            NombreCompleto[posicion1] = TxtNombre.Text;
+            //Apellido[posicion1] = TxtApellido.Text;
             posicion1 = posicion1 + 1;
-            //Redimensionar(); //Comentar por cualquier cosa que ocurra
+            //Redimensionar(); //Comentar por cualquier cosa 
             TxtNombre.Focus();
             TxtNombre.SelectAll();
             //personas[personas.Length] = Persona;
         }
 
+
         private void BtnMostrar_Click(object sender, EventArgs e)
         {
-           
-
             LblLista.Text = "Lista principal: \r\n";
-            foreach (string item in Nombres)
+            foreach (string item in NombreCompleto )
             {
                 LblLista.Text = LblLista.Text + item + "\r\n";
             }
         }
+
 
         private void BtnSalir_Click(object sender, EventArgs e)
         {
             Close();
         }
 
+
         private void BtnCargar2_Click(object sender, EventArgs e)
         {
             Persona persona = new Persona();
             pos2 = pos2 + 1;
             persona.Nombre = TxtCarga2.Text;
-            
             personas[pos2] = persona;
-            
-            
         }
+
 
         private void BtnMostrar2_Click(object sender, EventArgs e)
         {
@@ -85,7 +92,7 @@ namespace ProyectoFinal_Lista
         //{
         //    if (personas == null)
         //    {
-        //        personas = new Persona[0];
+        //        personas = new Persona[1];
         //    }
         //    else
         //    {
@@ -100,6 +107,16 @@ namespace ProyectoFinal_Lista
 
         //    }
         //}
+
+
+
+
+
+
+
+
+
+
     }
 }
 

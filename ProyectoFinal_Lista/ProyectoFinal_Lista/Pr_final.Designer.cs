@@ -37,7 +37,7 @@ namespace ProyectoFinal_Lista
             this.BtnMostrar = new System.Windows.Forms.Button();
             this.LblLista = new System.Windows.Forms.Label();
             this.BtnSalir = new System.Windows.Forms.Button();
-            this.TxtCarga2 = new System.Windows.Forms.TextBox();
+            this.TxtCargaPersona2 = new System.Windows.Forms.TextBox();
             this.BtnCargar2 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.LblLista2 = new System.Windows.Forms.Label();
@@ -45,10 +45,12 @@ namespace ProyectoFinal_Lista
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.DGdate = new System.Windows.Forms.DataGridView();
+            this.DGdatos = new System.Windows.Forms.DataGridView();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.DGdate)).BeginInit();
+            this.TxtAño2 = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.DGdatos)).BeginInit();
             this.SuspendLayout();
             // 
             // BtnDim
@@ -72,7 +74,7 @@ namespace ProyectoFinal_Lista
             // 
             this.TxtNombre.Location = new System.Drawing.Point(89, 111);
             this.TxtNombre.Name = "TxtNombre";
-            this.TxtNombre.Size = new System.Drawing.Size(100, 20);
+            this.TxtNombre.Size = new System.Drawing.Size(86, 20);
             this.TxtNombre.TabIndex = 3;
             // 
             // BtnAgregar
@@ -115,7 +117,7 @@ namespace ProyectoFinal_Lista
             // 
             // BtnSalir
             // 
-            this.BtnSalir.Location = new System.Drawing.Point(810, 286);
+            this.BtnSalir.Location = new System.Drawing.Point(799, 276);
             this.BtnSalir.Name = "BtnSalir";
             this.BtnSalir.Size = new System.Drawing.Size(78, 23);
             this.BtnSalir.TabIndex = 7;
@@ -123,16 +125,16 @@ namespace ProyectoFinal_Lista
             this.BtnSalir.UseVisualStyleBackColor = true;
             this.BtnSalir.Click += new System.EventHandler(this.BtnSalir_Click);
             // 
-            // TxtCarga2
+            // TxtCargaPersona2
             // 
-            this.TxtCarga2.Location = new System.Drawing.Point(788, 66);
-            this.TxtCarga2.Name = "TxtCarga2";
-            this.TxtCarga2.Size = new System.Drawing.Size(100, 20);
-            this.TxtCarga2.TabIndex = 9;
+            this.TxtCargaPersona2.Location = new System.Drawing.Point(660, 78);
+            this.TxtCargaPersona2.Name = "TxtCargaPersona2";
+            this.TxtCargaPersona2.Size = new System.Drawing.Size(100, 20);
+            this.TxtCargaPersona2.TabIndex = 9;
             // 
             // BtnCargar2
             // 
-            this.BtnCargar2.Location = new System.Drawing.Point(704, 66);
+            this.BtnCargar2.Location = new System.Drawing.Point(576, 76);
             this.BtnCargar2.Name = "BtnCargar2";
             this.BtnCargar2.Size = new System.Drawing.Size(78, 23);
             this.BtnCargar2.TabIndex = 8;
@@ -143,16 +145,16 @@ namespace ProyectoFinal_Lista
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(785, 43);
+            this.label2.Location = new System.Drawing.Point(660, 62);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(49, 13);
+            this.label2.Size = new System.Drawing.Size(91, 13);
             this.label2.TabIndex = 10;
-            this.label2.Text = "Nombres";
+            this.label2.Text = "Nombre y apellido";
             // 
             // LblLista2
             // 
             this.LblLista2.AutoSize = true;
-            this.LblLista2.Location = new System.Drawing.Point(701, 148);
+            this.LblLista2.Location = new System.Drawing.Point(573, 146);
             this.LblLista2.Name = "LblLista2";
             this.LblLista2.Size = new System.Drawing.Size(55, 13);
             this.LblLista2.TabIndex = 11;
@@ -160,7 +162,7 @@ namespace ProyectoFinal_Lista
             // 
             // BtnMostrar2
             // 
-            this.BtnMostrar2.Location = new System.Drawing.Point(704, 92);
+            this.BtnMostrar2.Location = new System.Drawing.Point(576, 109);
             this.BtnMostrar2.Name = "BtnMostrar2";
             this.BtnMostrar2.Size = new System.Drawing.Size(78, 23);
             this.BtnMostrar2.TabIndex = 12;
@@ -171,7 +173,7 @@ namespace ProyectoFinal_Lista
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(673, 12);
+            this.label3.Location = new System.Drawing.Point(621, 33);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(198, 13);
             this.label3.TabIndex = 13;
@@ -195,18 +197,18 @@ namespace ProyectoFinal_Lista
             this.label5.TabIndex = 15;
             this.label5.Text = "Muestra lista completa";
             // 
-            // DGdate
+            // DGdatos
             // 
-            this.DGdate.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.DGdate.Location = new System.Drawing.Point(312, 92);
-            this.DGdate.Name = "DGdate";
-            this.DGdate.Size = new System.Drawing.Size(281, 168);
-            this.DGdate.TabIndex = 16;
+            this.DGdatos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.DGdatos.Location = new System.Drawing.Point(244, 78);
+            this.DGdatos.Name = "DGdatos";
+            this.DGdatos.Size = new System.Drawing.Size(281, 168);
+            this.DGdatos.TabIndex = 16;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(98, 92);
+            this.label6.Location = new System.Drawing.Point(86, 92);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(91, 13);
             this.label6.TabIndex = 18;
@@ -215,11 +217,27 @@ namespace ProyectoFinal_Lista
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(309, 47);
+            this.label7.Location = new System.Drawing.Point(241, 44);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(209, 13);
             this.label7.TabIndex = 19;
             this.label7.Text = "Datos cargados y guardados por el usuario";
+            // 
+            // TxtAño2
+            // 
+            this.TxtAño2.Location = new System.Drawing.Point(770, 78);
+            this.TxtAño2.Name = "TxtAño2";
+            this.TxtAño2.Size = new System.Drawing.Size(49, 20);
+            this.TxtAño2.TabIndex = 20;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(770, 62);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(49, 13);
+            this.label8.TabIndex = 22;
+            this.label8.Text = "Año Nac";
             // 
             // Pr_final
             // 
@@ -227,17 +245,19 @@ namespace ProyectoFinal_Lista
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Gray;
-            this.ClientSize = new System.Drawing.Size(893, 311);
+            this.ClientSize = new System.Drawing.Size(894, 311);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.TxtAño2);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.DGdate);
+            this.Controls.Add(this.DGdatos);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.BtnMostrar2);
             this.Controls.Add(this.LblLista2);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.TxtCarga2);
+            this.Controls.Add(this.TxtCargaPersona2);
             this.Controls.Add(this.BtnCargar2);
             this.Controls.Add(this.BtnSalir);
             this.Controls.Add(this.LblLista);
@@ -249,7 +269,7 @@ namespace ProyectoFinal_Lista
             this.Controls.Add(this.BtnDim);
             this.Name = "Pr_final";
             this.Text = "Proyecto Final  - Programacion";
-            ((System.ComponentModel.ISupportInitialize)(this.DGdate)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DGdatos)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -265,7 +285,7 @@ namespace ProyectoFinal_Lista
         private System.Windows.Forms.Button BtnMostrar;
         private System.Windows.Forms.Label LblLista;
         private System.Windows.Forms.Button BtnSalir;
-        private System.Windows.Forms.TextBox TxtCarga2;
+        private System.Windows.Forms.TextBox TxtCargaPersona2;
         private System.Windows.Forms.Button BtnCargar2;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label LblLista2;
@@ -273,9 +293,11 @@ namespace ProyectoFinal_Lista
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.DataGridView DGdate;
+        private System.Windows.Forms.DataGridView DGdatos;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.TextBox TxtAño2;
+        private System.Windows.Forms.Label label8;
     }
 }
 

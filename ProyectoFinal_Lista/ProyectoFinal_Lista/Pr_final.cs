@@ -14,9 +14,10 @@ namespace ProyectoFinal_Lista
     {
         //Propiedades
         string[] NombreCompleto;
-        //string[] Apellido;
         int posicion1 = 0;
         int pos2 = -1;
+
+        
 
         public Persona[] personas { get; set; } = new Persona[5];
         public Pr_final()
@@ -66,27 +67,33 @@ namespace ProyectoFinal_Lista
         }
 
 
-        private void BtnCargar2_Click(object sender, EventArgs e)
+        public void BtnCargar2_Click(object sender, EventArgs e)
         {
             Persona persona = new Persona();
             pos2 = pos2 + 1;
-            persona.Nombre = TxtCarga2.Text;
+            persona.NombreYapellido = TxtCargaPersona2.Text;
+            persona.AñodeNaciemiento = Convert.ToInt32(TxtAño2.Text);
+            personas[personas.Length -1] = persona;
+
+            
             personas[pos2] = persona;
         }
 
 
-        private void BtnMostrar2_Click(object sender, EventArgs e)
+        public void BtnMostrar2_Click(object sender, EventArgs e)
         {
 
             LblLista2.Text = "Lista extra: \r\n";
 
             foreach (Persona item in personas)
             {
-                LblLista2.Text = LblLista2.Text + item.Nombre + "\r\n";
-
-
+                LblLista2.Text = LblLista2.Text + item.NombreYapellido + item.AñodeNaciemiento.ToString() + "\r\n";
             }
         }
+
+
+
+       
 
         //private void Redimensionar()
         //{

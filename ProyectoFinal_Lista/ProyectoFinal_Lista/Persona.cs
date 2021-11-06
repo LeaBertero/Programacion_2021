@@ -9,8 +9,8 @@ namespace ProyectoFinal_Lista
 {
     public class Persona
     {
-        public string Nombre { get; set; }
-        public int Año { get; set; }
+        public string NombreYapellido { get; set; }
+        public int AñodeNaciemiento { get; set; }
         public int Edad  { get; set; }
 
 

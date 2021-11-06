@@ -31,18 +31,19 @@ namespace ProyectoFinal_Lista
            
         }
 
-        private void BtnAgregar_Click(object sender, EventArgs e)
+        public void BtnAgregar_Click(object sender, EventArgs e)
         {
             Nombres[posicion1] = TxtNombre.Text;
             posicion1 = posicion1 + 1;
+            //Redimensionar(); //Comentar por cualquier cosa que ocurra
             TxtNombre.Focus();
             TxtNombre.SelectAll();
+            //personas[personas.Length] = Persona;
         }
 
         private void BtnMostrar_Click(object sender, EventArgs e)
         {
-            //LblLista.Text = "";
-            //LblLista.Text = "Lista de personas";
+           
 
             LblLista.Text = "Lista principal: \r\n";
             foreach (string item in Nombres)
@@ -61,7 +62,7 @@ namespace ProyectoFinal_Lista
             Persona persona = new Persona();
             pos2 = pos2 + 1;
             persona.Nombre = TxtCarga2.Text;
-            //persona.Apellido = 
+            
             personas[pos2] = persona;
             
             
@@ -80,7 +81,25 @@ namespace ProyectoFinal_Lista
             }
         }
 
-       
+        //private void Redimensionar()
+        //{
+        //    if (personas == null)
+        //    {
+        //        personas = new Persona[0];
+        //    }
+        //    else
+        //    {
+        //        Persona[] arraux = new Persona[personas.Length + 1];
+
+        //        for (int contador = 0; contador <= personas.Length; contador++)
+        //        {
+
+        //            arraux[contador] = personas[contador];
+        //        }
+        //        personas = arraux;
+
+        //    }
+        //}
     }
 }
 

@@ -29,6 +29,7 @@ namespace ProyectoFinal_Lista
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Pr_final));
             this.BtnDim = new System.Windows.Forms.Button();
             this.TxtDim = new System.Windows.Forms.TextBox();
             this.TxtNombre = new System.Windows.Forms.TextBox();
@@ -279,6 +280,7 @@ namespace ProyectoFinal_Lista
             this.Controls.Add(this.BtnAgregar);
             this.Controls.Add(this.TxtDim);
             this.Controls.Add(this.BtnDim);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Pr_final";
             this.Text = "Proyecto Final  - Programacion";
             ((System.ComponentModel.ISupportInitialize)(this.DGdatos)).EndInit();

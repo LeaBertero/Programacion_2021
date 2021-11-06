@@ -31,7 +31,7 @@ namespace ProyectoFinal_Lista
         {
             this.BtnDim = new System.Windows.Forms.Button();
             this.TxtDim = new System.Windows.Forms.TextBox();
-            this.TxtAgregar = new System.Windows.Forms.TextBox();
+            this.TxtNombre = new System.Windows.Forms.TextBox();
             this.BtnAgregar = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.BtnMostrar = new System.Windows.Forms.Button();
@@ -42,6 +42,9 @@ namespace ProyectoFinal_Lista
             this.label2 = new System.Windows.Forms.Label();
             this.LblLista2 = new System.Windows.Forms.Label();
             this.BtnMostrar2 = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // BtnDim
@@ -61,16 +64,16 @@ namespace ProyectoFinal_Lista
             this.TxtDim.Size = new System.Drawing.Size(100, 20);
             this.TxtDim.TabIndex = 1;
             // 
-            // TxtAgregar
+            // TxtNombre
             // 
-            this.TxtAgregar.Location = new System.Drawing.Point(89, 63);
-            this.TxtAgregar.Name = "TxtAgregar";
-            this.TxtAgregar.Size = new System.Drawing.Size(100, 20);
-            this.TxtAgregar.TabIndex = 3;
+            this.TxtNombre.Location = new System.Drawing.Point(89, 89);
+            this.TxtNombre.Name = "TxtNombre";
+            this.TxtNombre.Size = new System.Drawing.Size(100, 20);
+            this.TxtNombre.TabIndex = 3;
             // 
             // BtnAgregar
             // 
-            this.BtnAgregar.Location = new System.Drawing.Point(5, 61);
+            this.BtnAgregar.Location = new System.Drawing.Point(5, 89);
             this.BtnAgregar.Name = "BtnAgregar";
             this.BtnAgregar.Size = new System.Drawing.Size(78, 23);
             this.BtnAgregar.TabIndex = 2;
@@ -89,7 +92,7 @@ namespace ProyectoFinal_Lista
             // 
             // BtnMostrar
             // 
-            this.BtnMostrar.Location = new System.Drawing.Point(5, 87);
+            this.BtnMostrar.Location = new System.Drawing.Point(5, 135);
             this.BtnMostrar.Name = "BtnMostrar";
             this.BtnMostrar.Size = new System.Drawing.Size(78, 23);
             this.BtnMostrar.TabIndex = 5;
@@ -100,14 +103,15 @@ namespace ProyectoFinal_Lista
             // LblLista
             // 
             this.LblLista.AutoSize = true;
-            this.LblLista.Location = new System.Drawing.Point(16, 145);
+            this.LblLista.Location = new System.Drawing.Point(2, 175);
             this.LblLista.Name = "LblLista";
-            this.LblLista.Size = new System.Drawing.Size(0, 13);
+            this.LblLista.Size = new System.Drawing.Size(71, 13);
             this.LblLista.TabIndex = 6;
+            this.LblLista.Text = "Lista principal";
             // 
             // BtnSalir
             // 
-            this.BtnSalir.Location = new System.Drawing.Point(341, 10);
+            this.BtnSalir.Location = new System.Drawing.Point(354, 276);
             this.BtnSalir.Name = "BtnSalir";
             this.BtnSalir.Size = new System.Drawing.Size(78, 23);
             this.BtnSalir.TabIndex = 7;
@@ -117,14 +121,14 @@ namespace ProyectoFinal_Lista
             // 
             // TxtCarga2
             // 
-            this.TxtCarga2.Location = new System.Drawing.Point(693, 37);
+            this.TxtCarga2.Location = new System.Drawing.Point(693, 63);
             this.TxtCarga2.Name = "TxtCarga2";
             this.TxtCarga2.Size = new System.Drawing.Size(100, 20);
             this.TxtCarga2.TabIndex = 9;
             // 
             // BtnCargar2
             // 
-            this.BtnCargar2.Location = new System.Drawing.Point(609, 37);
+            this.BtnCargar2.Location = new System.Drawing.Point(609, 63);
             this.BtnCargar2.Name = "BtnCargar2";
             this.BtnCargar2.Size = new System.Drawing.Size(78, 23);
             this.BtnCargar2.TabIndex = 8;
@@ -135,7 +139,7 @@ namespace ProyectoFinal_Lista
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(606, 8);
+            this.label2.Location = new System.Drawing.Point(690, 40);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(49, 13);
             this.label2.TabIndex = 10;
@@ -144,15 +148,15 @@ namespace ProyectoFinal_Lista
             // LblLista2
             // 
             this.LblLista2.AutoSize = true;
-            this.LblLista2.Location = new System.Drawing.Point(606, 109);
+            this.LblLista2.Location = new System.Drawing.Point(606, 145);
             this.LblLista2.Name = "LblLista2";
-            this.LblLista2.Size = new System.Drawing.Size(29, 13);
+            this.LblLista2.Size = new System.Drawing.Size(55, 13);
             this.LblLista2.TabIndex = 11;
-            this.LblLista2.Text = "Lista";
+            this.LblLista2.Text = "Lista extra";
             // 
             // BtnMostrar2
             // 
-            this.BtnMostrar2.Location = new System.Drawing.Point(609, 63);
+            this.BtnMostrar2.Location = new System.Drawing.Point(609, 89);
             this.BtnMostrar2.Name = "BtnMostrar2";
             this.BtnMostrar2.Size = new System.Drawing.Size(78, 23);
             this.BtnMostrar2.TabIndex = 12;
@@ -160,12 +164,43 @@ namespace ProyectoFinal_Lista
             this.BtnMostrar2.UseVisualStyleBackColor = true;
             this.BtnMostrar2.Click += new System.EventHandler(this.BtnMostrar2_Click);
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(578, 9);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(198, 13);
+            this.label3.TabIndex = 13;
+            this.label3.Text = "Adicione 5 personas más en este campo";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(16, 66);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(102, 13);
+            this.label4.TabIndex = 14;
+            this.label4.Text = "Datos de la persona";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(12, 115);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(112, 13);
+            this.label5.TabIndex = 15;
+            this.label5.Text = "Muestra lista completa";
+            // 
             // Pr_final
             // 
+            this.AcceptButton = this.BtnAgregar;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Gray;
             this.ClientSize = new System.Drawing.Size(797, 311);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.BtnMostrar2);
             this.Controls.Add(this.LblLista2);
             this.Controls.Add(this.label2);
@@ -175,7 +210,7 @@ namespace ProyectoFinal_Lista
             this.Controls.Add(this.LblLista);
             this.Controls.Add(this.BtnMostrar);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.TxtAgregar);
+            this.Controls.Add(this.TxtNombre);
             this.Controls.Add(this.BtnAgregar);
             this.Controls.Add(this.TxtDim);
             this.Controls.Add(this.BtnDim);
@@ -190,7 +225,7 @@ namespace ProyectoFinal_Lista
 
         private System.Windows.Forms.Button BtnDim;
         private System.Windows.Forms.TextBox TxtDim;
-        private System.Windows.Forms.TextBox TxtAgregar;
+        private System.Windows.Forms.TextBox TxtNombre;
         private System.Windows.Forms.Button BtnAgregar;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button BtnMostrar;
@@ -201,6 +236,9 @@ namespace ProyectoFinal_Lista
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label LblLista2;
         private System.Windows.Forms.Button BtnMostrar2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
     }
 }
 

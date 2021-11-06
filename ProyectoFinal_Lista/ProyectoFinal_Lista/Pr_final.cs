@@ -17,7 +17,7 @@ namespace ProyectoFinal_Lista
         int posicion1 = 0;
         int pos2 = -1;
 
-        public Persona[] personas { get; set; } = new Persona[1];
+        public Persona[] personas { get; set; } = new Persona[5];
         public Pr_final()
         {
             InitializeComponent();
@@ -33,17 +33,18 @@ namespace ProyectoFinal_Lista
 
         private void BtnAgregar_Click(object sender, EventArgs e)
         {
-            Nombres[posicion1] = TxtAgregar.Text;
+            Nombres[posicion1] = TxtNombre.Text;
             posicion1 = posicion1 + 1;
-            TxtAgregar.Focus();
-            TxtAgregar.SelectAll();
+            TxtNombre.Focus();
+            TxtNombre.SelectAll();
         }
 
         private void BtnMostrar_Click(object sender, EventArgs e)
         {
-            LblLista.Text = "";
+            //LblLista.Text = "";
             //LblLista.Text = "Lista de personas";
 
+            LblLista.Text = "Lista principal: \r\n";
             foreach (string item in Nombres)
             {
                 LblLista.Text = LblLista.Text + item + "\r\n";
@@ -60,14 +61,16 @@ namespace ProyectoFinal_Lista
             Persona persona = new Persona();
             pos2 = pos2 + 1;
             persona.Nombre = TxtCarga2.Text;
+            //persona.Apellido = 
             personas[pos2] = persona;
+            
             
         }
 
         private void BtnMostrar2_Click(object sender, EventArgs e)
         {
 
-            LblLista2.Text = "Lista: \r\n";
+            LblLista2.Text = "Lista extra: \r\n";
 
             foreach (Persona item in personas)
             {
@@ -76,6 +79,8 @@ namespace ProyectoFinal_Lista
 
             }
         }
+
+       
     }
 }
 

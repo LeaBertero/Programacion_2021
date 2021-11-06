@@ -10,7 +10,7 @@ namespace ProyectoFinal_Lista
     {
         public string Nombre { get; set; }
 
-        public String Apellido { get; set; }
+        public int Año { get; set; }
 
     }
 }

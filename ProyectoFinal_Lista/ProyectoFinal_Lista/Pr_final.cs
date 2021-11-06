@@ -31,6 +31,8 @@ namespace ProyectoFinal_Lista
         {
             int cantidad = System.Convert.ToInt32(TxtDim.Text);
             NombreCompleto = new string[cantidad];
+            TxtNombre.Focus();
+            TxtNombre.SelectAll();
 
             //Apellido = new string[cantidad];
 

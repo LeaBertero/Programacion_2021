@@ -74,6 +74,8 @@ namespace ProyectoFinal_Lista
             pos2 = pos2 + 1;
             //persona.AñodeNaciemiento = Convert.ToInt32(TxtAño2.Text);
             personas[pos2] = persona;
+            TxtCargaPersona2.Focus();
+            TxtCargaPersona2.SelectAll();
         }
 
             
@@ -91,9 +93,20 @@ namespace ProyectoFinal_Lista
             }
         }
 
+        private void BtnBorrar_Click(object sender, EventArgs e)
+        {
+            TxtNombre.Text = "";
+        }
+
+        private void BtnBorrar2_Click(object sender, EventArgs e)
+        {
+            //Borra la carga de la caja de texto donde se van a cargar los datos de las personas
+            TxtCargaPersona2.Text = "";
+        }
 
 
-       
+
+
 
         //private void Redimensionar()
         //{

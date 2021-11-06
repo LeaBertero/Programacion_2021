@@ -48,11 +48,14 @@ namespace ProyectoFinal_Lista
             this.DGdatos = new System.Windows.Forms.DataGridView();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
+            this.BtnBorrar = new System.Windows.Forms.Button();
+            this.BtnBorrar2 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.DGdatos)).BeginInit();
             this.SuspendLayout();
             // 
             // BtnDim
             // 
+            this.BtnDim.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnDim.Location = new System.Drawing.Point(5, 37);
             this.BtnDim.Name = "BtnDim";
             this.BtnDim.Size = new System.Drawing.Size(78, 23);
@@ -77,6 +80,7 @@ namespace ProyectoFinal_Lista
             // 
             // BtnAgregar
             // 
+            this.BtnAgregar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnAgregar.Location = new System.Drawing.Point(242, 37);
             this.BtnAgregar.Name = "BtnAgregar";
             this.BtnAgregar.Size = new System.Drawing.Size(78, 23);
@@ -96,6 +100,7 @@ namespace ProyectoFinal_Lista
             // 
             // BtnMostrar
             // 
+            this.BtnMostrar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnMostrar.Location = new System.Drawing.Point(12, 146);
             this.BtnMostrar.Name = "BtnMostrar";
             this.BtnMostrar.Size = new System.Drawing.Size(78, 23);
@@ -115,6 +120,7 @@ namespace ProyectoFinal_Lista
             // 
             // BtnSalir
             // 
+            this.BtnSalir.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnSalir.Location = new System.Drawing.Point(529, 237);
             this.BtnSalir.Name = "BtnSalir";
             this.BtnSalir.Size = new System.Drawing.Size(78, 23);
@@ -132,6 +138,7 @@ namespace ProyectoFinal_Lista
             // 
             // BtnCargar2
             // 
+            this.BtnCargar2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnCargar2.Location = new System.Drawing.Point(621, 76);
             this.BtnCargar2.Name = "BtnCargar2";
             this.BtnCargar2.Size = new System.Drawing.Size(78, 23);
@@ -160,6 +167,7 @@ namespace ProyectoFinal_Lista
             // 
             // BtnMostrar2
             // 
+            this.BtnMostrar2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnMostrar2.Location = new System.Drawing.Point(621, 109);
             this.BtnMostrar2.Name = "BtnMostrar2";
             this.BtnMostrar2.Size = new System.Drawing.Size(78, 23);
@@ -221,6 +229,28 @@ namespace ProyectoFinal_Lista
             this.label7.TabIndex = 19;
             this.label7.Text = "Datos cargados y guardados por el usuario";
             // 
+            // BtnBorrar
+            // 
+            this.BtnBorrar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BtnBorrar.Location = new System.Drawing.Point(242, 12);
+            this.BtnBorrar.Name = "BtnBorrar";
+            this.BtnBorrar.Size = new System.Drawing.Size(78, 23);
+            this.BtnBorrar.TabIndex = 20;
+            this.BtnBorrar.Text = "Borrar";
+            this.BtnBorrar.UseVisualStyleBackColor = true;
+            this.BtnBorrar.Click += new System.EventHandler(this.BtnBorrar_Click);
+            // 
+            // BtnBorrar2
+            // 
+            this.BtnBorrar2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BtnBorrar2.Location = new System.Drawing.Point(621, 52);
+            this.BtnBorrar2.Name = "BtnBorrar2";
+            this.BtnBorrar2.Size = new System.Drawing.Size(78, 23);
+            this.BtnBorrar2.TabIndex = 21;
+            this.BtnBorrar2.Text = "Borrar";
+            this.BtnBorrar2.UseVisualStyleBackColor = true;
+            this.BtnBorrar2.Click += new System.EventHandler(this.BtnBorrar2_Click);
+            // 
             // Pr_final
             // 
             this.AcceptButton = this.BtnAgregar;
@@ -228,6 +258,8 @@ namespace ProyectoFinal_Lista
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Gray;
             this.ClientSize = new System.Drawing.Size(822, 278);
+            this.Controls.Add(this.BtnBorrar2);
+            this.Controls.Add(this.BtnBorrar);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.DGdatos);
@@ -276,6 +308,8 @@ namespace ProyectoFinal_Lista
         private System.Windows.Forms.DataGridView DGdatos;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Button BtnBorrar;
+        private System.Windows.Forms.Button BtnBorrar2;
     }
 }
 

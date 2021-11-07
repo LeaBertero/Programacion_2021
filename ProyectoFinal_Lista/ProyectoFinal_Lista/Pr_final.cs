@@ -17,14 +17,15 @@ namespace ProyectoFinal_Lista
         int posicion1 = 0;
         int pos2 = -1;
 
-        
+
 
         public Persona[] personas { get; set; } = new Persona[5];
         public Pr_final()
         {
             InitializeComponent();
+
             // hago nacer el data table (Se contruye)
-            //DGgrid.DataSource = personas.DG;
+            //DG.DataSource = personas.DG
         }
 
         public void BtnDim_Click(object sender, EventArgs e)
@@ -33,7 +34,7 @@ namespace ProyectoFinal_Lista
             NombreCompleto = new string[cantidad];
             TxtNombre.Focus();
             TxtNombre.SelectAll();
-
+            //Redimensionar();
             //Apellido = new string[cantidad];
 
 
@@ -123,7 +124,7 @@ namespace ProyectoFinal_Lista
         //        for (int contador = 0; contador <= personas.Length; contador++)
         //        {
 
-        //            arraux[contador] = personas[contador];
+        //            arraux[contador] = personas[contador+1];
         //        }
         //        personas = arraux;
 

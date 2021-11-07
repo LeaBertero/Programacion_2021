@@ -7,7 +7,7 @@ namespace ProyectoFinal_Lista
         /// Variable del diseñador necesaria.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
-
+        private System.Windows.Forms.DataGrid DG;
         /// <summary>
         /// Limpiar los recursos que se estén usando.
         /// </summary>

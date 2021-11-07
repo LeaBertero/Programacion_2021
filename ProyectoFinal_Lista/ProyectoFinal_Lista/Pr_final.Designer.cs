@@ -32,26 +32,16 @@ namespace ProyectoFinal_Lista
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Pr_final));
             this.BtnDim = new System.Windows.Forms.Button();
             this.TxtDim = new System.Windows.Forms.TextBox();
-            this.TxtNombre = new System.Windows.Forms.TextBox();
-            this.BtnAgregar = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.BtnMostrar = new System.Windows.Forms.Button();
             this.LblLista = new System.Windows.Forms.Label();
             this.BtnSalir = new System.Windows.Forms.Button();
-            this.TxtCargaPersona2 = new System.Windows.Forms.TextBox();
-            this.BtnCargar2 = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
-            this.LblLista2 = new System.Windows.Forms.Label();
-            this.BtnMostrar2 = new System.Windows.Forms.Button();
-            this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.DGgrid = new System.Windows.Forms.DataGridView();
+            this.BtnAgregar = new System.Windows.Forms.Button();
+            this.TxtNombre = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
             this.BtnBorrar = new System.Windows.Forms.Button();
-            this.BtnBorrar2 = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.DGgrid)).BeginInit();
             this.SuspendLayout();
             // 
             // BtnDim
@@ -71,24 +61,6 @@ namespace ProyectoFinal_Lista
             this.TxtDim.Name = "TxtDim";
             this.TxtDim.Size = new System.Drawing.Size(100, 20);
             this.TxtDim.TabIndex = 1;
-            // 
-            // TxtNombre
-            // 
-            this.TxtNombre.Location = new System.Drawing.Point(326, 37);
-            this.TxtNombre.Name = "TxtNombre";
-            this.TxtNombre.Size = new System.Drawing.Size(86, 20);
-            this.TxtNombre.TabIndex = 3;
-            // 
-            // BtnAgregar
-            // 
-            this.BtnAgregar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.BtnAgregar.Location = new System.Drawing.Point(242, 37);
-            this.BtnAgregar.Name = "BtnAgregar";
-            this.BtnAgregar.Size = new System.Drawing.Size(78, 23);
-            this.BtnAgregar.TabIndex = 2;
-            this.BtnAgregar.Text = "Cargar";
-            this.BtnAgregar.UseVisualStyleBackColor = true;
-            this.BtnAgregar.Click += new System.EventHandler(this.BtnAgregar_Click);
             // 
             // label1
             // 
@@ -122,69 +94,13 @@ namespace ProyectoFinal_Lista
             // BtnSalir
             // 
             this.BtnSalir.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.BtnSalir.Location = new System.Drawing.Point(529, 237);
+            this.BtnSalir.Location = new System.Drawing.Point(334, 146);
             this.BtnSalir.Name = "BtnSalir";
             this.BtnSalir.Size = new System.Drawing.Size(78, 23);
             this.BtnSalir.TabIndex = 7;
             this.BtnSalir.Text = "Salir";
             this.BtnSalir.UseVisualStyleBackColor = true;
             this.BtnSalir.Click += new System.EventHandler(this.BtnSalir_Click);
-            // 
-            // TxtCargaPersona2
-            // 
-            this.TxtCargaPersona2.Location = new System.Drawing.Point(705, 78);
-            this.TxtCargaPersona2.Name = "TxtCargaPersona2";
-            this.TxtCargaPersona2.Size = new System.Drawing.Size(100, 20);
-            this.TxtCargaPersona2.TabIndex = 9;
-            // 
-            // BtnCargar2
-            // 
-            this.BtnCargar2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.BtnCargar2.Location = new System.Drawing.Point(621, 76);
-            this.BtnCargar2.Name = "BtnCargar2";
-            this.BtnCargar2.Size = new System.Drawing.Size(78, 23);
-            this.BtnCargar2.TabIndex = 8;
-            this.BtnCargar2.Text = "Cargar2";
-            this.BtnCargar2.UseVisualStyleBackColor = true;
-            this.BtnCargar2.Click += new System.EventHandler(this.BtnCargar2_Click);
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(705, 62);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(91, 13);
-            this.label2.TabIndex = 10;
-            this.label2.Text = "Nombre y apellido";
-            // 
-            // LblLista2
-            // 
-            this.LblLista2.AutoSize = true;
-            this.LblLista2.Location = new System.Drawing.Point(618, 146);
-            this.LblLista2.Name = "LblLista2";
-            this.LblLista2.Size = new System.Drawing.Size(55, 13);
-            this.LblLista2.TabIndex = 11;
-            this.LblLista2.Text = "Lista extra";
-            // 
-            // BtnMostrar2
-            // 
-            this.BtnMostrar2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.BtnMostrar2.Location = new System.Drawing.Point(621, 109);
-            this.BtnMostrar2.Name = "BtnMostrar2";
-            this.BtnMostrar2.Size = new System.Drawing.Size(78, 23);
-            this.BtnMostrar2.TabIndex = 12;
-            this.BtnMostrar2.Text = "Lista2";
-            this.BtnMostrar2.UseVisualStyleBackColor = true;
-            this.BtnMostrar2.Click += new System.EventHandler(this.BtnMostrar2_Click);
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(618, 37);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(198, 13);
-            this.label3.TabIndex = 13;
-            this.label3.Text = "Adicione 5 personas más en este campo";
             // 
             // label4
             // 
@@ -204,13 +120,23 @@ namespace ProyectoFinal_Lista
             this.label5.TabIndex = 15;
             this.label5.Text = "Click en \"LISTA\", paa ver lista completa";
             // 
-            // DGgrid
+            // BtnAgregar
             // 
-            this.DGgrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.DGgrid.Location = new System.Drawing.Point(242, 92);
-            this.DGgrid.Name = "DGgrid";
-            this.DGgrid.Size = new System.Drawing.Size(281, 168);
-            this.DGgrid.TabIndex = 16;
+            this.BtnAgregar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BtnAgregar.Location = new System.Drawing.Point(242, 37);
+            this.BtnAgregar.Name = "BtnAgregar";
+            this.BtnAgregar.Size = new System.Drawing.Size(78, 23);
+            this.BtnAgregar.TabIndex = 2;
+            this.BtnAgregar.Text = "Cargar";
+            this.BtnAgregar.UseVisualStyleBackColor = true;
+            this.BtnAgregar.Click += new System.EventHandler(this.BtnAgregar_Click);
+            // 
+            // TxtNombre
+            // 
+            this.TxtNombre.Location = new System.Drawing.Point(326, 37);
+            this.TxtNombre.Name = "TxtNombre";
+            this.TxtNombre.Size = new System.Drawing.Size(86, 20);
+            this.TxtNombre.TabIndex = 3;
             // 
             // label6
             // 
@@ -220,15 +146,6 @@ namespace ProyectoFinal_Lista
             this.label6.Size = new System.Drawing.Size(91, 13);
             this.label6.TabIndex = 18;
             this.label6.Text = "Nombre y apellido";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(239, 76);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(209, 13);
-            this.label7.TabIndex = 19;
-            this.label7.Text = "Datos cargados y guardados por el usuario";
             // 
             // BtnBorrar
             // 
@@ -241,37 +158,17 @@ namespace ProyectoFinal_Lista
             this.BtnBorrar.UseVisualStyleBackColor = true;
             this.BtnBorrar.Click += new System.EventHandler(this.BtnBorrar_Click);
             // 
-            // BtnBorrar2
-            // 
-            this.BtnBorrar2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.BtnBorrar2.Location = new System.Drawing.Point(621, 52);
-            this.BtnBorrar2.Name = "BtnBorrar2";
-            this.BtnBorrar2.Size = new System.Drawing.Size(78, 23);
-            this.BtnBorrar2.TabIndex = 21;
-            this.BtnBorrar2.Text = "Borrar";
-            this.BtnBorrar2.UseVisualStyleBackColor = true;
-            this.BtnBorrar2.Click += new System.EventHandler(this.BtnBorrar2_Click);
-            // 
             // Pr_final
             // 
             this.AcceptButton = this.BtnAgregar;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Gray;
-            this.ClientSize = new System.Drawing.Size(822, 278);
-            this.Controls.Add(this.BtnBorrar2);
+            this.ClientSize = new System.Drawing.Size(433, 367);
             this.Controls.Add(this.BtnBorrar);
-            this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.DGgrid);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.BtnMostrar2);
-            this.Controls.Add(this.LblLista2);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.TxtCargaPersona2);
-            this.Controls.Add(this.BtnCargar2);
             this.Controls.Add(this.BtnSalir);
             this.Controls.Add(this.LblLista);
             this.Controls.Add(this.BtnMostrar);
@@ -283,7 +180,6 @@ namespace ProyectoFinal_Lista
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Pr_final";
             this.Text = "Proyecto Final  - Programacion";
-            ((System.ComponentModel.ISupportInitialize)(this.DGgrid)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -293,25 +189,16 @@ namespace ProyectoFinal_Lista
 
         private System.Windows.Forms.Button BtnDim;
         private System.Windows.Forms.TextBox TxtDim;
-        private System.Windows.Forms.TextBox TxtNombre;
-        private System.Windows.Forms.Button BtnAgregar;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button BtnMostrar;
         private System.Windows.Forms.Label LblLista;
         private System.Windows.Forms.Button BtnSalir;
-        private System.Windows.Forms.TextBox TxtCargaPersona2;
-        private System.Windows.Forms.Button BtnCargar2;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label LblLista2;
-        private System.Windows.Forms.Button BtnMostrar2;
-        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.DataGridView DGgrid;
+        private System.Windows.Forms.Button BtnAgregar;
+        private System.Windows.Forms.TextBox TxtNombre;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Button BtnBorrar;
-        private System.Windows.Forms.Button BtnBorrar2;
     }
 }
 

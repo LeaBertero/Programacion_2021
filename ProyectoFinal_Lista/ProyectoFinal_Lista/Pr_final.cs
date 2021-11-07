@@ -23,8 +23,8 @@ namespace ProyectoFinal_Lista
         public Pr_final()
         {
             InitializeComponent();
-
-            //DGdate.DataSource = personas.
+            // hago nacer el data table (Se contruye)
+            //DGgrid.DataSource = personas.DG;
         }
 
         public void BtnDim_Click(object sender, EventArgs e)

@@ -46,12 +46,12 @@ namespace ProyectoFinal_Lista
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.DGdatos = new System.Windows.Forms.DataGridView();
+            this.DGgrid = new System.Windows.Forms.DataGridView();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.BtnBorrar = new System.Windows.Forms.Button();
             this.BtnBorrar2 = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.DGdatos)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DGgrid)).BeginInit();
             this.SuspendLayout();
             // 
             // BtnDim
@@ -204,13 +204,13 @@ namespace ProyectoFinal_Lista
             this.label5.TabIndex = 15;
             this.label5.Text = "Click en \"LISTA\", paa ver lista completa";
             // 
-            // DGdatos
+            // DGgrid
             // 
-            this.DGdatos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.DGdatos.Location = new System.Drawing.Point(242, 92);
-            this.DGdatos.Name = "DGdatos";
-            this.DGdatos.Size = new System.Drawing.Size(281, 168);
-            this.DGdatos.TabIndex = 16;
+            this.DGgrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.DGgrid.Location = new System.Drawing.Point(242, 92);
+            this.DGgrid.Name = "DGgrid";
+            this.DGgrid.Size = new System.Drawing.Size(281, 168);
+            this.DGgrid.TabIndex = 16;
             // 
             // label6
             // 
@@ -263,7 +263,7 @@ namespace ProyectoFinal_Lista
             this.Controls.Add(this.BtnBorrar);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.DGdatos);
+            this.Controls.Add(this.DGgrid);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -283,7 +283,7 @@ namespace ProyectoFinal_Lista
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Pr_final";
             this.Text = "Proyecto Final  - Programacion";
-            ((System.ComponentModel.ISupportInitialize)(this.DGdatos)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DGgrid)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -307,7 +307,7 @@ namespace ProyectoFinal_Lista
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.DataGridView DGdatos;
+        private System.Windows.Forms.DataGridView DGgrid;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Button BtnBorrar;

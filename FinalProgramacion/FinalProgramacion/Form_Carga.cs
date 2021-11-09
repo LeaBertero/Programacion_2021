@@ -16,8 +16,8 @@ namespace FinalProgramacion
         //string[] nombres;
         //int pos = 0;
 
-        public Persona[] Personas { get; set; } = new Persona[1];
-        public int Pos  = -1;
+        public Persona[] Personas { get; set; }
+        //public int Pos  = -1;
 
 
         public Form_Carga()
@@ -29,11 +29,19 @@ namespace FinalProgramacion
         {
             Persona Persona = new Persona();
             Persona.Nombre = TxtNombre.Text;
+            TxtNombre.Focus();
+            TxtNombre.SelectAll();
             Persona.Apelllido = TxtApellido.Text;
+            TxtApellido.Focus();
+            TxtApellido.SelectAll();
             Persona.Dirección = TxtDirección.Text;
-            Pos = Pos + 1;
+            TxtApellido.Focus();
+            TxtApellido.SelectAll();
+            Redimensionar();
             Persona.Documento = Convert.ToInt32 (TxtDocumento.Text);
-            Personas[Pos] = Persona;
+            TxtDocumento.Focus();
+            TxtDocumento.SelectAll();
+            Personas[Personas.Length -1] = Persona;
 
         }
 
@@ -49,11 +57,16 @@ namespace FinalProgramacion
             LblMostrarLista.Text = " ";
             foreach (Persona item in Personas)
             {
-                LblMostrarLista.Text = LblMostrarLista.Text + item.Nombre + item.Apelllido + item.Dirección + item.Documento + "\r\n";
-
+                LblMostrarLista.Text = LblMostrarLista.Text 
+                    + item.Nombre + " - " 
+                    + item.Apelllido + " - " 
+                    + item.Dirección + " - " 
+                    + item.Documento 
+                    + "\r\n";
             }
-
         }
+
+
 
         private void BtnCerrar_Click(object sender, EventArgs e)
         {
@@ -87,6 +100,22 @@ namespace FinalProgramacion
         private void BtnCorregirDoc_Click(object sender, EventArgs e)
         {
             TxtDocumento.Text = "";
+        }
+
+
+        private void Redimensionar()
+        {
+            if (Personas == null)
+            {
+
+                Personas = new Persona[0];
+
+            }
+            else
+            {
+                Persona[] ArregloAux = new Persona[Personas.Length +1];
+            }
+
         }
     }
 }

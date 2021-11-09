@@ -22,6 +22,7 @@ namespace Final_programacion2021
         }
         private void BtnDimensionar_Click(object sender, EventArgs e)
         {
+            
             int cant = Convert.ToInt32(TxtCarga.Text);
             Nombres = new string[cant];
         }

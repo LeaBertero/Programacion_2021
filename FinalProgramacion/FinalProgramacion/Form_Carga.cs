@@ -114,6 +114,14 @@ namespace FinalProgramacion
             else
             {
                 Persona[] ArregloAux = new Persona[Personas.Length +1];
+                for (int Contador = 0; Contador < Personas.Length; Contador++)
+                {
+
+                    ArregloAux[Contador] = Personas[Contador];
+
+                }
+
+                Personas = ArregloAux;
             }
 
         }

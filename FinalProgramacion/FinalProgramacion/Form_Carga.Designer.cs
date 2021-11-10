@@ -1,7 +1,7 @@
 ﻿
 namespace FinalProgramacion
 {
-    partial class Form_Carga
+    partial class BtnCodigo
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -55,7 +55,7 @@ namespace FinalProgramacion
             // BtnCargar
             // 
             this.BtnCargar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnCargar.Location = new System.Drawing.Point(12, 65);
+            this.BtnCargar.Location = new System.Drawing.Point(12, 89);
             this.BtnCargar.Name = "BtnCargar";
             this.BtnCargar.Size = new System.Drawing.Size(75, 23);
             this.BtnCargar.TabIndex = 0;
@@ -67,7 +67,7 @@ namespace FinalProgramacion
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(111, 46);
+            this.label1.Location = new System.Drawing.Point(111, 70);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(50, 13);
             this.label1.TabIndex = 1;
@@ -76,7 +76,7 @@ namespace FinalProgramacion
             // TxtNombre
             // 
             this.TxtNombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtNombre.Location = new System.Drawing.Point(114, 65);
+            this.TxtNombre.Location = new System.Drawing.Point(114, 89);
             this.TxtNombre.Name = "TxtNombre";
             this.TxtNombre.Size = new System.Drawing.Size(78, 20);
             this.TxtNombre.TabIndex = 2;
@@ -105,7 +105,7 @@ namespace FinalProgramacion
             // TxtDimensionar
             // 
             this.TxtDimensionar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtDimensionar.Location = new System.Drawing.Point(114, 20);
+            this.TxtDimensionar.Location = new System.Drawing.Point(93, 20);
             this.TxtDimensionar.Name = "TxtDimensionar";
             this.TxtDimensionar.Size = new System.Drawing.Size(50, 20);
             this.TxtDimensionar.TabIndex = 2;
@@ -145,7 +145,7 @@ namespace FinalProgramacion
             // TxtApellido
             // 
             this.TxtApellido.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtApellido.Location = new System.Drawing.Point(198, 65);
+            this.TxtApellido.Location = new System.Drawing.Point(198, 89);
             this.TxtApellido.Name = "TxtApellido";
             this.TxtApellido.Size = new System.Drawing.Size(78, 20);
             this.TxtApellido.TabIndex = 8;
@@ -154,7 +154,7 @@ namespace FinalProgramacion
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(195, 46);
+            this.label3.Location = new System.Drawing.Point(195, 70);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(52, 13);
             this.label3.TabIndex = 7;
@@ -163,7 +163,7 @@ namespace FinalProgramacion
             // TxtDirección
             // 
             this.TxtDirección.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtDirección.Location = new System.Drawing.Point(282, 65);
+            this.TxtDirección.Location = new System.Drawing.Point(282, 89);
             this.TxtDirección.Name = "TxtDirección";
             this.TxtDirección.Size = new System.Drawing.Size(78, 20);
             this.TxtDirección.TabIndex = 10;
@@ -172,7 +172,7 @@ namespace FinalProgramacion
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(279, 46);
+            this.label4.Location = new System.Drawing.Point(279, 70);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(61, 13);
             this.label4.TabIndex = 9;
@@ -182,7 +182,7 @@ namespace FinalProgramacion
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(111, -1);
+            this.label5.Location = new System.Drawing.Point(91, 4);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(130, 13);
             this.label5.TabIndex = 11;
@@ -191,7 +191,7 @@ namespace FinalProgramacion
             // TxtDocumento
             // 
             this.TxtDocumento.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtDocumento.Location = new System.Drawing.Point(366, 65);
+            this.TxtDocumento.Location = new System.Drawing.Point(366, 89);
             this.TxtDocumento.Name = "TxtDocumento";
             this.TxtDocumento.Size = new System.Drawing.Size(78, 20);
             this.TxtDocumento.TabIndex = 13;
@@ -200,7 +200,7 @@ namespace FinalProgramacion
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(363, 46);
+            this.label6.Location = new System.Drawing.Point(363, 70);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(71, 13);
             this.label6.TabIndex = 12;
@@ -209,7 +209,7 @@ namespace FinalProgramacion
             // BtnLimpiarDatos
             // 
             this.BtnLimpiarDatos.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnLimpiarDatos.Location = new System.Drawing.Point(3, 42);
+            this.BtnLimpiarDatos.Location = new System.Drawing.Point(3, 66);
             this.BtnLimpiarDatos.Name = "BtnLimpiarDatos";
             this.BtnLimpiarDatos.Size = new System.Drawing.Size(93, 23);
             this.BtnLimpiarDatos.TabIndex = 14;
@@ -220,7 +220,7 @@ namespace FinalProgramacion
             // BtnCorregirNom
             // 
             this.BtnCorregirNom.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnCorregirNom.Location = new System.Drawing.Point(114, 91);
+            this.BtnCorregirNom.Location = new System.Drawing.Point(114, 115);
             this.BtnCorregirNom.Name = "BtnCorregirNom";
             this.BtnCorregirNom.Size = new System.Drawing.Size(75, 23);
             this.BtnCorregirNom.TabIndex = 15;
@@ -231,7 +231,7 @@ namespace FinalProgramacion
             // BtnCorregirAp
             // 
             this.BtnCorregirAp.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnCorregirAp.Location = new System.Drawing.Point(195, 91);
+            this.BtnCorregirAp.Location = new System.Drawing.Point(195, 115);
             this.BtnCorregirAp.Name = "BtnCorregirAp";
             this.BtnCorregirAp.Size = new System.Drawing.Size(75, 23);
             this.BtnCorregirAp.TabIndex = 16;
@@ -242,7 +242,7 @@ namespace FinalProgramacion
             // BtnCorregirDir
             // 
             this.BtnCorregirDir.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnCorregirDir.Location = new System.Drawing.Point(282, 91);
+            this.BtnCorregirDir.Location = new System.Drawing.Point(282, 115);
             this.BtnCorregirDir.Name = "BtnCorregirDir";
             this.BtnCorregirDir.Size = new System.Drawing.Size(75, 23);
             this.BtnCorregirDir.TabIndex = 17;
@@ -253,7 +253,7 @@ namespace FinalProgramacion
             // BtnCorregirDoc
             // 
             this.BtnCorregirDoc.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnCorregirDoc.Location = new System.Drawing.Point(366, 91);
+            this.BtnCorregirDoc.Location = new System.Drawing.Point(366, 115);
             this.BtnCorregirDoc.Name = "BtnCorregirDoc";
             this.BtnCorregirDoc.Size = new System.Drawing.Size(75, 23);
             this.BtnCorregirDoc.TabIndex = 18;
@@ -261,7 +261,7 @@ namespace FinalProgramacion
             this.BtnCorregirDoc.UseVisualStyleBackColor = true;
             this.BtnCorregirDoc.Click += new System.EventHandler(this.BtnCorregirDoc_Click);
             // 
-            // Form_Carga
+            // BtnCodigo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -288,7 +288,7 @@ namespace FinalProgramacion
             this.Controls.Add(this.label1);
             this.Controls.Add(this.BtnDimensionar);
             this.Controls.Add(this.BtnCargar);
-            this.Name = "Form_Carga";
+            this.Name = "BtnCodigo";
             this.Text = "Formulario de lista de personas";
             this.ResumeLayout(false);
             this.PerformLayout();

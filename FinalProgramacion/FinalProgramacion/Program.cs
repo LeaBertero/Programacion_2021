@@ -16,7 +16,7 @@ namespace FinalProgramacion
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form_Carga());
+            Application.Run(new BtnCodigo());
         }
     }
 }

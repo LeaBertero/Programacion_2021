@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace FinalProgramacion
 {
-    public partial class Form_Carga : Form
+    public partial class BtnCodigo : Form
     {
         //Carga de nombres (arreglo de carga  de 5 personas)
         //string[] nombres;
@@ -19,43 +19,35 @@ namespace FinalProgramacion
         //public Persona[] Personas { get; set; }
         //public int Pos = -1;
 
-
-        public Form_Carga()
+        //Constructor
+        public BtnCodigo()
         {
             InitializeComponent();
         }
 
         private void BtnCargar_Click(object sender, EventArgs e)
         {
-            //Persona Persona = new Persona();
-            //Persona.Nombre = TxtNombre.Text;
+            
             TxtNombre.Focus();
             TxtNombre.SelectAll();
-            //Persona.Apelllido = TxtApellido.Text;
-            TxtApellido.Focus();
-            //Lista.Redimensionar();
-            TxtApellido.SelectAll();
-            //Persona.Dirección = TxtDirección.Text;
+            
             TxtApellido.Focus();
             TxtApellido.SelectAll();
-            //Persona.Documento = Convert.ToInt32(TxtDocumento.Text);
+           
             TxtDocumento.Focus();
             TxtDocumento.SelectAll();
-            //Lista.Personas[Lista.Personas.Length - 1] = Persona;
-
+            
             Lista.AddPersona(TxtNombre.Text, TxtApellido.Text, TxtDirección.Text, TxtDocumento.Text);
-
+           
         }
-
-
         private void BtnDimensionar_Click(object sender, EventArgs e)
         {
-            
             //int cant = Convert.ToInt32(TxtIngreso.Text);
             //nombres = new string[cant];
-            
         }
-
+            
+            
+            
         private void BtnMostrarLista_Click(object sender, EventArgs e)
         {
 
@@ -70,9 +62,7 @@ namespace FinalProgramacion
                     + "\r\n";
             }
         }
-
-
-
+            
         private void BtnCerrar_Click(object sender, EventArgs e)
         {
             Close();
@@ -107,28 +97,36 @@ namespace FinalProgramacion
             TxtDocumento.Text = "";
         }
 
+        private void Redimensionar()
+        {
+            if (Lista.Personas == null)
+            {
 
-        //private void Redimensionar()
-        //{
-        //    if (Lista.Personas == null)
-        //    {
+                Lista.Personas = new Persona[1];
 
-        //        Lista.Personas = new Persona[1];
+            }
+            else
+            {
+                Persona[] ArregloAux = new Persona[Lista.Personas.Length + 1];
+                for (int Contador = 0; Contador < Lista.Personas.Length; Contador++)
+                {
 
-        //    }
-        //    else
-        //    {
-        //        Persona[] ArregloAux = new Persona[Lista.Personas.Length + 1];
-        //        for (int Contador = 0; Contador < Lista.Personas.Length; Contador++)
-        //        {
+                    ArregloAux[Contador] = Lista.Personas[Contador];
 
-        //            ArregloAux[Contador] = Lista.Personas[Contador];
+                }
 
-        //        }
+                Lista.Personas = ArregloAux;
+            }
 
-        //        Lista.Personas = ArregloAux;
-        //    }
+        }
 
-        //}
+
+
+
+
+
+
+
+
     }
 }

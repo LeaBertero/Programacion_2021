@@ -84,7 +84,7 @@ namespace FinalProgramacion
             this.BtnDimensionar.Name = "BtnDimensionar";
             this.BtnDimensionar.Size = new System.Drawing.Size(75, 23);
             this.BtnDimensionar.TabIndex = 0;
-            this.BtnDimensionar.Text = "Dimensionar";
+            this.BtnDimensionar.Text = "Dimension";
             this.BtnDimensionar.UseVisualStyleBackColor = true;
             this.BtnDimensionar.Click += new System.EventHandler(this.BtnDimensionar_Click);
             // 

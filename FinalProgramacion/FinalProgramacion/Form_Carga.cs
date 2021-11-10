@@ -17,7 +17,7 @@ namespace FinalProgramacion
         //int pos = 0;
 
         public Persona[] Personas { get; set; }
-        //public int Pos  = -1;
+        //public int Pos = -1;
 
 
         public Form_Carga()
@@ -33,22 +33,25 @@ namespace FinalProgramacion
             TxtNombre.SelectAll();
             Persona.Apelllido = TxtApellido.Text;
             TxtApellido.Focus();
+            Redimensionar();
             TxtApellido.SelectAll();
             Persona.Dirección = TxtDirección.Text;
             TxtApellido.Focus();
             TxtApellido.SelectAll();
-            Redimensionar();
-            Persona.Documento = Convert.ToInt32 (TxtDocumento.Text);
+            Persona.Documento = Convert.ToInt32(TxtDocumento.Text);
             TxtDocumento.Focus();
             TxtDocumento.SelectAll();
-            Personas[Personas.Length -1] = Persona;
+            Personas[Personas.Length - 1] = Persona;
 
         }
 
+
         private void BtnDimensionar_Click(object sender, EventArgs e)
         {
+            
             //int cant = Convert.ToInt32(TxtIngreso.Text);
             //nombres = new string[cant];
+            
         }
 
         private void BtnMostrarLista_Click(object sender, EventArgs e)
@@ -108,7 +111,7 @@ namespace FinalProgramacion
             if (Personas == null)
             {
 
-                Personas = new Persona[0];
+                Personas = new Persona[1];
 
             }
             else

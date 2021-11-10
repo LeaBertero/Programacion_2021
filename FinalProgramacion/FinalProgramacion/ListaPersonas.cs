@@ -35,7 +35,7 @@ namespace FinalProgramacion
 
         }
 
-        public void AddPersona(string Nombre, string Año, string Apellido, string Direccion, string Documento) 
+        public void AddPersona(string Nombre,string Apellido, string Direccion, string Documento) 
         {
             Persona Persona = new Persona();
             

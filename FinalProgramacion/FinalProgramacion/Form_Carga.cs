@@ -43,6 +43,8 @@ namespace FinalProgramacion
             TxtDocumento.SelectAll();
             //Lista.Personas[Lista.Personas.Length - 1] = Persona;
 
+            Lista.AddPersona(TxtNombre.Text, TxtApellido.Text, TxtDirección.Text, TxtDocumento.Text);
+
         }
 
 

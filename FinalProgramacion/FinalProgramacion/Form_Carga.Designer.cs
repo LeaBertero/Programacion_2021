@@ -268,7 +268,7 @@ namespace FinalProgramacion
             // DG
             // 
             this.DG.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.DG.Location = new System.Drawing.Point(255, 220);
+            this.DG.Location = new System.Drawing.Point(462, 23);
             this.DG.Name = "DG";
             this.DG.Size = new System.Drawing.Size(438, 150);
             this.DG.TabIndex = 19;
@@ -277,7 +277,7 @@ namespace FinalProgramacion
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(321, 204);
+            this.label7.Location = new System.Drawing.Point(528, 7);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(312, 13);
             this.label7.TabIndex = 20;
@@ -288,7 +288,7 @@ namespace FinalProgramacion
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightSkyBlue;
-            this.ClientSize = new System.Drawing.Size(746, 382);
+            this.ClientSize = new System.Drawing.Size(921, 382);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.DG);
             this.Controls.Add(this.BtnCorregirDoc);

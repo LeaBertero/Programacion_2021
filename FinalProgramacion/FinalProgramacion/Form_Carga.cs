@@ -12,17 +12,16 @@ namespace FinalProgramacion
 {
     public partial class BtnCodigo : Form
     {
-        //Carga de nombres (arreglo de carga  de 5 personas)
-        //string[] nombres;
-        //int pos = 0;
+       // Instanciando e inicializando la clase lista persona
         public ListaPersonas Lista { get; set; } = new ListaPersonas();
-        //public Persona[] Personas { get; set; }
-        //public int Pos = -1;
+       
 
         //Constructor
         public BtnCodigo()
         {
             InitializeComponent();
+
+            DG.DataSource = Lista.DT;
         }
 
         private void BtnCargar_Click(object sender, EventArgs e)
@@ -120,13 +119,6 @@ namespace FinalProgramacion
 
         }
 
-
-
-
-
-
-
-
-
+       
     }
 }

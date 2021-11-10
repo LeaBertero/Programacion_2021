@@ -50,6 +50,8 @@ namespace FinalProgramacion
             this.BtnCorregirAp = new System.Windows.Forms.Button();
             this.BtnCorregirDir = new System.Windows.Forms.Button();
             this.BtnCorregirDoc = new System.Windows.Forms.Button();
+            this.DG = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.DG)).BeginInit();
             this.SuspendLayout();
             // 
             // BtnCargar
@@ -261,12 +263,21 @@ namespace FinalProgramacion
             this.BtnCorregirDoc.UseVisualStyleBackColor = true;
             this.BtnCorregirDoc.Click += new System.EventHandler(this.BtnCorregirDoc_Click);
             // 
+            // DG
+            // 
+            this.DG.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.DG.Location = new System.Drawing.Point(172, 191);
+            this.DG.Name = "DG";
+            this.DG.Size = new System.Drawing.Size(438, 150);
+            this.DG.TabIndex = 19;
+            // 
             // BtnCodigo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightSkyBlue;
-            this.ClientSize = new System.Drawing.Size(463, 368);
+            this.ClientSize = new System.Drawing.Size(746, 382);
+            this.Controls.Add(this.DG);
             this.Controls.Add(this.BtnCorregirDoc);
             this.Controls.Add(this.BtnCorregirDir);
             this.Controls.Add(this.BtnCorregirAp);
@@ -290,6 +301,7 @@ namespace FinalProgramacion
             this.Controls.Add(this.BtnCargar);
             this.Name = "BtnCodigo";
             this.Text = "Formulario de lista de personas";
+            ((System.ComponentModel.ISupportInitialize)(this.DG)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -318,6 +330,7 @@ namespace FinalProgramacion
         private System.Windows.Forms.Button BtnCorregirAp;
         private System.Windows.Forms.Button BtnCorregirDir;
         private System.Windows.Forms.Button BtnCorregirDoc;
+        private System.Windows.Forms.DataGridView DG;
     }
 }
 

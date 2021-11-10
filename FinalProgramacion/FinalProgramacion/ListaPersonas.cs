@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,6 +11,22 @@ namespace FinalProgramacion
     public class ListaPersonas
     {
         public Persona[] Personas { get; set; }
+
+
+        public ListaPersonas()
+        {
+            DT.TableName = "Lista de personas";
+            DT.Columns.Add("Nombre");
+            DT.Columns.Add("Apellido");
+            DT.Columns.Add("Direccion");
+            DT.Columns.Add("Documento");
+        }
+
+        public DataTable DT = new DataTable();
+
+
+
+
 
         //Se puso publico para que lo pueda ver al metodo el boton del fronend
         public void Redimensionar()
@@ -54,6 +71,8 @@ namespace FinalProgramacion
             Personas[Personas.Length - 1] = Persona;
 
         }
+
+        
 
     }
 }

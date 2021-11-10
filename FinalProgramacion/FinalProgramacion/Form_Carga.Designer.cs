@@ -55,7 +55,7 @@ namespace FinalProgramacion
             // BtnCargar
             // 
             this.BtnCargar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnCargar.Location = new System.Drawing.Point(84, 147);
+            this.BtnCargar.Location = new System.Drawing.Point(345, 89);
             this.BtnCargar.Name = "BtnCargar";
             this.BtnCargar.Size = new System.Drawing.Size(75, 23);
             this.BtnCargar.TabIndex = 0;
@@ -114,7 +114,7 @@ namespace FinalProgramacion
             // 
             this.LblMostrarLista.AutoSize = true;
             this.LblMostrarLista.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblMostrarLista.Location = new System.Drawing.Point(91, 218);
+            this.LblMostrarLista.Location = new System.Drawing.Point(91, 191);
             this.LblMostrarLista.Name = "LblMostrarLista";
             this.LblMostrarLista.Size = new System.Drawing.Size(34, 13);
             this.LblMostrarLista.TabIndex = 3;
@@ -123,7 +123,7 @@ namespace FinalProgramacion
             // BtnMostrarLista
             // 
             this.BtnMostrarLista.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnMostrarLista.Location = new System.Drawing.Point(84, 171);
+            this.BtnMostrarLista.Location = new System.Drawing.Point(84, 144);
             this.BtnMostrarLista.Name = "BtnMostrarLista";
             this.BtnMostrarLista.Size = new System.Drawing.Size(75, 44);
             this.BtnMostrarLista.TabIndex = 4;
@@ -209,7 +209,7 @@ namespace FinalProgramacion
             // BtnLimpiarDatos
             // 
             this.BtnLimpiarDatos.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnLimpiarDatos.Location = new System.Drawing.Point(165, 147);
+            this.BtnLimpiarDatos.Location = new System.Drawing.Point(172, 144);
             this.BtnLimpiarDatos.Name = "BtnLimpiarDatos";
             this.BtnLimpiarDatos.Size = new System.Drawing.Size(93, 23);
             this.BtnLimpiarDatos.TabIndex = 14;

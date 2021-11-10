@@ -55,7 +55,7 @@ namespace FinalProgramacion
             // BtnCargar
             // 
             this.BtnCargar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnCargar.Location = new System.Drawing.Point(12, 89);
+            this.BtnCargar.Location = new System.Drawing.Point(84, 147);
             this.BtnCargar.Name = "BtnCargar";
             this.BtnCargar.Size = new System.Drawing.Size(75, 23);
             this.BtnCargar.TabIndex = 0;
@@ -67,7 +67,7 @@ namespace FinalProgramacion
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(111, 70);
+            this.label1.Location = new System.Drawing.Point(0, 70);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(50, 13);
             this.label1.TabIndex = 1;
@@ -76,7 +76,7 @@ namespace FinalProgramacion
             // TxtNombre
             // 
             this.TxtNombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtNombre.Location = new System.Drawing.Point(114, 89);
+            this.TxtNombre.Location = new System.Drawing.Point(3, 89);
             this.TxtNombre.Name = "TxtNombre";
             this.TxtNombre.Size = new System.Drawing.Size(78, 20);
             this.TxtNombre.TabIndex = 2;
@@ -84,7 +84,7 @@ namespace FinalProgramacion
             // BtnDimensionar
             // 
             this.BtnDimensionar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnDimensionar.Location = new System.Drawing.Point(12, 20);
+            this.BtnDimensionar.Location = new System.Drawing.Point(90, 23);
             this.BtnDimensionar.Name = "BtnDimensionar";
             this.BtnDimensionar.Size = new System.Drawing.Size(75, 23);
             this.BtnDimensionar.TabIndex = 0;
@@ -96,7 +96,7 @@ namespace FinalProgramacion
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(9, 4);
+            this.label2.Location = new System.Drawing.Point(87, 7);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(76, 13);
             this.label2.TabIndex = 1;
@@ -105,7 +105,7 @@ namespace FinalProgramacion
             // TxtDimensionar
             // 
             this.TxtDimensionar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtDimensionar.Location = new System.Drawing.Point(93, 20);
+            this.TxtDimensionar.Location = new System.Drawing.Point(171, 23);
             this.TxtDimensionar.Name = "TxtDimensionar";
             this.TxtDimensionar.Size = new System.Drawing.Size(50, 20);
             this.TxtDimensionar.TabIndex = 2;
@@ -114,7 +114,7 @@ namespace FinalProgramacion
             // 
             this.LblMostrarLista.AutoSize = true;
             this.LblMostrarLista.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblMostrarLista.Location = new System.Drawing.Point(557, 56);
+            this.LblMostrarLista.Location = new System.Drawing.Point(91, 218);
             this.LblMostrarLista.Name = "LblMostrarLista";
             this.LblMostrarLista.Size = new System.Drawing.Size(34, 13);
             this.LblMostrarLista.TabIndex = 3;
@@ -123,7 +123,7 @@ namespace FinalProgramacion
             // BtnMostrarLista
             // 
             this.BtnMostrarLista.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnMostrarLista.Location = new System.Drawing.Point(550, 9);
+            this.BtnMostrarLista.Location = new System.Drawing.Point(84, 171);
             this.BtnMostrarLista.Name = "BtnMostrarLista";
             this.BtnMostrarLista.Size = new System.Drawing.Size(75, 44);
             this.BtnMostrarLista.TabIndex = 4;
@@ -134,7 +134,7 @@ namespace FinalProgramacion
             // BtnCerrar
             // 
             this.BtnCerrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnCerrar.Location = new System.Drawing.Point(3, 338);
+            this.BtnCerrar.Location = new System.Drawing.Point(345, 7);
             this.BtnCerrar.Name = "BtnCerrar";
             this.BtnCerrar.Size = new System.Drawing.Size(109, 29);
             this.BtnCerrar.TabIndex = 5;
@@ -145,7 +145,7 @@ namespace FinalProgramacion
             // TxtApellido
             // 
             this.TxtApellido.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtApellido.Location = new System.Drawing.Point(198, 89);
+            this.TxtApellido.Location = new System.Drawing.Point(87, 89);
             this.TxtApellido.Name = "TxtApellido";
             this.TxtApellido.Size = new System.Drawing.Size(78, 20);
             this.TxtApellido.TabIndex = 8;
@@ -154,7 +154,7 @@ namespace FinalProgramacion
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(195, 70);
+            this.label3.Location = new System.Drawing.Point(84, 70);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(52, 13);
             this.label3.TabIndex = 7;
@@ -163,7 +163,7 @@ namespace FinalProgramacion
             // TxtDirección
             // 
             this.TxtDirección.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtDirección.Location = new System.Drawing.Point(282, 89);
+            this.TxtDirección.Location = new System.Drawing.Point(171, 89);
             this.TxtDirección.Name = "TxtDirección";
             this.TxtDirección.Size = new System.Drawing.Size(78, 20);
             this.TxtDirección.TabIndex = 10;
@@ -172,7 +172,7 @@ namespace FinalProgramacion
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(279, 70);
+            this.label4.Location = new System.Drawing.Point(168, 70);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(61, 13);
             this.label4.TabIndex = 9;
@@ -182,7 +182,7 @@ namespace FinalProgramacion
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(91, 4);
+            this.label5.Location = new System.Drawing.Point(169, 7);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(130, 13);
             this.label5.TabIndex = 11;
@@ -191,7 +191,7 @@ namespace FinalProgramacion
             // TxtDocumento
             // 
             this.TxtDocumento.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtDocumento.Location = new System.Drawing.Point(366, 89);
+            this.TxtDocumento.Location = new System.Drawing.Point(255, 89);
             this.TxtDocumento.Name = "TxtDocumento";
             this.TxtDocumento.Size = new System.Drawing.Size(78, 20);
             this.TxtDocumento.TabIndex = 13;
@@ -200,7 +200,7 @@ namespace FinalProgramacion
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(363, 70);
+            this.label6.Location = new System.Drawing.Point(252, 70);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(71, 13);
             this.label6.TabIndex = 12;
@@ -209,7 +209,7 @@ namespace FinalProgramacion
             // BtnLimpiarDatos
             // 
             this.BtnLimpiarDatos.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnLimpiarDatos.Location = new System.Drawing.Point(3, 66);
+            this.BtnLimpiarDatos.Location = new System.Drawing.Point(165, 147);
             this.BtnLimpiarDatos.Name = "BtnLimpiarDatos";
             this.BtnLimpiarDatos.Size = new System.Drawing.Size(93, 23);
             this.BtnLimpiarDatos.TabIndex = 14;
@@ -220,7 +220,7 @@ namespace FinalProgramacion
             // BtnCorregirNom
             // 
             this.BtnCorregirNom.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnCorregirNom.Location = new System.Drawing.Point(114, 115);
+            this.BtnCorregirNom.Location = new System.Drawing.Point(3, 115);
             this.BtnCorregirNom.Name = "BtnCorregirNom";
             this.BtnCorregirNom.Size = new System.Drawing.Size(75, 23);
             this.BtnCorregirNom.TabIndex = 15;
@@ -231,7 +231,7 @@ namespace FinalProgramacion
             // BtnCorregirAp
             // 
             this.BtnCorregirAp.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnCorregirAp.Location = new System.Drawing.Point(195, 115);
+            this.BtnCorregirAp.Location = new System.Drawing.Point(84, 115);
             this.BtnCorregirAp.Name = "BtnCorregirAp";
             this.BtnCorregirAp.Size = new System.Drawing.Size(75, 23);
             this.BtnCorregirAp.TabIndex = 16;
@@ -242,7 +242,7 @@ namespace FinalProgramacion
             // BtnCorregirDir
             // 
             this.BtnCorregirDir.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnCorregirDir.Location = new System.Drawing.Point(282, 115);
+            this.BtnCorregirDir.Location = new System.Drawing.Point(171, 115);
             this.BtnCorregirDir.Name = "BtnCorregirDir";
             this.BtnCorregirDir.Size = new System.Drawing.Size(75, 23);
             this.BtnCorregirDir.TabIndex = 17;
@@ -253,7 +253,7 @@ namespace FinalProgramacion
             // BtnCorregirDoc
             // 
             this.BtnCorregirDoc.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnCorregirDoc.Location = new System.Drawing.Point(366, 115);
+            this.BtnCorregirDoc.Location = new System.Drawing.Point(255, 115);
             this.BtnCorregirDoc.Name = "BtnCorregirDoc";
             this.BtnCorregirDoc.Size = new System.Drawing.Size(75, 23);
             this.BtnCorregirDoc.TabIndex = 18;
@@ -266,7 +266,7 @@ namespace FinalProgramacion
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightSkyBlue;
-            this.ClientSize = new System.Drawing.Size(747, 368);
+            this.ClientSize = new System.Drawing.Size(463, 368);
             this.Controls.Add(this.BtnCorregirDoc);
             this.Controls.Add(this.BtnCorregirDir);
             this.Controls.Add(this.BtnCorregirAp);

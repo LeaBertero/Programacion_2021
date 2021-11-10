@@ -15,8 +15,8 @@ namespace FinalProgramacion
         //Carga de nombres (arreglo de carga  de 5 personas)
         //string[] nombres;
         //int pos = 0;
-
-        public Persona[] Personas { get; set; }
+        public ListaPersonas Lista { get; set; } = new ListaPersonas();
+        //public Persona[] Personas { get; set; }
         //public int Pos = -1;
 
 
@@ -27,21 +27,21 @@ namespace FinalProgramacion
 
         private void BtnCargar_Click(object sender, EventArgs e)
         {
-            Persona Persona = new Persona();
-            Persona.Nombre = TxtNombre.Text;
+            //Persona Persona = new Persona();
+            //Persona.Nombre = TxtNombre.Text;
             TxtNombre.Focus();
             TxtNombre.SelectAll();
-            Persona.Apelllido = TxtApellido.Text;
+            //Persona.Apelllido = TxtApellido.Text;
             TxtApellido.Focus();
-            Redimensionar();
+            //Lista.Redimensionar();
             TxtApellido.SelectAll();
-            Persona.Dirección = TxtDirección.Text;
+            //Persona.Dirección = TxtDirección.Text;
             TxtApellido.Focus();
             TxtApellido.SelectAll();
-            Persona.Documento = Convert.ToInt32(TxtDocumento.Text);
+            //Persona.Documento = Convert.ToInt32(TxtDocumento.Text);
             TxtDocumento.Focus();
             TxtDocumento.SelectAll();
-            Personas[Personas.Length - 1] = Persona;
+            //Lista.Personas[Lista.Personas.Length - 1] = Persona;
 
         }
 
@@ -58,7 +58,7 @@ namespace FinalProgramacion
         {
 
             LblMostrarLista.Text = " ";
-            foreach (Persona item in Personas)
+            foreach (Persona item in Lista.Personas)
             {
                 LblMostrarLista.Text = LblMostrarLista.Text 
                     + item.Nombre + " - " 
@@ -106,27 +106,27 @@ namespace FinalProgramacion
         }
 
 
-        private void Redimensionar()
-        {
-            if (Personas == null)
-            {
+        //private void Redimensionar()
+        //{
+        //    if (Lista.Personas == null)
+        //    {
 
-                Personas = new Persona[1];
+        //        Lista.Personas = new Persona[1];
 
-            }
-            else
-            {
-                Persona[] ArregloAux = new Persona[Personas.Length +1];
-                for (int Contador = 0; Contador < Personas.Length; Contador++)
-                {
+        //    }
+        //    else
+        //    {
+        //        Persona[] ArregloAux = new Persona[Lista.Personas.Length + 1];
+        //        for (int Contador = 0; Contador < Lista.Personas.Length; Contador++)
+        //        {
 
-                    ArregloAux[Contador] = Personas[Contador];
+        //            ArregloAux[Contador] = Lista.Personas[Contador];
 
-                }
+        //        }
 
-                Personas = ArregloAux;
-            }
+        //        Lista.Personas = ArregloAux;
+        //    }
 
-        }
+        //}
     }
 }

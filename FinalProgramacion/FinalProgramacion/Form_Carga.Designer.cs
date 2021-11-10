@@ -107,7 +107,7 @@ namespace FinalProgramacion
             // LblMostrarLista
             // 
             this.LblMostrarLista.AutoSize = true;
-            this.LblMostrarLista.Location = new System.Drawing.Point(739, 54);
+            this.LblMostrarLista.Location = new System.Drawing.Point(557, 56);
             this.LblMostrarLista.Name = "LblMostrarLista";
             this.LblMostrarLista.Size = new System.Drawing.Size(29, 13);
             this.LblMostrarLista.TabIndex = 3;
@@ -115,7 +115,7 @@ namespace FinalProgramacion
             // 
             // BtnMostrarLista
             // 
-            this.BtnMostrarLista.Location = new System.Drawing.Point(732, 7);
+            this.BtnMostrarLista.Location = new System.Drawing.Point(550, 9);
             this.BtnMostrarLista.Name = "BtnMostrarLista";
             this.BtnMostrarLista.Size = new System.Drawing.Size(75, 44);
             this.BtnMostrarLista.TabIndex = 4;
@@ -125,7 +125,7 @@ namespace FinalProgramacion
             // 
             // BtnCerrar
             // 
-            this.BtnCerrar.Location = new System.Drawing.Point(732, 338);
+            this.BtnCerrar.Location = new System.Drawing.Point(3, 338);
             this.BtnCerrar.Name = "BtnCerrar";
             this.BtnCerrar.Size = new System.Drawing.Size(109, 29);
             this.BtnCerrar.TabIndex = 5;
@@ -245,7 +245,7 @@ namespace FinalProgramacion
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightGreen;
-            this.ClientSize = new System.Drawing.Size(837, 368);
+            this.ClientSize = new System.Drawing.Size(747, 368);
             this.Controls.Add(this.BtnCorregirDoc);
             this.Controls.Add(this.BtnCorregirDir);
             this.Controls.Add(this.BtnCorregirAp);

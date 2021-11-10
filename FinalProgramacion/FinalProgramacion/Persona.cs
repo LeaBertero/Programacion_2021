@@ -17,6 +17,9 @@ namespace FinalProgramacion
 
         public int Documento { get; set; }
 
+
+
+        
     }
 }
 

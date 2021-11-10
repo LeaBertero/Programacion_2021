@@ -20,11 +20,25 @@ namespace FinalProgramacion
             DT.Columns.Add("Apellido");
             DT.Columns.Add("Direccion");
             DT.Columns.Add("Documento");
+
+            LeerDTdeArchivos();
+
         }
 
+        public void LeerDTdeArchivos() 
+        {
+            if (System.IO.File.Exists("Lista.xml"))
+            {
+                DT.Clear();
+                DT.ReadXml("Lista.xml");
+
+            }
+        }
+
+
+
+
         public DataTable DT = new DataTable();
-
-
 
 
 

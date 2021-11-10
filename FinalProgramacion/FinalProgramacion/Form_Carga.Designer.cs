@@ -51,6 +51,7 @@ namespace FinalProgramacion
             this.BtnCorregirDir = new System.Windows.Forms.Button();
             this.BtnCorregirDoc = new System.Windows.Forms.Button();
             this.DG = new System.Windows.Forms.DataGridView();
+            this.label7 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.DG)).BeginInit();
             this.SuspendLayout();
             // 
@@ -135,12 +136,13 @@ namespace FinalProgramacion
             // 
             // BtnCerrar
             // 
+            this.BtnCerrar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnCerrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnCerrar.Location = new System.Drawing.Point(345, 7);
+            this.BtnCerrar.Location = new System.Drawing.Point(3, 350);
             this.BtnCerrar.Name = "BtnCerrar";
-            this.BtnCerrar.Size = new System.Drawing.Size(109, 29);
+            this.BtnCerrar.Size = new System.Drawing.Size(59, 29);
             this.BtnCerrar.TabIndex = 5;
-            this.BtnCerrar.Text = "Cerrar programa";
+            this.BtnCerrar.Text = "Salir";
             this.BtnCerrar.UseVisualStyleBackColor = true;
             this.BtnCerrar.Click += new System.EventHandler(this.BtnCerrar_Click);
             // 
@@ -266,10 +268,20 @@ namespace FinalProgramacion
             // DG
             // 
             this.DG.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.DG.Location = new System.Drawing.Point(172, 191);
+            this.DG.Location = new System.Drawing.Point(255, 220);
             this.DG.Name = "DG";
             this.DG.Size = new System.Drawing.Size(438, 150);
             this.DG.TabIndex = 19;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(321, 204);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(312, 13);
+            this.label7.TabIndex = 20;
+            this.label7.Text = "LA LISTA CARGADA SERÁ VISIBLE EN ESTA LISTA ";
             // 
             // BtnCodigo
             // 
@@ -277,6 +289,7 @@ namespace FinalProgramacion
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightSkyBlue;
             this.ClientSize = new System.Drawing.Size(746, 382);
+            this.Controls.Add(this.label7);
             this.Controls.Add(this.DG);
             this.Controls.Add(this.BtnCorregirDoc);
             this.Controls.Add(this.BtnCorregirDir);
@@ -331,6 +344,7 @@ namespace FinalProgramacion
         private System.Windows.Forms.Button BtnCorregirDir;
         private System.Windows.Forms.Button BtnCorregirDoc;
         private System.Windows.Forms.DataGridView DG;
+        private System.Windows.Forms.Label label7;
     }
 }
 

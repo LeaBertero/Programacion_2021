@@ -49,7 +49,7 @@ namespace MovimientoLabel
 
             for (int i = x; i < 1330; i++)
             {
-                
+
                 LblBlanco.Left = x;
 
                 LblBlanco.Visible = true;

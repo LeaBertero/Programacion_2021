@@ -25,8 +25,8 @@ namespace MovimientoLabel
             for (int i = 377; i < 680; i++)
             {
                 LblMovRojo.Left = i;
-                this.Refresh();
                 LblMovRojo.Visible = true;
+                this.Refresh();
             }
 
         }
@@ -38,10 +38,10 @@ namespace MovimientoLabel
             {
                 LblAzul.Top = i;
                 this.Refresh();
-                //LblRojo.Visible = true;
-                
             }
         }
+               
+                
 
         private void button1_Click_1(object sender, EventArgs e)
         {
@@ -49,6 +49,7 @@ namespace MovimientoLabel
 
             for (int i = x; i < 1330; i++)
             {
+                
                 LblBlanco.Left = x;
 
                 LblBlanco.Visible = true;
@@ -66,8 +67,8 @@ namespace MovimientoLabel
             for (int i = 350; i < 725; i++)
             {
                 LblAmarillo.Left = i;
-                this.Refresh();
                 LblAmarillo.Visible = true;
+                this.Refresh();
             }
         }
     }

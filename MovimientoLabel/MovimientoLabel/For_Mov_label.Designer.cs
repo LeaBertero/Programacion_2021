@@ -99,7 +99,7 @@ namespace MovimientoLabel
             this.BtnMovBlanco.BackColor = System.Drawing.Color.GhostWhite;
             this.BtnMovBlanco.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnMovBlanco.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnMovBlanco.Location = new System.Drawing.Point(19, 446);
+            this.BtnMovBlanco.Location = new System.Drawing.Point(16, 495);
             this.BtnMovBlanco.Name = "BtnMovBlanco";
             this.BtnMovBlanco.Size = new System.Drawing.Size(134, 42);
             this.BtnMovBlanco.TabIndex = 4;
@@ -123,9 +123,9 @@ namespace MovimientoLabel
             // TxtX
             // 
             this.TxtX.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtX.Location = new System.Drawing.Point(227, 457);
+            this.TxtX.Location = new System.Drawing.Point(16, 466);
             this.TxtX.Name = "TxtX";
-            this.TxtX.Size = new System.Drawing.Size(100, 22);
+            this.TxtX.Size = new System.Drawing.Size(134, 22);
             this.TxtX.TabIndex = 6;
             // 
             // label1
@@ -198,7 +198,7 @@ namespace MovimientoLabel
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Sitka Small", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(5, 502);
+            this.label4.Location = new System.Drawing.Point(5, 556);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(1124, 24);
             this.label4.TabIndex = 14;
@@ -211,8 +211,7 @@ namespace MovimientoLabel
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.PowderBlue;
-            this.ClientSize = new System.Drawing.Size(1225, 554);
-            this.Controls.Add(this.LblMovRojo);
+            this.ClientSize = new System.Drawing.Size(1225, 589);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.BtnSalir);
@@ -225,6 +224,7 @@ namespace MovimientoLabel
             this.Controls.Add(this.BtnRojoMov);
             this.Controls.Add(this.BtnMovRojo);
             this.Controls.Add(this.label2);
+            this.Controls.Add(this.LblMovRojo);
             this.Controls.Add(this.LblAmarillo);
             this.Name = "For_Mov_label";
             this.Text = "Prueba movimiento label";

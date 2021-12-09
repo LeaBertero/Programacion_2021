@@ -31,7 +31,7 @@ namespace MovimientoLabel
         {
             this.BtnMovRojo = new System.Windows.Forms.Button();
             this.LblMovRojo = new System.Windows.Forms.Label();
-            this.LblRojo = new System.Windows.Forms.Label();
+            this.LblAzul = new System.Windows.Forms.Label();
             this.BtnRojoMov = new System.Windows.Forms.Button();
             this.BtnMovBlanco = new System.Windows.Forms.Button();
             this.LblBlanco = new System.Windows.Forms.Label();
@@ -70,15 +70,14 @@ namespace MovimientoLabel
             this.LblMovRojo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.LblMovRojo.Visible = false;
             // 
-            // LblRojo
+            // LblAzul
             // 
-            this.LblRojo.BackColor = System.Drawing.Color.Blue;
-            this.LblRojo.Location = new System.Drawing.Point(278, 0);
-            this.LblRojo.Name = "LblRojo";
-            this.LblRojo.Size = new System.Drawing.Size(61, 108);
-            this.LblRojo.TabIndex = 3;
-            this.LblRojo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.LblRojo.Visible = false;
+            this.LblAzul.BackColor = System.Drawing.Color.Blue;
+            this.LblAzul.Location = new System.Drawing.Point(278, 0);
+            this.LblAzul.Name = "LblAzul";
+            this.LblAzul.Size = new System.Drawing.Size(61, 108);
+            this.LblAzul.TabIndex = 3;
+            this.LblAzul.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // BtnRojoMov
             // 
@@ -217,7 +216,7 @@ namespace MovimientoLabel
             this.Controls.Add(this.BtnSalir);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.LblBlanco);
-            this.Controls.Add(this.LblRojo);
+            this.Controls.Add(this.LblAzul);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.TxtX);
             this.Controls.Add(this.BtnMovBlanco);
@@ -237,7 +236,7 @@ namespace MovimientoLabel
 
         private System.Windows.Forms.Button BtnMovRojo;
         private System.Windows.Forms.Label LblMovRojo;
-        private System.Windows.Forms.Label LblRojo;
+        private System.Windows.Forms.Label LblAzul;
         private System.Windows.Forms.Button BtnRojoMov;
         private System.Windows.Forms.Button BtnMovBlanco;
         private System.Windows.Forms.Label LblBlanco;

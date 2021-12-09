@@ -36,9 +36,9 @@ namespace MovimientoLabel
 
             for (int i = 0; i < 248; i++)
             {
-                LblRojo.Top = i;
+                LblAzul.Top = i;
                 this.Refresh();
-                LblRojo.Visible = true;
+                //LblRojo.Visible = true;
                 
             }
         }

@@ -55,7 +55,7 @@ namespace Prueba_Try_catch
             this.TxtNum1.Name = "TxtNum1";
             this.TxtNum1.Size = new System.Drawing.Size(100, 32);
             this.TxtNum1.TabIndex = 1;
-            this.TxtNum1.TextChanged += new System.EventHandler(this.TxtNum1_TextChanged);
+           
             // 
             // BtnEjecutar
             // 

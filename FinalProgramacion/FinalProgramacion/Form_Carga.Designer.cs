@@ -93,7 +93,7 @@ namespace FinalProgramacion
             this.BtnDimensionar.TabIndex = 0;
             this.BtnDimensionar.Text = "Dimension";
             this.BtnDimensionar.UseVisualStyleBackColor = true;
-            this.BtnDimensionar.Click += new System.EventHandler(this.BtnDimensionar_Click);
+
             // 
             // label2
             // 

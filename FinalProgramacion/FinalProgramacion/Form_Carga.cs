@@ -39,14 +39,10 @@ namespace FinalProgramacion
             Lista.AddPersona(TxtNombre.Text, TxtApellido.Text, TxtDirección.Text, TxtDocumento.Text);
            
         }
-        private void BtnDimensionar_Click(object sender, EventArgs e)
-        {
-            //int cant = Convert.ToInt32(TxtIngreso.Text);
-            //nombres = new string[cant];
-        }
-            
-            
-            
+        
+
+
+
         private void BtnMostrarLista_Click(object sender, EventArgs e)
         {
 
@@ -119,6 +115,6 @@ namespace FinalProgramacion
 
         }
 
-       
+        
     }
 }

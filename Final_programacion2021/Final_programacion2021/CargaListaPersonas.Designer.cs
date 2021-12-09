@@ -1,7 +1,7 @@
 ﻿
 namespace Final_programacion2021
 {
-    partial class Form1
+    partial class CargaListaPersonas
     {
         /// <summary>
         /// Variable del diseñador necesaria.

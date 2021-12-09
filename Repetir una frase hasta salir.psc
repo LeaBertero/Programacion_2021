@@ -8,16 +8,18 @@ Proceso sin_titulo
 		
 		escribir "Ingresar una frase";
 		leer frase;
+		escribir "Presione una tecla para ver la frase en minuscula y mayuscula";
 		escribir "";
-		escribir "La frase ingresada es";
+		escribir "La frase esta en minuscula";
+		escribir "La frase ingresada es:  - ", frase;
 		escribir "";
+		escribir "La frase ahora, esta en mayusculas";
 		frase <- Mayusculas(frase);
 		escribir frase;
+		escribir "Presione una tecla para iniciar el deletro y verificar la cantidad de letras de la frase...";
 		esperar Tecla;
 		
-		escribir "Presione una tecla para comenzar el deletro de la frase ingresada";
 		
-		Esperar Tecla;
 		Limpiar Pantalla;
 		
 		escribir Longitud(frase);
@@ -34,5 +36,7 @@ Proceso sin_titulo
 		Limpiar Pantalla;
 		
 	Hasta Que opc = 9;
+	
+	escribir "Ha salido del programa, que tenga buenos dias !";
 	
 FinProceso

@@ -152,9 +152,9 @@ namespace MovimientoLabel
             this.label3.Font = new System.Drawing.Font("Sitka Small", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(353, 9);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(569, 24);
+            this.label3.Size = new System.Drawing.Size(549, 24);
             this.label3.TabIndex = 9;
-            this.label3.Text = "Arranque los botones, rojo y amarillo para formar una bandera ...";
+            this.label3.Text = "Clickeé los botones, rojo y amarillo para formar una bandera ...";
             // 
             // BtnSalir
             // 

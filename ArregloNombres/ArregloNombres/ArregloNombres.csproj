@@ -46,16 +46,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FrmArreglo_Al.cs">
+    <Compile Include="Form_Arreg_List_Pers.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmArreglo_Al.Designer.cs">
-      <DependentUpon>FrmArreglo_Al.cs</DependentUpon>
+    <Compile Include="Form_Arreg_List_Pers.Designer.cs">
+      <DependentUpon>Form_Arreg_List_Pers.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="FrmArreglo_Al.resx">
-      <DependentUpon>FrmArreglo_Al.cs</DependentUpon>
+    <EmbeddedResource Include="Form_Arreg_List_Pers.resx">
+      <DependentUpon>Form_Arreg_List_Pers.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

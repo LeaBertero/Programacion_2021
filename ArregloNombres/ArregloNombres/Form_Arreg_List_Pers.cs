@@ -10,16 +10,17 @@ using System.Windows.Forms;
 
 namespace ArregloNombres
 {
-    public partial class FrmArreglo_Al : Form
+    public partial class Form_Arreg_List_Pers : Form
     {
         //Variable publica  - se ve en todo el programa
-        string[] Lista = new string[5];
-        int posicion = 0;
+
+        string[] Lista = new string[3];
+        int PosPers = 0;
         
 
 
         //Constructor del formulario
-        public FrmArreglo_Al()
+        public Form_Arreg_List_Pers()
         {
             InitializeComponent();
         }
@@ -31,12 +32,25 @@ namespace ArregloNombres
 
         private void BtnCargar_Click(object sender, EventArgs e)
         {
-            Lista[posicion] = TxtCargar.Text;
-            posicion = posicion + 1;
-            LblLista.Text = LblLista.Text + TxtCargar.Text + "\r\n";
+            Lista[PosPers] = TxtCargar.Text;
+            PosPers = PosPers + 1;
+
+            //LblLista.Text = LblLista.Text + TxtCargar.Text + "\r\n";
+            
             TxtCargar.Text = "";
             TxtCargar.Focus();
 
+        }
+
+        private void BtnListar_Click(object sender, EventArgs e)
+        {
+
+            for (int MostrarLista = 0; MostrarLista < 3; MostrarLista++)
+            {
+                LblLista.Text = LblLista.Text + Lista[MostrarLista] + "\r\n";
+                
+            }
+           
         }
     }
 }

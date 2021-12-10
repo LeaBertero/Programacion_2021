@@ -28,8 +28,8 @@ namespace Juego_atrape_el_ratón
             switch (TxtSigno.Text)
             {
                 case "+":
-                    numero1 = System.Convert.ToInt32(TxtOper1.Text);
-                    numero2 = System.Convert.ToInt32(TxtOper2.Text);
+                    numero1 = System.Convert.ToDecimal(TxtOper1.Text);
+                    numero2 = System.Convert.ToDecimal(TxtOper2.Text);
 
                     resultado = numero1 + numero2;
 
@@ -39,8 +39,8 @@ namespace Juego_atrape_el_ratón
 
                 case "-":
 
-                    numero1 = System.Convert.ToInt32(TxtOper1.Text);
-                    numero2 = System.Convert.ToInt32(TxtOper2.Text);
+                    numero1 = System.Convert.ToDecimal(TxtOper1.Text);
+                    numero2 = System.Convert.ToDecimal(TxtOper2.Text);
 
                     resultado = numero1 - numero2;
 
@@ -49,8 +49,8 @@ namespace Juego_atrape_el_ratón
                     break;
 
                 case "*":
-                    numero1 = System.Convert.ToInt32(TxtOper1.Text);
-                    numero2 = System.Convert.ToInt32(TxtOper2.Text);
+                    numero1 = System.Convert.ToDecimal(TxtOper1.Text);
+                    numero2 = System.Convert.ToDecimal(TxtOper2.Text);
 
                     resultado = numero1 * numero2;
 
@@ -59,8 +59,8 @@ namespace Juego_atrape_el_ratón
                     break;
 
                 case "/":
-                    numero1 = System.Convert.ToInt32(TxtOper1.Text);
-                    numero2 = System.Convert.ToInt32(TxtOper2.Text);
+                    numero1 = System.Convert.ToDecimal(TxtOper1.Text);
+                    numero2 = System.Convert.ToDecimal(TxtOper2.Text);
 
                     resultado = numero1 / numero2;
 
@@ -73,10 +73,8 @@ namespace Juego_atrape_el_ratón
                     LblRes.Text = "Operación no valida, debe ingresar los datos correctos";
                     break;
 
-
             }
         }
-
         private void BtnCerrar_Click(object sender, EventArgs e)
         {
             Close();
@@ -87,12 +85,10 @@ namespace Juego_atrape_el_ratón
             Form for_mov = new For_Mov();
             for_mov.ShowDialog();
         }
-
         private void BtnCerrar_Click_1(object sender, EventArgs e)
         {
             Close();
         }
-
         public void BtnNewForm_Click_1(object sender, EventArgs e)
         {
             For_Mov formNaranja = new For_Mov();
@@ -100,3 +96,8 @@ namespace Juego_atrape_el_ratón
         }
     }
 }
+
+
+
+
+

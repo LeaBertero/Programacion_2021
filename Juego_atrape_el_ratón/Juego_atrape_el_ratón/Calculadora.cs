@@ -69,12 +69,13 @@ namespace Juego_atrape_el_ratón
                     break;
 
                 default:
-
+               
                     LblRes.Text = "Operación no valida, ingrese correctamente los datos";
                     break;
-
             }
         }
+
+
         private void BtnCerrar_Click(object sender, EventArgs e)
         {
             Close();

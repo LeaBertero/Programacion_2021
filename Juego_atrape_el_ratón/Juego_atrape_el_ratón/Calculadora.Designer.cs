@@ -109,7 +109,7 @@ namespace Juego_atrape_el_ratón
             this.BtnCerrar.TabIndex = 5;
             this.BtnCerrar.Text = "Cerrar";
             this.BtnCerrar.UseVisualStyleBackColor = false;
-
+            this.BtnCerrar.Click += new System.EventHandler(this.BtnCerrar_Click_1);
             // 
             // label1
             // 
@@ -170,7 +170,7 @@ namespace Juego_atrape_el_ratón
             this.BtnNewForm.TabIndex = 10;
             this.BtnNewForm.Text = "Formulario siguiente";
             this.BtnNewForm.UseVisualStyleBackColor = false;
-
+            this.BtnNewForm.Click += new System.EventHandler(this.BtnNewForm_Click_1);
             // 
             // FrmCalculadora
             // 

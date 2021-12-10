@@ -45,9 +45,9 @@ namespace Juego_atrape_el_ratón
             this.Btn_Ejecutar.FlatAppearance.BorderColor = System.Drawing.Color.Red;
             this.Btn_Ejecutar.Font = new System.Drawing.Font("MV Boli", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Btn_Ejecutar.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.Btn_Ejecutar.Location = new System.Drawing.Point(748, 303);
+            this.Btn_Ejecutar.Location = new System.Drawing.Point(767, 294);
             this.Btn_Ejecutar.Name = "Btn_Ejecutar";
-            this.Btn_Ejecutar.Size = new System.Drawing.Size(194, 47);
+            this.Btn_Ejecutar.Size = new System.Drawing.Size(175, 47);
             this.Btn_Ejecutar.TabIndex = 0;
             this.Btn_Ejecutar.Text = "Ejecutar controles";
             this.Btn_Ejecutar.UseVisualStyleBackColor = false;
@@ -106,11 +106,11 @@ namespace Juego_atrape_el_ratón
             this.Btn_Aparecer_boton.FlatAppearance.BorderColor = System.Drawing.Color.Red;
             this.Btn_Aparecer_boton.Font = new System.Drawing.Font("MV Boli", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Btn_Aparecer_boton.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.Btn_Aparecer_boton.Location = new System.Drawing.Point(690, -1);
+            this.Btn_Aparecer_boton.Location = new System.Drawing.Point(767, 2);
             this.Btn_Aparecer_boton.Name = "Btn_Aparecer_boton";
-            this.Btn_Aparecer_boton.Size = new System.Drawing.Size(252, 47);
+            this.Btn_Aparecer_boton.Size = new System.Drawing.Size(175, 69);
             this.Btn_Aparecer_boton.TabIndex = 5;
-            this.Btn_Aparecer_boton.Text = "Salir del programa";
+            this.Btn_Aparecer_boton.Text = "Aparecer Botón Salir";
             this.Btn_Aparecer_boton.UseVisualStyleBackColor = false;
             this.Btn_Aparecer_boton.Click += new System.EventHandler(this.Btn_Aparecer_boton_Click);
             // 

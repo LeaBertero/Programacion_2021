@@ -45,12 +45,15 @@ namespace ArregloNombres
         private void BtnListar_Click(object sender, EventArgs e)
         {
 
-            for (int MostrarLista = 0; MostrarLista < 3; MostrarLista++)
+            //MostraLista = cantidad de personas ingresadas que se van a mostrar en la lista
+            for (int MostrarLista = 0; MostrarLista < 5; MostrarLista++)
             {
                 LblLista.Text = LblLista.Text + Lista[MostrarLista] + "\r\n";
                 
             }
            
         }
+
+       
     }
 }

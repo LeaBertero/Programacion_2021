@@ -14,8 +14,8 @@ namespace ArregloNombres
     {
         //Variable publica  - se ve en todo el programa
 
-        string[] Lista = new string[3];
-        int PosPers = 0;
+        string[] Lista = new string[5];
+        int Posicion = 0;
         
 
 
@@ -32,8 +32,8 @@ namespace ArregloNombres
 
         private void BtnCargar_Click(object sender, EventArgs e)
         {
-            Lista[PosPers] = TxtCargar.Text;
-            PosPers = PosPers + 1;
+            Lista[Posicion] = TxtCargar.Text;
+            Posicion = Posicion + 1;
 
             //LblLista.Text = LblLista.Text + TxtCargar.Text + "\r\n";
             

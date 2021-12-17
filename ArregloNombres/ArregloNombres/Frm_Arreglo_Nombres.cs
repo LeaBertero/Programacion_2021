@@ -59,6 +59,7 @@ namespace ArregloNombres
         private void BtnDimensionar_Click(object sender, EventArgs e)
         {
             Lista = new string[System.Convert.ToInt32(TxtDimensionar.Text)];
+            Posicion = 0;
             BtnCargar.Enabled = true;
             BtnListar.Enabled = true;
         }

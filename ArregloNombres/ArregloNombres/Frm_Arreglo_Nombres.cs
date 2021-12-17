@@ -63,5 +63,11 @@ namespace ArregloNombres
             BtnCargar.Enabled = true;
             BtnListar.Enabled = true;
         }
+
+        private void BtnNuevo_Click(object sender, EventArgs e)
+        {
+            Lista_productos nuevoform = new Lista_productos();
+            nuevoform.ShowDialog();
+        }
     }
 }

@@ -39,6 +39,8 @@ namespace ArregloNombres
             this.TxtDimensionar = new System.Windows.Forms.TextBox();
             this.BtnDimensionar = new System.Windows.Forms.Button();
             this.LbListaPers = new System.Windows.Forms.Label();
+            this.BtnNuevo = new System.Windows.Forms.Button();
+            this.label4 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // BtnCerrar
@@ -132,6 +134,26 @@ namespace ArregloNombres
             this.LbListaPers.Size = new System.Drawing.Size(0, 13);
             this.LbListaPers.TabIndex = 11;
             // 
+            // BtnNuevo
+            // 
+            this.BtnNuevo.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BtnNuevo.Location = new System.Drawing.Point(432, 204);
+            this.BtnNuevo.Name = "BtnNuevo";
+            this.BtnNuevo.Size = new System.Drawing.Size(125, 46);
+            this.BtnNuevo.TabIndex = 12;
+            this.BtnNuevo.Text = "Programa - Lista de Productos";
+            this.BtnNuevo.UseVisualStyleBackColor = true;
+            this.BtnNuevo.Click += new System.EventHandler(this.BtnNuevo_Click);
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(418, 170);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(148, 13);
+            this.label4.TabIndex = 13;
+            this.label4.Text = "Programa Carga de productos";
+            // 
             // Frm_Arreglo_Nombres
             // 
             this.AcceptButton = this.BtnCargar;
@@ -139,6 +161,8 @@ namespace ArregloNombres
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.YellowGreen;
             this.ClientSize = new System.Drawing.Size(569, 309);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.BtnNuevo);
             this.Controls.Add(this.LbListaPers);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.TxtDimensionar);
@@ -168,5 +192,7 @@ namespace ArregloNombres
         private System.Windows.Forms.TextBox TxtDimensionar;
         private System.Windows.Forms.Button BtnDimensionar;
         private System.Windows.Forms.Label LbListaPers;
+        private System.Windows.Forms.Button BtnNuevo;
+        private System.Windows.Forms.Label label4;
     }
 }

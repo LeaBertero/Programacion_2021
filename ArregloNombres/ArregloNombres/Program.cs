@@ -16,7 +16,7 @@ namespace ArregloNombres
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form_Arreg_List_Pers ());
+            Application.Run(new Frm_Arreglo_Nombres ());
         }
     }
 }

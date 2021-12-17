@@ -1,7 +1,7 @@
 ﻿
 namespace ArregloNombres
 {
-    partial class Form_Arreg_List_Pers
+    partial class Frm_Arreglo_Nombres
     {
         /// <summary>
         /// Required designer variable.
@@ -32,16 +32,19 @@ namespace ArregloNombres
             this.BtnCerrar = new System.Windows.Forms.Button();
             this.BtnCargar = new System.Windows.Forms.Button();
             this.TxtCargar = new System.Windows.Forms.TextBox();
-            this.LblLista = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
+            this.Label1 = new System.Windows.Forms.Label();
             this.BtnListar = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.TxtDimensionar = new System.Windows.Forms.TextBox();
+            this.BtnDimensionar = new System.Windows.Forms.Button();
+            this.LbListaPers = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // BtnCerrar
             // 
             this.BtnCerrar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.BtnCerrar.Location = new System.Drawing.Point(386, 166);
+            this.BtnCerrar.Location = new System.Drawing.Point(482, 16);
             this.BtnCerrar.Name = "BtnCerrar";
             this.BtnCerrar.Size = new System.Drawing.Size(75, 23);
             this.BtnCerrar.TabIndex = 0;
@@ -51,7 +54,7 @@ namespace ArregloNombres
             // 
             // BtnCargar
             // 
-            this.BtnCargar.Location = new System.Drawing.Point(128, 37);
+            this.BtnCargar.Location = new System.Drawing.Point(126, 121);
             this.BtnCargar.Name = "BtnCargar";
             this.BtnCargar.Size = new System.Drawing.Size(75, 23);
             this.BtnCargar.TabIndex = 1;
@@ -61,34 +64,26 @@ namespace ArregloNombres
             // 
             // TxtCargar
             // 
-            this.TxtCargar.Location = new System.Drawing.Point(12, 37);
+            this.TxtCargar.Location = new System.Drawing.Point(10, 121);
             this.TxtCargar.Name = "TxtCargar";
             this.TxtCargar.Size = new System.Drawing.Size(100, 20);
             this.TxtCargar.TabIndex = 2;
             // 
-            // LblLista
+            // Label1
             // 
-            this.LblLista.AutoSize = true;
-            this.LblLista.Location = new System.Drawing.Point(297, 99);
-            this.LblLista.Name = "LblLista";
-            this.LblLista.Size = new System.Drawing.Size(0, 13);
-            this.LblLista.TabIndex = 3;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(227, 86);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(91, 13);
-            this.label1.TabIndex = 4;
-            this.label1.Text = "Lista de Personas";
+            this.Label1.AutoSize = true;
+            this.Label1.Location = new System.Drawing.Point(7, 165);
+            this.Label1.Name = "Label1";
+            this.Label1.Size = new System.Drawing.Size(91, 13);
+            this.Label1.TabIndex = 4;
+            this.Label1.Text = "Lista de Personas";
             // 
             // BtnListar
             // 
             this.BtnListar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.BtnListar.Location = new System.Drawing.Point(230, 29);
+            this.BtnListar.Location = new System.Drawing.Point(126, 160);
             this.BtnListar.Name = "BtnListar";
-            this.BtnListar.Size = new System.Drawing.Size(88, 33);
+            this.BtnListar.Size = new System.Drawing.Size(75, 23);
             this.BtnListar.TabIndex = 6;
             this.BtnListar.Text = "Mostrar Lista";
             this.BtnListar.UseVisualStyleBackColor = true;
@@ -97,27 +92,64 @@ namespace ArregloNombres
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(16, 16);
+            this.label2.Location = new System.Drawing.Point(14, 100);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(178, 13);
             this.label2.TabIndex = 7;
             this.label2.Text = "Cargue aquí una lista de 5 personas";
             // 
-            // Form_Arreg_List_Pers
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(14, 15);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(65, 13);
+            this.label3.TabIndex = 10;
+            this.label3.Text = "Dimensionar";
+            // 
+            // TxtDimensionar
+            // 
+            this.TxtDimensionar.Location = new System.Drawing.Point(10, 36);
+            this.TxtDimensionar.Name = "TxtDimensionar";
+            this.TxtDimensionar.Size = new System.Drawing.Size(100, 20);
+            this.TxtDimensionar.TabIndex = 9;
+            // 
+            // BtnDimensionar
+            // 
+            this.BtnDimensionar.Location = new System.Drawing.Point(126, 36);
+            this.BtnDimensionar.Name = "BtnDimensionar";
+            this.BtnDimensionar.Size = new System.Drawing.Size(75, 23);
+            this.BtnDimensionar.TabIndex = 8;
+            this.BtnDimensionar.Text = "Dimensionar";
+            this.BtnDimensionar.UseVisualStyleBackColor = true;
+            this.BtnDimensionar.Click += new System.EventHandler(this.BtnDimensionar_Click);
+            // 
+            // LbListaPers
+            // 
+            this.LbListaPers.AutoSize = true;
+            this.LbListaPers.Location = new System.Drawing.Point(7, 192);
+            this.LbListaPers.Name = "LbListaPers";
+            this.LbListaPers.Size = new System.Drawing.Size(0, 13);
+            this.LbListaPers.TabIndex = 11;
+            // 
+            // Frm_Arreglo_Nombres
             // 
             this.AcceptButton = this.BtnCargar;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.YellowGreen;
-            this.ClientSize = new System.Drawing.Size(463, 192);
+            this.ClientSize = new System.Drawing.Size(569, 309);
+            this.Controls.Add(this.LbListaPers);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.TxtDimensionar);
+            this.Controls.Add(this.BtnDimensionar);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.BtnListar);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.LblLista);
+            this.Controls.Add(this.Label1);
             this.Controls.Add(this.TxtCargar);
             this.Controls.Add(this.BtnCargar);
             this.Controls.Add(this.BtnCerrar);
-            this.Name = "Form_Arreg_List_Pers";
+            this.Name = "Frm_Arreglo_Nombres";
             this.Text = "FrmArreglo_Al";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -129,9 +161,12 @@ namespace ArregloNombres
         private System.Windows.Forms.Button BtnCerrar;
         private System.Windows.Forms.Button BtnCargar;
         private System.Windows.Forms.TextBox TxtCargar;
-        private System.Windows.Forms.Label LblLista;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label Label1;
         private System.Windows.Forms.Button BtnListar;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox TxtDimensionar;
+        private System.Windows.Forms.Button BtnDimensionar;
+        private System.Windows.Forms.Label LbListaPers;
     }
 }

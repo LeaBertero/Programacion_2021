@@ -10,19 +10,21 @@ using System.Windows.Forms;
 
 namespace ArregloNombres
 {
-    public partial class Form_Arreg_List_Pers : Form
+    public partial class Frm_Arreglo_Nombres : Form
     {
         //Variable publica  - se ve en todo el programa
 
-        string[] Lista = new string[5];
+        string[] Lista;
         int Posicion = 0;
         
 
 
         //Constructor del formulario
-        public Form_Arreg_List_Pers()
+        public Frm_Arreglo_Nombres()
         {
             InitializeComponent();
+            BtnCargar.Enabled = false;
+            BtnListar.Enabled = false;
         }
 
         private void BtnCerrar_Click(object sender, EventArgs e)
@@ -46,14 +48,19 @@ namespace ArregloNombres
         {
 
             //MostraLista = cantidad de personas ingresadas que se van a mostrar en la lista
-            for (int MostrarLista = 0; MostrarLista < 5; MostrarLista++)
+            for (int MostrarLista = 0; MostrarLista < Lista.Length; MostrarLista ++)
             {
-                LblLista.Text = LblLista.Text + Lista[MostrarLista] + "\r\n";
+                LbListaPers.Text = LbListaPers.Text + Lista[MostrarLista] + "\r\n";
                 
             }
            
         }
 
-       
+        private void BtnDimensionar_Click(object sender, EventArgs e)
+        {
+            Lista = new string[System.Convert.ToInt32(TxtDimensionar.Text)];
+            BtnCargar.Enabled = true;
+            BtnListar.Enabled = true;
+        }
     }
 }

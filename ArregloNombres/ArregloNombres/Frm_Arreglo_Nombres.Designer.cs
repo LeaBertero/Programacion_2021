@@ -188,7 +188,7 @@ namespace ArregloNombres
             this.Controls.Add(this.BtnCerrar);
             this.Name = "Frm_Arreglo_Nombres";
             this.Text = "FrmArreglo_Al";
-            this.Load += new System.EventHandler(this.Frm_Arreglo_Nombres_Load);
+            
             this.ResumeLayout(false);
             this.PerformLayout();
 

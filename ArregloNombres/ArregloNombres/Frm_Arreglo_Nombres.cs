@@ -86,9 +86,6 @@ namespace ArregloNombres
             nuevoform.Show();
         }
 
-        private void Frm_Arreglo_Nombres_Load(object sender, EventArgs e)
-        {
-
-        }
+       
     }
 }

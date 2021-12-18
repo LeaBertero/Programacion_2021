@@ -59,6 +59,7 @@ namespace ArregloNombres
             this.BtnListar.TabIndex = 1;
             this.BtnListar.Text = "Mostrar Lista";
             this.BtnListar.UseVisualStyleBackColor = true;
+            this.BtnListar.Click += new System.EventHandler(this.BtnListar_Click);
             // 
             // TxtPrecio
             // 
@@ -129,6 +130,7 @@ namespace ArregloNombres
             // 
             // Lista_productos
             // 
+            this.AcceptButton = this.BtAceptar;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightCoral;

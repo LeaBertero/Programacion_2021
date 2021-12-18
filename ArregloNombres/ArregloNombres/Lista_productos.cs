@@ -20,6 +20,7 @@ namespace ArregloNombres
         public Lista_productos()
         {
             InitializeComponent();
+            
         }
 
         private void BtAceptar_Click(object sender, EventArgs e)
@@ -50,6 +51,17 @@ namespace ArregloNombres
         {
             Lista_productos primerForm = new Lista_productos();
             primerForm.Show();
+        }
+
+        private void BtnListar_Click(object sender, EventArgs e)
+        {
+            for (int contador = 0; contador < Producto.Length; contador++)
+            {
+                LblListaPrecio.Text = LblListaPrecio.Text 
+                    + Producto[contador, 0] + " - " 
+                    + Producto[contador, 1] + " - " 
+                    + System.Convert.ToString(Precio[contador]);
+            }
         }
     }
 }

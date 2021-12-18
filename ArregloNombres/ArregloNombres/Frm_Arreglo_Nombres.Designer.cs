@@ -32,7 +32,6 @@ namespace ArregloNombres
             this.BtnCerrar = new System.Windows.Forms.Button();
             this.BtnCargar = new System.Windows.Forms.Button();
             this.TxtCargar = new System.Windows.Forms.TextBox();
-            this.Label1 = new System.Windows.Forms.Label();
             this.BtnListar = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -42,6 +41,7 @@ namespace ArregloNombres
             this.BtnNewProgram = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.BtnNuevo = new System.Windows.Forms.Button();
+            this.LblError = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // BtnCerrar
@@ -71,15 +71,6 @@ namespace ArregloNombres
             this.TxtCargar.Name = "TxtCargar";
             this.TxtCargar.Size = new System.Drawing.Size(100, 20);
             this.TxtCargar.TabIndex = 2;
-            // 
-            // Label1
-            // 
-            this.Label1.AutoSize = true;
-            this.Label1.Location = new System.Drawing.Point(7, 165);
-            this.Label1.Name = "Label1";
-            this.Label1.Size = new System.Drawing.Size(91, 13);
-            this.Label1.TabIndex = 4;
-            this.Label1.Text = "Lista de Personas";
             // 
             // BtnListar
             // 
@@ -130,7 +121,7 @@ namespace ArregloNombres
             // LbListaPers
             // 
             this.LbListaPers.AutoSize = true;
-            this.LbListaPers.Location = new System.Drawing.Point(7, 192);
+            this.LbListaPers.Location = new System.Drawing.Point(239, 15);
             this.LbListaPers.Name = "LbListaPers";
             this.LbListaPers.Size = new System.Drawing.Size(0, 13);
             this.LbListaPers.TabIndex = 11;
@@ -158,13 +149,22 @@ namespace ArregloNombres
             // BtnNuevo
             // 
             this.BtnNuevo.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.BtnNuevo.Location = new System.Drawing.Point(17, 251);
+            this.BtnNuevo.Location = new System.Drawing.Point(10, 261);
             this.BtnNuevo.Name = "BtnNuevo";
             this.BtnNuevo.Size = new System.Drawing.Size(125, 46);
             this.BtnNuevo.TabIndex = 14;
             this.BtnNuevo.Text = "Nuevo Programa (Arreglos)";
             this.BtnNuevo.UseVisualStyleBackColor = true;
             this.BtnNuevo.Click += new System.EventHandler(this.BtnNuevo_Click);
+            // 
+            // LblError
+            // 
+            this.LblError.AutoSize = true;
+            this.LblError.Font = new System.Drawing.Font("MV Boli", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblError.Location = new System.Drawing.Point(14, 160);
+            this.LblError.Name = "LblError";
+            this.LblError.Size = new System.Drawing.Size(0, 17);
+            this.LblError.TabIndex = 15;
             // 
             // Frm_Arreglo_Nombres
             // 
@@ -173,6 +173,7 @@ namespace ArregloNombres
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.YellowGreen;
             this.ClientSize = new System.Drawing.Size(569, 309);
+            this.Controls.Add(this.LblError);
             this.Controls.Add(this.BtnNuevo);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.BtnNewProgram);
@@ -182,12 +183,12 @@ namespace ArregloNombres
             this.Controls.Add(this.BtnDimensionar);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.BtnListar);
-            this.Controls.Add(this.Label1);
             this.Controls.Add(this.TxtCargar);
             this.Controls.Add(this.BtnCargar);
             this.Controls.Add(this.BtnCerrar);
             this.Name = "Frm_Arreglo_Nombres";
             this.Text = "FrmArreglo_Al";
+            this.Load += new System.EventHandler(this.Frm_Arreglo_Nombres_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -198,7 +199,6 @@ namespace ArregloNombres
         private System.Windows.Forms.Button BtnCerrar;
         private System.Windows.Forms.Button BtnCargar;
         private System.Windows.Forms.TextBox TxtCargar;
-        private System.Windows.Forms.Label Label1;
         private System.Windows.Forms.Button BtnListar;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
@@ -208,5 +208,6 @@ namespace ArregloNombres
         private System.Windows.Forms.Button BtnNewProgram;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button BtnNuevo;
+        private System.Windows.Forms.Label LblError;
     }
 }

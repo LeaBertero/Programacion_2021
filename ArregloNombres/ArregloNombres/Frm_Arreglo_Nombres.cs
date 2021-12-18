@@ -34,13 +34,21 @@ namespace ArregloNombres
 
         private void BtnCargar_Click(object sender, EventArgs e)
         {
-            Lista[Posicion] = TxtCargar.Text;
-            Posicion = Posicion + 1;
+            try
+            {
+                Lista[Posicion] = TxtCargar.Text;
+                Posicion = Posicion + 1;
 
-            //LblLista.Text = LblLista.Text + TxtCargar.Text + "\r\n";
-            
-            TxtCargar.Text = "";
-            TxtCargar.Focus();
+                //LblLista.Text = LblLista.Text + TxtCargar.Text + "\r\n";
+
+                TxtCargar.Text = "";
+                TxtCargar.Focus();
+            }
+            catch (Exception)
+            {
+                LblError.Text = "Imposible seguir cargando";
+                
+            }
 
         }
 
@@ -76,6 +84,11 @@ namespace ArregloNombres
         {
             Frm_Arreglo_Nombres nuevoform = new Frm_Arreglo_Nombres();
             nuevoform.Show();
+        }
+
+        private void Frm_Arreglo_Nombres_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -59,7 +59,7 @@ namespace ArregloNombres
             this.BtnListar.TabIndex = 1;
             this.BtnListar.Text = "Mostrar Lista";
             this.BtnListar.UseVisualStyleBackColor = true;
-            this.BtnListar.Click += new System.EventHandler(this.BtnListar_Click);
+
             // 
             // TxtPrecio
             // 

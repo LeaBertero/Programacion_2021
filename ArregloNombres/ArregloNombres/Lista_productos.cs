@@ -55,12 +55,16 @@ namespace ArregloNombres
 
         private void BtnListar_Click(object sender, EventArgs e)
         {
-            for (int contador = 0; contador < Producto.Length; contador++)
+            for (int contador = 0; contador < Precio.Length; contador++)
             {
                 LblListaPrecio.Text = LblListaPrecio.Text 
-                    + Producto[contador, 0] + " - " 
-                    + Producto[contador, 1] + " - " 
-                    + System.Convert.ToString(Precio[contador]);
+                + Producto[contador, 0] + " - " 
+                + Producto[contador, 1] + " - " 
+                + (Precio[contador]).ToString() 
+                + "\r\n";
+
+                //conversion con .tostring al arrelo o bien la conversion convencional
+                //de system.convert.tostring("Lo que se va a convertir")
             }
         }
     }

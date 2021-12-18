@@ -129,7 +129,7 @@ namespace ArregloNombres
             // BtnNewProgram
             // 
             this.BtnNewProgram.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.BtnNewProgram.Location = new System.Drawing.Point(432, 204);
+            this.BtnNewProgram.Location = new System.Drawing.Point(421, 251);
             this.BtnNewProgram.Name = "BtnNewProgram";
             this.BtnNewProgram.Size = new System.Drawing.Size(125, 46);
             this.BtnNewProgram.TabIndex = 12;
@@ -149,7 +149,7 @@ namespace ArregloNombres
             // BtnNuevo
             // 
             this.BtnNuevo.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.BtnNuevo.Location = new System.Drawing.Point(432, 256);
+            this.BtnNuevo.Location = new System.Drawing.Point(421, 199);
             this.BtnNuevo.Name = "BtnNuevo";
             this.BtnNuevo.Size = new System.Drawing.Size(125, 46);
             this.BtnNuevo.TabIndex = 14;
@@ -188,7 +188,6 @@ namespace ArregloNombres
             this.Controls.Add(this.BtnCerrar);
             this.Name = "Frm_Arreglo_Nombres";
             this.Text = "FrmArreglo_Al";
-            
             this.ResumeLayout(false);
             this.PerformLayout();
 

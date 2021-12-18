@@ -75,7 +75,7 @@ namespace ArregloNombres
             // BtnListar
             // 
             this.BtnListar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.BtnListar.Location = new System.Drawing.Point(126, 160);
+            this.BtnListar.Location = new System.Drawing.Point(207, 121);
             this.BtnListar.Name = "BtnListar";
             this.BtnListar.Size = new System.Drawing.Size(75, 23);
             this.BtnListar.TabIndex = 6;
@@ -149,7 +149,7 @@ namespace ArregloNombres
             // BtnNuevo
             // 
             this.BtnNuevo.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.BtnNuevo.Location = new System.Drawing.Point(10, 261);
+            this.BtnNuevo.Location = new System.Drawing.Point(432, 256);
             this.BtnNuevo.Name = "BtnNuevo";
             this.BtnNuevo.Size = new System.Drawing.Size(125, 46);
             this.BtnNuevo.TabIndex = 14;

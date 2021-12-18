@@ -71,5 +71,11 @@ namespace ArregloNombres
             Lista_productos nuevoform = new Lista_productos();
             nuevoform.Show();
         }
+
+        private void BtnNuevo_Click(object sender, EventArgs e)
+        {
+            Frm_Arreglo_Nombres nuevoform = new Frm_Arreglo_Nombres();
+            nuevoform.Show();
+        }
     }
 }

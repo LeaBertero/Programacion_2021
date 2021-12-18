@@ -45,7 +45,12 @@ namespace ArregloNombres
         {
             Close();
         }
-       
+
+        private void FrmLista_Click(object sender, EventArgs e)
+        {
+            Lista_productos primerForm = new Lista_productos();
+            primerForm.Show();
+        }
     }
 }
 

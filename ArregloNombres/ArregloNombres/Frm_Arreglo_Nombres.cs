@@ -64,7 +64,9 @@ namespace ArregloNombres
             BtnListar.Enabled = true;
         }
 
-        private void BtnNuevo_Click(object sender, EventArgs e)
+       
+
+        private void BtnNewProgram_Click(object sender, EventArgs e)
         {
             Lista_productos nuevoform = new Lista_productos();
             nuevoform.Show();

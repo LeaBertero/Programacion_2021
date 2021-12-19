@@ -34,40 +34,59 @@ namespace ArregloNombres
                 Producto[Fila, 0] = TxtCodigo.Text;
                 Producto[Fila, 1] = TxtProducto.Text;
 
-                Precio[Fila] = System.Convert.ToDecimal(TxtPrecio.Text);
+                try
+                {
+                    Precio[Fila] = System.Convert.ToDecimal(TxtPrecio.Text);
+                }
+                catch (Exception)
+                {
+
+                    lblerror.Text = "No puede ingresar letras en el apartado -  (Precio)";
+                }
 
                 Fila = Fila + 1;
 
             }
            
         }
-       
+        private void BtnListar_Click(object sender, EventArgs e)
+        {
+            LblListaPrecio.Text = "LISTA DE PRECIOS \r\n";
+
+            for (int celda = 0; celda < Precio.Length; celda++)
+            {
+
+                LblListaPrecio.Text = LblListaPrecio.Text + Producto[celda, 0] 
+                    + " - " 
+                    + Producto[celda, 1] 
+                    + Precio + " - " 
+                    + Precio[celda].ToString() 
+                    + "\r\n";
+            }
+        }
+        private void FrmLista_Click(object sender, EventArgs e)
+        {
+            Lista_productos primerForm = new Lista_productos();
+            primerForm.ShowDialog();
+        }
         private void BtnSalir_Click(object sender, EventArgs e)
         {
             Close();
         }
 
-        private void FrmLista_Click(object sender, EventArgs e)
-        {
-            Lista_productos primerForm = new Lista_productos();
-            primerForm.Show();
-        }
-
-        private void BtnListar_Click(object sender, EventArgs e)
-        {
-            for (int contador = 0; contador < Precio.Length; contador++)
-            {
-                LblListaPrecio.Text = LblListaPrecio.Text 
-                + Producto[contador, 0] + " - " 
-                + Producto[contador, 1] + " - " 
-                + (Precio[contador]).ToString() 
-                + "\r\n";
-
-                //conversion con .tostring al arrelo o bien la conversion convencional
-                //de system.convert.tostring("Lo que se va a convertir")
-            }
-        }
     }
 }
+
+
+
+
+
+              
+               
+
+
+                
+                
+
 
 

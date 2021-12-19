@@ -39,6 +39,7 @@ namespace ArregloNombres
             this.label3 = new System.Windows.Forms.Label();
             this.LblListaPrecio = new System.Windows.Forms.Label();
             this.BtnSalir = new System.Windows.Forms.Button();
+            this.lblerror = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // BtAceptar
@@ -53,7 +54,7 @@ namespace ArregloNombres
             // 
             // BtnListar
             // 
-            this.BtnListar.Location = new System.Drawing.Point(396, 98);
+            this.BtnListar.Location = new System.Drawing.Point(52, 82);
             this.BtnListar.Name = "BtnListar";
             this.BtnListar.Size = new System.Drawing.Size(75, 32);
             this.BtnListar.TabIndex = 1;
@@ -112,7 +113,7 @@ namespace ArregloNombres
             // LblListaPrecio
             // 
             this.LblListaPrecio.AutoSize = true;
-            this.LblListaPrecio.Location = new System.Drawing.Point(53, 117);
+            this.LblListaPrecio.Location = new System.Drawing.Point(53, 138);
             this.LblListaPrecio.Name = "LblListaPrecio";
             this.LblListaPrecio.Size = new System.Drawing.Size(61, 13);
             this.LblListaPrecio.TabIndex = 8;
@@ -128,6 +129,14 @@ namespace ArregloNombres
             this.BtnSalir.UseVisualStyleBackColor = true;
             this.BtnSalir.Click += new System.EventHandler(this.BtnSalir_Click);
             // 
+            // lblerror
+            // 
+            this.lblerror.AutoSize = true;
+            this.lblerror.Location = new System.Drawing.Point(410, 177);
+            this.lblerror.Name = "lblerror";
+            this.lblerror.Size = new System.Drawing.Size(0, 13);
+            this.lblerror.TabIndex = 10;
+            // 
             // Lista_productos
             // 
             this.AcceptButton = this.BtAceptar;
@@ -135,6 +144,7 @@ namespace ArregloNombres
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightCoral;
             this.ClientSize = new System.Drawing.Size(702, 311);
+            this.Controls.Add(this.lblerror);
             this.Controls.Add(this.BtnSalir);
             this.Controls.Add(this.LblListaPrecio);
             this.Controls.Add(this.label3);
@@ -164,5 +174,6 @@ namespace ArregloNombres
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label LblListaPrecio;
         private System.Windows.Forms.Button BtnSalir;
+        private System.Windows.Forms.Label lblerror;
     }
 }

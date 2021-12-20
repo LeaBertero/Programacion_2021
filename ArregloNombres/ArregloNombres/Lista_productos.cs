@@ -69,11 +69,7 @@ namespace ArregloNombres
                     + "\r\n";
             }
         }
-        private void FrmLista_Click(object sender, EventArgs e)
-        {
-            Lista_productos primerForm = new Lista_productos();
-            primerForm.ShowDialog();
-        }
+       
         private void BtnSalir_Click(object sender, EventArgs e)
         {
             Close();

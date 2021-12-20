@@ -60,10 +60,11 @@ namespace ArregloNombres
             for (int celda = 0; celda < Precio.Length; celda++)
             {
 
-                LblListaPrecio.Text = LblListaPrecio.Text + Producto[celda, 0] 
+                LblListaPrecio.Text = LblListaPrecio.Text +
+                    Producto[celda, 0] 
                     + " - " 
                     + Producto[celda, 1] 
-                    + Precio[celda] + " - " 
+                    //+ Precio[celda] + " - " 
                     + Precio[celda].ToString() 
                     + "\r\n";
             }

@@ -25,33 +25,37 @@ namespace ArregloNombres
 
         private void BtAceptar_Click(object sender, EventArgs e)
         {
-            if (Fila > 2)
+            
+               
+            try
             {
-                LblListaPrecio.Text = "Solo se aceptan 3 productos";
-            }
-            else
-            {
-                Producto[Fila, 0] = TxtCodigo.Text;
-                Producto[Fila, 1] = TxtProducto.Text;
 
-                try
+                if (Fila > 2)
                 {
+                    LblListaPrecio.Text = "Solo se aceptan 3 productos";
+                }
+                else
+                {
+                    
+                    Producto[Fila, 0] = TxtCodigo.Text;
+                    Producto[Fila, 1] = TxtProducto.Text;
+
                     Precio[Fila] = System.Convert.ToDecimal(TxtPrecio.Text);
-                }
-                catch (Exception)
-                {
+                    Fila = Fila + 1;
 
-                    lblerror.Text = "No puede ingresar letras en el apartado -  (Precio)";
                 }
-
-                Fila = Fila + 1;
 
             }
-           
+            catch (Exception)
+            {
+
+                lblerror.Text = "No puede ingresar letras en el apartado -  (Precio)";
+            }
+        
         }
         private void BtnListar_Click(object sender, EventArgs e)
         {
-            LblListaPrecio.Text = "LISTA DE PRECIOS \r\n";
+            LblListaPrecio.Text = "LISTA DE PRECIOS \r\n"; //hay un error - muestra este mensaje en pantalla al presionar el boton listar - Syste.convert.todecimal
 
             for (int celda = 0; celda < Precio.Length; celda++)
             {
@@ -73,9 +77,23 @@ namespace ArregloNombres
         {
             Close();
         }
-
     }
 }
+
+
+               
+
+
+
+
+            
+
+
+
+                
+
+           
+
 
 
 

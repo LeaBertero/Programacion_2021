@@ -55,7 +55,7 @@ namespace ArregloNombres
         }
         private void BtnListar_Click(object sender, EventArgs e)
         {
-            LblListaPrecio.Text = "LISTA DE PRECIOS \r\n"; //hay un error - muestra este mensaje en pantalla al presionar el boton listar - Syste.convert.todecimal
+            LblListaPrecio.Text = "LISTA DE PRECIOS \r\n"; 
 
             for (int celda = 0; celda < Precio.Length; celda++)
             {
@@ -63,7 +63,7 @@ namespace ArregloNombres
                 LblListaPrecio.Text = LblListaPrecio.Text + Producto[celda, 0] 
                     + " - " 
                     + Producto[celda, 1] 
-                    + Precio + " - " 
+                    + Precio[celda] + " - " 
                     + Precio[celda].ToString() 
                     + "\r\n";
             }

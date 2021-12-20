@@ -16,7 +16,7 @@ namespace ArregloNombres
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Frm_Arreglo_Nombres ());
+            Application.Run(new Lista_productos ());
         }
     }
 }

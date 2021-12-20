@@ -55,7 +55,7 @@ namespace ArregloNombres
         }
         private void BtnListar_Click(object sender, EventArgs e)
         {
-            LblListaPrecio.Text = "LISTA DE PRECIOS \r\n"; 
+            LblListaPrecio.Text = "CÓDIGO - PRODUCTO - PRECIO \r\n \r\n"; 
 
             for (int celda = 0; celda < Precio.Length; celda++)
             {

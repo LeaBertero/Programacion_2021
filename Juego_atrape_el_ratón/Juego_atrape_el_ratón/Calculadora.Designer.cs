@@ -41,6 +41,7 @@ namespace Juego_atrape_el_ratón
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.BtnNewForm = new System.Windows.Forms.Button();
+            this.BtBorrar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // BtnIgual
@@ -58,7 +59,7 @@ namespace Juego_atrape_el_ratón
             // LblRes
             // 
             this.LblRes.BackColor = System.Drawing.Color.Orange;
-            this.LblRes.Font = new System.Drawing.Font("Ink Free", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblRes.Font = new System.Drawing.Font("Ink Free", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblRes.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.LblRes.Location = new System.Drawing.Point(95, 314);
             this.LblRes.Name = "LblRes";
@@ -76,6 +77,7 @@ namespace Juego_atrape_el_ratón
             this.TxtSigno.Name = "TxtSigno";
             this.TxtSigno.Size = new System.Drawing.Size(100, 33);
             this.TxtSigno.TabIndex = 2;
+            this.TxtSigno.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // TxtOper1
             // 
@@ -86,6 +88,7 @@ namespace Juego_atrape_el_ratón
             this.TxtOper1.Name = "TxtOper1";
             this.TxtOper1.Size = new System.Drawing.Size(100, 33);
             this.TxtOper1.TabIndex = 3;
+            this.TxtOper1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // TxtOper2
             // 
@@ -96,6 +99,7 @@ namespace Juego_atrape_el_ratón
             this.TxtOper2.Name = "TxtOper2";
             this.TxtOper2.Size = new System.Drawing.Size(100, 33);
             this.TxtOper2.TabIndex = 4;
+            this.TxtOper2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // BtnCerrar
             // 
@@ -164,7 +168,7 @@ namespace Juego_atrape_el_ratón
             this.BtnNewForm.BackColor = System.Drawing.Color.Red;
             this.BtnNewForm.Font = new System.Drawing.Font("Segoe Script", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnNewForm.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.BtnNewForm.Location = new System.Drawing.Point(4, 542);
+            this.BtnNewForm.Location = new System.Drawing.Point(10, 533);
             this.BtnNewForm.Name = "BtnNewForm";
             this.BtnNewForm.Size = new System.Drawing.Size(239, 44);
             this.BtnNewForm.TabIndex = 10;
@@ -172,13 +176,26 @@ namespace Juego_atrape_el_ratón
             this.BtnNewForm.UseVisualStyleBackColor = false;
             this.BtnNewForm.Click += new System.EventHandler(this.BtnNewForm_Click_1);
             // 
+            // BtBorrar
+            // 
+            this.BtBorrar.BackColor = System.Drawing.Color.Silver;
+            this.BtBorrar.Font = new System.Drawing.Font("Ink Free", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtBorrar.Location = new System.Drawing.Point(280, 530);
+            this.BtBorrar.Name = "BtBorrar";
+            this.BtBorrar.Size = new System.Drawing.Size(160, 51);
+            this.BtBorrar.TabIndex = 11;
+            this.BtBorrar.Text = "Limpiar controles y errores";
+            this.BtBorrar.UseVisualStyleBackColor = false;
+            this.BtBorrar.Click += new System.EventHandler(this.BtBorrar_Click);
+            // 
             // FrmCalculadora
             // 
             this.AcceptButton = this.BtnIgual;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Khaki;
-            this.ClientSize = new System.Drawing.Size(414, 589);
+            this.ClientSize = new System.Drawing.Size(494, 589);
+            this.Controls.Add(this.BtBorrar);
             this.Controls.Add(this.BtnNewForm);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -212,5 +229,6 @@ namespace Juego_atrape_el_ratón
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button BtnNewForm;
+        private System.Windows.Forms.Button BtBorrar;
     }
 }

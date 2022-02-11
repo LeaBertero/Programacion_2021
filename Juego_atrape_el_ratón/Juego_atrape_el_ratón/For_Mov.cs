@@ -26,26 +26,37 @@ namespace Juego_atrape_el_ratón
 
         private void button1_Click(object sender, EventArgs e)
         {
-            int x = System.Convert.ToInt32(TxtIngresar.Text);
             
-
-            for ( ; ; )
+            try
             {
 
-                x = x + 10;
-                LblMovimiento.Left = x;
-                this.Refresh();
+                int x = System.Convert.ToInt32(TxtIngresar.Text);
 
-                if (x >= 100)
+                for (; ; )
                 {
+                    x = x + 10;
+                    LblMovimiento.Left = x;
                     this.Refresh();
-                    break;
 
+                    if (x >= 100)
+                    {
+                        this.Refresh();
+                        break;
+
+                    }
                 }
+            }
+            catch (Exception)
+            {
 
-                
+                MessageBox.Show("Debe ingresar un valor");
             }
         }
+
+
+
+
+                
 
         private void Btn_Aparecer_boton_Click(object sender, EventArgs e)
         {

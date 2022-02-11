@@ -70,7 +70,7 @@ namespace Juego_atrape_el_ratón
 
                 default:
                
-                    LblRes.Text = "Operación no valida, ingrese correctamente los datos";
+                    LblRes.Text = "Operación no valida, ingrese los datos correspondientes";
                     break;
             }
         }
@@ -94,6 +94,14 @@ namespace Juego_atrape_el_ratón
         {
             For_Mov formNaranja = new For_Mov();
             formNaranja.ShowDialog();
+        }
+
+        private void BtBorrar_Click(object sender, EventArgs e)
+        {
+            LblRes.Text = null;
+            TxtOper1.Text = null;
+            TxtOper2.Text = null;
+            TxtSigno.Text = null;
         }
     }
 }

@@ -52,9 +52,9 @@ namespace ArregloNombres
         {
 
             //MostraLista = cantidad de personas ingresadas que se van a mostrar en la lista
-            for (int MostrarLista = 0; MostrarLista < Lista.Length; MostrarLista ++)
+            for (int VerLista = 0; VerLista < Lista.Length; VerLista ++)
             {
-                LbListaPers.Text = LbListaPers.Text + Lista[MostrarLista] + "\r\n";
+                LbListaPers.Text = LbListaPers.Text + Lista[VerLista] + "\r\n";
                 
             }
            

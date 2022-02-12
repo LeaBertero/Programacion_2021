@@ -41,12 +41,13 @@ namespace Carga_lista_personas
             this.BtnMostrarTitulo1 = new System.Windows.Forms.Button();
             this.BtnMostrarTitulo2 = new System.Windows.Forms.Button();
             this.LblCargaFinalizada = new System.Windows.Forms.Label();
+            this.BtLimpiar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // BtnCargar
             // 
             this.BtnCargar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnCargar.Location = new System.Drawing.Point(460, 259);
+            this.BtnCargar.Location = new System.Drawing.Point(361, 257);
             this.BtnCargar.Name = "BtnCargar";
             this.BtnCargar.Size = new System.Drawing.Size(98, 31);
             this.BtnCargar.TabIndex = 0;
@@ -57,15 +58,15 @@ namespace Carga_lista_personas
             // TxtIngresoPers
             // 
             this.TxtIngresoPers.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtIngresoPers.Location = new System.Drawing.Point(314, 263);
+            this.TxtIngresoPers.Location = new System.Drawing.Point(342, 225);
             this.TxtIngresoPers.Name = "TxtIngresoPers";
-            this.TxtIngresoPers.Size = new System.Drawing.Size(100, 26);
+            this.TxtIngresoPers.Size = new System.Drawing.Size(297, 26);
             this.TxtIngresoPers.TabIndex = 1;
             // 
             // BtnMostrar
             // 
             this.BtnMostrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnMostrar.Location = new System.Drawing.Point(593, 259);
+            this.BtnMostrar.Location = new System.Drawing.Point(519, 257);
             this.BtnMostrar.Name = "BtnMostrar";
             this.BtnMostrar.Size = new System.Drawing.Size(98, 31);
             this.BtnMostrar.TabIndex = 2;
@@ -99,15 +100,15 @@ namespace Carga_lista_personas
             // TxtCarga
             // 
             this.TxtCarga.Font = new System.Drawing.Font("Segoe Print", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtCarga.Location = new System.Drawing.Point(320, 83);
+            this.TxtCarga.Location = new System.Drawing.Point(342, 76);
             this.TxtCarga.Name = "TxtCarga";
-            this.TxtCarga.Size = new System.Drawing.Size(100, 36);
+            this.TxtCarga.Size = new System.Drawing.Size(160, 36);
             this.TxtCarga.TabIndex = 7;
             // 
             // BtnDimensionar
             // 
             this.BtnDimensionar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnDimensionar.Location = new System.Drawing.Point(486, 83);
+            this.BtnDimensionar.Location = new System.Drawing.Point(519, 76);
             this.BtnDimensionar.Name = "BtnDimensionar";
             this.BtnDimensionar.Size = new System.Drawing.Size(120, 38);
             this.BtnDimensionar.TabIndex = 6;
@@ -129,20 +130,21 @@ namespace Carga_lista_personas
             // LblLista
             // 
             this.LblLista.AutoSize = true;
-            this.LblLista.Location = new System.Drawing.Point(457, 325);
+            this.LblLista.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblLista.Location = new System.Drawing.Point(702, 238);
             this.LblLista.Name = "LblLista";
-            this.LblLista.Size = new System.Drawing.Size(0, 13);
+            this.LblLista.Size = new System.Drawing.Size(0, 17);
             this.LblLista.TabIndex = 11;
             // 
             // BtnMostrarTitulo1
             // 
             this.BtnMostrarTitulo1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnMostrarTitulo1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnMostrarTitulo1.Location = new System.Drawing.Point(39, 20);
+            this.BtnMostrarTitulo1.Location = new System.Drawing.Point(39, 70);
             this.BtnMostrarTitulo1.Name = "BtnMostrarTitulo1";
-            this.BtnMostrarTitulo1.Size = new System.Drawing.Size(180, 31);
+            this.BtnMostrarTitulo1.Size = new System.Drawing.Size(180, 49);
             this.BtnMostrarTitulo1.TabIndex = 12;
-            this.BtnMostrarTitulo1.Text = "Ver especificacion";
+            this.BtnMostrarTitulo1.Text = "Ver especificacion de dimensión";
             this.BtnMostrarTitulo1.UseVisualStyleBackColor = true;
             this.BtnMostrarTitulo1.Click += new System.EventHandler(this.BtnMostrarTitulo1_Click);
             // 
@@ -150,11 +152,11 @@ namespace Carga_lista_personas
             // 
             this.BtnMostrarTitulo2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnMostrarTitulo2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnMostrarTitulo2.Location = new System.Drawing.Point(39, 191);
+            this.BtnMostrarTitulo2.Location = new System.Drawing.Point(39, 215);
             this.BtnMostrarTitulo2.Name = "BtnMostrarTitulo2";
-            this.BtnMostrarTitulo2.Size = new System.Drawing.Size(180, 31);
+            this.BtnMostrarTitulo2.Size = new System.Drawing.Size(180, 49);
             this.BtnMostrarTitulo2.TabIndex = 13;
-            this.BtnMostrarTitulo2.Text = "Ver especificacion";
+            this.BtnMostrarTitulo2.Text = "Ver especificacion de carga";
             this.BtnMostrarTitulo2.UseVisualStyleBackColor = true;
             this.BtnMostrarTitulo2.Click += new System.EventHandler(this.BtnMostrarTitulo2_Click);
             // 
@@ -167,12 +169,25 @@ namespace Carga_lista_personas
             this.LblCargaFinalizada.Size = new System.Drawing.Size(0, 28);
             this.LblCargaFinalizada.TabIndex = 14;
             // 
+            // BtLimpiar
+            // 
+            this.BtLimpiar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BtLimpiar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtLimpiar.Location = new System.Drawing.Point(39, 358);
+            this.BtLimpiar.Name = "BtLimpiar";
+            this.BtLimpiar.Size = new System.Drawing.Size(180, 49);
+            this.BtLimpiar.TabIndex = 15;
+            this.BtLimpiar.Text = "Limpiar datos cargados";
+            this.BtLimpiar.UseVisualStyleBackColor = true;
+            this.BtLimpiar.Click += new System.EventHandler(this.BtLimpiar_Click);
+            // 
             // Lista_Personas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SpringGreen;
             this.ClientSize = new System.Drawing.Size(915, 419);
+            this.Controls.Add(this.BtLimpiar);
             this.Controls.Add(this.LblCargaFinalizada);
             this.Controls.Add(this.BtnMostrarTitulo2);
             this.Controls.Add(this.BtnMostrarTitulo1);
@@ -206,6 +221,7 @@ namespace Carga_lista_personas
         private System.Windows.Forms.Button BtnMostrarTitulo1;
         private System.Windows.Forms.Button BtnMostrarTitulo2;
         private System.Windows.Forms.Label LblCargaFinalizada;
+        private System.Windows.Forms.Button BtLimpiar;
     }
 }
 

@@ -83,6 +83,12 @@ namespace Carga_lista_personas
         {
             LblCargaNombres.Visible = true;
         }
+
+        private void BtLimpiar_Click(object sender, EventArgs e)
+        {
+            TxtCarga.Text = null;
+            TxtIngresoPers.Text = null;
+        }
     }
 }
 

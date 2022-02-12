@@ -118,7 +118,7 @@ namespace Carga_lista_personas
             // LblCargaNombres
             // 
             this.LblCargaNombres.Font = new System.Drawing.Font("Segoe Print", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblCargaNombres.Location = new System.Drawing.Point(225, 194);
+            this.LblCargaNombres.Location = new System.Drawing.Point(244, 194);
             this.LblCargaNombres.Name = "LblCargaNombres";
             this.LblCargaNombres.Size = new System.Drawing.Size(554, 28);
             this.LblCargaNombres.TabIndex = 10;

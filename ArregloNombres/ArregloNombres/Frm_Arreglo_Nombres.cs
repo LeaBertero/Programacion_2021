@@ -15,7 +15,7 @@ namespace ArregloNombres
         //Variable publica  - se ve en todo el programa
 
         string[] Lista;
-        int Posicion = 0;
+        int Pos = 0;
         
 
 
@@ -36,8 +36,8 @@ namespace ArregloNombres
         {
             try
             {
-                Lista[Posicion] = TxtCargar.Text;
-                Posicion = Posicion + 1;
+                Lista[Pos] = TxtCargar.Text;
+                Pos = Pos + 1;
 
                 //LblLista.Text = LblLista.Text + TxtCargar.Text + "\r\n";
 
@@ -46,11 +46,11 @@ namespace ArregloNombres
             }
             catch (Exception)
             {
-                LblError.Text = "Imposible seguir cargando";
-                
+                MessageBox.Show("Imposible seguir cargando");
             }
-
         }
+                
+
 
         private void BtnListar_Click(object sender, EventArgs e)
         {
@@ -67,7 +67,7 @@ namespace ArregloNombres
         private void BtnDimensionar_Click(object sender, EventArgs e)
         {
             Lista = new string[System.Convert.ToInt32(TxtDimensionar.Text)];
-            Posicion = 0;
+            Pos = 0;
             BtnCargar.Enabled = true;
             BtnListar.Enabled = true;
         }

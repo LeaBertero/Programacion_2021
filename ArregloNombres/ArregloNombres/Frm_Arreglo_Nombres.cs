@@ -17,8 +17,6 @@ namespace ArregloNombres
         string[] Lista;
         int Pos = 0;
         
-
-
         //Constructor del formulario
         public Frm_Arreglo_Nombres()
         {
@@ -49,8 +47,6 @@ namespace ArregloNombres
                 MessageBox.Show("Imposible seguir cargando");
             }
         }
-                
-
 
         private void BtnListar_Click(object sender, EventArgs e)
         {
@@ -72,8 +68,6 @@ namespace ArregloNombres
             BtnListar.Enabled = true;
         }
 
-       
-
         private void BtnNewProgram_Click(object sender, EventArgs e)
         {
             Lista_productos nuevoform = new Lista_productos();
@@ -85,7 +79,18 @@ namespace ArregloNombres
             Frm_Arreglo_Nombres nuevoform = new Frm_Arreglo_Nombres();
             nuevoform.Show();
         }
-
-       
     }
 }
+
+
+
+
+                
+
+
+
+
+       
+
+
+       

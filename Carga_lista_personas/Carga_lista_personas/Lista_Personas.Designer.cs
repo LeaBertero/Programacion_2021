@@ -142,7 +142,7 @@ namespace Carga_lista_personas
             this.BtnMostrarTitulo1.Name = "BtnMostrarTitulo1";
             this.BtnMostrarTitulo1.Size = new System.Drawing.Size(180, 31);
             this.BtnMostrarTitulo1.TabIndex = 12;
-            this.BtnMostrarTitulo1.Text = "Mostrar primer titulo";
+            this.BtnMostrarTitulo1.Text = "Ver especificacion";
             this.BtnMostrarTitulo1.UseVisualStyleBackColor = true;
             this.BtnMostrarTitulo1.Click += new System.EventHandler(this.BtnMostrarTitulo1_Click);
             // 
@@ -154,7 +154,7 @@ namespace Carga_lista_personas
             this.BtnMostrarTitulo2.Name = "BtnMostrarTitulo2";
             this.BtnMostrarTitulo2.Size = new System.Drawing.Size(180, 31);
             this.BtnMostrarTitulo2.TabIndex = 13;
-            this.BtnMostrarTitulo2.Text = "Mostrar segundo título";
+            this.BtnMostrarTitulo2.Text = "Ver especificacion";
             this.BtnMostrarTitulo2.UseVisualStyleBackColor = true;
             this.BtnMostrarTitulo2.Click += new System.EventHandler(this.BtnMostrarTitulo2_Click);
             // 

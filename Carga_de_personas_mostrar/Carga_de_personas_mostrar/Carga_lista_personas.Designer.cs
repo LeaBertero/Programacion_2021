@@ -45,9 +45,9 @@ namespace Carga_de_personas_mostrar
             // BtnCargar
             // 
             this.BtnCargar.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnCargar.Location = new System.Drawing.Point(321, 163);
+            this.BtnCargar.Location = new System.Drawing.Point(236, 227);
             this.BtnCargar.Name = "BtnCargar";
-            this.BtnCargar.Size = new System.Drawing.Size(121, 59);
+            this.BtnCargar.Size = new System.Drawing.Size(89, 48);
             this.BtnCargar.TabIndex = 0;
             this.BtnCargar.Text = "Cargar";
             this.BtnCargar.UseVisualStyleBackColor = true;
@@ -57,18 +57,18 @@ namespace Carga_de_personas_mostrar
             // 
             this.LbllistaMostrar.BackColor = System.Drawing.Color.Pink;
             this.LbllistaMostrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LbllistaMostrar.Location = new System.Drawing.Point(331, 263);
+            this.LbllistaMostrar.Location = new System.Drawing.Point(232, 296);
             this.LbllistaMostrar.Name = "LbllistaMostrar";
-            this.LbllistaMostrar.Size = new System.Drawing.Size(215, 194);
+            this.LbllistaMostrar.Size = new System.Drawing.Size(342, 194);
             this.LbllistaMostrar.TabIndex = 1;
             this.LbllistaMostrar.Visible = false;
             // 
             // BtnMostrar
             // 
             this.BtnMostrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnMostrar.Location = new System.Drawing.Point(462, 163);
+            this.BtnMostrar.Location = new System.Drawing.Point(485, 227);
             this.BtnMostrar.Name = "BtnMostrar";
-            this.BtnMostrar.Size = new System.Drawing.Size(121, 59);
+            this.BtnMostrar.Size = new System.Drawing.Size(89, 48);
             this.BtnMostrar.TabIndex = 2;
             this.BtnMostrar.Text = "Mostrar";
             this.BtnMostrar.UseVisualStyleBackColor = true;
@@ -77,17 +77,17 @@ namespace Carga_de_personas_mostrar
             // TxtCargaNombre
             // 
             this.TxtCargaNombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtCargaNombre.Location = new System.Drawing.Point(157, 177);
+            this.TxtCargaNombre.Location = new System.Drawing.Point(236, 192);
             this.TxtCargaNombre.Name = "TxtCargaNombre";
-            this.TxtCargaNombre.Size = new System.Drawing.Size(100, 29);
+            this.TxtCargaNombre.Size = new System.Drawing.Size(338, 29);
             this.TxtCargaNombre.TabIndex = 3;
             // 
             // BtnSalir
             // 
             this.BtnSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnSalir.Location = new System.Drawing.Point(682, 462);
+            this.BtnSalir.Location = new System.Drawing.Point(339, 544);
             this.BtnSalir.Name = "BtnSalir";
-            this.BtnSalir.Size = new System.Drawing.Size(96, 43);
+            this.BtnSalir.Size = new System.Drawing.Size(133, 48);
             this.BtnSalir.TabIndex = 4;
             this.BtnSalir.Text = "Salir";
             this.BtnSalir.UseVisualStyleBackColor = true;
@@ -96,7 +96,7 @@ namespace Carga_de_personas_mostrar
             // TxtDimension
             // 
             this.TxtDimension.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtDimension.Location = new System.Drawing.Point(157, 69);
+            this.TxtDimension.Location = new System.Drawing.Point(272, 61);
             this.TxtDimension.Name = "TxtDimension";
             this.TxtDimension.Size = new System.Drawing.Size(100, 29);
             this.TxtDimension.TabIndex = 6;
@@ -104,9 +104,9 @@ namespace Carga_de_personas_mostrar
             // BtDimensionar
             // 
             this.BtDimensionar.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtDimensionar.Location = new System.Drawing.Point(321, 55);
+            this.BtDimensionar.Location = new System.Drawing.Point(390, 61);
             this.BtDimensionar.Name = "BtDimensionar";
-            this.BtDimensionar.Size = new System.Drawing.Size(140, 59);
+            this.BtDimensionar.Size = new System.Drawing.Size(126, 29);
             this.BtDimensionar.TabIndex = 5;
             this.BtDimensionar.Text = "Dimensionar";
             this.BtDimensionar.UseVisualStyleBackColor = true;
@@ -116,28 +116,28 @@ namespace Carga_de_personas_mostrar
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(119, 19);
+            this.label1.Location = new System.Drawing.Point(320, 30);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(160, 20);
+            this.label1.Size = new System.Drawing.Size(162, 20);
             this.label1.TabIndex = 7;
-            this.label1.Text = "cantidad de Nombres";
+            this.label1.Text = "cantidad de personas";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(167, 135);
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(203, 166);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(73, 20);
+            this.label2.Size = new System.Drawing.Size(408, 17);
             this.label2.TabIndex = 8;
-            this.label2.Text = "Nombres";
+            this.label2.Text = "Cargue aquí la cantidad de personas indicadas en la dimensión";
             // 
             // BtnLimpiar1
             // 
             this.BtnLimpiar1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnLimpiar1.Location = new System.Drawing.Point(12, 68);
+            this.BtnLimpiar1.Location = new System.Drawing.Point(272, 105);
             this.BtnLimpiar1.Name = "BtnLimpiar1";
-            this.BtnLimpiar1.Size = new System.Drawing.Size(110, 30);
+            this.BtnLimpiar1.Size = new System.Drawing.Size(244, 28);
             this.BtnLimpiar1.TabIndex = 9;
             this.BtnLimpiar1.Text = "Limpiar";
             this.BtnLimpiar1.UseVisualStyleBackColor = true;
@@ -146,9 +146,9 @@ namespace Carga_de_personas_mostrar
             // BtnLimpiar2
             // 
             this.BtnLimpiar2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnLimpiar2.Location = new System.Drawing.Point(12, 176);
+            this.BtnLimpiar2.Location = new System.Drawing.Point(339, 227);
             this.BtnLimpiar2.Name = "BtnLimpiar2";
-            this.BtnLimpiar2.Size = new System.Drawing.Size(110, 30);
+            this.BtnLimpiar2.Size = new System.Drawing.Size(133, 48);
             this.BtnLimpiar2.TabIndex = 10;
             this.BtnLimpiar2.Text = "Limpiar";
             this.BtnLimpiar2.UseVisualStyleBackColor = true;
@@ -158,7 +158,7 @@ namespace Carga_de_personas_mostrar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 517);
+            this.ClientSize = new System.Drawing.Size(800, 634);
             this.Controls.Add(this.BtnLimpiar2);
             this.Controls.Add(this.BtnLimpiar1);
             this.Controls.Add(this.label2);

@@ -25,10 +25,18 @@ namespace Carga_de_personas_mostrar
         }
         private void BtnCargar_Click(object sender, EventArgs e)
         {
-            nombres[posicion] = TxtCargaNombre.Text;
-            posicion = posicion + 1;
-            TxtCargaNombre.Focus();
-            TxtCargaNombre.SelectAll();
+            try
+            {
+                nombres[posicion] = TxtCargaNombre.Text;
+                posicion = posicion + 1;
+                TxtCargaNombre.Focus();
+                TxtCargaNombre.SelectAll();
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Imposible seguir cargando");   
+            }
+
         }
         private void BtnMostrar_Click(object sender, EventArgs e)
         {

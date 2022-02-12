@@ -201,6 +201,7 @@ namespace Carga_lista_personas
             this.Controls.Add(this.TxtIngresoPers);
             this.Controls.Add(this.BtnCargar);
             this.Name = "Lista_Personas";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Carga lista de personas";
             this.ResumeLayout(false);
             this.PerformLayout();

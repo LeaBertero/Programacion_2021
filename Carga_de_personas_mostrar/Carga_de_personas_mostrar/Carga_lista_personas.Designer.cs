@@ -137,7 +137,7 @@ namespace Carga_de_personas_mostrar
             this.BtnLimpiar1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnLimpiar1.Location = new System.Drawing.Point(272, 105);
             this.BtnLimpiar1.Name = "BtnLimpiar1";
-            this.BtnLimpiar1.Size = new System.Drawing.Size(244, 28);
+            this.BtnLimpiar1.Size = new System.Drawing.Size(244, 37);
             this.BtnLimpiar1.TabIndex = 9;
             this.BtnLimpiar1.Text = "Limpiar";
             this.BtnLimpiar1.UseVisualStyleBackColor = true;
@@ -172,7 +172,7 @@ namespace Carga_de_personas_mostrar
             this.Controls.Add(this.BtnCargar);
             this.Name = "Carga_lista_personas";
             this.Text = "Carga de personas y mostrar en pantalla, la lista";
-            this.Load += new System.EventHandler(this.Carga_lista_personas_Load);
+
             this.ResumeLayout(false);
             this.PerformLayout();
 

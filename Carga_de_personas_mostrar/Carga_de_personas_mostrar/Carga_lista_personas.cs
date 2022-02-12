@@ -15,14 +15,15 @@ namespace Carga_de_personas_mostrar
     {
         //VARIABLES PUBLICAS
 
-        //string[] nombres = new string[1000]; 
-        string[] nombres ;
+        //string[] nombres = new string[2];
+        string[] nombres;
         int posicion = 0;
 
         public Carga_lista_personas()
         {
             InitializeComponent();
         }
+
         private void BtnCargar_Click(object sender, EventArgs e)
         {
             try
@@ -40,10 +41,10 @@ namespace Carga_de_personas_mostrar
         }
         private void BtnMostrar_Click(object sender, EventArgs e)
         {
-            
-
             LbllistaMostrar.Visible = true;
         }
+            
+
 
         private void BtnSalir_Click(object sender, EventArgs e)
         {
@@ -55,10 +56,7 @@ namespace Carga_de_personas_mostrar
             nombres = new string[Cantidad];
         }
 
-        private void Carga_lista_personas_Load(object sender, EventArgs e)
-        {
-           
-        }
+       
 
         private void BtnLimpiar1_Click(object sender, EventArgs e)
         {

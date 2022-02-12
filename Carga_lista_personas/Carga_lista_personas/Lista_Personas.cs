@@ -24,11 +24,19 @@ namespace Carga_lista_personas
 
         public void BtnCargar_Click(object sender, EventArgs e)
         {
-            nombres[posicion] = TxtIngresoPers.Text;
-            posicion = posicion + 1;
-            TxtIngresoPers.Focus();
-            TxtIngresoPers.SelectAll();
+            try
+            {
+                nombres[posicion] = TxtIngresoPers.Text;
+                posicion = posicion + 1;
+                TxtIngresoPers.Focus();
+                TxtIngresoPers.SelectAll();
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Imposible seguir cargando");
+            }
         }
+
             
 
         private void BtnMostrar_Click(object sender, EventArgs e)
@@ -49,12 +57,22 @@ namespace Carga_lista_personas
 
         private void BtnDimensionar_Click(object sender, EventArgs e)
         {
-            int cantidad = System.Convert.ToInt32(TxtCarga.Text);
-            nombres = new string[cantidad];
-            LblCargaFinalizada.Text = "Dimension aceptada";
+            try
+            {
+                if (true)
+                {
+                    int cantidad = System.Convert.ToInt32(TxtCarga.Text);
+                    nombres = new string[cantidad];
+                    //LblCargaFinalizada.Text = "Dimension aceptada";
+                    MessageBox.Show("Dimension aceptada");
+                }
+               
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Debe ingresar un valor");
+            }
         }
-
-            
 
         private void BtnMostrarTitulo1_Click(object sender, EventArgs e)
         {
@@ -67,3 +85,8 @@ namespace Carga_lista_personas
         }
     }
 }
+
+
+
+            
+

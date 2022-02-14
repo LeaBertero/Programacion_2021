@@ -9,7 +9,7 @@ namespace ProyectoFinal_Programación
 
         public int Edad { get; set; }
 
-        public DataGr Dt = new DataGr();
+        public Form1 Dt = new Form1();
 
         //Constructor de la clase persona
         public persona()

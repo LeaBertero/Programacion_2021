@@ -1,7 +1,7 @@
 ﻿
 namespace ProyectoFinal_Programación
 {
-    partial class DataGr
+    partial class Form1
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -258,7 +258,7 @@ namespace ProyectoFinal_Programación
             this.dataGridView1.Size = new System.Drawing.Size(240, 150);
             this.dataGridView1.TabIndex = 40;
             // 
-            // DataGr
+            // Form1
             // 
             this.AcceptButton = this.BtnCargaJugadorEq1;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 14F);
@@ -287,7 +287,7 @@ namespace ProyectoFinal_Programación
             this.Controls.Add(this.TxtCargaJugadorEq1);
             this.Font = new System.Drawing.Font("Microsoft PhagsPa", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "DataGr";
+            this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Proyecto final - 2021 (Programacion)";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

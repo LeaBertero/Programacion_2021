@@ -16,7 +16,7 @@ namespace ProyectoFinal_Programación
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new DataGr());
+            Application.Run(new Form1());
         }
     }
 }

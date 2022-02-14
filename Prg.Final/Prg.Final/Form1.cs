@@ -14,7 +14,7 @@ namespace Prg.Final
     public partial class Form1 : Form
     {
         //Propiedades
-        string[] Nombres = new string[5];
+        string[] Nombres /*= new string[5]*/;
         //public Persona[] personas { get; set; }
 
 

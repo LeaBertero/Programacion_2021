@@ -3,7 +3,7 @@ using System.Windows.Forms;
 
 namespace ProyectoFinal_Programación
 {
-    public partial class DataGr : Form
+    public partial class Form1 : Form
     {
 
         //Propiedades

@@ -1,28 +1,24 @@
-Proceso sin_titulo
+Proceso IngresoConclave
 	
 	definir clave como caracter;
 	
-	clave <- "Hola";
 	
-	escribir "Ingrese la clave";
+	clave <- "clave123";
+	
+	escribir "Ingrese clave";
 	leer clave;
 	
-	Repetir
-		si clave = "Hola" Entonces
-			
-			escribir "La clave es correcta";
-			
-		SiNo
-			escribir "Ingrese nuevamente la clave";
-			leer clave;
-			si clave = "Hola" Entonces
-				escribir "La clave es correcta, ingresando...";
-			FinSi
-			
-		FinSi
-	Hasta Que clave = "Hola";
 	
-	escribir "Bienvendo al sistema, presione una tecla para continuar";
-	esperar tecla;
+	
+	Repetir
+		Si clave = "clave123" Entonces
+			Escribir  "Clave valida - ";
+		SiNo
+			escribir "Clave no valida -  ingrese de nuevo";
+			leer clave;
+		FinSi
+	Hasta Que clave = "clave123";
+	
+	escribir "clave ingresada es correcta";
 	
 FinProceso

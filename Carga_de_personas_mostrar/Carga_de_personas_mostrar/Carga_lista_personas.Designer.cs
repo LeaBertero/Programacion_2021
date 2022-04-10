@@ -61,6 +61,7 @@ namespace Carga_de_personas_mostrar
             this.LbllistaMostrar.Name = "LbllistaMostrar";
             this.LbllistaMostrar.Size = new System.Drawing.Size(342, 194);
             this.LbllistaMostrar.TabIndex = 1;
+            this.LbllistaMostrar.Text = " ";
             this.LbllistaMostrar.Visible = false;
             // 
             // BtnMostrar
@@ -172,7 +173,6 @@ namespace Carga_de_personas_mostrar
             this.Controls.Add(this.BtnCargar);
             this.Name = "Carga_lista_personas";
             this.Text = "Carga de personas y mostrar en pantalla, la lista";
-
             this.ResumeLayout(false);
             this.PerformLayout();
 

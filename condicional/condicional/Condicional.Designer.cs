@@ -88,6 +88,7 @@ namespace condicional
             this.LblRes.Name = "LblRes";
             this.LblRes.Size = new System.Drawing.Size(113, 58);
             this.LblRes.TabIndex = 5;
+            this.LblRes.Text = " ";
             this.LblRes.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.LblRes.Visible = false;
             // 

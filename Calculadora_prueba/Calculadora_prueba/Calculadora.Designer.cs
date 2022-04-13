@@ -409,7 +409,7 @@ namespace Calculadora_prueba
             this.Cursor = System.Windows.Forms.Cursors.Default;
             this.Name = "Calculadora";
             this.Text = "CALCULADORA";
-            this.Load += new System.EventHandler(this.Calculadora_Load);
+
             this.ResumeLayout(false);
             this.PerformLayout();
 

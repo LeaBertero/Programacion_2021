@@ -1,6 +1,6 @@
 ﻿namespace PracticaDgV
 {
-    partial class Form1
+    partial class PruebaDataGr
     {
         /// <summary>
         ///  Required designer variable.
@@ -160,7 +160,7 @@
             this.Precio.HeaderText = "Precio producto";
             this.Precio.Name = "Precio";
             // 
-            // Form1
+            // PruebaDataGr
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -176,8 +176,8 @@
             this.Controls.Add(this.TxtCodigo);
             this.Controls.Add(this.LblCodigo);
             this.Controls.Add(this.DgProductos);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "PruebaDataGr";
+            this.Text = "Ejercicio Data Grid View";
             ((System.ComponentModel.ISupportInitialize)(this.DgProductos)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

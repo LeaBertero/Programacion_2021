@@ -13,12 +13,12 @@ namespace PracticaDgV
 
 
     
-    public partial class Form1 : Form
+    public partial class PruebaDataGr : Form
     {
 
         private int n = 0;
 
-        public Form1()
+        public PruebaDataGr()
         {
             InitializeComponent();
         }

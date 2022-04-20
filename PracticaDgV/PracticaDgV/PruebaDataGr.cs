@@ -25,7 +25,7 @@ namespace PracticaDgV
 
         private void BtnAgregar_Click(object sender, EventArgs e)
         {
-            int n = DgProductos.Rows.Add();
+            int Fila = DgProductos.Rows.Add();
 
             DgProductos.Rows[Fila].Cells[0].Value = TxtCodigo.Text;
             DgProductos.Rows[Fila].Cells[1].Value = TxtNombre.Text;

@@ -59,7 +59,7 @@ namespace intento_prueba_clases
             // 
             this.TimerOne.Enabled = true;
             this.TimerOne.Interval = 500;
-            this.TimerOne.Tick += new System.EventHandler(this.TimerOne_Tick);
+
             // 
             // LblMundo
             // 
@@ -126,6 +126,7 @@ namespace intento_prueba_clases
             this.LblRojo.TabIndex = 6;
             this.LblRojo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.LblRojo.Visible = false;
+
             // 
             // BtnRojo
             // 

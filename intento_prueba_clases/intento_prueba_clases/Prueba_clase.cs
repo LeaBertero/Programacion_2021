@@ -42,9 +42,6 @@ namespace intento_prueba_clases
             LblRojo.Left = LblRojo.Left - 10;
         }
 
-        private void TimerOne_Tick(object sender, EventArgs e)
-        {
-
-        }
+        
     }
 }

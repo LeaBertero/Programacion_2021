@@ -16,7 +16,7 @@ namespace PracticaDgV
     public partial class PruebaDataGr : Form
     {
 
-        private int n = 0;
+        private int Fila = 0;
 
         public PruebaDataGr()
         {
@@ -27,9 +27,9 @@ namespace PracticaDgV
         {
             int n = DgProductos.Rows.Add();
 
-            DgProductos.Rows[n].Cells[0].Value = TxtCodigo.Text;
-            DgProductos.Rows[n].Cells[1].Value = TxtNombre.Text;
-            DgProductos.Rows[n].Cells[2].Value = TxtPrecio.Text;
+            DgProductos.Rows[Fila].Cells[0].Value = TxtCodigo.Text;
+            DgProductos.Rows[Fila].Cells[1].Value = TxtNombre.Text;
+            DgProductos.Rows[Fila].Cells[2].Value = TxtPrecio.Text;
 
             TxtCodigo.Text = null;
             TxtNombre.Text = null;
@@ -38,19 +38,19 @@ namespace PracticaDgV
 
         private void BtnBorrar_Click(object sender, EventArgs e)
         {
-            if (n != -1)
+            if (Fila != -1)
             {
-                DgProductos.Rows.RemoveAt(n);
+                DgProductos.Rows.RemoveAt(Fila);
             }
         }
 
         private void DgProductos_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            n = e.RowIndex;
+            Fila = e.RowIndex;
 
-            if (n != -1)
+            if (Fila != -1)
             {
-                LblInformacion.Text = (string)DgProductos.Rows[n].Cells[1].Value;
+                LblInformacion.Text = (string)DgProductos.Rows[Fila].Cells[1].Value;
             }
         }
 

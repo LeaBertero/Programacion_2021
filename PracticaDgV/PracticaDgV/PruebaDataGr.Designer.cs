@@ -47,7 +47,7 @@
             // 
             // BtnCerrar
             // 
-            this.BtnCerrar.Location = new System.Drawing.Point(518, 319);
+            this.BtnCerrar.Location = new System.Drawing.Point(527, 319);
             this.BtnCerrar.Name = "BtnCerrar";
             this.BtnCerrar.Size = new System.Drawing.Size(99, 51);
             this.BtnCerrar.TabIndex = 21;
@@ -57,7 +57,7 @@
             // 
             // BtnBorrar
             // 
-            this.BtnBorrar.Location = new System.Drawing.Point(518, 272);
+            this.BtnBorrar.Location = new System.Drawing.Point(527, 272);
             this.BtnBorrar.Name = "BtnBorrar";
             this.BtnBorrar.Size = new System.Drawing.Size(99, 41);
             this.BtnBorrar.TabIndex = 20;
@@ -67,7 +67,7 @@
             // 
             // BtnAgregar
             // 
-            this.BtnAgregar.Location = new System.Drawing.Point(518, 225);
+            this.BtnAgregar.Location = new System.Drawing.Point(527, 225);
             this.BtnAgregar.Name = "BtnAgregar";
             this.BtnAgregar.Size = new System.Drawing.Size(99, 41);
             this.BtnAgregar.TabIndex = 19;
@@ -86,7 +86,7 @@
             // 
             // TxtPrecio
             // 
-            this.TxtPrecio.Location = new System.Drawing.Point(412, 138);
+            this.TxtPrecio.Location = new System.Drawing.Point(245, 133);
             this.TxtPrecio.Name = "TxtPrecio";
             this.TxtPrecio.Size = new System.Drawing.Size(100, 23);
             this.TxtPrecio.TabIndex = 17;
@@ -94,7 +94,7 @@
             // LblPrecio
             // 
             this.LblPrecio.AutoSize = true;
-            this.LblPrecio.Location = new System.Drawing.Point(354, 141);
+            this.LblPrecio.Location = new System.Drawing.Point(183, 141);
             this.LblPrecio.Name = "LblPrecio";
             this.LblPrecio.Size = new System.Drawing.Size(40, 15);
             this.LblPrecio.TabIndex = 16;
@@ -102,7 +102,7 @@
             // 
             // TxtNombre
             // 
-            this.TxtNombre.Location = new System.Drawing.Point(412, 88);
+            this.TxtNombre.Location = new System.Drawing.Point(245, 95);
             this.TxtNombre.Name = "TxtNombre";
             this.TxtNombre.Size = new System.Drawing.Size(100, 23);
             this.TxtNombre.TabIndex = 15;
@@ -110,7 +110,7 @@
             // LblNombre
             // 
             this.LblNombre.AutoSize = true;
-            this.LblNombre.Location = new System.Drawing.Point(354, 91);
+            this.LblNombre.Location = new System.Drawing.Point(183, 103);
             this.LblNombre.Name = "LblNombre";
             this.LblNombre.Size = new System.Drawing.Size(51, 15);
             this.LblNombre.TabIndex = 14;
@@ -118,7 +118,7 @@
             // 
             // TxtCodigo
             // 
-            this.TxtCodigo.Location = new System.Drawing.Point(412, 45);
+            this.TxtCodigo.Location = new System.Drawing.Point(245, 55);
             this.TxtCodigo.Name = "TxtCodigo";
             this.TxtCodigo.Size = new System.Drawing.Size(100, 23);
             this.TxtCodigo.TabIndex = 13;
@@ -126,7 +126,7 @@
             // LblCodigo
             // 
             this.LblCodigo.AutoSize = true;
-            this.LblCodigo.Location = new System.Drawing.Point(354, 48);
+            this.LblCodigo.Location = new System.Drawing.Point(183, 63);
             this.LblCodigo.Name = "LblCodigo";
             this.LblCodigo.Size = new System.Drawing.Size(46, 15);
             this.LblCodigo.TabIndex = 12;
@@ -164,6 +164,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Khaki;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.BtnCerrar);
             this.Controls.Add(this.BtnBorrar);

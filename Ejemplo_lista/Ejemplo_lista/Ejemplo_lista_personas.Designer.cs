@@ -82,7 +82,7 @@ namespace Ejemplo_lista
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Segoe Script", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(-1, -1);
+            this.button1.Location = new System.Drawing.Point(9, 2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(176, 39);
             this.button1.TabIndex = 5;
@@ -137,7 +137,6 @@ namespace Ejemplo_lista
             this.Name = "Ejemplo_lista_personas";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "Programa - Ejemplo carga de una lista de personas";
-            
             this.ResumeLayout(false);
             this.PerformLayout();
 

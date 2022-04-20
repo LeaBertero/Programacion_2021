@@ -10,13 +10,13 @@ using System.Windows.Forms;
 
 namespace Final_programacion2021
 {
-    public partial class CargaListaPersonas : Form
+    public partial class CargaListaPersonasArreglos : Form
     {
         //Inicializo la variable nombres
         string[] Nombres;
         int pos = 0;
         
-        public CargaListaPersonas()
+        public CargaListaPersonasArreglos()
         {
             InitializeComponent();
         }

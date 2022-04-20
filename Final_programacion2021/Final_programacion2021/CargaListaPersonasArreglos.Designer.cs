@@ -1,7 +1,7 @@
 ﻿
 namespace Final_programacion2021
 {
-    partial class CargaListaPersonas
+    partial class CargaListaPersonasArreglos
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -110,7 +110,7 @@ namespace Final_programacion2021
             this.BtnCargar.UseVisualStyleBackColor = true;
             this.BtnCargar.Click += new System.EventHandler(this.BtnCargar_Click);
             // 
-            // Form1
+            // CargaListaPersonasArreglos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -123,8 +123,8 @@ namespace Final_programacion2021
             this.Controls.Add(this.TxtCarga);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.BtnCarga);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "CargaListaPersonasArreglos";
+            this.Text = "Arreglos";
             this.ResumeLayout(false);
             this.PerformLayout();
 

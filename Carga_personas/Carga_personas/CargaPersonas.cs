@@ -70,7 +70,7 @@ namespace Carga_personas
 
         private void BtnMostraFiltro_Click(object sender, EventArgs e)
         {
-            LblLista.Text = Lista.ToString(
+            LblLista.Text = Lista.ToString();
         }
 
 

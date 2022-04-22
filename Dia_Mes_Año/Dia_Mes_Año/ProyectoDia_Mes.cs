@@ -489,7 +489,7 @@ namespace Dia_Mes_Año
 
             LblDia.Text = null;
             LblMes.Text = null;
-            LblMes.Text = null;
+            LblAño.Text = null;
         }
     }
 }

@@ -148,27 +148,24 @@ namespace Dia_Mes_Año
             this.LblDia.AutoSize = true;
             this.LblDia.Location = new System.Drawing.Point(84, 265);
             this.LblDia.Name = "LblDia";
-            this.LblDia.Size = new System.Drawing.Size(35, 13);
+            this.LblDia.Size = new System.Drawing.Size(0, 13);
             this.LblDia.TabIndex = 11;
-            this.LblDia.Text = "label4";
             // 
             // LblMes
             // 
             this.LblMes.AutoSize = true;
             this.LblMes.Location = new System.Drawing.Point(166, 265);
             this.LblMes.Name = "LblMes";
-            this.LblMes.Size = new System.Drawing.Size(35, 13);
+            this.LblMes.Size = new System.Drawing.Size(0, 13);
             this.LblMes.TabIndex = 12;
-            this.LblMes.Text = "label5";
             // 
             // LblAño
             // 
             this.LblAño.AutoSize = true;
             this.LblAño.Location = new System.Drawing.Point(237, 265);
             this.LblAño.Name = "LblAño";
-            this.LblAño.Size = new System.Drawing.Size(35, 13);
+            this.LblAño.Size = new System.Drawing.Size(0, 13);
             this.LblAño.TabIndex = 13;
-            this.LblAño.Text = "label6";
             // 
             // ProyectoDia_Mes
             // 

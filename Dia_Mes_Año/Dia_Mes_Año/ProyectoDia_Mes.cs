@@ -36,54 +36,202 @@ namespace Dia_Mes_Año
             {
                 Dia = Convert.ToInt32(TxtDia.Text);
 
-                if (Dia > 0 && Dia <= 7)
+                if (Dia > 0 && Dia <= 31)
                 {
                     if (Dia == 1)
                     {
-                        MessageBox.Show("Lunes");
+                        LblDia.Text = "1";
+                        //MessageBox.Show("Lunes");
                     }
 
                     if (Dia == 2)
                     {
-                        MessageBox.Show("Martes");
+                        LblDia.Text = "2";
+                        //MessageBox.Show("Martes");
                     }
 
                     if (Dia == 3)
                     {
-                        MessageBox.Show("Miercoles");
+                        LblDia.Text = "3";
+                        //MessageBox.Show("Miercoles");
                     }
 
                     if (Dia == 4)
                     {
-                        MessageBox.Show("Jueves");
+                        LblDia.Text = "4";
+                        //MessageBox.Show("Jueves");
                     }
 
                     if (Dia == 5)
                     {
-                        MessageBox.Show("Viernes");
+                        LblDia.Text = "5";
+                        //MessageBox.Show("Viernes");
                     }
 
                     if (Dia == 6)
                     {
-                        MessageBox.Show("Sábado");
+                        LblDia.Text = "6";
+                        //MessageBox.Show("Sábado");
                     }
 
                     if (Dia == 7)
                     {
-                        MessageBox.Show("Domingo");
+                        LblDia.Text = "7";
+                        //MessageBox.Show("Domingo");
                     }
-                    else
+
+                    if (Dia == 8)
                     {
-                        MessageBox.Show("Error");
+                        LblDia.Text = "8";
+                        //MessageBox.Show("Domingo");
+                    }
+
+                    if (Dia == 9)
+                    {
+                        LblDia.Text = "9";
+                        //MessageBox.Show("Domingo");
+                    }
+
+                    if (Dia == 10)
+                    {
+                        LblDia.Text = "10";
+                        //MessageBox.Show("Domingo");
+                    }
+
+                    if (Dia == 11)
+                    {
+                        LblDia.Text = "11";
+                        //MessageBox.Show("Domingo");
+                    }
+
+                    if (Dia == 12)
+                    {
+                        LblDia.Text = "12";
+                        //MessageBox.Show("Domingo");
+                    }
+
+                    if (Dia == 13)
+                    {
+                        LblDia.Text = "13";
+                        //MessageBox.Show("Domingo");
+                    }
+
+                    if (Dia == 14)
+                    {
+                        LblDia.Text = "14";
+                        //MessageBox.Show("Domingo");
+                    }
+
+                    if (Dia == 15)
+                    {
+                        LblDia.Text = "15";
+                        //MessageBox.Show("Domingo");
+                    }
+
+                    if (Dia == 16)
+                    {
+                        LblDia.Text = "16";
+                        //MessageBox.Show("Domingo");
+                    }
+
+                    if (Dia == 17)
+                    {
+                        LblDia.Text = "17";
+                        //MessageBox.Show("Domingo");
+                    }
+
+                    if (Dia == 18)
+                    {
+                        LblDia.Text = "18";
+                        //MessageBox.Show("Domingo");
+                    }
+
+                    if (Dia == 19)
+                    {
+                        LblDia.Text = "19";
+                        //MessageBox.Show("Domingo");
+                    }
+
+                    if (Dia == 20)
+                    {
+                        LblDia.Text = "20";
+                        //MessageBox.Show("Domingo");
+                    }
+
+                    if (Dia == 21)
+                    {
+                        LblDia.Text = "21";
+                        //MessageBox.Show("Domingo");
+                    }
+
+                    if (Dia == 22)
+                    {
+                        LblDia.Text = "22";
+                        //MessageBox.Show("Domingo");
+                    }
+
+                    if (Dia == 23)
+                    {
+                        LblDia.Text = "23";
+                        //MessageBox.Show("Domingo");
+                    }
+
+                    if (Dia == 24)
+                    {
+                        LblDia.Text = "24";
+                        //MessageBox.Show("Domingo");
+                    }
+
+                    if (Dia == 25)
+                    {
+                        LblDia.Text = "25";
+                        //MessageBox.Show("Domingo");
+                    }
+
+                    if (Dia == 26)
+                    {
+                        LblDia.Text = "26";
+                        //MessageBox.Show("Domingo");
+                    }
+
+                    if (Dia == 27)
+                    {
+                        LblDia.Text = "27";
+                        //MessageBox.Show("Domingo");
+                    }
+
+                    if (Dia == 28)
+                    {
+                        LblDia.Text = "28";
+                        //MessageBox.Show("Domingo");
+                    }
+
+                    if (Dia == 29)
+                    {
+                        LblDia.Text = "29";
+                        //MessageBox.Show("Domingo");
+                    }
+
+                    if (Dia == 30)
+                    {
+                        LblDia.Text = "30";
+                        //MessageBox.Show("Domingo");
+                    }
+
+                    if (Dia == 31)
+                    {
+                        LblDia.Text = "31";
+                        //MessageBox.Show("Domingo");
                     }
                 }
             }
             catch (Exception)
             {
-
                 MessageBox.Show("Debe ingresar un dato correcto");
             }
         }
+                   
+
 
         private void BtnMes_Click(object sender, EventArgs e)
         {
@@ -96,68 +244,75 @@ namespace Dia_Mes_Año
 
                     if (Mes == 1)
                     {
-                        MessageBox.Show("Enero");
+                        LblMes.Text = "Enero";
+                        //MessageBox.Show("Enero");
                     }
 
                     if (Mes == 2)
                     {
-                        MessageBox.Show("Febrero");
+                        LblMes.Text = "Febrero";
+                        //MessageBox.Show("Febrero");
                     }
 
                     if (Mes == 3)
                     {
-                        MessageBox.Show("Marzo");
+                        LblMes.Text = "Marzo";
+                        //MessageBox.Show("Marzo");
                     }
 
                     if (Mes == 4)
                     {
-                        MessageBox.Show("Abril");
+                        LblMes.Text = "Abril";
+                        //MessageBox.Show("Abril");
                     }
 
                     if (Mes == 5)
                     {
-                        MessageBox.Show("Mayo");
+                        LblMes.Text = "Mayo";
+                        //MessageBox.Show("Mayo");
                     }
 
                     if (Mes == 6)
                     {
-                        MessageBox.Show("Junio");
+                        LblMes.Text = "Junio";
+                        //MessageBox.Show("Junio");
                     }
 
                     if (Mes == 7)
                     {
-                        MessageBox.Show("Julio");
+                        LblMes.Text = "Julio";
+                        //MessageBox.Show("Julio");
                     }
 
                     if (Mes == 8)
                     {
-                        MessageBox.Show("Agosto");
+                        LblMes.Text = "Agosto";
+                        //MessageBox.Show("Agosto");
                     }
 
                     if (Mes == 9)
                     {
-                        MessageBox.Show("Septiembre");
+                        LblMes.Text = "Septiembre";
+                        //MessageBox.Show("Septiembre");
                     }
 
                     if (Mes == 10)
                     {
-                        MessageBox.Show("Octubre");
+                        LblMes.Text = "Octubre";
+                        //MessageBox.Show("Octubre");
                     }
 
                     if (Mes == 11)
                     {
-                        MessageBox.Show("Noviembre");
+                        LblMes.Text = "Noviembre";
+                        //MessageBox.Show("Noviembre");
                     }
 
                     if (Mes == 12)
                     {
-                        MessageBox.Show("Diciembre");
+                        LblMes.Text = "Diciembre";
+                        //MessageBox.Show("Diciembre");
                     }
-                    else
-                    {
-                        MessageBox.Show("Dato ingresado incorrecto");
-                    }
-
                 }
             }
             catch (Exception)
@@ -165,6 +320,8 @@ namespace Dia_Mes_Año
                 MessageBox.Show("Debe ingresar un dato correcto");
             }
         }
+                    
+
                 
 
         private void BtnAño_Click(object sender, EventArgs e)
@@ -177,28 +334,143 @@ namespace Dia_Mes_Año
                 {
                     if (Año == 2000)
                     {
-                        MessageBox.Show("Año 2000");
+                        LblAño.Text = "Año 2000";
+                        //MessageBox.Show("Año 2000");
                     }
 
                     if (Año == 2001)
                     {
-                        MessageBox.Show("Año 2001");
+                        LblAño.Text = "Año 2001";
+                        //MessageBox.Show("Año 2001");
                     }
 
                     if (Año == 2002)
                     {
-                        MessageBox.Show("Año 2002");
+                        LblAño.Text = "Año 2002";
+                        //MessageBox.Show("Año 2002");
                     }
 
                     if (Año == 2003)
                     {
-                        MessageBox.Show("Año 2003");
+                        LblAño.Text = "Año 2003";
+                        //MessageBox.Show("Año 2003");
                     }
 
                     if (Año == 2004)
                     {
-                        MessageBox.Show("Año 2004");
+                        LblAño.Text = "Año 2004";
+                        //MessageBox.Show("Año 2004");
                     }
+
+                    if (Año == 2005)
+                    {
+                        LblAño.Text = "Año 2005";
+                        //MessageBox.Show("Año 2005");
+                    }
+
+                    if (Año == 2006)
+                    {
+                        LblAño.Text = "Año 2006";
+                        //MessageBox.Show("Año 2006");
+                    }
+
+                    if (Año == 2007)
+                    {
+                        LblAño.Text = "Año 2007";
+                        //MessageBox.Show("Año 2007");
+                    }
+
+                    if (Año == 2008)
+                    {
+                        LblAño.Text = "Año 2008";
+                        //MessageBox.Show("Año 2008");
+                    }
+
+                    if (Año == 2009)
+                    {
+                        LblAño.Text = "Año 2009";
+                        //MessageBox.Show("Año 2004");
+                    }
+
+                    if (Año == 2010)
+                    {
+                        LblAño.Text = "Año 2010";
+                        //MessageBox.Show("Año 2004");
+                    }
+
+                    if (Año == 2011)
+                    {
+                        LblAño.Text = "Año 2011";
+                        //MessageBox.Show("Año 2004");
+                    }
+
+                    if (Año == 2012)
+                    {
+                        LblAño.Text = "Año 2012";
+                        //MessageBox.Show("Año 2004");
+                    }
+
+                    if (Año == 2013)
+                    {
+                        LblAño.Text = "Año 2013";
+                        //MessageBox.Show("Año 2004");
+                    }
+
+                    if (Año == 2014)
+                    {
+                        LblAño.Text = "Año 2014";
+                        //MessageBox.Show("Año 2004");
+                    }
+
+                    if (Año == 2015)
+                    {
+                        LblAño.Text = "Año 2015";
+                        //MessageBox.Show("Año 2004");
+                    }
+
+                    if (Año == 2016)
+                    {
+                        LblAño.Text = "Año 2016";
+                        //MessageBox.Show("Año 2004");
+                    }
+
+                    if (Año == 2017)
+                    {
+                        LblAño.Text = "Año 2017";
+                        //MessageBox.Show("Año 2004");
+                    }
+
+                    if (Año == 2018)
+                    {
+                        LblAño.Text = "Año 2018";
+                        //MessageBox.Show("Año 2004");
+                    }
+
+                    if (Año == 2019)
+                    {
+                        LblAño.Text = "Año 2019";
+                        //MessageBox.Show("Año 2004");
+                    }
+
+                    if (Año == 2020)
+                    {
+                        LblAño.Text = "Año 2020";
+                        //MessageBox.Show("Año 2004");
+                    }
+
+                    if (Año == 2021)
+                    {
+                        LblAño.Text = "Año 2021";
+                        //MessageBox.Show("Año 2004");
+                    }
+
+                    if (Año == 2022)
+                    {
+                        LblAño.Text = "Año 2022";
+                        //MessageBox.Show("Año 2004");
+                    }
+
+                    
                 }
             }
             catch (Exception)
@@ -214,6 +486,10 @@ namespace Dia_Mes_Año
             TxtDia.Text = null;
             TxtMes.Text = null;
             TxtAño.Text = null;
+
+            LblDia.Text = null;
+            LblMes.Text = null;
+            LblMes.Text = null;
         }
     }
 }

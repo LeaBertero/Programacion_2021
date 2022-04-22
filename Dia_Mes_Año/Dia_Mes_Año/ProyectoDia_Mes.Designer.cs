@@ -40,6 +40,9 @@ namespace Dia_Mes_Año
             this.TxtAño = new System.Windows.Forms.TextBox();
             this.BtnAño = new System.Windows.Forms.Button();
             this.BtLimpiar = new System.Windows.Forms.Button();
+            this.LblDia = new System.Windows.Forms.Label();
+            this.LblMes = new System.Windows.Forms.Label();
+            this.LblAño = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // BtnSemana
@@ -81,18 +84,18 @@ namespace Dia_Mes_Año
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(101, 71);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(190, 13);
+            this.label1.Size = new System.Drawing.Size(184, 13);
             this.label1.TabIndex = 4;
-            this.label1.Text = "Ingrese en numeros la semana del mes";
+            this.label1.Text = "Ingrese el día (Expresado en numero)";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(101, 116);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(171, 13);
+            this.label2.Size = new System.Drawing.Size(187, 13);
             this.label2.TabIndex = 5;
-            this.label2.Text = "Ingrese en numeros el mes del año";
+            this.label2.Text = "Ingrese el mes (Expresado en numero)";
             // 
             // BtnCerrar
             // 
@@ -109,9 +112,9 @@ namespace Dia_Mes_Año
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(101, 168);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(197, 13);
+            this.label3.Size = new System.Drawing.Size(188, 13);
             this.label3.TabIndex = 7;
-            this.label3.Text = "Ingrese año (Representado en numeros)";
+            this.label3.Text = "Ingrese el año, (expresado en numero)";
             // 
             // TxtAño
             // 
@@ -140,12 +143,42 @@ namespace Dia_Mes_Año
             this.BtLimpiar.UseVisualStyleBackColor = true;
             this.BtLimpiar.Click += new System.EventHandler(this.BtLimpiar_Click);
             // 
+            // LblDia
+            // 
+            this.LblDia.AutoSize = true;
+            this.LblDia.Location = new System.Drawing.Point(84, 265);
+            this.LblDia.Name = "LblDia";
+            this.LblDia.Size = new System.Drawing.Size(35, 13);
+            this.LblDia.TabIndex = 11;
+            this.LblDia.Text = "label4";
+            // 
+            // LblMes
+            // 
+            this.LblMes.AutoSize = true;
+            this.LblMes.Location = new System.Drawing.Point(166, 265);
+            this.LblMes.Name = "LblMes";
+            this.LblMes.Size = new System.Drawing.Size(35, 13);
+            this.LblMes.TabIndex = 12;
+            this.LblMes.Text = "label5";
+            // 
+            // LblAño
+            // 
+            this.LblAño.AutoSize = true;
+            this.LblAño.Location = new System.Drawing.Point(237, 265);
+            this.LblAño.Name = "LblAño";
+            this.LblAño.Size = new System.Drawing.Size(35, 13);
+            this.LblAño.TabIndex = 13;
+            this.LblAño.Text = "label6";
+            // 
             // ProyectoDia_Mes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightBlue;
-            this.ClientSize = new System.Drawing.Size(612, 298);
+            this.ClientSize = new System.Drawing.Size(612, 315);
+            this.Controls.Add(this.LblAño);
+            this.Controls.Add(this.LblMes);
+            this.Controls.Add(this.LblDia);
             this.Controls.Add(this.BtLimpiar);
             this.Controls.Add(this.BtnAño);
             this.Controls.Add(this.TxtAño);
@@ -177,6 +210,9 @@ namespace Dia_Mes_Año
         private System.Windows.Forms.TextBox TxtAño;
         private System.Windows.Forms.Button BtnAño;
         private System.Windows.Forms.Button BtLimpiar;
+        private System.Windows.Forms.Label LblDia;
+        private System.Windows.Forms.Label LblMes;
+        private System.Windows.Forms.Label LblAño;
     }
 }
 

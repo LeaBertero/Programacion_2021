@@ -73,6 +73,11 @@ namespace Carga_personas
             LblLista.Text = Lista.ToString();
         }
 
+        private void BtnBuscar_Click(object sender, EventArgs e)
+        {
+
+        }
+
 
 
 

@@ -129,6 +129,7 @@ namespace Carga_personas
             this.BtnBuscar.TabIndex = 8;
             this.BtnBuscar.Text = "Buscar";
             this.BtnBuscar.UseVisualStyleBackColor = true;
+            this.BtnBuscar.Click += new System.EventHandler(this.BtnBuscar_Click);
             // 
             // BtnFiltro
             // 

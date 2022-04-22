@@ -32,137 +32,188 @@ namespace Dia_Mes_Año
 
         private void BtnSemana_Click(object sender, EventArgs e)
         {
-            Dia = Convert.ToInt32(TxtDia.Text);
-
-            if (Dia > 0 && Dia <= 7)
+            try
             {
-                if (Dia == 1)
-                {
-                    MessageBox.Show("Lunes");
-                }
+                Dia = Convert.ToInt32(TxtDia.Text);
 
-                if (Dia == 2)
+                if (Dia > 0 && Dia <= 7)
                 {
-                    MessageBox.Show("Martes");
-                }
+                    if (Dia == 1)
+                    {
+                        MessageBox.Show("Lunes");
+                    }
 
-                if (Dia == 3)
-                {
-                    MessageBox.Show("Miercoles");
-                }
+                    if (Dia == 2)
+                    {
+                        MessageBox.Show("Martes");
+                    }
 
-                if (Dia == 4)
-                {
-                    MessageBox.Show("Jueves");
-                }
+                    if (Dia == 3)
+                    {
+                        MessageBox.Show("Miercoles");
+                    }
 
-                if (Dia == 5)
-                {
-                    MessageBox.Show("Viernes");
-                }
+                    if (Dia == 4)
+                    {
+                        MessageBox.Show("Jueves");
+                    }
 
-                if (Dia == 6)
-                {
-                    MessageBox.Show("Sábado");
-                }
+                    if (Dia == 5)
+                    {
+                        MessageBox.Show("Viernes");
+                    }
 
-                if (Dia == 7)
-                {
-                    MessageBox.Show("Domingo");
+                    if (Dia == 6)
+                    {
+                        MessageBox.Show("Sábado");
+                    }
+
+                    if (Dia == 7)
+                    {
+                        MessageBox.Show("Domingo");
+                    }
+                    else
+                    {
+                        MessageBox.Show("Error");
+                    }
                 }
-                else
-                {
-                    MessageBox.Show("Error");
-                }
+            }
+            catch (Exception)
+            {
+
+                MessageBox.Show("Debe ingresar un dato correcto");
             }
         }
 
         private void BtnMes_Click(object sender, EventArgs e)
         {
-            Mes = Convert.ToInt32(TxtMes.Text);
-
-            if (Mes > 0 && Mes <= 12)
+            try
             {
+                Mes = Convert.ToInt32(TxtMes.Text);
 
-                if (Mes == 1)
+                if (Mes > 0 && Mes <= 12)
                 {
-                    MessageBox.Show("Enero");
-                }
 
-                if (Mes == 2)
-                {
-                    MessageBox.Show("Febrero");
-                }
+                    if (Mes == 1)
+                    {
+                        MessageBox.Show("Enero");
+                    }
 
-                if (Mes == 3)
-                {
-                    MessageBox.Show("Marzo");
-                }
+                    if (Mes == 2)
+                    {
+                        MessageBox.Show("Febrero");
+                    }
 
-                if (Mes == 4)
-                {
-                    MessageBox.Show("Abril");
-                }
+                    if (Mes == 3)
+                    {
+                        MessageBox.Show("Marzo");
+                    }
 
-                if (Mes == 5)
-                {
-                    MessageBox.Show("Mayo");
-                }
+                    if (Mes == 4)
+                    {
+                        MessageBox.Show("Abril");
+                    }
 
-                if (Mes == 6)
-                {
-                    MessageBox.Show("Junio");
-                }
+                    if (Mes == 5)
+                    {
+                        MessageBox.Show("Mayo");
+                    }
 
-                if (Mes == 7)
-                {
-                    MessageBox.Show("Julio");
-                }
+                    if (Mes == 6)
+                    {
+                        MessageBox.Show("Junio");
+                    }
 
-                if (Mes == 8)
-                {
-                    MessageBox.Show("Agosto");
-                }
+                    if (Mes == 7)
+                    {
+                        MessageBox.Show("Julio");
+                    }
 
-                if (Mes == 9)
-                {
-                    MessageBox.Show("Septiembre");
-                }
+                    if (Mes == 8)
+                    {
+                        MessageBox.Show("Agosto");
+                    }
 
-                if (Mes == 10)
-                {
-                    MessageBox.Show("Octubre");
-                }
+                    if (Mes == 9)
+                    {
+                        MessageBox.Show("Septiembre");
+                    }
 
-                if (Mes == 11)
-                {
-                    MessageBox.Show("Noviembre");
-                }
+                    if (Mes == 10)
+                    {
+                        MessageBox.Show("Octubre");
+                    }
 
-                if (Mes == 12)
-                {
-                    MessageBox.Show("Diciembre");
-                }
-                else
-                {
-                    MessageBox.Show("Dato ingresado incorrecto");
-                }
+                    if (Mes == 11)
+                    {
+                        MessageBox.Show("Noviembre");
+                    }
 
+                    if (Mes == 12)
+                    {
+                        MessageBox.Show("Diciembre");
+                    }
+                    else
+                    {
+                        MessageBox.Show("Dato ingresado incorrecto");
+                    }
+
+                }
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Debe ingresar un dato correcto");
             }
         }
+                
 
         private void BtnAño_Click(object sender, EventArgs e)
         {
-            Año = Convert.ToInt32(TxtAño.Text);
+            try
+            {
+                Año = Convert.ToInt32(TxtAño.Text);
 
-            if (Año > 1900 && Año < 2022)
-            {
-                
+                if (Año > 1900 && Año <= 2022)
+                {
+                    if (Año == 2000)
+                    {
+                        MessageBox.Show("Año 2000");
+                    }
+
+                    if (Año == 2001)
+                    {
+                        MessageBox.Show("Año 2001");
+                    }
+
+                    if (Año == 2002)
+                    {
+                        MessageBox.Show("Año 2002");
+                    }
+
+                    if (Año == 2003)
+                    {
+                        MessageBox.Show("Año 2003");
+                    }
+
+                    if (Año == 2004)
+                    {
+                        MessageBox.Show("Año 2004");
+                    }
+                }
             }
-            else
+            catch (Exception)
             {
-                MessageBox.Show("Año incorrecto");
+
+                MessageBox.Show("Debe ingresar un dato correcto");
             }
+            
+        }
+
+        private void BtLimpiar_Click(object sender, EventArgs e)
+        {
+            TxtDia.Text = null;
+            TxtMes.Text = null;
+            TxtAño.Text = null;
         }
     }
 }

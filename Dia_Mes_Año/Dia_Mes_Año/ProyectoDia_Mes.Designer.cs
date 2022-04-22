@@ -39,11 +39,12 @@ namespace Dia_Mes_Año
             this.label3 = new System.Windows.Forms.Label();
             this.TxtAño = new System.Windows.Forms.TextBox();
             this.BtnAño = new System.Windows.Forms.Button();
+            this.BtLimpiar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // BtnSemana
             // 
-            this.BtnSemana.Location = new System.Drawing.Point(321, 57);
+            this.BtnSemana.Location = new System.Drawing.Point(428, 66);
             this.BtnSemana.Name = "BtnSemana";
             this.BtnSemana.Size = new System.Drawing.Size(75, 23);
             this.BtnSemana.TabIndex = 0;
@@ -53,7 +54,7 @@ namespace Dia_Mes_Año
             // 
             // BtnMes
             // 
-            this.BtnMes.Location = new System.Drawing.Point(321, 107);
+            this.BtnMes.Location = new System.Drawing.Point(428, 116);
             this.BtnMes.Name = "BtnMes";
             this.BtnMes.Size = new System.Drawing.Size(75, 23);
             this.BtnMes.TabIndex = 1;
@@ -63,14 +64,14 @@ namespace Dia_Mes_Año
             // 
             // TxtDia
             // 
-            this.TxtDia.Location = new System.Drawing.Point(202, 59);
+            this.TxtDia.Location = new System.Drawing.Point(309, 68);
             this.TxtDia.Name = "TxtDia";
             this.TxtDia.Size = new System.Drawing.Size(100, 20);
             this.TxtDia.TabIndex = 2;
             // 
             // TxtMes
             // 
-            this.TxtMes.Location = new System.Drawing.Point(202, 107);
+            this.TxtMes.Location = new System.Drawing.Point(309, 116);
             this.TxtMes.Name = "TxtMes";
             this.TxtMes.Size = new System.Drawing.Size(100, 20);
             this.TxtMes.TabIndex = 3;
@@ -78,24 +79,24 @@ namespace Dia_Mes_Año
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(46, 62);
+            this.label1.Location = new System.Drawing.Point(101, 71);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(140, 13);
+            this.label1.Size = new System.Drawing.Size(190, 13);
             this.label1.TabIndex = 4;
-            this.label1.Text = "Ingrese un dia de la semana";
+            this.label1.Text = "Ingrese en numeros la semana del mes";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(46, 112);
+            this.label2.Location = new System.Drawing.Point(101, 116);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(117, 13);
+            this.label2.Size = new System.Drawing.Size(171, 13);
             this.label2.TabIndex = 5;
-            this.label2.Text = "Ingrese un mes del año";
+            this.label2.Text = "Ingrese en numeros el mes del año";
             // 
             // BtnCerrar
             // 
-            this.BtnCerrar.Location = new System.Drawing.Point(12, 12);
+            this.BtnCerrar.Location = new System.Drawing.Point(87, 12);
             this.BtnCerrar.Name = "BtnCerrar";
             this.BtnCerrar.Size = new System.Drawing.Size(436, 23);
             this.BtnCerrar.TabIndex = 6;
@@ -106,22 +107,22 @@ namespace Dia_Mes_Año
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(46, 159);
+            this.label3.Location = new System.Drawing.Point(101, 168);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(63, 13);
+            this.label3.Size = new System.Drawing.Size(197, 13);
             this.label3.TabIndex = 7;
-            this.label3.Text = "Ingrese año";
+            this.label3.Text = "Ingrese año (Representado en numeros)";
             // 
             // TxtAño
             // 
-            this.TxtAño.Location = new System.Drawing.Point(202, 152);
+            this.TxtAño.Location = new System.Drawing.Point(309, 161);
             this.TxtAño.Name = "TxtAño";
             this.TxtAño.Size = new System.Drawing.Size(100, 20);
             this.TxtAño.TabIndex = 8;
             // 
             // BtnAño
             // 
-            this.BtnAño.Location = new System.Drawing.Point(321, 152);
+            this.BtnAño.Location = new System.Drawing.Point(428, 161);
             this.BtnAño.Name = "BtnAño";
             this.BtnAño.Size = new System.Drawing.Size(75, 20);
             this.BtnAño.TabIndex = 9;
@@ -129,11 +130,23 @@ namespace Dia_Mes_Año
             this.BtnAño.UseVisualStyleBackColor = true;
             this.BtnAño.Click += new System.EventHandler(this.BtnAño_Click);
             // 
+            // BtLimpiar
+            // 
+            this.BtLimpiar.Location = new System.Drawing.Point(87, 216);
+            this.BtLimpiar.Name = "BtLimpiar";
+            this.BtLimpiar.Size = new System.Drawing.Size(436, 23);
+            this.BtLimpiar.TabIndex = 10;
+            this.BtLimpiar.Text = "Limpiar datos ingresados";
+            this.BtLimpiar.UseVisualStyleBackColor = true;
+            this.BtLimpiar.Click += new System.EventHandler(this.BtLimpiar_Click);
+            // 
             // ProyectoDia_Mes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(460, 298);
+            this.BackColor = System.Drawing.Color.LightBlue;
+            this.ClientSize = new System.Drawing.Size(612, 298);
+            this.Controls.Add(this.BtLimpiar);
             this.Controls.Add(this.BtnAño);
             this.Controls.Add(this.TxtAño);
             this.Controls.Add(this.label3);
@@ -163,6 +176,7 @@ namespace Dia_Mes_Año
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox TxtAño;
         private System.Windows.Forms.Button BtnAño;
+        private System.Windows.Forms.Button BtLimpiar;
     }
 }
 

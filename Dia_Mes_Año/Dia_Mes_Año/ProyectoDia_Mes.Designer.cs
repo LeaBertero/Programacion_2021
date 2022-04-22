@@ -191,7 +191,7 @@ namespace Dia_Mes_Año
             this.Controls.Add(this.BtnMes);
             this.Controls.Add(this.BtnSemana);
             this.Name = "ProyectoDia_Mes";
-            this.Text = "Programa Dia y Mes";
+            this.Text = "Programa Dia_Mes_Año";
             this.ResumeLayout(false);
             this.PerformLayout();
 

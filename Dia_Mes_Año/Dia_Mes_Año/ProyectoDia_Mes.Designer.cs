@@ -193,13 +193,13 @@ namespace Dia_Mes_Año
             // 
             // BtDecrementarDia
             // 
+            this.BtDecrementarDia.Enabled = false;
             this.BtDecrementarDia.Location = new System.Drawing.Point(632, 66);
             this.BtDecrementarDia.Name = "BtDecrementarDia";
             this.BtDecrementarDia.Size = new System.Drawing.Size(98, 23);
             this.BtDecrementarDia.TabIndex = 15;
             this.BtDecrementarDia.Text = "Decrementar día";
             this.BtDecrementarDia.UseVisualStyleBackColor = true;
-            this.BtDecrementarDia.Click += new System.EventHandler(this.BtDecrementarDia_Click);
             // 
             // BtIncrementoMes
             // 
@@ -236,6 +236,7 @@ namespace Dia_Mes_Año
             this.Controls.Add(this.BtnMes);
             this.Controls.Add(this.BtnSemana);
             this.Name = "ProyectoDia_Mes";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Programa Dia_Mes_Año";
             this.ResumeLayout(false);
             this.PerformLayout();

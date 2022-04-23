@@ -337,7 +337,7 @@ namespace Dia_Mes_Año
             {
                 Año = Convert.ToInt32(TxtAño.Text);
 
-                if (Año > 1900 && Año <= 2022)
+                if (Año > 2000 && Año <= 2022)
                 {
                     if (Año == 2000)
                     {
@@ -499,25 +499,24 @@ namespace Dia_Mes_Año
             LblAño.Text = null;
         }
 
-        public void btincrementoDia_Click(object sender, EventArgs e)
+        private void btincrementoDia_Click(object sender, EventArgs e)
         {
             ++IncrementoDia;
             LblDia.Text = Convert.ToString(IncrementoDia);
         }
-
+            
         private void BtDecrementarDia_Click(object sender, EventArgs e)
         {
             --IncrementoDia;
             LblDia.Text = Convert.ToString(IncrementoDia);
 
             //Quise implemantar un condicional para controlar los dias que no sean numeros negativos
-            //Ni que sean mas de 31 dias
+           // Ni que sean mas de 31 dias
 
             //if (IncrementoDia > 0 && IncrementoDia <= 31)
             //{
 
             //}
-
         }
 
         private void BtincrementoAño_Click(object sender, EventArgs e)
@@ -607,6 +606,13 @@ namespace Dia_Mes_Año
                 //MessageBox.Show("Enero");
             }
 
+
+
+
+
+
         }
+
+        
     }
 }

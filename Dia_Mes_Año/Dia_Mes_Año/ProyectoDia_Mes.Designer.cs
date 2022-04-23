@@ -122,7 +122,7 @@ namespace Dia_Mes_Año
             // 
             // TxtAño
             // 
-            this.TxtAño.Location = new System.Drawing.Point(309, 161);
+            this.TxtAño.Location = new System.Drawing.Point(309, 166);
             this.TxtAño.Name = "TxtAño";
             this.TxtAño.Size = new System.Drawing.Size(100, 20);
             this.TxtAño.TabIndex = 8;
@@ -131,7 +131,7 @@ namespace Dia_Mes_Año
             // 
             this.BtnAño.Location = new System.Drawing.Point(428, 161);
             this.BtnAño.Name = "BtnAño";
-            this.BtnAño.Size = new System.Drawing.Size(75, 20);
+            this.BtnAño.Size = new System.Drawing.Size(75, 29);
             this.BtnAño.TabIndex = 9;
             this.BtnAño.Text = "Ingresar";
             this.BtnAño.UseVisualStyleBackColor = true;
@@ -183,9 +183,9 @@ namespace Dia_Mes_Año
             // 
             // BtincrementoAño
             // 
-            this.BtincrementoAño.Location = new System.Drawing.Point(518, 158);
+            this.BtincrementoAño.Location = new System.Drawing.Point(518, 161);
             this.BtincrementoAño.Name = "BtincrementoAño";
-            this.BtincrementoAño.Size = new System.Drawing.Size(75, 23);
+            this.BtincrementoAño.Size = new System.Drawing.Size(75, 29);
             this.BtincrementoAño.TabIndex = 14;
             this.BtincrementoAño.Text = "Incrementar";
             this.BtincrementoAño.UseVisualStyleBackColor = true;
@@ -203,7 +203,7 @@ namespace Dia_Mes_Año
             // 
             // BtIncrementoMes
             // 
-            this.BtIncrementoMes.Location = new System.Drawing.Point(518, 114);
+            this.BtIncrementoMes.Location = new System.Drawing.Point(518, 116);
             this.BtIncrementoMes.Name = "BtIncrementoMes";
             this.BtIncrementoMes.Size = new System.Drawing.Size(98, 23);
             this.BtIncrementoMes.TabIndex = 16;
@@ -213,8 +213,10 @@ namespace Dia_Mes_Año
             // 
             // ProyectoDia_Mes
             // 
+            this.AcceptButton = this.BtnSemana;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSize = true;
             this.BackColor = System.Drawing.Color.LightBlue;
             this.ClientSize = new System.Drawing.Size(808, 315);
             this.Controls.Add(this.BtIncrementoMes);

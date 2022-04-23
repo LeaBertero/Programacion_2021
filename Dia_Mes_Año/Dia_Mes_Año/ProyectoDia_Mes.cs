@@ -337,7 +337,7 @@ namespace Dia_Mes_Año
             {
                 Año = Convert.ToInt32(TxtAño.Text);
 
-                if (Año > 2000 && Año <= 2022)
+                if (Año >= 2000 && Año <= 2022)
                 {
                     if (Año == 2000)
                     {

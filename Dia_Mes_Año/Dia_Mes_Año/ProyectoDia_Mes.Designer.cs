@@ -51,7 +51,7 @@ namespace Dia_Mes_Año
             // 
             // BtnSemana
             // 
-            this.BtnSemana.Location = new System.Drawing.Point(428, 66);
+            this.BtnSemana.Location = new System.Drawing.Point(436, 57);
             this.BtnSemana.Name = "BtnSemana";
             this.BtnSemana.Size = new System.Drawing.Size(75, 23);
             this.BtnSemana.TabIndex = 0;
@@ -61,7 +61,7 @@ namespace Dia_Mes_Año
             // 
             // BtnMes
             // 
-            this.BtnMes.Location = new System.Drawing.Point(428, 116);
+            this.BtnMes.Location = new System.Drawing.Point(436, 107);
             this.BtnMes.Name = "BtnMes";
             this.BtnMes.Size = new System.Drawing.Size(75, 23);
             this.BtnMes.TabIndex = 1;
@@ -71,14 +71,14 @@ namespace Dia_Mes_Año
             // 
             // TxtDia
             // 
-            this.TxtDia.Location = new System.Drawing.Point(309, 68);
+            this.TxtDia.Location = new System.Drawing.Point(317, 59);
             this.TxtDia.Name = "TxtDia";
             this.TxtDia.Size = new System.Drawing.Size(100, 20);
             this.TxtDia.TabIndex = 2;
             // 
             // TxtMes
             // 
-            this.TxtMes.Location = new System.Drawing.Point(309, 116);
+            this.TxtMes.Location = new System.Drawing.Point(317, 107);
             this.TxtMes.Name = "TxtMes";
             this.TxtMes.Size = new System.Drawing.Size(100, 20);
             this.TxtMes.TabIndex = 3;
@@ -86,7 +86,7 @@ namespace Dia_Mes_Año
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(101, 71);
+            this.label1.Location = new System.Drawing.Point(109, 62);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(184, 13);
             this.label1.TabIndex = 4;
@@ -95,7 +95,7 @@ namespace Dia_Mes_Año
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(101, 116);
+            this.label2.Location = new System.Drawing.Point(109, 107);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(187, 13);
             this.label2.TabIndex = 5;
@@ -103,9 +103,9 @@ namespace Dia_Mes_Año
             // 
             // BtnCerrar
             // 
-            this.BtnCerrar.Location = new System.Drawing.Point(87, 12);
+            this.BtnCerrar.Location = new System.Drawing.Point(576, 268);
             this.BtnCerrar.Name = "BtnCerrar";
-            this.BtnCerrar.Size = new System.Drawing.Size(436, 23);
+            this.BtnCerrar.Size = new System.Drawing.Size(162, 35);
             this.BtnCerrar.TabIndex = 6;
             this.BtnCerrar.Text = "Cerrar programa";
             this.BtnCerrar.UseVisualStyleBackColor = true;
@@ -114,7 +114,7 @@ namespace Dia_Mes_Año
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(101, 168);
+            this.label3.Location = new System.Drawing.Point(109, 159);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(188, 13);
             this.label3.TabIndex = 7;
@@ -122,14 +122,14 @@ namespace Dia_Mes_Año
             // 
             // TxtAño
             // 
-            this.TxtAño.Location = new System.Drawing.Point(309, 166);
+            this.TxtAño.Location = new System.Drawing.Point(317, 157);
             this.TxtAño.Name = "TxtAño";
             this.TxtAño.Size = new System.Drawing.Size(100, 20);
             this.TxtAño.TabIndex = 8;
             // 
             // BtnAño
             // 
-            this.BtnAño.Location = new System.Drawing.Point(428, 161);
+            this.BtnAño.Location = new System.Drawing.Point(436, 152);
             this.BtnAño.Name = "BtnAño";
             this.BtnAño.Size = new System.Drawing.Size(75, 29);
             this.BtnAño.TabIndex = 9;
@@ -139,9 +139,9 @@ namespace Dia_Mes_Año
             // 
             // BtLimpiar
             // 
-            this.BtLimpiar.Location = new System.Drawing.Point(87, 216);
+            this.BtLimpiar.Location = new System.Drawing.Point(112, 208);
             this.BtLimpiar.Name = "BtLimpiar";
-            this.BtLimpiar.Size = new System.Drawing.Size(436, 23);
+            this.BtLimpiar.Size = new System.Drawing.Size(489, 23);
             this.BtLimpiar.TabIndex = 10;
             this.BtLimpiar.Text = "Limpiar datos ingresados";
             this.BtLimpiar.UseVisualStyleBackColor = true;
@@ -173,7 +173,7 @@ namespace Dia_Mes_Año
             // 
             // btincrementoDia
             // 
-            this.btincrementoDia.Location = new System.Drawing.Point(518, 65);
+            this.btincrementoDia.Location = new System.Drawing.Point(526, 56);
             this.btincrementoDia.Name = "btincrementoDia";
             this.btincrementoDia.Size = new System.Drawing.Size(98, 23);
             this.btincrementoDia.TabIndex = 14;
@@ -183,7 +183,7 @@ namespace Dia_Mes_Año
             // 
             // BtincrementoAño
             // 
-            this.BtincrementoAño.Location = new System.Drawing.Point(518, 161);
+            this.BtincrementoAño.Location = new System.Drawing.Point(526, 152);
             this.BtincrementoAño.Name = "BtincrementoAño";
             this.BtincrementoAño.Size = new System.Drawing.Size(75, 29);
             this.BtincrementoAño.TabIndex = 14;
@@ -194,7 +194,7 @@ namespace Dia_Mes_Año
             // BtDecrementarDia
             // 
             this.BtDecrementarDia.Enabled = false;
-            this.BtDecrementarDia.Location = new System.Drawing.Point(632, 66);
+            this.BtDecrementarDia.Location = new System.Drawing.Point(640, 57);
             this.BtDecrementarDia.Name = "BtDecrementarDia";
             this.BtDecrementarDia.Size = new System.Drawing.Size(98, 23);
             this.BtDecrementarDia.TabIndex = 15;
@@ -203,7 +203,7 @@ namespace Dia_Mes_Año
             // 
             // BtIncrementoMes
             // 
-            this.BtIncrementoMes.Location = new System.Drawing.Point(518, 116);
+            this.BtIncrementoMes.Location = new System.Drawing.Point(526, 107);
             this.BtIncrementoMes.Name = "BtIncrementoMes";
             this.BtIncrementoMes.Size = new System.Drawing.Size(98, 23);
             this.BtIncrementoMes.TabIndex = 16;

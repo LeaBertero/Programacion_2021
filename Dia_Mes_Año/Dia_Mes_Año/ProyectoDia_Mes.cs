@@ -17,9 +17,15 @@ namespace Dia_Mes_Año
             InitializeComponent();
         }
 
+        //Variables Globales
+
         int Dia;
         int Mes;
         int Año;
+
+        int IncrementoDia;
+        int IncrementoAño;
+        
 
         private void BtnCerrar_Click(object sender, EventArgs e)
         {
@@ -317,6 +323,7 @@ namespace Dia_Mes_Año
             }
             catch (Exception)
             {
+                //LblMes.Text = "Debe ingresar un dato correcto";
                 MessageBox.Show("Debe ingresar un dato correcto");
             }
         }
@@ -490,6 +497,116 @@ namespace Dia_Mes_Año
             LblDia.Text = null;
             LblMes.Text = null;
             LblAño.Text = null;
+        }
+
+        public void btincrementoDia_Click(object sender, EventArgs e)
+        {
+            ++IncrementoDia;
+            LblDia.Text = Convert.ToString(IncrementoDia);
+        }
+
+        private void BtDecrementarDia_Click(object sender, EventArgs e)
+        {
+            --IncrementoDia;
+            LblDia.Text = Convert.ToString(IncrementoDia);
+
+            //Quise implemantar un condicional para controlar los dias que no sean numeros negativos
+            //Ni que sean mas de 31 dias
+
+            //if (IncrementoDia > 0 && IncrementoDia <= 31)
+            //{
+
+            //}
+
+        }
+
+        private void BtincrementoAño_Click(object sender, EventArgs e)
+        {
+
+            IncrementoAño = IncrementoAño + 1;
+            //++IncrementoAño;
+            LblAño.Text = Convert.ToString(IncrementoAño);
+        }
+
+        private void BtIncrementoMes_Click(object sender, EventArgs e)
+        {
+            if (Mes == 1)
+            {
+                //++Mes;
+                LblMes.Text = "Febrero";
+                //MessageBox.Show("Enero");
+            }
+
+            if (Mes == 2)
+            {
+                //++Mes;
+                LblMes.Text = "Marzo";
+                //MessageBox.Show("Enero");
+            }
+
+            if (Mes == 3)
+            {
+                //++Mes;
+                LblMes.Text = "Abril";
+                //MessageBox.Show("Enero");
+            }
+
+            if (Mes == 4)
+            {
+                //++Mes;
+                LblMes.Text = "Mayo";
+                //MessageBox.Show("Enero");
+            }
+
+            if (Mes == 5)
+            {
+                //++Mes;
+                LblMes.Text = "Junio";
+                //MessageBox.Show("Enero");
+            }
+
+            if (Mes == 6)
+            {
+                //++Mes;
+                LblMes.Text = "Julio";
+                //MessageBox.Show("Enero");
+            }
+
+            if (Mes == 7)
+            {
+                //++Mes;
+                LblMes.Text = "Agosto";
+                //MessageBox.Show("Enero");
+            }
+
+            if (Mes == 8)
+            {
+                //++Mes;
+                LblMes.Text = "Septiembre";
+                //MessageBox.Show("Enero");
+            }
+
+            if (Mes == 9)
+            {
+                //++Mes;
+                LblMes.Text = "Octubre";
+                //MessageBox.Show("Enero");
+            }
+
+            if (Mes == 10)
+            {
+                //++Mes;
+                LblMes.Text = "Noviembre";
+                //MessageBox.Show("Enero");
+            }
+
+            if (Mes == 11)
+            {
+                //++Mes;
+                LblMes.Text = "Diciembre";
+                //MessageBox.Show("Enero");
+            }
+
         }
     }
 }

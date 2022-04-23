@@ -43,6 +43,10 @@ namespace Dia_Mes_Año
             this.LblDia = new System.Windows.Forms.Label();
             this.LblMes = new System.Windows.Forms.Label();
             this.LblAño = new System.Windows.Forms.Label();
+            this.btincrementoDia = new System.Windows.Forms.Button();
+            this.BtincrementoAño = new System.Windows.Forms.Button();
+            this.BtDecrementarDia = new System.Windows.Forms.Button();
+            this.BtIncrementoMes = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // BtnSemana
@@ -51,7 +55,7 @@ namespace Dia_Mes_Año
             this.BtnSemana.Name = "BtnSemana";
             this.BtnSemana.Size = new System.Drawing.Size(75, 23);
             this.BtnSemana.TabIndex = 0;
-            this.BtnSemana.Text = "Aceptar";
+            this.BtnSemana.Text = "Ingresar";
             this.BtnSemana.UseVisualStyleBackColor = true;
             this.BtnSemana.Click += new System.EventHandler(this.BtnSemana_Click);
             // 
@@ -61,7 +65,7 @@ namespace Dia_Mes_Año
             this.BtnMes.Name = "BtnMes";
             this.BtnMes.Size = new System.Drawing.Size(75, 23);
             this.BtnMes.TabIndex = 1;
-            this.BtnMes.Text = "Aceptar";
+            this.BtnMes.Text = "Ingresar";
             this.BtnMes.UseVisualStyleBackColor = true;
             this.BtnMes.Click += new System.EventHandler(this.BtnMes_Click);
             // 
@@ -129,7 +133,7 @@ namespace Dia_Mes_Año
             this.BtnAño.Name = "BtnAño";
             this.BtnAño.Size = new System.Drawing.Size(75, 20);
             this.BtnAño.TabIndex = 9;
-            this.BtnAño.Text = "Aceptar";
+            this.BtnAño.Text = "Ingresar";
             this.BtnAño.UseVisualStyleBackColor = true;
             this.BtnAño.Click += new System.EventHandler(this.BtnAño_Click);
             // 
@@ -167,12 +171,56 @@ namespace Dia_Mes_Año
             this.LblAño.Size = new System.Drawing.Size(0, 13);
             this.LblAño.TabIndex = 13;
             // 
+            // btincrementoDia
+            // 
+            this.btincrementoDia.Location = new System.Drawing.Point(518, 65);
+            this.btincrementoDia.Name = "btincrementoDia";
+            this.btincrementoDia.Size = new System.Drawing.Size(98, 23);
+            this.btincrementoDia.TabIndex = 14;
+            this.btincrementoDia.Text = "Incrementar Dia";
+            this.btincrementoDia.UseVisualStyleBackColor = true;
+            this.btincrementoDia.Click += new System.EventHandler(this.btincrementoDia_Click);
+            // 
+            // BtincrementoAño
+            // 
+            this.BtincrementoAño.Location = new System.Drawing.Point(518, 158);
+            this.BtincrementoAño.Name = "BtincrementoAño";
+            this.BtincrementoAño.Size = new System.Drawing.Size(75, 23);
+            this.BtincrementoAño.TabIndex = 14;
+            this.BtincrementoAño.Text = "Incrementar";
+            this.BtincrementoAño.UseVisualStyleBackColor = true;
+            this.BtincrementoAño.Click += new System.EventHandler(this.BtincrementoAño_Click);
+            // 
+            // BtDecrementarDia
+            // 
+            this.BtDecrementarDia.Location = new System.Drawing.Point(632, 66);
+            this.BtDecrementarDia.Name = "BtDecrementarDia";
+            this.BtDecrementarDia.Size = new System.Drawing.Size(98, 23);
+            this.BtDecrementarDia.TabIndex = 15;
+            this.BtDecrementarDia.Text = "Decrementar día";
+            this.BtDecrementarDia.UseVisualStyleBackColor = true;
+            this.BtDecrementarDia.Click += new System.EventHandler(this.BtDecrementarDia_Click);
+            // 
+            // BtIncrementoMes
+            // 
+            this.BtIncrementoMes.Location = new System.Drawing.Point(518, 114);
+            this.BtIncrementoMes.Name = "BtIncrementoMes";
+            this.BtIncrementoMes.Size = new System.Drawing.Size(98, 23);
+            this.BtIncrementoMes.TabIndex = 16;
+            this.BtIncrementoMes.Text = "Incrementar mes";
+            this.BtIncrementoMes.UseVisualStyleBackColor = true;
+            this.BtIncrementoMes.Click += new System.EventHandler(this.BtIncrementoMes_Click);
+            // 
             // ProyectoDia_Mes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightBlue;
-            this.ClientSize = new System.Drawing.Size(612, 315);
+            this.ClientSize = new System.Drawing.Size(808, 315);
+            this.Controls.Add(this.BtIncrementoMes);
+            this.Controls.Add(this.BtDecrementarDia);
+            this.Controls.Add(this.BtincrementoAño);
+            this.Controls.Add(this.btincrementoDia);
             this.Controls.Add(this.LblAño);
             this.Controls.Add(this.LblMes);
             this.Controls.Add(this.LblDia);
@@ -210,6 +258,10 @@ namespace Dia_Mes_Año
         private System.Windows.Forms.Label LblDia;
         private System.Windows.Forms.Label LblMes;
         private System.Windows.Forms.Label LblAño;
+        private System.Windows.Forms.Button btincrementoDia;
+        private System.Windows.Forms.Button BtincrementoAño;
+        private System.Windows.Forms.Button BtDecrementarDia;
+        private System.Windows.Forms.Button BtIncrementoMes;
     }
 }
 

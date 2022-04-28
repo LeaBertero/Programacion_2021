@@ -23,18 +23,10 @@ namespace Dia_Mes_Año
         int Mes;
         int Año;
 
-        int IncrementoDia;
+        int IncrementoDia = 0;
+        int DecrementoDia =31;
         int IncrementoAño;
         
-
-        private void BtnCerrar_Click(object sender, EventArgs e)
-        {
-            Close();
-        }
-
-       
-
-       
 
         private void BtnSemana_Click(object sender, EventArgs e)
         {
@@ -501,22 +493,21 @@ namespace Dia_Mes_Año
 
         private void btincrementoDia_Click(object sender, EventArgs e)
         {
+           
+
             ++IncrementoDia;
             LblDia.Text = Convert.ToString(IncrementoDia);
-        }
-            
-        private void BtDecrementarDia_Click(object sender, EventArgs e)
-        {
-            --IncrementoDia;
-            LblDia.Text = Convert.ToString(IncrementoDia);
 
-            //Quise implemantar un condicional para controlar los dias que no sean numeros negativos
-           // Ni que sean mas de 31 dias
+            if (IncrementoDia == 31)
+            {
+                MessageBox.Show("Ha llegado al limite");
 
-            //if (IncrementoDia > 0 && IncrementoDia <= 31)
-            //{
+            }
 
-            //}
+
+
+           
+
         }
 
         private void BtincrementoAño_Click(object sender, EventArgs e)
@@ -526,6 +517,7 @@ namespace Dia_Mes_Año
             //++IncrementoAño;
             LblAño.Text = Convert.ToString(IncrementoAño);
         }
+
 
         private void BtIncrementoMes_Click(object sender, EventArgs e)
         {
@@ -605,14 +597,53 @@ namespace Dia_Mes_Año
                 LblMes.Text = "Diciembre";
                 //MessageBox.Show("Enero");
             }
+        }
+        private void BtDecrementarDia_Click(object sender, EventArgs e)
+        {
+            --DecrementoDia;
+            LblDia.Text = Convert.ToString(DecrementoDia);
 
+            if (DecrementoDia == 0)
+            {
+                MessageBox.Show("Ha llegado al límite de días");
 
+            }
 
-
-
-
+            //for (DecrementoDia = 31; DecrementoDia < 1; DecrementoDia--)
+            //{
+            //    MessageBox.Show("Limite alcanzaddo");
+            //    break;
+            //}
         }
 
-        
+
+        private void BtnCerrar_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+
+
+
+       
+
+       
+
+       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     }
 }

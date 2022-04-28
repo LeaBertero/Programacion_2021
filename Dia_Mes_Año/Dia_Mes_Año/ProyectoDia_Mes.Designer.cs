@@ -193,13 +193,13 @@ namespace Dia_Mes_Año
             // 
             // BtDecrementarDia
             // 
-            this.BtDecrementarDia.Enabled = false;
             this.BtDecrementarDia.Location = new System.Drawing.Point(640, 57);
             this.BtDecrementarDia.Name = "BtDecrementarDia";
             this.BtDecrementarDia.Size = new System.Drawing.Size(98, 23);
             this.BtDecrementarDia.TabIndex = 15;
             this.BtDecrementarDia.Text = "Decrementar día";
             this.BtDecrementarDia.UseVisualStyleBackColor = true;
+            this.BtDecrementarDia.Click += new System.EventHandler(this.BtDecrementarDia_Click);
             // 
             // BtIncrementoMes
             // 

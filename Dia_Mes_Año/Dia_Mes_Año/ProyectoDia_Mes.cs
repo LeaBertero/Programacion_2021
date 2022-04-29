@@ -622,28 +622,11 @@ namespace Dia_Mes_Año
             Close();
         }
 
-
-
-       
-
-       
-
-       
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        private void BtDecrementar_Click(object sender, EventArgs e)
+        {
+            IncrementoAño = IncrementoAño - 1;
+            //++IncrementoAño;
+            LblAño.Text = Convert.ToString(IncrementoAño);
+        }
     }
 }

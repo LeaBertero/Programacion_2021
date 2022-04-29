@@ -47,6 +47,7 @@ namespace Dia_Mes_Año
             this.BtincrementoAño = new System.Windows.Forms.Button();
             this.BtDecrementarDia = new System.Windows.Forms.Button();
             this.BtIncrementoMes = new System.Windows.Forms.Button();
+            this.BtDecrementar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // BtnSemana
@@ -185,9 +186,9 @@ namespace Dia_Mes_Año
             // 
             this.BtincrementoAño.Location = new System.Drawing.Point(526, 152);
             this.BtincrementoAño.Name = "BtincrementoAño";
-            this.BtincrementoAño.Size = new System.Drawing.Size(75, 29);
+            this.BtincrementoAño.Size = new System.Drawing.Size(98, 29);
             this.BtincrementoAño.TabIndex = 14;
-            this.BtincrementoAño.Text = "Incrementar";
+            this.BtincrementoAño.Text = "Incrementar año";
             this.BtincrementoAño.UseVisualStyleBackColor = true;
             this.BtincrementoAño.Click += new System.EventHandler(this.BtincrementoAño_Click);
             // 
@@ -211,6 +212,16 @@ namespace Dia_Mes_Año
             this.BtIncrementoMes.UseVisualStyleBackColor = true;
             this.BtIncrementoMes.Click += new System.EventHandler(this.BtIncrementoMes_Click);
             // 
+            // BtDecrementar
+            // 
+            this.BtDecrementar.Location = new System.Drawing.Point(640, 152);
+            this.BtDecrementar.Name = "BtDecrementar";
+            this.BtDecrementar.Size = new System.Drawing.Size(98, 29);
+            this.BtDecrementar.TabIndex = 17;
+            this.BtDecrementar.Text = "Decrementar año";
+            this.BtDecrementar.UseVisualStyleBackColor = true;
+            this.BtDecrementar.Click += new System.EventHandler(this.BtDecrementar_Click);
+            // 
             // ProyectoDia_Mes
             // 
             this.AcceptButton = this.BtnSemana;
@@ -219,6 +230,7 @@ namespace Dia_Mes_Año
             this.AutoSize = true;
             this.BackColor = System.Drawing.Color.LightBlue;
             this.ClientSize = new System.Drawing.Size(808, 315);
+            this.Controls.Add(this.BtDecrementar);
             this.Controls.Add(this.BtIncrementoMes);
             this.Controls.Add(this.BtDecrementarDia);
             this.Controls.Add(this.BtincrementoAño);
@@ -265,6 +277,7 @@ namespace Dia_Mes_Año
         private System.Windows.Forms.Button BtincrementoAño;
         private System.Windows.Forms.Button BtDecrementarDia;
         private System.Windows.Forms.Button BtIncrementoMes;
+        private System.Windows.Forms.Button BtDecrementar;
     }
 }
 

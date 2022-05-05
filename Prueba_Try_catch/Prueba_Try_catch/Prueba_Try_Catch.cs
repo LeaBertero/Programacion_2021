@@ -24,11 +24,12 @@ namespace Prueba_Try_catch
                 LblRes.Text = (System.Convert.ToDecimal(TxtNum1.Text)
                 / System.Convert.ToDecimal(TxtNum2.Text)).ToString();
             }
-            catch (Exception mensajeError)
+            catch (Exception /*mensajeError*/)
             {
-                LblError.Visible = true;
-                LblError.Text = mensajeError.Message;
+                //LblError.Visible = true;
+                //LblError.Text = mensajeError.Message;
                 //LblError.Text = "Imposible dividir por 0";
+                MessageBox.Show("Debe ingresar un numero");
             }
 
 

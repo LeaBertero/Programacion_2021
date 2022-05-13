@@ -43,7 +43,7 @@ namespace Prueba_Try_catch
             // TxtNum2
             // 
             this.TxtNum2.Font = new System.Drawing.Font("MV Boli", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtNum2.Location = new System.Drawing.Point(298, 176);
+            this.TxtNum2.Location = new System.Drawing.Point(374, 172);
             this.TxtNum2.Name = "TxtNum2";
             this.TxtNum2.Size = new System.Drawing.Size(100, 32);
             this.TxtNum2.TabIndex = 0;
@@ -51,16 +51,15 @@ namespace Prueba_Try_catch
             // TxtNum1
             // 
             this.TxtNum1.Font = new System.Drawing.Font("MV Boli", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtNum1.Location = new System.Drawing.Point(104, 176);
+            this.TxtNum1.Location = new System.Drawing.Point(185, 172);
             this.TxtNum1.Name = "TxtNum1";
             this.TxtNum1.Size = new System.Drawing.Size(100, 32);
             this.TxtNum1.TabIndex = 1;
-           
             // 
             // BtnEjecutar
             // 
             this.BtnEjecutar.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnEjecutar.Location = new System.Drawing.Point(450, 173);
+            this.BtnEjecutar.Location = new System.Drawing.Point(513, 173);
             this.BtnEjecutar.Name = "BtnEjecutar";
             this.BtnEjecutar.Size = new System.Drawing.Size(84, 31);
             this.BtnEjecutar.TabIndex = 2;
@@ -73,7 +72,7 @@ namespace Prueba_Try_catch
             this.LblRes.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.LblRes.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblRes.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.LblRes.Location = new System.Drawing.Point(603, 159);
+            this.LblRes.Location = new System.Drawing.Point(635, 163);
             this.LblRes.Name = "LblRes";
             this.LblRes.Size = new System.Drawing.Size(128, 45);
             this.LblRes.TabIndex = 3;
@@ -83,7 +82,7 @@ namespace Prueba_Try_catch
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(245, 173);
+            this.label3.Location = new System.Drawing.Point(320, 176);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(16, 24);
             this.label3.TabIndex = 5;

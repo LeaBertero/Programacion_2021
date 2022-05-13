@@ -26,8 +26,8 @@ namespace OPERADOR_PARTE_2
             switch (TxtOperador.Text)
             {
                 case "+":
-                    numero1 = System.Convert.ToInt32(TxtOper1.Text);
-                    numero2 = System.Convert.ToInt32(TxtOper2.Text);
+                    numero1 = Convert.ToInt32(TxtOper1.Text);
+                    numero2 = Convert.ToInt32(TxtOper2.Text);
 
                     resultado = numero1 + numero2;
 
@@ -37,8 +37,8 @@ namespace OPERADOR_PARTE_2
 
                 case "-":
 
-                    numero1 = System.Convert.ToInt32(TxtOper1.Text);
-                    numero2 = System.Convert.ToInt32(TxtOper2.Text);
+                    numero1 = Convert.ToInt32(TxtOper1.Text);
+                    numero2 = Convert.ToInt32(TxtOper2.Text);
 
                     resultado = numero1 - numero2;
 
@@ -47,8 +47,8 @@ namespace OPERADOR_PARTE_2
                     break;
 
                 case "*":
-                    numero1 = System.Convert.ToInt32(TxtOper1.Text);
-                    numero2 = System.Convert.ToInt32(TxtOper2.Text);
+                    numero1 = Convert.ToInt32(TxtOper1.Text);
+                    numero2 = Convert.ToInt32(TxtOper2.Text);
 
                     resultado = numero1 * numero2;
 
@@ -57,8 +57,8 @@ namespace OPERADOR_PARTE_2
                     break;
 
                 case "/":
-                    numero1 = System.Convert.ToInt32(TxtOper1.Text);
-                    numero2 = System.Convert.ToInt32(TxtOper2.Text);
+                    numero1 = Convert.ToInt32(TxtOper1.Text);
+                    numero2 = Convert.ToInt32(TxtOper2.Text);
 
                     resultado = numero1 / numero2;
 

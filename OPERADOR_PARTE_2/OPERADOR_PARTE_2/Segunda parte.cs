@@ -12,6 +12,11 @@ namespace OPERADOR_PARTE_2
 {
     public partial class Form1 : Form
     {
+
+        decimal numero1;
+        decimal numero2;
+        decimal resultado;
+
         public Form1()
         {
             InitializeComponent();
@@ -19,9 +24,7 @@ namespace OPERADOR_PARTE_2
 
         private void BtnRes_Click(object sender, EventArgs e)
         {
-            decimal numero1;
-            decimal numero2;
-            decimal resultado;
+           
 
             switch (TxtOperador.Text)
             {

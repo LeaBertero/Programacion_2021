@@ -37,6 +37,14 @@
             this.label3 = new System.Windows.Forms.Label();
             this.BtLimpiar = new System.Windows.Forms.Button();
             this.BtSalir = new System.Windows.Forms.Button();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.TxtNumRes = new System.Windows.Forms.TextBox();
+            this.TxtNum2 = new System.Windows.Forms.TextBox();
+            this.TxtNum1 = new System.Windows.Forms.TextBox();
+            this.BtMultEj2 = new System.Windows.Forms.Button();
+            this.BtLimpiar2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // BtMulti
@@ -99,11 +107,11 @@
             // 
             // BtLimpiar
             // 
-            this.BtLimpiar.Location = new System.Drawing.Point(97, 247);
+            this.BtLimpiar.Location = new System.Drawing.Point(38, 264);
             this.BtLimpiar.Name = "BtLimpiar";
             this.BtLimpiar.Size = new System.Drawing.Size(101, 40);
             this.BtLimpiar.TabIndex = 7;
-            this.BtLimpiar.Text = "Limpiar";
+            this.BtLimpiar.Text = "Limpiar ctr1";
             this.BtLimpiar.UseVisualStyleBackColor = true;
             this.BtLimpiar.Click += new System.EventHandler(this.BtLimpiar_Click);
             // 
@@ -117,12 +125,88 @@
             this.BtSalir.UseVisualStyleBackColor = true;
             this.BtSalir.Click += new System.EventHandler(this.BtSalir_Click);
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(447, 127);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(59, 15);
+            this.label4.TabIndex = 15;
+            this.label4.Text = "Resultado";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(447, 74);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(66, 15);
+            this.label5.TabIndex = 14;
+            this.label5.Text = "Operador 2";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(447, 27);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(66, 15);
+            this.label6.TabIndex = 13;
+            this.label6.Text = "Operador 1";
+            // 
+            // TxtNumRes
+            // 
+            this.TxtNumRes.Location = new System.Drawing.Point(554, 155);
+            this.TxtNumRes.Name = "TxtNumRes";
+            this.TxtNumRes.Size = new System.Drawing.Size(123, 23);
+            this.TxtNumRes.TabIndex = 12;
+            // 
+            // TxtNum2
+            // 
+            this.TxtNum2.Location = new System.Drawing.Point(545, 74);
+            this.TxtNum2.Name = "TxtNum2";
+            this.TxtNum2.Size = new System.Drawing.Size(100, 23);
+            this.TxtNum2.TabIndex = 11;
+            // 
+            // TxtNum1
+            // 
+            this.TxtNum1.Location = new System.Drawing.Point(545, 24);
+            this.TxtNum1.Name = "TxtNum1";
+            this.TxtNum1.Size = new System.Drawing.Size(100, 23);
+            this.TxtNum1.TabIndex = 10;
+            // 
+            // BtMultEj2
+            // 
+            this.BtMultEj2.Location = new System.Drawing.Point(433, 155);
+            this.BtMultEj2.Name = "BtMultEj2";
+            this.BtMultEj2.Size = new System.Drawing.Size(101, 40);
+            this.BtMultEj2.TabIndex = 9;
+            this.BtMultEj2.Text = "Multiplicar";
+            this.BtMultEj2.UseVisualStyleBackColor = true;
+            this.BtMultEj2.Click += new System.EventHandler(this.BtMultEj2_Click);
+            // 
+            // BtLimpiar2
+            // 
+            this.BtLimpiar2.Location = new System.Drawing.Point(433, 247);
+            this.BtLimpiar2.Name = "BtLimpiar2";
+            this.BtLimpiar2.Size = new System.Drawing.Size(101, 40);
+            this.BtLimpiar2.TabIndex = 16;
+            this.BtLimpiar2.Text = "Limpiar ctr1";
+            this.BtLimpiar2.UseVisualStyleBackColor = true;
+            this.BtLimpiar2.Click += new System.EventHandler(this.BtLimpiar2_Click);
+            // 
             // Form1
             // 
             this.AcceptButton = this.BtMulti;
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.BtLimpiar2);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.TxtNumRes);
+            this.Controls.Add(this.TxtNum2);
+            this.Controls.Add(this.TxtNum1);
+            this.Controls.Add(this.BtMultEj2);
             this.Controls.Add(this.BtSalir);
             this.Controls.Add(this.BtLimpiar);
             this.Controls.Add(this.label3);
@@ -150,5 +234,13 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button BtLimpiar;
         private System.Windows.Forms.Button BtSalir;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.TextBox TxtNumRes;
+        private System.Windows.Forms.TextBox TxtNum2;
+        private System.Windows.Forms.TextBox TxtNum1;
+        private System.Windows.Forms.Button BtMultEj2;
+        private System.Windows.Forms.Button BtLimpiar2;
     }
 }

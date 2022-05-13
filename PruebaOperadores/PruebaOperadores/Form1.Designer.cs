@@ -217,7 +217,8 @@
             this.Controls.Add(this.Txtoper1);
             this.Controls.Add(this.BtMulti);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Ejercicios de la guia";
             this.ResumeLayout(false);
             this.PerformLayout();
 

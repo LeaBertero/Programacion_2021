@@ -27,5 +27,17 @@ namespace PruebaOperadores
             TxtRes.Text = String.Format("{0:F2}",num1* num2);
 
         }
+
+        private void BtLimpiar_Click(object sender, EventArgs e)
+        {
+            Txtoper1.Text = null;
+            Txtoper2.Text = null;
+            TxtRes.Text = null;
+        }
+
+        private void BtSalir_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }

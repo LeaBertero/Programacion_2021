@@ -35,6 +35,8 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.BtLimpiar = new System.Windows.Forms.Button();
+            this.BtSalir = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // BtMulti
@@ -65,7 +67,7 @@
             // 
             this.TxtRes.Location = new System.Drawing.Point(145, 165);
             this.TxtRes.Name = "TxtRes";
-            this.TxtRes.Size = new System.Drawing.Size(67, 23);
+            this.TxtRes.Size = new System.Drawing.Size(123, 23);
             this.TxtRes.TabIndex = 3;
             // 
             // label1
@@ -95,12 +97,34 @@
             this.label3.TabIndex = 6;
             this.label3.Text = "Resultado";
             // 
+            // BtLimpiar
+            // 
+            this.BtLimpiar.Location = new System.Drawing.Point(97, 247);
+            this.BtLimpiar.Name = "BtLimpiar";
+            this.BtLimpiar.Size = new System.Drawing.Size(101, 40);
+            this.BtLimpiar.TabIndex = 7;
+            this.BtLimpiar.Text = "Limpiar";
+            this.BtLimpiar.UseVisualStyleBackColor = true;
+            this.BtLimpiar.Click += new System.EventHandler(this.BtLimpiar_Click);
+            // 
+            // BtSalir
+            // 
+            this.BtSalir.Location = new System.Drawing.Point(12, 398);
+            this.BtSalir.Name = "BtSalir";
+            this.BtSalir.Size = new System.Drawing.Size(101, 40);
+            this.BtSalir.TabIndex = 8;
+            this.BtSalir.Text = "Salir";
+            this.BtSalir.UseVisualStyleBackColor = true;
+            this.BtSalir.Click += new System.EventHandler(this.BtSalir_Click);
+            // 
             // Form1
             // 
             this.AcceptButton = this.BtMulti;
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.BtSalir);
+            this.Controls.Add(this.BtLimpiar);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -124,5 +148,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button BtLimpiar;
+        private System.Windows.Forms.Button BtSalir;
     }
 }

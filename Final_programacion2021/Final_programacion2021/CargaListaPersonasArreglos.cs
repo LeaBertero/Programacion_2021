@@ -14,7 +14,7 @@ namespace Final_programacion2021
     {
         //Inicializo la variable nombres
         string[] Nombres;
-        int pos = 0;
+        int posicion = 0;
         
         public CargaListaPersonasArreglos()
         {
@@ -29,8 +29,8 @@ namespace Final_programacion2021
 
         private void BtnCarga_Click(object sender, EventArgs e)
         {
-            Nombres[pos] = TxtCarga.Text ;
-            pos = pos + 1;
+            Nombres[posicion] = TxtCarga.Text ;
+            posicion = posicion + 1;
 
             TxtCarga.Focus();
             TxtCarga.SelectAll();

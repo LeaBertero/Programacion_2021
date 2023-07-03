@@ -89,6 +89,11 @@ namespace Carga_lista_personas
             TxtCarga.Text = null;
             TxtIngresoPers.Text = null;
         }
+
+        private void btLista_Click(object sender, EventArgs e)
+        {
+            LblLista.Text = "";
+        }
     }
 }
 

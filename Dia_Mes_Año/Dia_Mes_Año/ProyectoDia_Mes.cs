@@ -15,6 +15,8 @@ namespace Dia_Mes_Año
         public ProyectoDia_Mes()
         {
             InitializeComponent();
+
+
         }
 
         //Variables Globales
@@ -24,8 +26,8 @@ namespace Dia_Mes_Año
         int Año;
 
         int IncrementoDia = 0;
-        int DecrementoDia =31;
-        int IncrementoAño;
+        int DecrementoDia = 31;
+        int Incremento_Año;
         
 
         private void BtnSemana_Click(object sender, EventArgs e)
@@ -513,9 +515,9 @@ namespace Dia_Mes_Año
         private void BtincrementoAño_Click(object sender, EventArgs e)
         {
 
-            IncrementoAño = IncrementoAño + 1;
+            Incremento_Año = Incremento_Año + 1;
             //++IncrementoAño;
-            LblAño.Text = Convert.ToString(IncrementoAño);
+            LblAño.Text = Convert.ToString(Incremento_Año);
         }
 
 
@@ -624,9 +626,9 @@ namespace Dia_Mes_Año
 
         private void BtDecrementar_Click(object sender, EventArgs e)
         {
-            IncrementoAño = IncrementoAño - 1;
+            Incremento_Año = Incremento_Año - 1;
             //++IncrementoAño;
-            LblAño.Text = Convert.ToString(IncrementoAño);
+            LblAño.Text = Convert.ToString(Incremento_Año);
         }
     }
 }

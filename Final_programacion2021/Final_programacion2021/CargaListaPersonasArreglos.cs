@@ -15,6 +15,7 @@ namespace Final_programacion2021
         //Inicializo la variable nombres
         string[] Nombres;
         int posicion = 0;
+        int cantidad = 0;
         
         public CargaListaPersonasArreglos()
         {
@@ -23,13 +24,13 @@ namespace Final_programacion2021
         private void BtnDimensionar_Click(object sender, EventArgs e)
         {
             
-            int cant = Convert.ToInt32(TxtCarga.Text);
-            Nombres = new string[cant];
+            cantidad = Convert.ToInt16(TxtCarga.Text);
+            Nombres = new string[cantidad];
         }
 
         private void BtnCarga_Click(object sender, EventArgs e)
         {
-            Nombres[posicion] = TxtCarga.Text ;
+            Nombres[posicion] = TxtCarga.Text;
             posicion = posicion + 1;
 
             TxtCarga.Focus();

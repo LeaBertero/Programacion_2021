@@ -91,7 +91,7 @@ namespace Juego_atrape_el_ratón
             this.LblCondicion.Name = "LblCondicion";
             this.LblCondicion.Size = new System.Drawing.Size(551, 44);
             this.LblCondicion.TabIndex = 6;
-            this.LblCondicion.Text = "Podrás atrapar a un raton?";
+            this.LblCondicion.Text = "Podrás atrapar a un ratón?";
             this.LblCondicion.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // BtnSi
